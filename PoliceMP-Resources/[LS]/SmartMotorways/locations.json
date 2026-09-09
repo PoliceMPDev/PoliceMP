@@ -1,0 +1,1501 @@
+[
+    {
+        "direction": "North",
+        "defaultSpeeds": [
+            20,
+            70
+        ],
+        "lanes": 2,
+        "position": {
+            "x": -2445.173583984375,
+            "y": -239.94598388671876,
+            "z": 20.51287841796875
+        },
+        "heading": 241.4535,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [
+            30,
+            20
+        ],
+        "lanes": 2,
+        "position": {
+            "x": -2441.16357421875,
+            "y": -224.0552673339844,
+            "z": 20.61652374267578
+        },
+        "heading": 61.4535,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [
+            90,
+            50,
+            90
+        ],
+        "lanes": 3,
+        "position": {
+            "x": 866.6445922851563,
+            "y": 113.41372680664064,
+            "z": 74.13750457763672
+        },
+        "heading": 324.0,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [
+            30,
+            30,
+            30
+        ],
+        "lanes": 3,
+        "position": {
+            "x": 846.371826171875,
+            "y": 126.39654541015624,
+            "z": 74.36754608154297
+        },
+        "heading": 143.99937438965,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 759.0936279296875,
+            "y": -51.06097412109375,
+            "z": 62.99745941162109
+        },
+        "heading": 329.87878417969,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 737.9655151367188,
+            "y": -40.44270324707031,
+            "z": 63.02582931518555
+        },
+        "heading": 150.12088012695,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [
+            20,
+            30
+        ],
+        "lanes": 2,
+        "position": {
+            "x": 1074.6544189453126,
+            "y": 353.201171875,
+            "z": 86.89850616455078
+        },
+        "heading": 316.38916015625,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [
+            50,
+            70
+        ],
+        "lanes": 2,
+        "position": {
+            "x": 1060.3553466796876,
+            "y": 364.4283447265625,
+            "z": 86.92015838623047
+        },
+        "heading": 136.67422485352,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1307.22998046875,
+            "y": 587.3231811523438,
+            "z": 84.04650115966797
+        },
+        "heading": 314.92535400391,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1294.2138671875,
+            "y": 598.4170532226563,
+            "z": 84.04369354248047
+        },
+        "heading": 134.54676818848,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1513.341796875,
+            "y": 838.5087890625,
+            "z": 80.92940521240235
+        },
+        "heading": 331.09521484375,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1496.897216796875,
+            "y": 845.974365234375,
+            "z": 80.86988830566406
+        },
+        "heading": 150.54127502441,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1626.7584228515626,
+            "y": 1164.663330078125,
+            "z": 87.71027374267578
+        },
+        "heading": 163.40785217285,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1724.34033203125,
+            "y": 1551.8553466796876,
+            "z": 88.82764434814453
+        },
+        "heading": 349.15078735352,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1707.7869873046876,
+            "y": 1553.42333984375,
+            "z": 88.73760986328125
+        },
+        "heading": 169.83969116211,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1643.56396484375,
+            "y": 1161.273681640625,
+            "z": 87.6988754272461
+        },
+        "heading": 344.19052124023,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1933.9105224609376,
+            "y": 2456.916259765625,
+            "z": 58.5864372253418
+        },
+        "heading": 331.36633300781,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1912.952392578125,
+            "y": 2468.392333984375,
+            "z": 58.63545608520508
+        },
+        "heading": 147.00569152832,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [
+            30,
+            40
+        ],
+        "lanes": 2,
+        "position": {
+            "x": 1947.1739501953128,
+            "y": 2449.6015625,
+            "z": 58.57333755493164
+        },
+        "heading": 330.89031982422,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1898.6031494140626,
+            "y": 2477.64453125,
+            "z": 58.56239318847656
+        },
+        "heading": 147.36569213867,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 2155.584716796875,
+            "y": 2724.670166015625,
+            "z": 52.00615310668945
+        },
+        "heading": 129.84548950195,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 2174.577880859375,
+            "y": 2703.470458984375,
+            "z": 51.77651596069336
+        },
+        "heading": 308.1921081543,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2505.189697265625,
+            "y": 2971.56591796875,
+            "z": 45.33485412597656
+        },
+        "heading": 310.74795532227,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2486.94873046875,
+            "y": 2991.078125,
+            "z": 45.13967132568359
+        },
+        "heading": 130.25679016113,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2725.902099609375,
+            "y": 3227.745849609375,
+            "z": 58.30310821533203
+        },
+        "heading": 328.71841430664,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2702.62548828125,
+            "y": 3240.457763671875,
+            "z": 58.29119491577148
+        },
+        "heading": 147.90644836426,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2616.005126953125,
+            "y": 3116.334228515625,
+            "z": 52.74607849121094
+        },
+        "heading": 136.52366638184,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2807.1455078125,
+            "y": 3468.9677734375,
+            "z": 59.27021789550781
+        },
+        "heading": 157.1784362793,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2832.369140625,
+            "y": 3459.82763671875,
+            "z": 59.07837295532226
+        },
+        "heading": 337.16818237305,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2918.98193359375,
+            "y": 3725.99658203125,
+            "z": 56.47784423828125
+        },
+        "heading": 344.42691040039,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2893.652587890625,
+            "y": 3732.0625,
+            "z": 56.67803573608398
+        },
+        "heading": 163.3518371582,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2935.893798828125,
+            "y": 3984.371826171875,
+            "z": 55.59780883789062
+        },
+        "heading": 8.5211057662964,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2910.52001953125,
+            "y": 3979.3095703125,
+            "z": 55.40512084960937
+        },
+        "heading": 189.54809570313,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2778.140625,
+            "y": 4521.29296875,
+            "z": 50.6777114868164
+        },
+        "heading": 15.7815284729,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [
+            20
+        ],
+        "lanes": 2,
+        "position": {
+            "x": 2745.361572265625,
+            "y": 4513.12060546875,
+            "z": 50.7708625793457
+        },
+        "heading": 194.19596862793,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2721.52490234375,
+            "y": 4758.8173828125,
+            "z": 48.27186965942383
+        },
+        "heading": 13.947827339172,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2613.694580078125,
+            "y": 5219.54052734375,
+            "z": 48.72972869873047
+        },
+        "heading": 14.281940460205,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2578.6630859375,
+            "y": 5213.9931640625,
+            "z": 48.74218368530273
+        },
+        "heading": 195.44187927246,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2529.28076171875,
+            "y": 5496.484375,
+            "z": 48.64372634887695
+        },
+        "heading": 19.732233047485,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2503.69580078125,
+            "y": 5485.91796875,
+            "z": 48.63851928710937
+        },
+        "heading": 199.41258239746,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2404.428466796875,
+            "y": 5783.4443359375,
+            "z": 49.69973373413086
+        },
+        "heading": 27.565465927124,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2295.48095703125,
+            "y": 5940.63232421875,
+            "z": 52.54522323608398
+        },
+        "heading": 35.313751220703,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2054.452880859375,
+            "y": 6138.58984375,
+            "z": 53.32955169677734
+        },
+        "heading": 43.468086242676,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2023.17919921875,
+            "y": 6106.7861328125,
+            "z": 51.5601921081543
+        },
+        "heading": 224.70202636719,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1935.99169921875,
+            "y": 6325.36083984375,
+            "z": 47.43601989746094
+        },
+        "heading": 51.7839012146,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1911.332763671875,
+            "y": 6293.8076171875,
+            "z": 46.3946418762207
+        },
+        "heading": 220.69221496582,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1677.53759765625,
+            "y": 6389.35302734375,
+            "z": 34.57965850830078
+        },
+        "heading": 72.784942626953,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1671.0911865234376,
+            "y": 6365.4453125,
+            "z": 35.15325164794922
+        },
+        "heading": 253.76034545898,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": -1858.81689453125,
+            "y": -576.3927001953125,
+            "z": 15.56001949310302
+        },
+        "heading": 231.2281036377,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": -1846.4693603515626,
+            "y": -558.8555297851563,
+            "z": 15.56892299652099
+        },
+        "heading": 51.003074645996,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": -1093.986328125,
+            "y": -640.7670288085938,
+            "z": 18.24494552612304
+        },
+        "heading": 300.55642700195,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": -1107.5875244140626,
+            "y": -621.1788940429688,
+            "z": 18.30469131469726
+        },
+        "heading": 121.05030059814,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [
+            71,
+            60,
+            110,
+            1
+        ],
+        "lanes": 4,
+        "position": {
+            "x": -935.1919555664064,
+            "y": -564.6182250976563,
+            "z": 22.25500869750976
+        },
+        "heading": 288.32223510742,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -946.1926879882813,
+            "y": -536.8815307617188,
+            "z": 22.17740058898925
+        },
+        "heading": 109.26947021484,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [
+            null,
+            70,
+            20,
+            60
+        ],
+        "lanes": 4,
+        "position": {
+            "x": -675.5228881835938,
+            "y": -530.1520385742188,
+            "z": 29.04202079772949
+        },
+        "heading": 268.92132568359,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -676.4988403320313,
+            "y": -500.34124755859377,
+            "z": 29.03139877319336
+        },
+        "heading": 89.613243103027,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -431.2167663574219,
+            "y": -528.2979125976563,
+            "z": 29.13451957702636
+        },
+        "heading": 271.14266967773,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -464.7786254882813,
+            "y": -499.7532348632813,
+            "z": 28.9232234954834
+        },
+        "heading": 88.730155944824,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -114.44525146484377,
+            "y": -526.0697631835938,
+            "z": 33.97830963134765
+        },
+        "heading": 268.29916381836,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -115.05896759033205,
+            "y": -496.5428466796875,
+            "z": 33.89184951782226
+        },
+        "heading": 88.427391052246,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 171.00531005859376,
+            "y": -524.6918334960938,
+            "z": 37.88142395019531
+        },
+        "heading": 269.75247192383,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 170.46536254882813,
+            "y": -494.96978759765627,
+            "z": 37.87007522583008
+        },
+        "heading": 87.154525756836,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 377.41119384765627,
+            "y": -524.7510986328125,
+            "z": 38.33670043945312
+        },
+        "heading": 267.15139770508,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 377.08685302734377,
+            "y": -495.4795837402344,
+            "z": 38.31354141235351
+        },
+        "heading": 88.097991943359,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 623.5228271484375,
+            "y": -583.4605102539063,
+            "z": 39.77976989746094
+        },
+        "heading": 240.82891845703,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 622.8257446289063,
+            "y": -549.849609375,
+            "z": 39.59549331665039
+        },
+        "heading": 59.637348175049,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 893.1539306640625,
+            "y": -744.9878540039063,
+            "z": 44.96683883666992
+        },
+        "heading": 222.49557495117,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 914.102294921875,
+            "y": -723.8049926757813,
+            "z": 45.06501388549805
+        },
+        "heading": 42.857555389404,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1039.5318603515626,
+            "y": -1027.9493408203126,
+            "z": 32.87308883666992
+        },
+        "heading": 193.79200744629,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1054.5899658203126,
+            "y": -1019.8641357421876,
+            "z": 32.90909194946289
+        },
+        "heading": 13.523041725159,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1053.319580078125,
+            "y": -1335.870849609375,
+            "z": 32.09199523925781
+        },
+        "heading": 182.63455200195,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1069.5157470703126,
+            "y": -1330.626220703125,
+            "z": 32.07012176513672
+        },
+        "heading": 3.4341299533844,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 1061.83544921875,
+            "y": -1623.312744140625,
+            "z": 33.3394775390625
+        },
+        "heading": 191.94657897949,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 1085.071533203125,
+            "y": -1617.1546630859376,
+            "z": 33.42195510864258
+        },
+        "heading": 11.236631393433,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 1121.3424072265626,
+            "y": -1818.2872314453128,
+            "z": 33.08295059204101
+        },
+        "heading": 200.96479797363,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 3,
+        "position": {
+            "x": 1143.619873046875,
+            "y": -1808.775390625,
+            "z": 33.09101104736328
+        },
+        "heading": 19.708343505859,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -413.9027404785156,
+            "y": -891.091796875,
+            "z": 41.11725234985351
+        },
+        "heading": 180.78680419922,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -395.4594421386719,
+            "y": -889.4837646484375,
+            "z": 41.11420059204101
+        },
+        "heading": 0.82911360263824,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -395.66265869140627,
+            "y": -647.1136474609375,
+            "z": 40.70463562011719
+        },
+        "heading": 0.46030440926552,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -421.15924072265627,
+            "y": -713.4502563476563,
+            "z": 41.09965133666992
+        },
+        "heading": 177.06407165527,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -413.7066650390625,
+            "y": -1054.707275390625,
+            "z": 40.82874298095703
+        },
+        "heading": 178.15693664551,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -395.5260314941406,
+            "y": -1053.8743896484376,
+            "z": 40.97076797485351
+        },
+        "heading": 358.73300170898,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -413.76849365234377,
+            "y": -1177.8887939453126,
+            "z": 41.04128265380859
+        },
+        "heading": 179.5972442627,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -395.5128479003906,
+            "y": -1176.3170166015626,
+            "z": 40.84664154052734
+        },
+        "heading": 0.72061628103256,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -413.98876953125,
+            "y": -1337.0279541015626,
+            "z": 41.16231536865234
+        },
+        "heading": 179.59761047363,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -395.51861572265627,
+            "y": -1335.405517578125,
+            "z": 41.13774490356445
+        },
+        "heading": 1.1831079721451,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -422.6736755371094,
+            "y": -1519.032470703125,
+            "z": 41.33869171142578
+        },
+        "heading": 163.92967224121,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -400.2786865234375,
+            "y": -1504.088623046875,
+            "z": 41.21881484985351
+        },
+        "heading": 348.27621459961,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -579.00537109375,
+            "y": -1691.1568603515626,
+            "z": 41.24654769897461
+        },
+        "heading": 115.47527313232,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": -565.22314453125,
+            "y": -1717.5162353515626,
+            "z": 41.31755065917969
+        },
+        "heading": 294.10021972656,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "Easat",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -765.2442016601563,
+            "y": -1725.2095947265626,
+            "z": 43.66040802001953
+        },
+        "heading": 95.324600219727,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -762.3019409179688,
+            "y": -1742.9619140625,
+            "z": 43.71738815307617
+        },
+        "heading": 274.8010559082,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -841.2522583007813,
+            "y": -2036.941162109375,
+            "z": 31.94503402709961
+        },
+        "heading": 236.70526123047,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": -832.88818359375,
+            "y": -2021.7081298828128,
+            "z": 31.94233131408691
+        },
+        "heading": 56.351089477539,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 98.56466674804688,
+            "y": -1230.601318359375,
+            "z": 41.29436492919922
+        },
+        "heading": 273.27893066406,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 77.49073028564453,
+            "y": -1189.8101806640626,
+            "z": 41.05227279663086
+        },
+        "heading": 92.456886291504,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 440.2937316894531,
+            "y": -1225.788818359375,
+            "z": 44.77220153808594
+        },
+        "heading": 270.31903076172,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 4,
+        "position": {
+            "x": 437.6279296875,
+            "y": -1182.6043701171876,
+            "z": 44.03595352172851
+        },
+        "heading": 88.984077453613,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 695.369384765625,
+            "y": -1208.250244140625,
+            "z": 47.67023849487305
+        },
+        "heading": 271.97802734375,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 695.95947265625,
+            "y": -1224.3057861328126,
+            "z": 47.62031173706055
+        },
+        "heading": 272.23989868164,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 956.4191284179688,
+            "y": -1197.3363037109376,
+            "z": 54.43819808959961
+        },
+        "heading": 270.47128295898,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 954.9161987304688,
+            "y": -1179.0067138671876,
+            "z": 54.48696136474609
+        },
+        "heading": 90.514877319336,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1125.0904541015626,
+            "y": -1190.5701904296876,
+            "z": 59.36831665039062
+        },
+        "heading": 272.25500488281,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1123.087890625,
+            "y": -1172.350830078125,
+            "z": 59.47457885742187
+        },
+        "heading": 92.021018981934,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1604.5703125,
+            "y": -974.7618408203124,
+            "z": 65.24982452392578
+        },
+        "heading": 300.16732788086,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1594.8934326171876,
+            "y": -961.2650146484376,
+            "z": 65.25885009765625
+        },
+        "heading": 121.20148468018,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1789.5242919921876,
+            "y": -855.0560913085938,
+            "z": 77.24073028564453
+        },
+        "heading": 304.42572021484,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1778.89306640625,
+            "y": -842.1695556640625,
+            "z": 77.2579345703125
+        },
+        "heading": 125.37330627441,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1983.916259765625,
+            "y": -705.7387084960938,
+            "z": 94.94263458251952
+        },
+        "heading": 305.49340820313,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1972.6005859375,
+            "y": -692.89404296875,
+            "z": 95.04547882080078
+        },
+        "heading": 127.78154754639,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "West",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2199.50927734375,
+            "y": -524.3351440429688,
+            "z": 97.17668914794922
+        },
+        "heading": 310.54092407227,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "East",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2187.6904296875,
+            "y": -512.7391357421875,
+            "z": 97.07749938964844
+        },
+        "heading": 131.07962036133,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2358.206787109375,
+            "y": -341.2475891113281,
+            "z": 89.37979888916016
+        },
+        "heading": 325.74533081055,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2343.735107421875,
+            "y": -333.0941467285156,
+            "z": 89.3986587524414
+        },
+        "heading": 146.29606628418,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2483.650146484375,
+            "y": -108.71048736572266,
+            "z": 94.1740951538086
+        },
+        "heading": 333.28466796875,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2461.416015625,
+            "y": -99.74714660644533,
+            "z": 93.98865509033205
+        },
+        "heading": 162.46527099609,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2564.534423828125,
+            "y": 779.1905517578125,
+            "z": 93.97151947021485
+        },
+        "heading": 22.765754699707,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2349.703857421875,
+            "y": 1090.661376953125,
+            "z": 84.56234741210938
+        },
+        "heading": 42.141494750977,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2338.4638671875,
+            "y": 1078.435302734375,
+            "z": 84.58500671386719
+        },
+        "heading": 221.3650970459,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2023.0352783203128,
+            "y": 1565.4241943359376,
+            "z": 79.18022155761719
+        },
+        "heading": 21.716274261475,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "South",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 2008.2099609375,
+            "y": 1557.8455810546876,
+            "z": 79.22688293457031
+        },
+        "heading": 202.61572265625,
+        "useDefaultSpeeds": false
+    },
+    {
+        "direction": "North",
+        "defaultSpeeds": [],
+        "lanes": 2,
+        "position": {
+            "x": 1890.86572265625,
+            "y": 2043.39599609375,
+            "z": 59.22905731201172
+        },
+        "heading": 8.7973203659058,
+        "useDefaultSpeeds": false
+    }
+]

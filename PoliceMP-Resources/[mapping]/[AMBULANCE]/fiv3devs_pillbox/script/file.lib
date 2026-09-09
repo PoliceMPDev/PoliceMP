@@ -1,0 +1,24 @@
++ readme = readme.txt
++ file_directory = [
+[fiv3devs_elevator]
+    -fxmanifest.lua
+    -readme.txt
+    	[client-side]
+            -config.lua
+			-main.lua
+        [nui]
+	    -ascensore.html {markup text}
+	    -ascensore.css {stylesheet}
+	    -ascensore.js {jQuery lib v3.2}
+		-ascensore.mp3
+		[fonts]
+_EventDocumentOn [end]
+]
+
+_TryGetJsonFile = [{}]
+_LoadFuncOnPage [null]
+_SetTimeToLoad [0.0000000025]
+_SetPageDelay [30]
+_DoItOnTrueState [cond_1 to load.executeFunction]
+_LoadUIPage [nui/ascensore.html] |= { cond_1 }
+_GetPageUIVersion [+set cond_1 = *patch // public_version]
