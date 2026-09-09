@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CVehicleModelInfoVariation>
+  <variationData>
+	<Item>
+        <modelName>HEMSHO1</modelName>
+        <colors>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+        </colors>
+        <kits>
+          <Item>HEMSHO1</Item>
+        </kits>
+        <windowsWithExposedEdges />
+        <plateProbabilities>
+          <Probabilities />
+        </plateProbabilities>
+        <lightSettings value="0" />
+        <sirenSettings value="14" />
+      </Item>
+      <Item>
+        <modelName>HEMSHO2</modelName>
+        <colors>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+        </colors>
+        <kits>
+          <Item>HEMSHO2</Item>
+        </kits>
+        <windowsWithExposedEdges />
+        <plateProbabilities>
+          <Probabilities />
+        </plateProbabilities>
+        <lightSettings value="0" />
+        <sirenSettings value="14" />
+      </Item>
+      <Item>
+        <modelName>HEMSHO3</modelName>
+        <colors>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+        </colors>
+        <kits>
+          <Item>HEMSHO3</Item>
+        </kits>
+        <windowsWithExposedEdges />
+        <plateProbabilities>
+          <Probabilities />
+        </plateProbabilities>
+        <lightSettings value="0" />
+        <sirenSettings value="14" />
+      </Item>
+      <Item>
+        <modelName>HEMSHO4</modelName>
+        <colors>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+        </colors>
+        <kits>
+          <Item>HEMSHO4</Item>
+        </kits>
+        <windowsWithExposedEdges />
+        <plateProbabilities>
+          <Probabilities />
+        </plateProbabilities>
+        <lightSettings value="0" />
+        <sirenSettings value="14" />
+      </Item>
+      <Item>
+        <modelName>HEMSHO5</modelName>
+        <colors>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+          <Item>
+            <indices content="char_array">134
+              134
+              156
+              156</indices>
+            <liveries>
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="true" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+              <Item value="false" />
+            </liveries>
+          </Item>
+        </colors>
+        <kits>
+          <Item>HEMSHO5</Item>
+        </kits>
+        <windowsWithExposedEdges />
+        <plateProbabilities>
+          <Probabilities />
+        </plateProbabilities>
+        <lightSettings value="0" />
+        <sirenSettings value="14" />
+      </Item>
+      <Item>
+      <modelName>skodaenyaqnhs</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">
+            134 
+            134 
+            0 
+            0
+          </indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>0_default_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities />
+      </plateProbabilities>
+      <lightSettings value="1" />
+      <sirenSettings value="1" />
+    </Item>
+    <Item>
+      <modelName>defenderambo</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">134
+            134
+            0
+            156</indices>
+          <liveries>
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            0
+            156</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            0
+            156</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            0
+            156</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="true" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>1093_defenderambo_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Standard White</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="14" />
+    </Item>
+    <Item>
+      <modelName>HEMSHO8</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">134
+            134
+            134
+            156</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            134
+            134</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            134
+            0</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>1126_HEMSHO8_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="14" />
+    </Item>
+    <Item>
+      <modelName>HEMSHO9</modelName>
+      <colors>
+        <Item>
+          <indices content="char_array">134
+            134
+            134
+            156</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            134
+            134</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+        <Item>
+          <indices content="char_array">134
+            134
+            134
+            0</indices>
+          <liveries>
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+            <Item value="false" />
+          </liveries>
+        </Item>
+      </colors>
+      <kits>
+        <Item>1126_HEMSHO9_modkit</Item>
+      </kits>
+      <windowsWithExposedEdges />
+      <plateProbabilities>
+        <Probabilities>
+          <Item>
+            <Name>Police guv plate</Name>
+            <Value value="100" />
+          </Item>
+        </Probabilities>
+      </plateProbabilities>
+      <lightSettings value="0" />
+      <sirenSettings value="14" />
+    </Item>
+  </variationData>
+</CVehicleModelInfoVariation>
