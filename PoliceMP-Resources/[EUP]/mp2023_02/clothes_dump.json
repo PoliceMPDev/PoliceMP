@@ -1,0 +1,521 @@
+[
+  {
+    "DlcCollectionName": "mp_m_2023_02",
+    "PedName": "mp_m_freemode_01",
+    "ComponentVariations": [],
+    "Props": [
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_2_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_3_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_4_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_5_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_6_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_0_7_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 214,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 0
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_2_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_3_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_4_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_5_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_6_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_1_7_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 215,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 1
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_2_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_3_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_4_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_5_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_6_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_7_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_2_8_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 216,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 2
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_2_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_3_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_4_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_5_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_6_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_7_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_3_8_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 217,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 3
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_2_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 2,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_3_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 3,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_4_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 4,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_5_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 5,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_6_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 6,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_7_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 7,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_4_8_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 218,
+        "TextureId": 8,
+        "RelativeCollectionDrawableId": 4
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_5_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 219,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 5
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_6_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 220,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 6
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_6_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 220,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 6
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_7_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 221,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 7
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_7_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 221,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 7
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_8_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 222,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 8
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_9_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 223,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 9
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_10_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 224,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 10
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_11_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 225,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 11
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_12_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 226,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 12
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_13_-1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 227,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 13
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_13_-1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 227,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 13
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_14_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 228,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 14
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_15_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 229,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 15
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_15_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 229,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 15
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_16_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 230,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 16
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_16_1_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 230,
+        "TextureId": 1,
+        "RelativeCollectionDrawableId": 16
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_17_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 231,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 17
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_18_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 232,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 18
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_19_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 233,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 19
+      },
+      {
+        "NameHash": "CLO_DCT_PROPHEAD_20_0_M",
+        "AnchorPoint": "ANCHOR_HEAD",
+        "ComponentId": 0,
+        "DrawableId": 234,
+        "TextureId": 0,
+        "RelativeCollectionDrawableId": 20
+      }
+    ]
+  }
+]
