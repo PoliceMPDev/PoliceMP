@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_GLOCK19_CLIP_01</Name>
+			<Model>fm1_glock19_clip_01</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="15"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>	
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_GLOCK19_CLIP_02</Name>
+			<Model>fm1_glock19_clip_02</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="21"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>	
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_M9A3_CLIP_01</Name>
+			<Model>fm1_m9a3_clip_01</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="17"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>	
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_M9A3_CLIP_02</Name>
+			<Model>fm1_m9a3_clip_02</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="20"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>		
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_CZ75_CLIP_01</Name>
+			<Model>fm1_cz75_clip_01</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="14"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>			
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_P226_CLIP_01</Name>
+			<Model>fm1_p226_clip_01</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="15"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>	
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_P226_CLIP_02</Name>
+			<Model>fm1_p226_clip_02</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="22"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>				
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_P320_CLIP_01</Name>
+			<Model>fm1_p320_clip_01</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="21"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>		
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_FM1_P320_CLIP_02</Name>
+			<Model>fm1_p320_clip_02</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_P_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="21"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT_WITH_EMPTIES"/>
+		</Item>			
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_FM1_P320_SLIDE_01</Name>
+			<Model>fm1_p320_slide_01</Model>
+			<LocName></LocName>
+			<LocDesc></LocDesc>
+			<AttachBone>AAPGrip_2</AttachBone>
+			<WeaponAttachBone>WapGrip_2</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ReticuleHash/>
+		</Item>		
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_FM1_P320_SLIDE_02</Name>
+			<Model>fm1_p320_slide_02</Model>
+			<LocName></LocName>
+			<LocDesc></LocDesc>
+			<AttachBone>AAPGrip_2</AttachBone>
+			<WeaponAttachBone>WapGrip_2</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ReticuleHash/>
+		</Item>		
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_FM1_P320_FRAME_01</Name>
+			<Model>fm1_p320_frame_01</Model>
+			<LocName></LocName>
+			<LocDesc></LocDesc>
+			<AttachBone>Gun_Root</AttachBone>
+			<WeaponAttachBone>Gun_Root</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ReticuleHash/>
+		</Item>		
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_FM1_P320_FRAME_02</Name>
+			<Model>fm1_p320_frame_02</Model>
+			<LocName></LocName>
+			<LocDesc></LocDesc>
+			<AttachBone>Gun_Root</AttachBone>
+			<WeaponAttachBone>Gun_Root</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ReticuleHash/>
+		</Item>		
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

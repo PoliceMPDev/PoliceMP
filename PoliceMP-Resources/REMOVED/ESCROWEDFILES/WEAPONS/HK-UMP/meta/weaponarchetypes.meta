@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>ump</modelName>
+			<txdName>ump</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_clip1</modelName>
+			<txdName>ump_extra</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>				
+		<Item>
+			<modelName>ump_clip2</modelName>
+			<txdName>ump_extra</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>				
+		<Item>
+			<modelName>ump_mount1</modelName>
+			<txdName>ump_extra</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>				
+		<Item>
+			<modelName>ump_mount2</modelName>
+			<txdName>ump_extra</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>				
+		<Item>
+			<modelName>ump_stock1</modelName>
+			<txdName>ump_extra</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_stock2</modelName>
+			<txdName>ump_extra</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_supp1</modelName>
+			<txdName>ump_suppressors</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_supp2</modelName>
+			<txdName>ump_suppressors</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_supp3</modelName>
+			<txdName>ump_suppressors</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_supp4</modelName>
+			<txdName>ump_suppressors</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_supp5</modelName>
+			<txdName>ump_suppressors</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_supp6</modelName>
+			<txdName>ump_suppressors</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope1</modelName>
+			<txdName>ump_scopes</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>		
+		<Item>
+			<modelName>ump_scope2</modelName>
+			<txdName>ump_scopes</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope3</modelName>
+			<txdName>ump_scopes</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope4</modelName>
+			<txdName>ump_scopes2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope5</modelName>
+			<txdName>ump_scopes2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope6</modelName>
+			<txdName>ump_scopes3</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope7</modelName>
+			<txdName>ump_scopes3</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope8</modelName>
+			<txdName>ump_scopes4</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope9</modelName>
+			<txdName>ump_scopes4</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_scope10</modelName>
+			<txdName>ump_scopes5</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip1</modelName>
+			<txdName>ump_grips</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>				
+		<Item>
+			<modelName>ump_grip2</modelName>
+			<txdName>ump_grips</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip3</modelName>
+			<txdName>ump_grips</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip4</modelName>
+			<txdName>ump_grips</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip5</modelName>
+			<txdName>ump_grips</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip6</modelName>
+			<txdName>ump_grips2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip7</modelName>
+			<txdName>ump_grips2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip8</modelName>
+			<txdName>ump_grips2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip9</modelName>
+			<txdName>ump_grips2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_grip10</modelName>
+			<txdName>ump_grips2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>				
+		<Item>
+			<modelName>ump_flsh1</modelName>
+			<txdName>ump_flsh</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+		<Item>
+			<modelName>ump_flsh2</modelName>
+			<txdName>ump_flsh</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_flsh3</modelName>
+			<txdName>ump_flsh</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_flsh4</modelName>
+			<txdName>ump_flsh</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_flsh5</modelName>
+			<txdName>ump_flsh2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_flsh6</modelName>
+			<txdName>ump_flsh2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>	
+		<Item>
+			<modelName>ump_flsh7</modelName>
+			<txdName>ump_flsh2</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="200"/>
+		</Item>			
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
+

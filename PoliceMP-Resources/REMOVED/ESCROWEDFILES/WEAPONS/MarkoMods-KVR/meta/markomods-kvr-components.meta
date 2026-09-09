@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<CWeaponComponentInfoBlob>
+    <Infos>
+		<Item type='CWeaponComponentClipInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_CLIP_1</Name>
+		  <Model>markomods-kvr-clip1</Model>
+		  <LocName>CLIP</LocName>
+		  <LocDesc>CLIP</LocDesc>
+		  <AttachBone>AAPClip</AttachBone>
+		  <WeaponAttachBone>WAPClip</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+		  <ClipSize value='30' />
+		  <ReloadData ref='RELOAD_DEFAULT' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_HANDGUARD_1</Name>
+		  <Model>markomods-kvr-handguard1</Model>
+		  <LocName>HANDGUARD</LocName>
+		  <LocDesc>HANDGUARD</LocDesc>
+		  <AttachBone>AAPHandguard</AttachBone>
+		  <WeaponAttachBone>WAPHandguard</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_HANDGUARD_2</Name>
+		  <Model>markomods-kvr-handguard2</Model>
+		  <LocName>HANDGUARD</LocName>
+		  <LocDesc>HANDGUARD</LocDesc>
+		  <AttachBone>AAPHandguard</AttachBone>
+		  <WeaponAttachBone>WAPHandguard</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_HANDGUARD_3</Name>
+		  <Model>markomods-kvr-handguard3</Model>
+		  <LocName>HANDGUARD</LocName>
+		  <LocDesc>HANDGUARD</LocDesc>
+		  <AttachBone>AAPHandguard</AttachBone>
+		  <WeaponAttachBone>WAPHandguard</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_BARREL_1</Name>
+		  <Model>markomods-kvr-barrel1</Model>
+		  <LocName>BARREL</LocName>
+		  <LocDesc>BARREL</LocDesc>
+		  <AttachBone>AAPBarrel</AttachBone>
+		  <WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_BARREL_2</Name>
+		  <Model>markomods-kvr-barrel2</Model>
+		  <LocName>BARREL</LocName>
+		  <LocDesc>BARREL</LocDesc>
+		  <AttachBone>AAPBarrel</AttachBone>
+		  <WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_BARREL_3</Name>
+		  <Model>markomods-kvr-barrel3</Model>
+		  <LocName>BARREL</LocName>
+		  <LocDesc>BARREL</LocDesc>
+		  <AttachBone>AAPBarrel</AttachBone>
+		  <WeaponAttachBone>WAPBarrel</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_1</Name>
+		  <Model>markomods-kvr-stock1</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_2</Name>
+		  <Model>markomods-kvr-stock2</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_3</Name>
+		  <Model>markomods-kvr-stock3</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_4</Name>
+		  <Model>markomods-kvr-stock4</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_5</Name>
+		  <Model>markomods-kvr-stock5</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_6</Name>
+		  <Model>markomods-kvr-stock6</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_7</Name>
+		  <Model>markomods-kvr-stock7</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type='CWeaponComponentInfo'>
+		  <Name>COMPONENT_MARKOMODSKVR_STOCK_8</Name>
+		  <Model>markomods-kvr-stock8</Model>
+		  <LocName>STOCK</LocName>
+		  <LocDesc>STOCK</LocDesc>
+		  <AttachBone>AAPGrip_2</AttachBone>
+		  <WeaponAttachBone>WAPGrip_2</WeaponAttachBone>
+		  <AccuracyModifier type='NULL' />
+		  <DamageModifier type='NULL' />
+		  <bShownOnWheel value='false' />
+		  <CreateObject value='true' />
+		  <HudDamage value='0' />
+		  <HudSpeed value='0' />
+		  <HudCapacity value='0' />
+		  <HudAccuracy value='0' />
+		  <HudRange value='0' />
+        </Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_1</Name>
+			<Model>markomods-kvr-supp1</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_2</Name>
+			<Model>markomods-kvr-supp2</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_3</Name>
+			<Model>markomods-kvr-supp3</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_4</Name>
+			<Model>markomods-kvr-supp4</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_5</Name>
+			<Model>markomods-kvr-supp5</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_6</Name>
+			<Model>markomods-kvr-supp6</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_7</Name>
+			<Model>markomods-kvr-supp7</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_8</Name>
+			<Model>markomods-kvr-supp8</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_MARKOMODSKVR_SUPP_9</Name>
+			<Model>markomods-kvr-supp9</Model>
+			<LocName>WCT_SUPPRESSOR</LocName>
+			<LocDesc>WCD_SUPPRESSOR</LocDesc>
+			<AttachBone>AAPSupp</AttachBone>
+			<WeaponAttachBone>WAPSupp</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<bShownOnWheel value="true"/>
+			<CreateObject value="true"/>
+			<HudDamage value="-5"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="-5"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_assault_rifle</FlashFx>
+			<ShouldSilence value="true" />
+		</Item>
+    </Infos>
+    <InfoBlobName></InfoBlobName>
+</CWeaponComponentInfoBlob>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>		
+		<Item>
+			<modelName>fm1_glock19</modelName>
+			<txdName>fm1_glock19</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>fm1_glock19_clip_01</modelName>
+			<txdName>fm1_glock19_clip_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>fm1_glock19_clip_02</modelName>
+			<txdName>fm1_glock19_clip_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>fm1_m9a3</modelName>
+			<txdName>fm1_m9a3</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>			
+		<Item>
+			<modelName>fm1_m9a3_clip_01</modelName>
+			<txdName>fm1_m9a3_clip_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>fm1_m9a3_clip_02</modelName>
+			<txdName>fm1_m9a3_clip_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>			
+		<Item>
+			<modelName>fm1_cz75</modelName>
+			<txdName>fm1_cz75</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>fm1_cz75_clip_01</modelName>
+			<txdName>fm1_cz75</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>fm1_p226</modelName>
+			<txdName>fm1_p226</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>fm1_p226_clip_01</modelName>
+			<txdName>fm1_p226_clip_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>			
+		<Item>
+			<modelName>fm1_p226_clip_02</modelName>
+			<txdName>fm1_p226_clip_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>fm1_p320</modelName>
+			<txdName>fm1_p320_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>fm1_p320_clip_01</modelName>
+			<txdName>fm1_p320_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>fm1_p320_clip_02</modelName>
+			<txdName>fm1_p320_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>			
+		<Item>
+			<modelName>fm1_p320_slide_01</modelName>
+			<txdName>fm1_p320_frame_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>fm1_p320_slide_02</modelName>
+			<txdName>fm1_p320_frame_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>fm1_p320_frame_01</modelName>
+			<txdName>fm1_p320_frame_01</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>fm1_p320_frame_02</modelName>
+			<txdName>fm1_p320_frame_02</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>								
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
+

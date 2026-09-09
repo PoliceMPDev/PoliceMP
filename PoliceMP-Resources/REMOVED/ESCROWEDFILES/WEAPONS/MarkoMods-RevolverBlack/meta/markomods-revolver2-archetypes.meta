@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>markomods-revolver2</modelName>
+			<txdName>markomods-revolver2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>		
+		<Item>
+			<modelName>markomods-revolver2-cylinder1</modelName>
+			<txdName>markomods-revolver2-mag</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-cylinder2</modelName>
+			<txdName>markomods-revolver2-mag</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-cylinder3</modelName>
+			<txdName>markomods-revolver2-mag</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-mag1</modelName>
+			<txdName>markomods-revolver2-mag</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>markomods-revolver2-pgrip1</modelName>
+			<txdName>markomods-revolver2-pgrip</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>markomods-revolver2-pgrip2</modelName>
+			<txdName>markomods-revolver2-pgrip</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>markomods-revolver2-pgrip3</modelName>
+			<txdName>markomods-revolver2-pgrip</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>markomods-revolver2-pgrip4</modelName>
+			<txdName>markomods-revolver2-pgrip</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>markomods-revolver2-pgrip5</modelName>
+			<txdName>markomods-revolver2-pgrip2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-pgrip6</modelName>
+			<txdName>markomods-revolver2-pgrip2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-pgrip7</modelName>
+			<txdName>markomods-revolver2-pgrip2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel1</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel2</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel3</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel4</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel5</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel6</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel7</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel8</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel9</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel10</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel11</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel12</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel13</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel14</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel15</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-barrel16</modelName>
+			<txdName>markomods-revolver2-barrel</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-mount1</modelName>
+			<txdName>markomods-revolver2-mount</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-mount2</modelName>
+			<txdName>markomods-revolver2-mount</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-mount3</modelName>
+			<txdName>markomods-revolver2-mount</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-mount4</modelName>
+			<txdName>markomods-revolver2-mount</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+		<Item>
+			<modelName>markomods-revolver2-mount5</modelName>
+			<txdName>markomods-revolver2-mount</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>	
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

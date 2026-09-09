@@ -1,0 +1,2 @@
+AddTextEntry("WEAPON_FM1_HK416", "HK416")
+AddTextEntry("WEAPON_FM2_HK416", "HK416")

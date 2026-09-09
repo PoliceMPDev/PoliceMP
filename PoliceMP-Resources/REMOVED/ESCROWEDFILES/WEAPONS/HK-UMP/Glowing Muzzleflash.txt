@@ -1,0 +1,9 @@
+To turn on glowing muzzle flashes open weapons.meta
+
+go to line 145
+
+<FlashFxLightEnabled value="false" />
+
+and set it to true as shown here
+
+<FlashFxLightEnabled value="true" />

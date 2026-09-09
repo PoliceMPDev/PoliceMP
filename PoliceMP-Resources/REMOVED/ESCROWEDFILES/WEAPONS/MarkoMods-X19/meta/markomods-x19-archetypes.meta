@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>markomods-x19</modelName>
+            <txdName>markomods-x19</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-x19-mag1</modelName>
+            <txdName>markomods-x19-mags</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-mag2</modelName>
+            <txdName>markomods-x19-mags</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-mag3</modelName>
+            <txdName>markomods-x19-mags</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-barrel1</modelName>
+            <txdName>markomods-x19-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-barrel2</modelName>
+            <txdName>markomods-x19-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-barrel3</modelName>
+            <txdName>markomods-x19-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-barrel4</modelName>
+            <txdName>markomods-x19-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide1</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide2</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide3</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide4</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide5</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide6</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide7</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide8</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide9</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-slide10</modelName>
+            <txdName>markomods-x19-slides</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-x19-muzzle1</modelName>
+            <txdName>markomods-x19-muzzle</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>

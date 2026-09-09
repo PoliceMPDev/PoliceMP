@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>fm1_hk416</modelName>
+			<txdName>fm1_hk416</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>			
+		<Item>
+			<modelName>fm2_hk416</modelName>
+			<txdName>fm2_hk416</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>				
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
+

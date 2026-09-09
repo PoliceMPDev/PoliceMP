@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data />
+  <Infos>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_CYLINDER_01</Name>
+      <Model>markomods-revolver2-cylinder1</Model>
+      <LocName>WCT_CYL_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip_2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_CYLINDER_02</Name>
+      <Model>markomods-revolver2-cylinder2</Model>
+      <LocName>WCT_CYL_2</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip_2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_CYLINDER_03</Name>
+      <Model>markomods-revolver2-cylinder3</Model>
+      <LocName>WCT_CYL_3</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip_2</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_01</Name>
+      <Model>markomods-revolver2-pgrip1</Model>
+      <LocName>WCT_PGRIP_1</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_02</Name>
+      <Model>markomods-revolver2-pgrip2</Model>
+      <LocName>WCT_PGRIP_2</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_03</Name>
+      <Model>markomods-revolver2-pgrip3</Model>
+      <LocName>WCT_PGRIP_3</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_04</Name>
+      <Model>markomods-revolver2-pgrip4</Model>
+      <LocName>WCT_PGRIP_4</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_05</Name>
+      <Model>markomods-revolver2-pgrip5</Model>
+      <LocName>WCT_PGRIP_5</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_06</Name>
+      <Model>markomods-revolver2-pgrip6</Model>
+      <LocName>WCT_PGRIP_6</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_PGRIP_07</Name>
+      <Model>markomods-revolver2-pgrip7</Model>
+      <LocName>WCT_PGRIP_7</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_CLIP_01</Name>
+      <Model>markomods-revolver2-mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="6" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_MOUNT_01</Name>
+      <Model>markomods-revolver2-mount1</Model>
+      <LocName>WCT_MOUNT</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_MOUNT_02</Name>
+      <Model>markomods-revolver2-mount2</Model>
+      <LocName>WCT_MOUNT</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_MOUNT_03</Name>
+      <Model>markomods-revolver2-mount3</Model>
+      <LocName>WCT_MOUNT</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_MOUNT_04</Name>
+      <Model>markomods-revolver2-mount4</Model>
+      <LocName>WCT_MOUNT</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_MOUNT_05</Name>
+      <Model>markomods-revolver2-mount5</Model>
+      <LocName>WCT_MOUNT</LocName>
+      <LocDesc>WCD_INVALID</LocDesc>
+      <AttachBone>AAPGrip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_01</Name>
+      <Model>markomods-revolver2-barrel1</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_02</Name>
+      <Model>markomods-revolver2-barrel2</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_03</Name>
+      <Model>markomods-revolver2-barrel3</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_04</Name>
+      <Model>markomods-revolver2-barrel4</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_05</Name>
+      <Model>markomods-revolver2-barrel5</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_06</Name>
+      <Model>markomods-revolver2-barrel6</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_07</Name>
+      <Model>markomods-revolver2-barrel7</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_08</Name>
+      <Model>markomods-revolver2-barrel8</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_09</Name>
+      <Model>markomods-revolver2-barrel9</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_10</Name>
+      <Model>markomods-revolver2-barrel10</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_11</Name>
+      <Model>markomods-revolver2-barrel11</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_12</Name>
+      <Model>markomods-revolver2-barrel12</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_13</Name>
+      <Model>markomods-revolver2-barrel13</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_14</Name>
+      <Model>markomods-revolver2-barrel14</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_15</Name>
+      <Model>markomods-revolver2-barrel15</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+    <Item type="CWeaponComponentSuppressorInfo">
+      <Name>COMPONENT_MARKOMODSREVOLVER2_BARREL_16</Name>
+      <Model>markomods-revolver2-barrel16</Model>
+      <LocName>WCT_SUPPRESSOR</LocName>
+      <LocDesc>WCD_SUPPRESSOR</LocDesc>
+      <AttachBone>AAPSupp</AttachBone>
+      <WeaponAttachBone>WAPSupp</WeaponAttachBone>
+      <AccuracyModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="-5" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="-5" />
+      <MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+      <FlashFx>muz_assault_rifle</FlashFx>
+      <ShouldSilence value="false" />
+    </Item>
+  </Infos>
+  <InfoBlobName>DLC - MRevolver</InfoBlobName>
+</CWeaponComponentInfoBlob>

@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>markomods-agc</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+		<Item>
+            <modelName>markomods-agc-mag</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-agc-stock1</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-agc-stock2</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-agc-stock3</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-agc-scope1</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+        <Item>
+            <modelName>markomods-agc-scope2</modelName>
+            <txdName>markomods-agc</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='75'/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>

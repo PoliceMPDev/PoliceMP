@@ -1,0 +1,1 @@
+AddTextEntry('WEAPON_AEG9', 'AEG9')

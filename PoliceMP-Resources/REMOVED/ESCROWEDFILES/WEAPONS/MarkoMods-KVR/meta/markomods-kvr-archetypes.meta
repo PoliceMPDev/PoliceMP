@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CWeaponModelInfo__InitDataList>
+    <InitDatas>
+        <Item>
+            <modelName>markomods-kvr</modelName>
+            <txdName>markomods-kvr</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-clip1</modelName>
+            <txdName>markomods-kvr-clips</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-handguard1</modelName>
+            <txdName>markomods-kvr-handguards</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-handguard2</modelName>
+            <txdName>markomods-kvr-handguards</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-handguard3</modelName>
+            <txdName>markomods-kvr-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-barrel1</modelName>
+            <txdName>markomods-kvr-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-barrel2</modelName>
+            <txdName>markomods-kvr-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-barrel3</modelName>
+            <txdName>markomods-kvr-barrels</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock1</modelName>
+            <txdName>markomods-kvr-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock2</modelName>
+            <txdName>markomods-kvr-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock3</modelName>
+            <txdName>markomods-kvr-stocks</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock4</modelName>
+            <txdName>markomods-kvr-stocks2</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock5</modelName>
+            <txdName>markomods-kvr-stocks2</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock6</modelName>
+            <txdName>markomods-kvr-stocks2</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock7</modelName>
+            <txdName>markomods-kvr-stocks2</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-stock8</modelName>
+            <txdName>markomods-kvr-stocks2</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp1</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp2</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp3</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp4</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp5</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp6</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp7</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp8</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+        <Item>
+            <modelName>markomods-kvr-supp9</modelName>
+            <txdName>markomods-kvr-supps</txdName>
+            <ptfxAssetName>NULL</ptfxAssetName>
+            <lodDist value='500'/>
+        </Item>
+    </InitDatas>
+</CWeaponModelInfo__InitDataList>

@@ -1,0 +1,22 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames />
+  <YtypFilenames />
+  <YbnFilenames />
+  <YndFilenames>
+    <Item>nodes464.ynd</Item>
+    <Item>nodes463.ynd</Item>
+    <Item>nodes432.ynd</Item>
+    <Item>nodes496.ynd</Item>
+    <Item>nodes465.ynd</Item>
+  </YndFilenames>
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+  <YdrFilenames />
+  <YddFilenames />
+  <YftFilenames />
+  <YtdFilenames />
+</CodeWalkerProject>

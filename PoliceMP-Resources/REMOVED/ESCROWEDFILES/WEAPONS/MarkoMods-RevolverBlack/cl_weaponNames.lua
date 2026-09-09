@@ -1,0 +1,1 @@
+    AddTextEntry('WEAPON_MREVOLVER2', 'Revolver Black')

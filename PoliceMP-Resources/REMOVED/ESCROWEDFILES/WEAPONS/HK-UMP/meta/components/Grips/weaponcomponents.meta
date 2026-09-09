@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_01</Name>
+			<Model>ump_grip1</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_02</Name>
+			<Model>ump_grip2</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_03</Name>
+			<Model>ump_grip3</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_04</Name>
+			<Model>ump_grip4</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_05</Name>
+			<Model>ump_grip5</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_06</Name>
+			<Model>ump_grip6</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_07</Name>
+			<Model>ump_grip7</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_08</Name>
+			<Model>ump_grip8</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_09</Name>
+			<Model>ump_grip9</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+		<Item type="CWeaponComponentInfo">
+			<Name>COMPONENT_UMP_GRIP_10</Name>
+			<Model>ump_grip10</Model>
+			<LocName>WCT_GRIP</LocName>
+			<LocDesc>WCD_GRIP</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+		</Item>
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+
