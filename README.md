@@ -28,3 +28,14 @@ Knowledge of PowerShell is particularly useful if you intend to use, modify, or 
 Simply downloading the repository will not provide a working server.
 However require minimal skills to build one, this repo is particularly a "Big fuck off" to those fat and racist British cunts over at PoliceMP
 
+                      /´¯/)
+                    ,/¯../
+                   /..../
+             /´¯/'...'/´¯¯`·¸
+          /'/.../..../......./¨¯\
+        ('(...´...´.... ¯~/'...')
+         \.................'..../
+          ''...\.......... _.·´
+            \..............(
+             \.............\
+        
