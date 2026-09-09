@@ -1,0 +1,1 @@
+To remove the Austrian flag and set it back to the default, remove the file "prop_flag_us.yft" from within "firestation_el_burro_v2\stream\yft.
