@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<timecycle_modifier_data version="1.000000">
+  <modifier name="roxwood_cave_int_entrance" numMods="10" userFlags="2">
+    <light_directional_amb_intensity_mult>0.000 0.000</light_directional_amb_intensity_mult>
+    <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+    <light_natural_amb_up_intensity_mult>0.000 0.000</light_natural_amb_up_intensity_mult>
+    <ped_light_col_r>0.000 1.000</ped_light_col_r>
+    <ped_light_col_g>0.000 1.000</ped_light_col_g>
+    <ped_light_col_b>0.000 1.000</ped_light_col_b>
+    <ped_light_mult>0.000 1.000</ped_light_mult>
+    <reflection_hdr_mult>0.000 0.000</reflection_hdr_mult>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+  <modifier name="roxwood_cave_int_middle" numMods="10" userFlags="2">
+    <light_directional_amb_intensity_mult>0.000 0.000</light_directional_amb_intensity_mult>
+    <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+    <light_natural_amb_up_intensity_mult>0.000 0.000</light_natural_amb_up_intensity_mult>
+    <ped_light_col_r>0.000 1.000</ped_light_col_r>
+    <ped_light_col_g>0.000 1.000</ped_light_col_g>
+    <ped_light_col_b>0.000 1.000</ped_light_col_b>
+    <ped_light_mult>0.000 1.000</ped_light_mult>
+    <reflection_hdr_mult>0.000 0.000</reflection_hdr_mult>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+  <modifier name="roxwood_cave_int_entrance2" numMods="10" userFlags="2">
+    <light_directional_amb_intensity_mult>0.000 0.000</light_directional_amb_intensity_mult>
+    <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+    <light_natural_amb_up_intensity_mult>0.000 0.000</light_natural_amb_up_intensity_mult>
+    <ped_light_col_r>0.000 1.000</ped_light_col_r>
+    <ped_light_col_g>0.000 1.000</ped_light_col_g>
+    <ped_light_col_b>0.000 1.000</ped_light_col_b>
+    <ped_light_mult>0.000 1.000</ped_light_mult>
+    <reflection_hdr_mult>0.000 0.000</reflection_hdr_mult>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+  <modifier name="roxwood_cave_int_troll" numMods="10" userFlags="2">
+    <light_directional_amb_intensity_mult>0.000 0.000</light_directional_amb_intensity_mult>
+    <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+    <light_natural_amb_up_intensity_mult>0.000 0.000</light_natural_amb_up_intensity_mult>
+    <ped_light_col_r>0.000 1.000</ped_light_col_r>
+    <ped_light_col_g>0.000 1.000</ped_light_col_g>
+    <ped_light_col_b>0.000 1.000</ped_light_col_b>
+    <ped_light_mult>0.000 1.000</ped_light_mult>
+    <reflection_hdr_mult>0.000 0.000</reflection_hdr_mult>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+  <modifier name="roxwood_cave_int_bigfoot" numMods="10" userFlags="2">
+    <light_directional_amb_intensity_mult>0.000 0.000</light_directional_amb_intensity_mult>
+    <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+    <light_natural_amb_up_intensity_mult>0.000 0.000</light_natural_amb_up_intensity_mult>
+    <ped_light_col_r>0.000 1.000</ped_light_col_r>
+    <ped_light_col_g>0.000 1.000</ped_light_col_g>
+    <ped_light_col_b>0.000 1.000</ped_light_col_b>
+    <ped_light_mult>0.000 1.000</ped_light_mult>
+    <reflection_hdr_mult>0.000 0.000</reflection_hdr_mult>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+  <modifier name="roxwood_cave_int_bunker" numMods="10" userFlags="2">
+    <light_directional_amb_intensity_mult>0.000 0.000</light_directional_amb_intensity_mult>
+    <light_natural_amb_down_intensity>0.000 0.000</light_natural_amb_down_intensity>
+    <light_natural_amb_up_intensity_mult>0.000 0.000</light_natural_amb_up_intensity_mult>
+    <ped_light_col_r>0.000 1.000</ped_light_col_r>
+    <ped_light_col_g>0.000 1.000</ped_light_col_g>
+    <ped_light_col_b>0.000 1.000</ped_light_col_b>
+    <ped_light_mult>0.000 1.000</ped_light_mult>
+    <reflection_hdr_mult>0.000 0.000</reflection_hdr_mult>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+  <modifier name="amb_rox_02_int_beanmachine_yellowshityo" numMods="26" userFlags="0">
+    <light_dir_col_r>1.000 1.000</light_dir_col_r>
+    <light_dir_col_g>1.000 1.000</light_dir_col_g>
+    <light_dir_col_b>1.000 1.000</light_dir_col_b>
+    <light_amb_down_wrap>0.300 0.000</light_amb_down_wrap>
+    <light_artificial_int_down_col_r>0.922 1.000</light_artificial_int_down_col_r>
+    <light_artificial_int_down_col_g>0.824 1.000</light_artificial_int_down_col_g>
+    <light_artificial_int_down_col_b>0.435 1.000</light_artificial_int_down_col_b>
+    <light_artificial_int_down_intensity>2.000 0.000</light_artificial_int_down_intensity>
+    <light_artificial_int_up_col_r>0.925 1.000</light_artificial_int_up_col_r>
+    <light_artificial_int_up_col_g>0.580 1.000</light_artificial_int_up_col_g>
+    <light_artificial_int_up_col_b>0.090 1.000</light_artificial_int_up_col_b>
+    <light_artificial_int_up_intensity>0.500 0.000</light_artificial_int_up_intensity>
+    <ssao_inten>6.000 0.000</ssao_inten>
+    <postfx_bright_pass_thresh_width>0.500 0.000</postfx_bright_pass_thresh_width>
+    <postfx_bright_pass_thresh>0.500 0.000</postfx_bright_pass_thresh>
+    <postfx_intensity_bloom>1.000 0.000</postfx_intensity_bloom>
+    <dof_far>130.750 0.000</dof_far>
+    <dof_blur_far>0.700 0.000</dof_blur_far>
+    <fog_start>73.000 73.000</fog_start>
+    <fog_hdr>0.000 0.970</fog_hdr>
+    <fog_haze_hdr>0.000 0.970</fog_haze_hdr>
+    <far_clip>1200.000 1200.000</far_clip>
+    <temperature>28.000 0.000</temperature>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.500 0.000</artificial_int_ambient_multiplier>
+    <entity_reject>6000.000 0.000</entity_reject>
+  </modifier>
+  <modifier name="igro45_amb_rox_02_bsmansion_tc" numMods="29" userFlags="2">
+    <light_directional_amb_col_r>0.000 1.000</light_directional_amb_col_r>
+    <light_directional_amb_col_g>0.000 1.000</light_directional_amb_col_g>
+    <light_directional_amb_col_b>0.000 1.000</light_directional_amb_col_b>
+    <light_amb_down_wrap>0.000 0.000</light_amb_down_wrap>
+    <light_natural_push>-0.300 0.000</light_natural_push>
+    <light_artificial_int_down_col_r>0.875 1.000</light_artificial_int_down_col_r>
+    <light_artificial_int_down_col_g>0.910 1.000</light_artificial_int_down_col_g>
+    <light_artificial_int_down_col_b>1.144 1.000</light_artificial_int_down_col_b>
+    <light_artificial_int_down_intensity>0.500 0.000</light_artificial_int_down_intensity>
+    <light_artificial_int_up_col_r>1.000 1.000</light_artificial_int_up_col_r>
+    <light_artificial_int_up_col_g>0.859 1.000</light_artificial_int_up_col_g>
+    <light_artificial_int_up_col_b>0.875 1.000</light_artificial_int_up_col_b>
+    <light_artificial_int_up_intensity>0.600 0.000</light_artificial_int_up_intensity>
+    <postfx_exposure_min>-9.024 0.000</postfx_exposure_min>
+    <postfx_exposure_max>0.128 0.000</postfx_exposure_max>
+    <postfx_bright_pass_thresh_width>7.700 0.000</postfx_bright_pass_thresh_width>
+    <postfx_bright_pass_thresh>1.430 0.000</postfx_bright_pass_thresh>
+    <postfx_intensity_bloom>0.120 0.000</postfx_intensity_bloom>
+    <fog_start>73.000 73.000</fog_start>
+    <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
+    <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
+    <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
+    <reflection_slod_range_end>5.000 0.000</reflection_slod_range_end>
+    <reflection_tweak_directional>0.137 0.000</reflection_tweak_directional>
+    <reflection_hdr_mult>0.085 0.000</reflection_hdr_mult>
+    <far_clip>0.000 180.000</far_clip>
+    <temperature>20.000 0.000</temperature>
+    <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+    <artificial_int_ambient_multiplier>0.600 0.000</artificial_int_ambient_multiplier>
+  </modifier>
+    <modifier name="custom_amb_roxwood_gasstation_tc" numMods="33" userFlags="0">
+        <light_directional_amb_col_r>1.000 1.000</light_directional_amb_col_r>
+        <light_directional_amb_col_g>0.820 1.000</light_directional_amb_col_g>
+        <light_directional_amb_col_b>0.322 1.000</light_directional_amb_col_b>
+        <light_natural_amb_down_col_r>0.973 1.000</light_natural_amb_down_col_r>
+        <light_natural_amb_down_col_g>1.113 1.000</light_natural_amb_down_col_g>
+        <light_natural_amb_down_col_b>0.600 1.000</light_natural_amb_down_col_b>
+        <light_natural_amb_up_col_r>0.260 1.000</light_natural_amb_up_col_r>
+        <light_natural_amb_up_col_g>0.336 1.000</light_natural_amb_up_col_g>
+        <light_natural_amb_up_col_b>0.512 1.000</light_natural_amb_up_col_b>
+        <light_artificial_int_down_intensity>0.000 0.000</light_artificial_int_down_intensity>
+        <light_amb_occ_mult_ped>1.000 0.000</light_amb_occ_mult_ped>
+        <light_amb_volumes_in_diffuse>1.000 0.000</light_amb_volumes_in_diffuse>
+        <ssao_inten>7.000 0.000</ssao_inten>
+        <sun_direction_x>-0.180 0.000</sun_direction_x>
+        <sun_direction_y>-0.452 0.000</sun_direction_y>
+        <sun_direction_z>-0.076 0.000</sun_direction_z>
+        <postfx_bright_pass_thresh_width>0.460 0.000</postfx_bright_pass_thresh_width>
+        <postfx_bright_pass_thresh>1.000 0.000</postfx_bright_pass_thresh>
+        <postfx_intensity_bloom>0.005 0.000</postfx_intensity_bloom>
+        <environmental_blur_in>0.000 0.000</environmental_blur_in>
+        <environmental_blur_out>30.000 0.000</environmental_blur_out>
+        <environmental_blur_size>8.000 0.000</environmental_blur_size>
+        <dir_shadow_num_cascades>10.000 0.000</dir_shadow_num_cascades>
+        <dir_shadow_distance_multiplier>-0.500 0.000</dir_shadow_distance_multiplier>
+        <reflection_lod_range_start>-1.000 0.000</reflection_lod_range_start>
+        <reflection_lod_range_end>50.000 0.000</reflection_lod_range_end>
+        <reflection_slod_range_start>-1.000 0.000</reflection_slod_range_start>
+        <reflection_slod_range_end>-1.000 0.000</reflection_slod_range_end>
+        <reflection_interior_range>9.000 0.000</reflection_interior_range>
+        <reflection_tweak_interior_amb>2.000 1.000</reflection_tweak_interior_amb>
+        <far_clip>1500.000 600.000</far_clip>
+        <natural_ambient_multiplier>0.300 0.000</natural_ambient_multiplier>
+        <artificial_int_ambient_multiplier>0.000 0.000</artificial_int_ambient_multiplier>
+    </modifier>
+<modifier name="amb_rox_03_bds_tc" numMods="25" userFlags="0">
+        <light_directional_amb_col_r>0.000 1.000</light_directional_amb_col_r>
+        <light_directional_amb_col_g>0.000 1.000</light_directional_amb_col_g>
+        <light_directional_amb_col_b>0.000 1.000</light_directional_amb_col_b>
+        <light_amb_down_wrap>0.000 0.000</light_amb_down_wrap>
+        <light_natural_push>-0.300 0.000</light_natural_push>
+        <light_artificial_int_down_col_r>0.875 1.000</light_artificial_int_down_col_r>
+        <light_artificial_int_down_col_g>0.910 1.000</light_artificial_int_down_col_g>
+        <light_artificial_int_down_col_b>1.144 1.000</light_artificial_int_down_col_b>
+        <light_artificial_int_down_intensity>0.500 0.000</light_artificial_int_down_intensity>
+        <light_artificial_int_up_col_r>1.000 1.000</light_artificial_int_up_col_r>
+        <light_artificial_int_up_col_g>0.859 1.000</light_artificial_int_up_col_g>
+        <light_artificial_int_up_col_b>0.875 1.000</light_artificial_int_up_col_b>
+        <light_artificial_int_up_intensity>0.600 0.000</light_artificial_int_up_intensity>
+        <postfx_bright_pass_thresh_width>0.600 0.000</postfx_bright_pass_thresh_width>
+        <postfx_bright_pass_thresh>0.600 0.000</postfx_bright_pass_thresh>
+        <postfx_intensity_bloom>0.000 0.000</postfx_intensity_bloom>
+        <fog_start>73.000 73.000</fog_start>
+        <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
+        <reflection_lod_range_end>5.000 0.000</reflection_lod_range_end>
+        <reflection_slod_range_start>5.000 0.000</reflection_slod_range_start>
+        <reflection_slod_range_end>5.000 0.000</reflection_slod_range_end>
+        <far_clip>0.000 180.000</far_clip>
+        <temperature>20.000 0.000</temperature>
+        <natural_ambient_multiplier>0.000 0.000</natural_ambient_multiplier>
+        <artificial_int_ambient_multiplier>0.600 0.000</artificial_int_ambient_multiplier>
+    </modifier>
+    <modifier name="amb_rox07_wh_tc" numMods="30" userFlags="0">
+        <light_amb_down_wrap>0.400 0.000</light_amb_down_wrap>
+        <light_artificial_int_down_col_r>0.855 1.000</light_artificial_int_down_col_r>
+        <light_artificial_int_down_col_g>0.733 1.000</light_artificial_int_down_col_g>
+        <light_artificial_int_down_col_b>0.478 1.000</light_artificial_int_down_col_b>
+        <light_artificial_int_down_intensity>0.000 0.000</light_artificial_int_down_intensity>
+        <light_artificial_int_up_col_r>0.918 1.000</light_artificial_int_up_col_r>
+        <light_artificial_int_up_col_g>0.631 1.000</light_artificial_int_up_col_g>
+        <light_artificial_int_up_col_b>0.439 1.000</light_artificial_int_up_col_b>
+        <light_artificial_int_up_intensity>0.500 0.000</light_artificial_int_up_intensity>
+        <ped_light_col_r>1.000 1.000</ped_light_col_r>
+        <ped_light_col_g>0.761 1.000</ped_light_col_g>
+        <ped_light_col_b>0.502 1.000</ped_light_col_b>
+        <ped_light_mult>0.400 1.000</ped_light_mult>
+        <ssao_inten>3.000 0.000</ssao_inten>
+        <ssao_cp_strength>0.300 0.000</ssao_cp_strength>
+        <ssao_qs_strength>1.000 0.000</ssao_qs_strength>
+        <light_ped_rim_mult>0.300 0.000</light_ped_rim_mult>
+        <postfx_bright_pass_thresh_width>0.600 0.000</postfx_bright_pass_thresh_width>
+        <postfx_bright_pass_thresh>0.900 0.000</postfx_bright_pass_thresh>
+        <postfx_intensity_bloom>0.100 0.000</postfx_intensity_bloom>
+        <lens_artefacts_intensity>0.100 0.000</lens_artefacts_intensity>
+        <dir_shadow_distance_multiplier>0.200 0.000</dir_shadow_distance_multiplier>
+        <fogray_intensity>1.000 0.000</fogray_intensity>
+        <reflection_lod_range_start>0.000 0.000</reflection_lod_range_start>
+        <reflection_lod_range_end>-1.000 0.000</reflection_lod_range_end>
+        <reflection_slod_range_start>-1.000 0.000</reflection_slod_range_start>
+        <reflection_slod_range_end>-1.000 0.000</reflection_slod_range_end>
+        <reflection_tweak_interior_amb>0.000 0.000</reflection_tweak_interior_amb>
+        <natural_ambient_multiplier>0.200 0.000</natural_ambient_multiplier>
+        <artificial_int_ambient_multiplier>0.700 0.000</artificial_int_ambient_multiplier>
+    </modifier>
+</timecycle_modifier_data>

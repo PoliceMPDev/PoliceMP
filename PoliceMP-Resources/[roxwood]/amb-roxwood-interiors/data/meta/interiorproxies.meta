@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="2560" />
+  <proxies>
+	<Item>amb_rox_02_int_dikinbaus_marina_block_16_milo_</Item>
+	<Item>amb_rox_02_int_beanmachine_block_16_milo_</Item>
+	<Item>amb_rox_04_gasstation_int_placement_01_milo_</Item>
+  </proxies>
+</SInteriorOrderData>

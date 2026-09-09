@@ -1,0 +1,9 @@
+﻿﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+    <Item>
+      <parent>igro45_rox_03_int</parent>
+      <child>igro45_rox_03_int2</child>
+    </Item>
+  </txdRelationships>
+</CMapParentTxds>

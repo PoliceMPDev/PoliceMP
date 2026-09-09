@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+  <!-- bloxwudroxwud -->
+	<Item>
+      <parent>amb_rox_02_int_dikinbaus_txd</parent>
+      <child>amb_rox_02_int_dikinbaus_prop_doors_txd</child>
+    </Item>
+    <Item>
+      <parent>igro45_rox_03_int</parent>
+      <child>igro45_rox_03_int2</child>
+    </Item>
+	<Item>
+      <parent>amb_rox_gasstation_01_txd</parent>
+      <child>v_68_gas_txd</child>
+    </Item>
+  <Item>
+      <parent>amb_rox_gasstation_01_txd</parent>
+      <child>vb_28_detail</child>
+    </Item>
+  <!-- bloxwudroxwud -->
+  </txdRelationships>
+</CMapParentTxds>
