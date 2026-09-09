@@ -25,8 +25,6 @@ Knowledge of PowerShell is particularly useful if you intend to use, modify, or 
 
 ## Important
 
-Simply downloading the repository will not provide a working PoliceMP environment.
+Simply downloading the repository will not provide a working server.
+However require minimal skills to build one, this repo is particularly a "Big fuck off" to those fat and racist British cunts over at PoliceMP
 
-You are expected to understand how to inspect the solution, resolve dependencies, configure the required environment, build the projects, and troubleshoot any issues yourself.
-
-This repository is primarily useful to developers who already have experience working with C# codebases and related tooling.
