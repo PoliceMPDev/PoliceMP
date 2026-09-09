@@ -1,0 +1,8 @@
+Citizen.CreateThread(function()
+	AddTextEntry('WT_SIGMCX', 'Sig Sauer MCX')
+	AddTextEntry('WCT_mcx556', '5.56 Nato 30 round mag')
+	AddTextEntry('WCT_SUREFIRE_MCX', 'Surefire X300U Weapon Light')
+	AddTextEntry('WCT_SCOPE_REDDOT', 'Red Dot sight with 3x Magnifier')
+	AddTextEntry('WCT_VERTICAL_GRIP', 'Rifle Vertical Grip')
+	AddTextEntry('WCT_SUPP_COVERED', 'Covered Suppressor')
+end)

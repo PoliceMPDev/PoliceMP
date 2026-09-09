@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="rotate.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=T32tooyhcFkdh9wM8Hlhkay5yjZAjH7SMpaBiR89HO4uXAOfaDJKq4-pmUlGqARWOaBsRAe8RzjpDbq4wRGjp-zlV7JULkPXXkEQc-95tUH1qkdvIb_RkROrKlxWmkAlyKcDCwnryxpJR8GmlVPYgQfxkKCwIPPPA1Yq9G8H5jjOHfusHAYa3UdS-fn5cI4iTtWFt3swrxRPbd5qmhSufA" charset="UTF-8"></script><script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <div id="content">
+        <img src="images/heading.png" id="heading" class="rotate-0" />
+        <img src="images/heli.png" id="heli" class="aircraft" />
+        <img src="images/plane.png" id="plane" class="aircraft" />
+        <span id="headingNum"></span>
+
+        <img src="images/heading.png" id="tilt" class="rotate-90" />
+        <img src="images/cam.png" id="cam" />
+        <span id="tiltNum">000</span>
+
+        <img src="images/arrow.png" id="arrow" class="rotate-0" />
+        <span id="hdg">N</span>
+    </div>
+    <div class="text" id="instructions-container">
+        <table id="instruction">
+            <tr>
+                <th>Action</th>
+                <th>K&M</th>
+                <th>XBox</th>
+            </tr>
+            <tr>
+                <td>Toggles camera</td>
+                <td>E</td>
+                <td>Dpad Right</td>
+            </tr>
+            <tr>
+                <td>Cycle camera modes</td>
+                <td>RMB</td>
+                <td>B</td>
+            </tr>
+            <tr>
+                <td>Toggle entity lock</td>
+                <td>Spacebar</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Reset camera position</td>
+                <td>Q</td>
+                <td>Dpad Left</td>
+            </tr>
+            <tr>
+                <td>Place marker</td>
+                <td>X</td>
+                <td>L3</td>
+            </tr>
+            <tr>
+                <td>Remove last marker</td>
+                <td>H</td>
+                <td>R3</td>
+            </tr>
+            <tr>
+                <td>Toggle speed calculation</td>
+                <td>Tab</td>
+                <td>X</td>
+            </tr>
+            <tr>
+                <td>Toggle road overlay</td>
+                <td>V</td>
+                <td>Back</td>
+            </tr>
+            <tr>
+                <td>Toggle spotlight</td>
+                <td>F</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td colspan="3" id="credit"></td>
+            </tr>
+        </table>
+    </div>
+    <div class="alert text">
+        <p id="alert-text"></p>
+    </div>
+    <div class="info text">
+        <p id="info-text"></p>
+    </div>
+
+    <script src="script.js" type="text/javascript"></script>
+</body>
+</html>

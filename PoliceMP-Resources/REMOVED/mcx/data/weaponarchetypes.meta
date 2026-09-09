@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>		
+		<!-- ### rifles ### -->
+		<Item>
+			<modelName>w_ar_sig_mcx</modelName>
+			<txdName>w_ar_sig_mcx</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_ar_sig_mcx_mag1</modelName>
+			<txdName>w_ar_sig_mcx_mag1</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		
+		<!-- ### attachments ### -->
+		<Item>
+			<modelName>w_at_scope_reddot</modelName>
+			<txdName>w_at_scope_reddot</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_at_ar_vertgrip</modelName>
+			<txdName>w_at_ar_vertgrip</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_at_ar_surefire_mcx</modelName>
+			<txdName>w_at_ar_surefire_mcx</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		<Item>
+			<modelName>w_at_ar_supp_covered</modelName>
+			<txdName>w_at_ar_supp_covered</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="30"/>
+		</Item>
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
