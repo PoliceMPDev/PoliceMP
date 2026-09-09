@@ -1,0 +1,7 @@
+To make "bp Sandy" compatible with "MC Sandy Shores," remove these files from "MC Sandy Shores MLO."
+
+
+
+mc_sandy_shores\stream\mc_exterior\cs4_03_grass_0.ymap
+mc_sandy_shores\stream\mc_exterior\lr_cs4_03_critical_1.ymap
+mc_sandy_shores\stream\mc_exterior\lr_cs4_03_long_2.ymap

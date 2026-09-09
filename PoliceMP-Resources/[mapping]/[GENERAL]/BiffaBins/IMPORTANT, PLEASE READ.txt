@@ -1,0 +1,28 @@
+Hey, Thanks for actually reading... you're amazing!
+
+You can:
+	- Use this resource on your server (Public or Whitelisted)
+	- Rename the folder... its not a big deal
+	- Enjoy the resource
+
+You CAN NOT:
+	- Claim this resource as your own
+	- Sell or redistribute this product for any money or exchanges
+	- Reupload this resource without my direct permission
+
+============================
+
+HOW TO INSTALL:
+
+'tis very simple...
+
+Simply drop the folder called "BiffaBins" into your server resource folder & add the resource to your server startup, for example "ensure BiffaBins".
+
+
+============================
+
+
+If you enjoy this resource be sure to share the link with friends and why not join my server, learn more at https://axielpd.com
+
+This resource has only been uploaded to UnionMods. Copyright - Chicken#8969
+	
