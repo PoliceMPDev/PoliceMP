@@ -1,0 +1,9 @@
+#muteButton {
+  position: absolute;
+  left: 20%;
+  top: 85%;
+  background: transparent;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}

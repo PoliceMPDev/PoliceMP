@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      Loading Screen PoliceMP
+    </title>
+
+    <meta content="" name="description">
+    <meta content="" name="author">
+    <meta content="" name="keywords">
+    <meta content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, target-densitydpi=device-dpi" name="viewport">
+    <link href="css/bootstrap.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/style-dark.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/css.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" media="all" rel="stylesheet" type="text/css">
+    <link href="css/colors/yellow-2.css" media="screen" rel="stylesheet" title="yellow-2" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900%7CDosis:200,300,400,500,600,700,800%7COswald:300,400,700%7CMontserrat:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  </head>
+
+  <body>
+    <!--<div class="film-grain"></div>-->
+
+    <div id="preloader">
+      <div id="preloader-status">
+        <div class="preloader-position preloader-effect">
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div
+    class="hero-fullscreen hero-bg">
+      <div class="slide-YT hero-fullscreen">
+        <div class="slide bg-img-YT"></div>
+        <div id="videoContainment">
+          <iframe id="videoIframe" width="100%" height="100%" src="https://www.youtube.com/embed/CuPdXUMmZi4?enablejsapi=1&autoplay=1&loop=1&playlist=CuPdXUMmZi4&mute=0&controls=0&rel=0&showinfo=0&modestbranding=1" 
+          frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="preload-content"></div>
+    </div>
+
+    <div class="menu-trigger top-position" id="menu">
+      <button class="lines-button minus menu-toggle active lines-close" id="main-menu-caller" type="button"><span class="lines"></span></button>
+      <button id="muteButton" type="button"><span><i class="fas fa-volume-up"></i></span></button>
+    </div>
+
+    <svg id="cursor" width="20" height="20">
+      <defs>
+        <linearGradient id="gradient" x1="0" y1="0" x2="1" y2="1">
+          <stop offset="0%" stop-color="white"></stop>
+          <stop offset="100%" stop-color="white"></stop>
+        </linearGradient>
+      </defs>
+      <circle r="07" cx="10" cy="10" fill="none"></circle>
+      <line x1="0" y1="0" x2="20" y2="20"></line>
+      <line x1="0" y1="20" x2="20" y2="0"></line>
+    </svg>
+
+    <div id="ui-layer">
+      <div id="menu-wrapper">
+        <div id="main-menu" class="activated">
+          <div class="menu-nav-wrapper">
+            <nav class="menu-nav">
+              <ul class="brackets">
+                <li class="menu">
+                  <a class="menu-state active"
+                    href="#"
+                    id="fire-home" style="display: inline-block;">Home</a>
+                </li>
+                <li class="menu">
+                  <a class="menu-state" href="#" id="fire-services" style="display: inline-block;">Rules</a>
+                </li>
+                <li class="menu">
+                </li>
+                <li class="menu credits" style="display: inline-block;">
+                  <a href="#" style="display: inline-block;">PoliceMP.com</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="upper-page current"
+        id="home">
+
+      <div class="line-left left-position"></div>
+
+      <div class="line-right right-position">
+        <a href="#">PoliceMP.com</a>
+      </div>
+
+      <div class="transparent-borders OFF"></div>
+      <div class="center-container-home">
+
+        <div class="center-block-home">
+
+          <div class="upper-content">
+
+            <div class="container sections">
+
+              <div class="row">
+
+                <div class="fin-wrapper introduction">
+
+                  <div class="fin-slides-wrapper">
+                    <ul class="fin-slides">
+                      <li>
+                        <h3>
+                          Join our discord - Discord.PoliceMP.com
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          Please report any bugs on our forum! Forum.PoliceMP.com
+                        </h3>
+                      </li>
+                      <li>
+                        <h3>
+                          For support join our discord - Discord.PoliceMP.com
+                        </h3>
+                      </li>
+					  <li>
+                        <h3>
+                          Discord.PoliceMP.com
+                        </h3>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="fin-heading">
+                    <h1 class="fin-heading">
+                    PoliceMP
+                    </h1>
+                  </div>
+                  <div class="fin-subheading">
+                    &middot;PoliceMP.com&middot;
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lower-page"
+        id="services">
+
+      <div class="center-container">
+
+        <div class="center-block">
+
+          <div class="lower-content">
+
+            <div class="container sections">
+
+              <div class="row">
+                <h4>
+
+                </h4>
+                <h2>
+                  RULES & CONTROLS<span class="get-behind"></span>
+                </h2>
+              </div>
+
+              <div class="row">
+                <div class="dividerOT"></div>
+              </div>
+
+              <div class="services-columns">
+				<p style="text-align:center"> ALL RULES ON - POLICEMP.COM</p>
+                <div class="row">
+                  <div class="col-md-6 services-padding mb40">
+                    <h5>
+                      <span class="awesome">CONDUCT</span>
+                    </h5>
+                    <p>
+                       - <strong>Play Friendly</strong> - We expect all of our players to “play nice” when on the server. All of our players are expected to follow a friendly & respectful attitude.<br>
+
+					   <br>- <strong>Disrespectful or Discriminatory behaviour </strong>- Behaviour used to disrespect, discriminate against a person or persons, race, sexuality, etc. will not be tolerated in our community. Everybody should be treated equally regardless of race or views and people should not be disrespected.<br>
+
+					 <br> -  <strong>Role Playing</strong> - As this is a role playing server, we expect users to be able to roleplay. We give scripts and vehicles to use, but a certain level of imagination is required to make it entertaining for yourself and others. <br>
+
+					 <br> - <strong>Slander</strong> - We don’t tolerate slander in this community. We only expect accusations to be made against members of our community when the correct procedure is followed through complaints etc. <br>
+
+					 <br> - <strong>Spawning items</strong> - Players have the ability to spawn items such as traffic cones and barriers to aid in their day to day policing on the server. Placing them maliciously or placing them then disconnecting and failing to remove them is likely to result in punishment. You should also be considerate with your placement not to block any garages or public highways unless absoloutely required at the time.
+
+
+
+
+                    </p>
+                  </div>
+                  <div class="col-md-6 services-padding border-left-services mb40">
+                    <h5>
+                      <span class="awesome">GENERAL RULES</span>
+                    </h5>
+                    <p>
+                      - <strong>Driving in an appropriate manner </strong>- All officers are expected to drive in a legal and appropriate manner at all times unless responding to an emergency call, then should use correct driving methods depending on the situation. Officers are expected to show correct mannerisms whilst driving including slowing for junctions and preparing for AI or other players to potentially pull a dangerous move.<br>
+
+						<br> - <strong>Appropriate use of the taser </strong>- Officers should not discharge the taser unless absolutely required. Other methods of stopping a suspect should be explored before using the taser. It is also not allowed to use the taser on vehicles or other non-AI objects. Our staff team have a special taser that allows them to delete vehicles, you may see our teams using these.<br>
+
+						<br> - <strong>Staff Discretion</strong> - Those ranked moderator or administrator have the discretion to make decisions on punishments and have the final say on punishments against players. Our staff members are told to be fair and are given the same training to be lenient where it is at all possible to do so since we all make mistakes and need to learn somewhere!<br>
+
+						<br> - <strong>Rank respect</strong>  - It is expected for members of the force to respect their superiors, but it is also expected that superiors respect those working under them too. General respect throughout the force is a requirement.
+
+
+
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 services-padding border-top-services mt40">
+                    <h5>
+                      <span class="awesome"></span>
+                    </h5>
+                    <p>
+
+
+
+
+
+                    </p>
+                  </div>
+                  <div class="col-md-6 services-padding border-left-services border-top-services mt40">
+                    <h5>
+                      <span class="awesome"></span>
+                    </h5>
+                    <p>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="lower-page"
+        id="contact">
+
+      <div class="center-container">
+
+        <div class="center-block">
+
+          <div class="lower-content">
+
+            <div class="container sections">
+
+              <div class="row">
+                <h4>
+
+                </h4>
+                <h2>
+                  Rank Structure <span class="get-behind"></span>
+                </h2>
+              </div>
+
+              <div class="row">
+                <div class="dividerOT"></div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                  <span class="awesome-contact"><i class=""></i></span>
+                  <img src="img/structure.png" alt="Structure">
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js" type="text/javascript"></script>
+    <script src="js/plugins.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/mute.js" type="text/javascript"></script>
+  </body>
+</html>
