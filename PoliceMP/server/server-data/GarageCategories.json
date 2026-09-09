@@ -1,0 +1,1552 @@
+[
+    {
+        "categoryName": "Response",
+        "aceGroupsRequired": [],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Beep Doctor",
+        "aceGroupsRequired": [
+            "group.lasDoctor",
+            "group.beepDoc"
+
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Beep Paramedic",
+        "aceGroupsRequired": [
+            "group.beepDoc",
+            "nhs.paramedic"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "FRU",
+        "aceGroupsRequired": [
+            "group.fru"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "The Retro Pack",
+        "aceGroupsRequired": [
+            "group.jam"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Tac Ops DLC",
+        "aceGroupsRequired": [
+            "group.tacOpsDlc"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Electric DLC",
+        "aceGroupsRequired": [
+            "group.elecDlc"
+            
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Police Subscriber",
+        "aceGroupsRequired": [
+            "Don.pro"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "COUNTY LINES (DLC PACK)",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Mod Garage",
+        "aceGroupsRequired": [
+            "Police.modAuth"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Survive NHS",
+        "aceGroupsRequired": [
+            "group.survive"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "T2 Dev",
+        "aceGroupsRequired": [
+            "group.TierTwo"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Rural",
+        "aceGroupsRequired": [
+            "Police.rural"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "MCA (Ground)",
+        "aceGroupsRequired": [
+            "coast.guard"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "MCA (Air)",
+        "aceGroupsRequired": [
+            "coast.guard"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Area Response Unit",
+        "aceGroupsRequired": [
+            "Police.aro"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Emergency Response Team",
+        "aceGroupsRequired": [
+            "Police.whitelisted"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "TSG",
+        "aceGroupsRequired": [
+            "Police.tsg",
+            "Police.whitelisted"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Patrol Supervisor",
+        "aceGroupsRequired": [],
+        "optionalAceGroups": [
+            "Police.sergeant",
+            "Police.inspector",
+            "Police.chiefinspector",
+            "Police.superintendent",
+            "Police.chiefsuperintendent",
+            "Police.assistantcommissioner",
+            "Police.deputycommissioner",
+            "Police.commissioner",
+            "Police.adminAuth"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Content Creator",
+        "aceGroupsRequired": [
+            "Content.Creator"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Digital Team",
+        "aceGroupsRequired": [
+            "Digital.Team"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Base Vehicle's",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Roof Removal Cars",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Commercial",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Coupe",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Hatchback",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Motorbike",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Saloon",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Exotic",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - Tuned",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Civillian - SUV",
+        "aceGroupsRequired": [
+            "Civ.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "County Lines",
+        "aceGroupsRequired": [
+            "Don.basic"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "AFO",
+        "aceGroupsRequired": [
+            "Police.afoTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "AFO - DPG",
+        "aceGroupsRequired": [
+            "Police.afoTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "AFO - CTSFO/EXPO",
+        "aceGroupsRequired": [
+            "Police.afoTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "AFO Supervisor",
+        "aceGroupsRequired": [
+            "Police.afoTrained"
+        ],
+        "optionalAceGroups": [
+            "Police.sergeant",
+            "Police.inspector",
+            "Police.chiefinspector",
+            "Police.superintendent",
+            "Police.chiefsuperintendent",
+            "Police.assistantcommissioner",
+            "Police.deputycommissioner",
+            "Police.commissioner",
+            "Police.adminAuth",
+            "Retired"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "RTPC",
+        "aceGroupsRequired": [
+            "Police.rpuTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "RTPC SEG",
+        "aceGroupsRequired": [
+            "Police.rpuTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "RTPC Advanced",
+        "aceGroupsRequired": [
+            "Police.rpuTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "RTPC TPAC",
+        "aceGroupsRequired": [
+            "Police.rpuTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "RTPC Supervisor",
+        "aceGroupsRequired": [
+            "Police.rpuTrained"
+        ],
+        "optionalAceGroups": [
+            "Police.sergeant",
+            "Police.inspector",
+            "Police.chiefinspector",
+            "Police.superintendent",
+            "Police.chiefsuperintendent",
+            "Police.assistantcommissioner",
+            "Police.deputycommissioner",
+            "Police.commissioner",
+            "Police.adminAuth",
+            "Retired"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "CID",
+        "aceGroupsRequired": [
+            "Police.cidTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "CID Supervisor",
+        "aceGroupsRequired": [
+            "Police.cidTrained"
+        ],
+        "optionalAceGroups": [
+            "Police.sergeant",
+            "Police.inspector",
+            "Police.chiefinspector",
+            "Police.superintendent",
+            "Police.chiefsuperintendent",
+            "Police.assistantcommissioner",
+            "Police.deputycommissioner",
+            "Police.commissioner",
+            "Police.adminAuth"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Dog Section",
+        "aceGroupsRequired": [
+            "Police.dogTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Dog Supervisor",
+        "aceGroupsRequired": [
+            "Police.dogTrained"
+        ],
+        "optionalAceGroups": [
+            "Police.sergeant",
+            "Police.inspector",
+            "Police.chiefinspector",
+            "Police.superintendent",
+            "Police.chiefsuperintendent",
+            "Police.assistantcommissioner",
+            "Police.deputycommissioner",
+            "Police.commissioner",
+            "Police.adminAuth"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "BTP",
+        "aceGroupsRequired": [
+            "group.donBtp"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "BTP Supervisor",
+        "aceGroupsRequired": [
+            "Police.btpTrained"
+        ],
+        "optionalAceGroups": [
+            "Police.sergeant",
+            "Police.inspector",
+            "Police.chiefinspector",
+            "Police.superintendent",
+            "Police.chiefsuperintendent",
+            "Police.assistantcommissioner",
+            "Police.deputycommissioner",
+            "Police.commissioner",
+            "Police.adminAuth"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "City Police",
+        "aceGroupsRequired": [
+            "Don.colp"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Matrix Team",
+        "aceGroupsRequired": [
+            "group.matrix"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NPAS Helicopters",
+        "aceGroupsRequired": [
+            "Police.npasTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Charity Helicopters",
+        "aceGroupsRequired": [
+            "group.beepDoc",
+            "Police.npasTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NPAS Plane",
+        "aceGroupsRequired": [
+            "Police.npasTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NPAS",
+        "aceGroupsRequired": [
+            "Police.npasTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "MPU Boats",
+        "aceGroupsRequired": [
+            "Police.mpuTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "RNLI Boats",
+        "aceGroupsRequired": [
+            "Police.mpuTrained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NHS",
+        "aceGroupsRequired": [
+            "NHS.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Soho Fire",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Whitechapel Fire",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Whitechapel College",
+        "aceGroupsRequired": [
+            "Fire.Trained",
+            "Police.collegeStaff"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Southfields Fire",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Croydon Fire",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Croydon Mountain Rescue",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "East Ham Fire",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Fire Officer Vehicles",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [
+            "fire.stationCommander",
+            "fire.boroughCommander",
+            "fire.deputyCommissioner",
+            "fire.chiefCommissioner",
+            "fire.fireofficer"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "LFB Dev",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Romford Fire",
+        "aceGroupsRequired": [
+            "Fire.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Highways Agency",
+        "aceGroupsRequired": [
+            "HETO.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Highways Dev",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "WIP GARAGE (DO NOT SHOWCASE)",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Dev Garage",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "CIV Dev Garage",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Storage",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Retired",
+        "aceGroupsRequired": [
+            "Retired"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "College Staff",
+        "aceGroupsRequired": [
+            "Police.collegeStaff"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NHS Managment",
+        "aceGroupsRequired": [
+            "nhs.sectionleader"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "HEMS Ground Team",
+        "aceGroupsRequired": [
+            "nhs.hems"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "HEMS Team Leader",
+        "aceGroupsRequired": [
+            "nhs.hemsTL"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Clinical Response Team",
+        "aceGroupsRequired": [
+            "nhs.paramedic"
+            
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Clinical Student Team",
+        "aceGroupsRequired": [
+            "nhs.lasStudent"
+            
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Beep Student Paramedic",
+        "aceGroupsRequired": [
+            "group.beepDoc",
+            "nhs.lasStudent"
+            
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Clinical Response TL",
+        "aceGroupsRequired": [
+            "nhs.clinicalTL"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "LAS Doctor",
+        "aceGroupsRequired": [
+            "group.lasDoctor"
+        ],
+        "optionalAceGroups": [
+            "nhs.clinicalADV",
+            "nhs.paramedic"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "LAS Advanced Para",
+        "aceGroupsRequired": [
+            "nhs.clinicalADV"
+        ],
+        "optionalAceGroups": [
+            "nhs.paramedic"
+        ],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "HART - Heathrow",
+        "aceGroupsRequired": [
+            "nhs.hart"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+        {
+        "categoryName": "HART SORT - Heathrow",
+        "aceGroupsRequired": [
+            "nhs.hart"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "St John's Ambulance",
+        "aceGroupsRequired": [],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NHS Blood Team",
+        "aceGroupsRequired": [
+            "don.blood"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "JRU",
+        "aceGroupsRequired": [
+            "trained.jru"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "NHS Dev",
+        "aceGroupsRequired": [
+            "Police.developer"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "Trailers",
+        "aceGroupsRequired": [
+            "HETO.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "AA Garage",
+        "aceGroupsRequired": [
+            "HETO.Trained"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    },
+    {
+        "categoryName": "FIM Garage",
+        "aceGroupsRequired": [
+            "control.fim"
+        ],
+        "optionalAceGroups": [],
+        "vehicles": [
+            {
+                "vehicleName": "dummy",
+                "vehicleClass": "dummy",
+                "garageCategory": [
+                    "dummy"
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,133 @@
+﻿{
+	"GarageEntry": [{
+		"Name": "Police Garage",
+		"Description": "Access Police Garage",
+		"MarkerLocation": {
+			"X": 458.50,
+			"Y": -1008,
+			"Z": 27,
+			"Heading": 0
+		},
+		"OutsideLocation": {
+			"X": 457.20,
+			"Y": -1012.43,
+			"Z": 28.34,
+			"Heading": 130
+		}
+	}],
+	"GarageSpawns": [{
+			"Guid": "a8fbef07-4fba-45bc-b4a3-152ef60e9076",
+			"Heading": 235,
+			"PlayerLocation": {
+				"X": 405.93,
+				"Y": -978.19,
+				"Z": -99.5,
+				"Heading": 90
+			}
+		},
+		{
+			"Guid": "3fbd44df-48cc-424b-bfb8-550146343971",
+			"Heading": 235,
+			"PlayerLocation": {
+				"X": 404.18,
+				"Y": -971.79,
+				"Z": -99.5,
+				"Heading": 90
+			}
+		},
+		{
+			"Guid": "68298ac5-5a76-437f-81d8-5101daa2b2d8",
+			"Heading": 235,
+			"PlayerLocation": {
+				"X": 405.28,
+				"Y": -965.40,
+				"Z": -99.5,
+				"Heading": 90
+			}
+		},
+		{
+			"Guid": "a58e042f-5aa0-4270-80bd-e0fd363d4a94",
+			"Heading": 235,
+			"PlayerLocation": {
+				"X": 405.01,
+				"Y": -959.83,
+				"Z": -99.5,
+				"Heading": 90
+			}
+		},
+		{
+			"Guid": "69d611eb-75b7-4c2f-8757-a5a8753b32a4",
+			"Heading": 43.50,
+			"PlayerLocation": {
+				"X": 407,
+				"Y": -975.99,
+				"Z": -99.5,
+				"Heading": 266
+			}
+		}
+	],
+	"OutsideSpawns": [{
+			"Guid": "5135de0e-1a3c-40b6-928c-06b3f7903092",
+			"Location": {
+				"X": 454.49,
+				"Y": -1019.94,
+				"Z": 27.97,
+				"Heading": 90
+			}
+		},
+		{
+			"Guid": "2a5e85b3-b040-4087-b6fe-34c1d9149214",
+			"Location": {
+				"X": 431.38,
+				"Y": -997.7,
+				"Z": 25.76,
+				"Heading": 180
+			}
+		},
+		{
+			"Guid": "5371cfaf-0734-4262-85c6-b8d17f4ef7d3",
+			"Location": {
+				"X": 436.35,
+				"Y": -997.62,
+				"Z": 25.76,
+				"Heading": 180
+			}
+		},
+		{
+			"Guid": "d454f25e-35f9-4d6c-a2ab-34dac49304da",
+			"Location": {
+				"X": 447.41,
+				"Y": -997.6,
+				"Z": 25.76,
+				"Heading": 180
+			}
+		},
+		{
+			"Guid": "0c669b03-6d08-4546-97af-a166ff5d1d48",
+			"Location": {
+				"X": 452.48,
+				"Y": -997.6,
+				"Z": 25.76,
+				"Heading": 180
+			}
+		},
+		{
+			"Guid": "5e170859-d1dc-4f77-a381-0868737a39a9",
+			"Location": {
+				"X": 462.69,
+				"Y": -1014.92,
+				"Z": 28.07,
+				"Heading": 90
+			}
+		},
+		{
+			"Guid": "739cd120-7995-47cb-9ada-cd204f73ec42",
+			"Location": {
+				"X": 462.9,
+				"Y": -1019.68,
+				"Z": 28.07,
+				"Heading": 90
+			}
+		}
+	]
+}

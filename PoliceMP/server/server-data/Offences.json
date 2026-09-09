@@ -1,0 +1,772 @@
+[
+  {
+    "Category": "Endorsable",
+    "Name": "Exceeding the speed limit of 30mph",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Exceeding the speed limit of 40mph",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Exceeding the speed limit of 50mph",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Exceeding the speed limit of 60mph",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Exceeding the speed limit of 70mph",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without valid insurance",
+    "Points": "6",
+    "Fine": "300",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Running a red traffic light",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Defective exhaust",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to wear a seatbelt",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Lack of a valid excise licence (TAX)",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Using a mobile phone while driving",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving under the influence of alcohol (DUI)",
+    "Points": "12",
+    "Fine": "500",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to give way at a roundabout",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Dangerous overtaking",
+    "Points": "6",
+    "Fine": "300",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without a valid MOT certificate",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without a valid driving license",
+    "Points": "6",
+    "Fine": "300",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Speeding in a school zone",
+    "Points": "6",
+    "Fine": "250",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Ignoring a pedestrian crossing",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without valid road tax",
+    "Points": "3",
+    "Fine": "120",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving on the wrong side of the road",
+    "Points": "6",
+    "Fine": "250",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failing to yield to emergency vehicles",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Illegal parking in a handicap spot",
+    "Points": "6",
+    "Fine": "250",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving with expired vehicle registration",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to yield to a pedestrian at a zebra crossing",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without proper child car seats",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without valid vehicle registration plates",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving without functioning brake lights",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  }, 
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective exhaust system",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective lights (e.g., headlights, taillights)",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Failure to wear seatbelt",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Failure to notify change of ownership",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No valid MOT certificate",
+    "Points": "0",
+    "Fine": "1000",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No valid excise license (TAX)",
+    "Points": "0",
+    "Fine": "80",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Overtaking where prohibited",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective brakes",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective steering",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective tires (tread depth below legal limit)",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Obstructed number plate",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Driving in the wrong direction",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Driving off the carriageway (off-road)",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Making an illegal U-turn",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Illegal stop on the hard shoulder",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective horn",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No working windshield wipers",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Excessive vehicle emissions",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Missing rearview mirrors",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective windshield (cracks or damage)",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No functional speedometer",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No working indicators/blinkers",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Broken side mirrors",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective fuel gauge",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Excessive vehicle rust/corrosion",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No functional speed bumps warning sign",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Defective handbrake",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "Broken emergency lights",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Non-Endorsable",
+    "Name": "No working hazard lights",
+    "Points": "0",
+    "Fine": "50",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Urinate/Defecate in a Public Place",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Being drunk and incapable in a public place",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Being under the influence of drugs in a public place",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Breach of the Peace",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Drinking in a public place",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Malicious Mischief",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Littering",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Shoplifting",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Public Nuisance (e.g., loud music)",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Graffiti/Vandalism",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Disorderly Conduct",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Harassment or Verbal Abuse in Public",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Trespassing on Private Property",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Public Intoxication",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Loitering with Intent to Commit a Crime",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Street Racing",
+    "Points": "0",
+    "Fine": "100",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Public Indecency (e.g., exposure)",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Disturbing the Peace (e.g., loud parties)",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Criminal Mischief",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Public Drunkenness",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Cursing/Abusive Language in Public",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Aggressive Panhandling/Begging",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Public Gambling",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Trespassing in Parks or Closed Areas",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Loud Vehicle Noise/Exhaust",
+    "Points": "0",
+    "Fine": "40",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Aggressive Behavior in Public (e.g., road rage)",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Engaging in Public Fights",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Prostitution/Solicitation in Public",
+    "Points": "0",
+    "Fine": "60",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Overloaded vehicle (exceeding weight limits)",
+    "Points": "6",
+    "Fine": "500",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Exceeding maximum vehicle dimensions",
+    "Points": "6",
+    "Fine": "400",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Carrying hazardous materials without proper documentation",
+    "Points": "6",
+    "Fine": "600",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to properly secure cargo/load",
+    "Points": "3",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving a commercial vehicle without a valid operator's license",
+    "Points": "6",
+    "Fine": "500",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to display required commercial vehicle markings/signs",
+    "Points": "3",
+    "Fine": "150",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Using a commercial vehicle for unauthorized purposes",
+    "Points": "6",
+    "Fine": "400",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving a commercial vehicle without proper insurance",
+    "Points": "6",
+    "Fine": "600",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to stop at a weigh station when required",
+    "Points": "3",
+    "Fine": "150",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Commercial vehicle not equipped with required safety devices",
+    "Points": "3",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to report commercial vehicle defects",
+    "Points": "3",
+    "Fine": "150",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Operating a commercial vehicle without proper authorization",
+    "Points": "6",
+    "Fine": "500",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Overloaded trailer (exceeding weight limits)",
+    "Points": "6",
+    "Fine": "500",
+    "SeizeVehicle": "True"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Failure to properly maintain commercial vehicle records",
+    "Points": "3",
+    "Fine": "150",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Endorsable",
+    "Name": "Driving a commercial vehicle without proper documentation",
+    "Points": "6",
+    "Fine": "400",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Excessive Vehicle Noise/Exhaust",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Playing Loud Music from a Vehicle",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Reckless Driving in Residential Areas",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Continuous Horn Honking in Quiet Zones",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Excessive Idling of Vehicle in Residential Areas",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Frequent and Unnecessary Use of Vehicle Alarms",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Uncontrolled Car Modification Resulting in Excessive Noise",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Persistent Vehicle Vandalism (e.g., keying cars)",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Continuous Public Nuisance with Vehicle Sound Systems",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Excessive Vehicle Exhaust Emissions (smoke, pollution)",
+    "Points": "3",
+    "Fine": "100",
+    "SeizeVehicle": "False"
+  },
+  {
+    "Category": "Anti-Social",
+    "Name": "Driving Unregistered Off-Road Vehicles in Residential Areas",
+    "Points": "6",
+    "Fine": "200",
+    "SeizeVehicle": "False"
+  }
+]

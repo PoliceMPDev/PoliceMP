@@ -1,0 +1,41 @@
+version: '2'
+services:
+  db:
+    restart: always
+    image: postgres:12
+    volumes:
+      - /var/fider/pg_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_USER: fider
+      POSTGRES_PASSWORD: s0m3g00dp4ssw0rd
+  app:
+    restart: always
+    image: getfider/fider:stable
+    ports:
+      - "80:3000"
+    environment:
+      # Public Host Name
+      HOST_DOMAIN: feedback.yoursite.com
+
+      # Connection string to the PostgreSQL database
+      DATABASE_URL: postgres://fider:s0m3g00dp4ssw0rd@db:5432/fider?sslmode=disable
+
+      # Generate a 512-bit secret here https://www.allkeysgenerator.com/Random/Security-Encryption-Key-Generator.aspx
+      JWT_SECRET: v8y/B?D(G+KbPeShVmYq3t6w9z$C&F)H@McQfTjWnZr4u7x!A%D*G-KaNdRgUkXp
+
+      # From which account e-mails will be sent
+      EMAIL_NOREPLY: noreply@policemp.com
+
+      ###
+      # EMAIL
+      # Either EMAIL_MAILGUN_* or EMAIL_SMTP_* is required
+      ###
+
+      # EMAIL_MAILGUN_API: key-yourkeygoeshere
+      # EMAIL_MAILGUN_DOMAIN: yourdomain.com
+
+      # EMAIL_SMTP_HOST: smtp.yourdomain.com
+      # EMAIL_SMTP_PORT: 587
+      # EMAIL_SMTP_USERNAME: user@yourdomain.com
+      # EMAIL_SMTP_PASSWORD: s0m3p4ssw0rd
+      # EMAIL_SMTP_ENABLE_STARTTLS: 'true'

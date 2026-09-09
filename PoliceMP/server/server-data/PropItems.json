@@ -1,0 +1,1554 @@
+[
+  {
+    "propName": "Cone 1 (5 MPH)",
+    "propFile": "prop_mp_cone_01",
+    "propCategories": [
+      "Cones"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Cone Line [5] (5 MPH)",
+    "propFile": "cone5",
+    "propCategories": [
+      "Cones"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Cone Line [10] (5 MPH)",
+    "propFile": "cone10",
+    "propCategories": [
+      "Cones"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Cone 2 (Stop)",
+    "propFile": "prop_roadcone01a",
+    "propCategories": [
+      "Cones"
+    ],
+    "propSpeedRestriction": 0
+  },
+  {
+    "propName": "Cone 3 (Stop)",
+    "propFile": "prop_mp_cone_04",
+    "propCategories": [
+      "Cones"
+    ],
+    "propSpeedRestriction": 0
+  },
+  {
+    "propName": "Police Slow (5 MPH)",
+    "propFile": "police_slow",
+    "propCategories": [
+      "Signs"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Police Accident (5 MPH)",
+    "propFile": "police_accident",
+    "propCategories": [
+      "Signs"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Incident Slow (5 MPH)",
+    "propFile": "incident_slow",
+    "propCategories": [
+      "Signs"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Police Use Hard Shoulder (5 MPH)",
+    "propFile": "police_use_hard_shouler",
+    "propCategories": [
+      "Signs"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Road Closed Sign (0 MPH)",
+    "propFile": "prop_police_road_closed",
+    "propCategories": [
+      "Signs"
+    ],
+    "propSpeedRestriction": 0
+  },
+  {
+    "propName": "Speed Enforcement Sign",
+    "propFile": "prop_speed_enforcement",
+    "propCategories": [
+      "Signs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Speed Limit 5 MPH",
+    "propFile": "prop_sign_road_06b",
+    "propCategories": [
+      "Speed Signs"
+    ],
+    "propSpeedRestriction": 5
+  },
+  {
+    "propName": "Speed Limit 20 MPH",
+    "propFile": "prop_sign_road_06c",
+    "propCategories": [
+      "Speed Signs"
+    ],
+    "propSpeedRestriction": 20
+  },
+  {
+    "propName": "Speed Limit 30 MPH",
+    "propFile": "prop_sign_road_06d",
+    "propCategories": [
+      "Speed Signs"
+    ],
+    "propSpeedRestriction": 30
+  },
+  {
+    "propName": "Speed Limit 40 MPH",
+    "propFile": "prop_sign_road_06e",
+    "propCategories": [
+      "Speed Signs"
+    ],
+    "propSpeedRestriction": 40
+  },
+  {
+    "propName": "Speed Limit 50 MPH",
+    "propFile": "prop_sign_road_06f",
+    "propCategories": [
+      "Speed Signs"
+    ],
+    "propSpeedRestriction": 50
+  },
+  {
+    "propName": "Tent",
+    "propFile": "prop_skid_tent_cloth",
+    "propCategories": [
+      "CID"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "CID Tent",
+    "propFile": "CIDTent",
+    "propCategories": [
+      "CID"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Black Target",
+    "propFile": "gr_prop_gr_target_05a",
+    "propCategories": [
+      "AFO"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "White Target",
+    "propFile": "gr_prop_gr_target_05b",
+    "propCategories": [
+      "AFO"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Worklight - Reflector",
+    "propFile": "prop_worklight_01a",
+    "propCategories": [
+      "Worklights"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Worlight - Tall",
+    "propFile": "prop_worklight_04c",
+    "propCategories": [
+      "Worklights"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Worklight - Small",
+    "propFile": "prop_worklight_04d",
+    "propCategories": [
+      "Worklights"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Triage Mat - P1 Emergency",
+    "propFile": "triage_mat1",
+    "propCategories": [
+      "NHS"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Triage Mat - P2 Urgent",
+    "propFile": "triage_mat2",
+    "propCategories": [
+      "NHS"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Triage Mat - P3 Delayed",
+    "propFile": "triage_mat3",
+    "propCategories": [
+      "NHS"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Triage Mat - P4 Dead",
+    "propFile": "triage_mat4",
+    "propCategories": [
+      "NHS"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Body Parts",
+    "propFile": "v_ilev_body_parts",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Mummy Corpse",
+    "propFile": "prop_water_corpse_01",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Mummy Corpse 2",
+    "propFile": "prop_water_corpse_02",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Fat Male Corpse",
+    "propFile": "xm_prop_x17_corpse_01",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Fat Male Corpse 2",
+    "propFile": "xm_prop_x17_corpse_02",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Skinny Male",
+    "propFile": "xm_prop_x17_corpse_03",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Body Bag",
+    "propFile": "ch_prop_ch_morgue_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Female Body 1",
+    "propFile": "vw_prop_vw_ped_hooker_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Male Body 1",
+    "propFile": "vw_prop_vw_ped_business_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Male Body 2",
+    "propFile": "vw_prop_vw_ped_hillbilly_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Male Body 3",
+    "propFile": "vw_prop_vw_ped_epsilon_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Severed Arm",
+    "propFile": "ch_prop_collectibles_limb_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Skeleton",
+    "propFile": "reh_prop_reh_skeleton_01a",
+    "propCategories": [
+      "CIV - Bodies"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Knife",
+    "propFile": "prop_knife",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Military Crate",
+    "propFile": "prop_mil_crate_01",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bio Hazard Crate",
+    "propFile": "ba_prop_battle_crate_biohazard_bc",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Military Pallet",
+    "propFile": "gr_prop_gr_crates_weapon_mix_01a",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Weapon Parts",
+    "propFile": "gr_prop_gr_rsply_crate01a",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Open Weapons Crate",
+    "propFile": "ch_prop_ch_crate_full_01a",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Sniper Rifle Case",
+    "propFile": "p_gcase_s",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bloody Machete",
+    "propFile": "ch_prop_ch_bloodymachete_01a",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cash Pallet",
+    "propFile": "v_corp_cashpack",
+    "propCategories": [
+      "CIV - Cash"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Open Cash Case",
+    "propFile": "prop_cash_case_01",
+    "propCategories": [
+      "CIV - Cash"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cash Pile",
+    "propFile": "prop_cash_pile_02",
+    "propCategories": [
+      "CIV - Cash"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Scattered Cash",
+    "propFile": "bkr_cash_scatter_02",
+    "propCategories": [
+      "CIV - Cash"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Rolls of Cash",
+    "propFile": "bkr_prop_bkr_cash_roll_01",
+    "propCategories": [
+      "CIV - Cash"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Drug Package",
+    "propFile": "prop_drug_package",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Blue Drug Package",
+    "propFile": "prop_mp_drug_pack_blue",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Stack of Drug Packages",
+    "propFile": "ex_office_swag_drugbag2",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Open Drug Case",
+    "propFile": "hei_prop_hei_drug_case",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Weed Plant Medium",
+    "propFile": "bkr_prop_weed_med_01a",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Weed Plant Large",
+    "propFile": "bkr_prop_weed_lrg_01b",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Weed Table",
+    "propFile": "bkr_prop_weed_table_01a",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Weed Scale",
+    "propFile": "bkr_prop_weed_scales_01b",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cocaine Scale",
+    "propFile": "bkr_prop_coke_scale_01",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Syringe",
+    "propFile": "ng_proc_syrnige01a",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Joint",
+    "propFile": "p_amb_joint_01",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Line of Coke",
+    "propFile": "p_cs_coke_line_s",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Case - Open",
+    "propFile": "prop_security_case_02",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Case - Closed",
+    "propFile": "prop_security_case_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "CCTV Pole 1",
+    "propFile": "prop_cctv_pole_02",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "CCTV Pole 2",
+    "propFile": "prop_cctv_pole_03",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hotdog Van",
+    "propFile": "prop_food_van_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Food Van",
+    "propFile": "prop_food_van_02",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hotdog Stand",
+    "propFile": "prop_hotdogstand_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Coffee Trailer",
+    "propFile": "p_ld_coffee_vend_s",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Goods Pallet",
+    "propFile": "v_ind_meatdogpack",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Homeless Setup",
+    "propFile": "prop_homeles_shelter_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Dinghy",
+    "propFile": "prop_byard_dingy",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Kayak",
+    "propFile": "prop_kayak_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Rowboat",
+    "propFile": "h4_prop_h4_rowboat_01a",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hunter's Hut",
+    "propFile": "prop_hunterhide",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Set Light Upward",
+    "propFile": "prop_kino_light_01",
+    "propCategories": [
+      "Media"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Set Light Downward",
+    "propFile": "prop_kino_light_02",
+    "propCategories": [
+      "Media"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Studio Reflector Lights (4)",
+    "propFile": "prop_studio_light_01",
+    "propCategories": [
+      "Media"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Studio Reflector Light (1)",
+    "propFile": "prop_studio_light_02",
+    "propCategories": [
+      "Media"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Studio Reflector Light - Umb",
+    "propFile": "prop_studio_light_03",
+    "propCategories": [
+      "Media"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Path Barrier",
+    "propFile": "prop_barrier_work01a",
+    "propCategories": [
+      "Barriers"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Privacy Barrier",
+    "propFile": "c1m_privacybarrier",
+    "propCategories": [
+      "NHS"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Metal Barrier",
+    "propFile": "ba_prop_battle_barrier_02a",
+    "propCategories": [
+      "Barriers"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Concrete Barrier",
+    "propFile": "prop_mp_barrier_01",
+    "propCategories": [
+      "Barriers"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Red Carpet Barrier",
+    "propFile": "vw_prop_vw_barrier_rope_01a",
+    "propCategories": [
+      "Barriers"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Start Finish Line",
+    "propFile": "prop_start_gate_01b",
+    "propCategories": [
+      "Events"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Green Screen",
+    "propFile": "prop_ld_greenscreen_01",
+    "propCategories": [
+      "Media"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Worklight - Reflector floor",
+    "propFile": "prop_worklight_02a",
+    "propCategories": [
+      "Worklights"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Large Dougle Reflector 1",
+    "propFile": "ch_prop_ch_tunnel_worklight",
+    "propCategories": [
+      "Worklights"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Large Dougle Reflector 2",
+    "propFile": "tr_prop_tr_worklight_03b",
+    "propCategories": [
+      "Worklights"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "BA Board",
+    "propFile": "prop_ba",
+    "propCategories": [
+      "Fire"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Body Bag",
+    "propFile": "xm_prop_body_bag",
+    "propCategories": [
+      "CID"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tyre 1",
+    "propFile": "v_ind_cm_tyre05",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tyre 2",
+    "propFile": "v_ind_cm_tyre06",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tyre 3",
+    "propFile": "v_ind_cm_tyre07",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tyre Spike",
+    "propFile": "prop_tyre_spike_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bale",
+    "propFile": "v_ind_rc_balec1",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hay Bale",
+    "propFile": "prop_haybale_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hay Bale - Round",
+    "propFile": "prop_haybale_03",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bin Bag - Round",
+    "propFile": "prop_ld_binbag_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bin Bag - Normal",
+    "propFile": "prop_ld_rub_binbag_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bag - Paper Food",
+    "propFile": "v_ret_fh_bsbag",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bag - Carrier",
+    "propFile": "prop_poly_bag_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Pallet",
+    "propFile": "prop_pallet_01a",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Barrel - Metal",
+    "propFile": "prop_barrel_exp_01c",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Barrel - Wood",
+    "propFile": "prop_wooden_barrel",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tool Box",
+    "propFile": "v_ind_cs_toolbox2",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hard Shell Case",
+    "propFile": "w_am_case",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Briefcase",
+    "propFile": "w_am_brfcase",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Duffel Bag",
+    "propFile": "v_ind_rc_workbag",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Brown Duffel Bag",
+    "propFile": "v_ret_ps_bag_02",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Black Suitcase",
+    "propFile": "prop_suitcase_01",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Red Suitcase",
+    "propFile": "prop_suitcase_01c",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "White Suitcase",
+    "propFile": "prop_ld_suitcase_02",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "White Suitcase 2",
+    "propFile": "prop_luggage_01a",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hiking Backpack",
+    "propFile": "prop_luggage_09a",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Backpack",
+    "propFile": "p_michael_backpack_s",
+    "propCategories": [
+      "CIV - Bags"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Fake Driver's License Box",
+    "propFile": "bkr_prop_fakeid_boxdriverl_01a",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Fake Passport Box",
+    "propFile": "bkr_prop_fakeid_boxpassport_01a",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Drug Table",
+    "propFile": "v_ret_ml_tableb",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Discarded T-shirt",
+    "propFile": "prop_ld_tshirt_02",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Charred Wood",
+    "propFile": "ch_chint02_hobo_stove",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bloodied Shirt",
+    "propFile": "m23_2_prop_m32_torncloth_01a",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "USB Drive 1",
+    "propFile": "ch_prop_ch_usb_drive01x",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "USB Drive 2",
+    "propFile": "hei_prop_hst_usb_drive",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Blueprint",
+    "propFile": "tr_prop_tr_blueprt_01a",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Documentation 1",
+    "propFile": "sum_prop_ac_papers_01a",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Documentation 2",
+    "propFile": "xm3_prop_xm3_pola_m8_corkb",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Shotgun Shell",
+    "propFile": "w_sg_sweeper_mag1",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Single Bullet",
+    "propFile": "v_ret_gc_bullet",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tooth",
+    "propFile": "prop_ld_tooth",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Deer Body (Hunting Scenes)",
+    "propFile": "m23_2_prop_m32_deercarcass_01a",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Blood Pool",
+    "propFile": "p_finale_bld_pool_s",
+    "propCategories": [
+      "CIV - Crime Scenes"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Generator",
+    "propFile": "prop_generator_03a",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Generator 2",
+    "propFile": "prop_generator_01a",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Concrete Mixer",
+    "propFile": "prop_cementmixer_01a",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Roller",
+    "propFile": "prop_glf_roller",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bailer",
+    "propFile": "prop_roundbailer01",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Sprayer",
+    "propFile": "prop_sprayer",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Spreader",
+    "propFile": "prop_side_spreader",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Wheelbarrow",
+    "propFile": "prop_wheelbarrow01a",
+    "propCategories": [
+      "CIV - Construction/Agro"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Money Bag",
+    "propFile": "prop_poly_bag_money",
+    "propCategories": [
+      "CIV - Cash"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Construction Barrier",
+    "propFile": "prop_barrier_work02a",
+    "propCategories": [
+      "Barriers"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bin Bag 3",
+    "propFile": "prop_cs_rub_binbag_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Paper Bag 3",
+    "propFile": "prop_paper_bag_01",
+    "propCategories": [
+      "CIV - Debris"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cocaine Baggie",
+    "propFile": "prop_meth_bag_01",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cannabis Baggie",
+    "propFile": "xm3_prop_xm3_bag_weed_01a",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Small Drug Package",
+    "propFile": "prop_drug_package_02",
+    "propCategories": [
+      "CIV - Drugs"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Pallet Of Boxes 1",
+    "propFile": "prop_boxpile_04a",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Pallet Of Boxes 2",
+    "propFile": "prop_boxpile_06b",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Plastic Box",
+    "propFile": "prop_weed_tub_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cardboard Box 1",
+    "propFile": "prop_cs_cardbox_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Cardboard Box 2",
+    "propFile": "ng_proc_box_01a",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Metal Chair",
+    "propFile": "prop_chair_01a",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Folding Chair",
+    "propFile": "prop_skid_chair_02",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Laptop OPEN",
+    "propFile": "prop_laptop_lester",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Laptop CLOSED",
+    "propFile": "prop_laptop_02_closed",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Phone ON",
+    "propFile": "p_cs_cam_phone",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Phone OFF",
+    "propFile": "prop_npc_phone",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Camera",
+    "propFile": "prop_pap_camera_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Brick Phone",
+    "propFile": "prop_prologue_phone",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Money Counter",
+    "propFile": "bkr_prop_money_counter",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Tripod Light",
+    "propFile": "xm_prop_base_tripod_lampa",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Camper Bed",
+    "propFile": "bkr_prop_biker_campbed_01",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Corrosive Acid",
+    "propFile": "bkr_prop_meth_hcacid",
+    "propCategories": [
+      "CIV - Misc"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Explosive Box SENIOR CIV ONLY",
+    "propFile": "prop_box_ammo03a",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "C4 SENIOR CIV ONLY",
+    "propFile": "w_ex_pe",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Grenade SENIOR CIV ONLY",
+    "propFile": "w_ex_grenadefrag",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Explosives Case SENIOR CIV ONLY",
+    "propFile": "prop_box_ammo06a",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "IED 1",
+    "propFile": "tr_prop_tr_flipjam_01b",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "IED 2",
+    "propFile": "prop_bomb_01",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "IED 3",
+    "propFile": "prop_ld_bomb",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Modified Phone (Detonator)",
+    "propFile": "tr_prop_tr_flipjam_01a",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Crashed Heli 1",
+    "propFile": "prop_crashed_heli",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Crashed Heli 2",
+    "propFile": "prop_wrecked_buzzard",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Crashed Plane 1",
+    "propFile": "xm_prop_x17_shamal_crash",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Crashed Plane 2",
+    "propFile": "apa_mp_apa_crashed_usaf_01a",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Caravan",
+    "propFile": "prop_trailer_01_new",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Bag of Guns",
+    "propFile": "m23_2_prop_m32_bag_weapons_01a",
+    "propCategories": [
+      "CIV - Senior"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Baseball Bat",
+    "propFile": "w_me_bat",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Pistol",
+    "propFile": "w_pi_pistolmk2",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Broken Bottle",
+    "propFile": "w_me_bottle",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Musket",
+    "propFile": "w_ar_musket",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Fake Gun",
+    "propFile": "w_pi_singleshoth4",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Switchblade",
+    "propFile": "w_me_switchblade",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Jerrycan",
+    "propFile": "w_am_jerrycan",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Drill",
+    "propFile": "xs_prop_x18_drill_01a",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Hammer",
+    "propFile": "w_me_hammer",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Crowbar",
+    "propFile": "v_ind_cm_crowbar",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  },
+  {
+    "propName": "Case of Guns",
+    "propFile": "m23_2_prop_m32_guncase_01a",
+    "propCategories": [
+      "CIV - Weapons"
+    ],
+    "propSpeedRestriction": -1
+  }
+]

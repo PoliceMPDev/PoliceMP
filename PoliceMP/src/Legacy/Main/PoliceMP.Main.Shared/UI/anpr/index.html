@@ -1,0 +1,105 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/plate.css" type="text/css" />
+  <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <div class="card text-white" style="width: 36em; height: 13.5em; background-color: rgba(0, 0, 0, 0.9); position: fixed; bottom: 0; right: 0; border-radius: 0;">
+    <div class="container" style="padding: 0;">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="topbar">
+            <span id="marquee">testfdsdfsdf</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="cards" id="tax">
+            TAX
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cards" id="insurance">
+            INSURANCE
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="cards" id="mot">
+            MOT
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" style="margin-top: 10px;">
+          <div class="cards align-self-center" id="drugs-intel">
+            DRUGS
+          </div>
+        </div>
+        <div class="col-md-6" style=" border-right: 1px #fff solid; border-left: 1px #fff solid; border-top: #fff 1px solid; background-color: #6385FF; margin-top: 10px;">
+          <div class="plate-yellow" id="plate" style="background-image: url('plate.png'); background-repeat: no-repeat;">
+            UX12 VAS
+          </div>
+        </div>
+        <div class="col-md-3" style="margin-top: 10px;">
+          <div class="cards" id="weapons-intel">
+            WEAPONS
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="cards" id="stolen">
+            STOLEN
+          </div>
+        </div>
+        <div class="col-md-6" style="border-right: 1px #fff solid; border-left: 1px #fff solid; background-color: #6385FF;">
+          <h6 STYLE="font-size: 13px; color: #FF5F56; float: right;" id="lock"><b>LOCKED</b></h6>
+		  
+          <h6 STYLE="font-size: 25px;" id="speed"><b>0 MPH</b></h6>
+        </div>
+        <div class="col-md-3">
+          <div class="cards" id="fail-to-stop">
+            FTS
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="cards" id="other">
+            OTHER
+          </div>
+        </div>
+        <div class="col-md-6" style="border-right: 1px #fff solid; border-left: 1px #fff solid; border-bottom: 1px #fff solid; background-color: #6385FF;">
+          <p>
+            <span style="font-size: 14px; float: right;" id="model">[MODEL]</span>          
+		  <br />
+          <span STYLE="font-size: 12px; float: right;" id="colour">[COLOUR]</span>
+		  </p>
+        </div>
+        <div class="col-md-3">
+          <div class="cards" id="wanted">
+            WANTED
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/anpr.js" type="text/javascript"></script>
+  <script src="//cdn.jsdelivr.net/jquery.marquee/1.4.0/jquery.marquee.min.js" type="text/javascript"></script>
+</body>
+
+</html>

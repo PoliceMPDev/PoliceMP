@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{53729028-C1C8-4C32-9DAE-A5DA5139A340}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PoliceMP.Callouts.Server</RootNamespace>
+    <AssemblyName>PoliceMP.Callouts.Server.net</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+        None
+    </ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\..\server\server-data\resources\[PoliceResources]\PoliceMP.Callouts\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\..\..\server\server-data\resources\[PoliceResources]\PoliceMP.Callouts\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bogus, Version=29.0.2.0, Culture=neutral, PublicKeyToken=fa1bb3f3f218129a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Bogus.29.0.2\lib\net40\Bogus.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.Core.Server, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\CitizenFX.Core.Server.1.0.5879\lib\net45\CitizenFX.Core.Server.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\..\..\packages\Newtonsoft.Json.Portable.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalloutFactory.cs" />
+    <Compile Include="CalloutManager.cs" />
+    <Compile Include="ClientEventAPI.cs" />
+    <Compile Include="Enums\CalloutResult.cs" />
+    <Compile Include="Models\BankHeistLocation.cs" />
+    <Compile Include="Models\BankHeists\GolfBank.cs" />
+    <Compile Include="Models\BankHeists\OceanHighwayBank.cs" />
+    <Compile Include="Models\BankHeists\PaletoBayBank.cs" />
+    <Compile Include="Models\BankHeists\PoliceStationBank.cs" />
+    <Compile Include="Models\BankHeists\UpTownBankLocation.cs" />
+    <Compile Include="Models\Callout.cs" />
+    <Compile Include="Models\CalloutEntity.cs" />
+    <Compile Include="Models\CalloutPed.cs" />
+    <Compile Include="Models\CalloutPlayer.cs" />
+    <Compile Include="Enums\CalloutStatus.cs" />
+    <Compile Include="Models\CalloutTypes\AbandonedVehicle.cs" />
+    <Compile Include="Models\CalloutTypes\ANPRHit.cs" />
+    <Compile Include="Models\CalloutTypes\BackupRequestCallout.cs" />
+    <Compile Include="Models\CalloutTypes\BankHeist.cs" />
+    <Compile Include="Models\CalloutTypes\CalloutTemplate.cs" />
+    <Compile Include="Models\CalloutTypes\DrinkDrive.cs" />
+    <Compile Include="Models\CalloutTypes\FTS.cs" />
+    <Compile Include="Models\CalloutTypes\GangWar.cs" />
+    <Compile Include="Models\CalloutTypes\HouseRaid.cs" />
+    <Compile Include="Models\CalloutTypes\PersonWithKnife.cs" />
+    <Compile Include="Models\CalloutTypes\DrunkDisorderly.cs" />
+    <Compile Include="Models\CalloutTypes\Misuse999.cs" />
+    <Compile Include="Models\CalloutTypes\PublicNudity.cs" />
+    <Compile Include="Models\CalloutTypes\ArmedRobbery.cs" />
+    <Compile Include="Models\CalloutTypes\OngoingAssault.cs" />
+    <Compile Include="Models\CalloutTypes\StreetRace.cs" />
+    <Compile Include="Models\CalloutTypes\SuddenDeath.cs" />
+    <Compile Include="Models\CalloutTypes\IllegalImmigrants.cs" />
+    <Compile Include="Models\CalloutTypes\MissingPerson.cs" />
+    <Compile Include="Models\CalloutTypes\RTC.cs" />
+    <Compile Include="Models\CalloutTypes\ShopLifter.cs" />
+    <Compile Include="Models\CalloutTypes\StolenVehicle.cs" />
+    <Compile Include="Models\CalloutTypes\StreetFight.cs" />
+    <Compile Include="Models\CalloutTypes\WeaponsIntel.cs" />
+    <Compile Include="Models\CalloutVehicle.cs" />
+    <Compile Include="Models\DTO\CalloutDTO.cs" />
+    <Compile Include="Models\DTO\CalloutPlayerDTO.cs" />
+    <Compile Include="Models\House.cs" />
+    <Compile Include="Models\Interior.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Requests\ClientRequester.cs" />
+    <Compile Include="Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\PoliceMP.Core.Shared\PoliceMP.Core.Shared.csproj">
+      <Project>{7ddce823-2db9-4297-b0e8-b5ac6b5c836e}</Project>
+      <Name>PoliceMP.Core.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\PoliceMP.Shared\PoliceMP.Shared.csproj">
+      <Project>{2ad2ce67-6ea8-499e-8fe4-db00abed63d4}</Project>
+      <Name>PoliceMP.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Main\PoliceMP.Main.Core.Server\PoliceMP.Main.Core.Server.csproj">
+      <Project>{e164cb06-a940-46c9-9afa-4227d3e0e96e}</Project>
+      <Name>PoliceMP.Main.Core.Server</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Main\PoliceMP.Main.Core.Shared\PoliceMP.Main.Core.Shared.csproj">
+      <Project>{96f74fd6-fac9-4f82-9863-ca095dc72ba5}</Project>
+      <Name>PoliceMP.Main.Core.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Callouts.Shared\PoliceMP.Callouts.Shared.csproj">
+      <Project>{346890a8-8de6-43ed-b039-5519182a2cde}</Project>
+      <Name>PoliceMP.Callouts.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

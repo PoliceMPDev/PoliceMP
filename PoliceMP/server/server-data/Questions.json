@@ -1,0 +1,150 @@
+[
+	/**
+	* Search Questions
+	*/
+	{
+		"Text": "Would you mind if I searched you?",
+		"Attribute": "Search",
+		"PositiveAnswers": [
+			"No, go ahead.",
+			"Be my guest.",
+			"I have nothing to hide.",
+			"No, I don't mind. Go ahead.",
+			"Why would I?",
+            "Okay, but you won't find anything.",
+            "I ain't got nuttin, go ahead!"
+		],
+		"NegativeAnswers": [
+			"Why do you want to do that?",
+			"Yes, I would mind. That breaches my privacy.",
+			"What law gives you the right to do that?",
+			"Do you have any reason to?",
+			"Am I being detained?",
+			"Actually, I would.",
+            "I ain't got nuttin, pig.",
+            "You'd like that wouldn't you.",
+            "My dad is the commissioner!"
+		]
+	},
+	{
+		"Text": "Are you carrying anything illegal?",
+		"Attribute": "Search",
+		"PositiveAnswers": [
+			"No, at least I don't think so anyway.",
+			"Nope.",
+			"No, I'm a good law abiding citizen.",
+            "I don't do illegal things, sir.",
+		],
+		"NegativeAnswers": [
+			"Could be.",
+			"Why?",
+			"What's that got to do with you?",
+			"Not right now.",
+			"Erm...",
+			"Are you trying to say that I look like a criminal?",
+			"Do I look like a criminal to you?",
+			"Do I look like a thug to you?",
+            "You're beginning to annoy me.",
+            "I wanna speak to the manager"
+		]
+	},
+
+	/**
+	* Drunk Questions
+	*/
+	{
+		"Text": "Have you had anything to drink?",
+		"Attribute": "Drunk",
+		"PositiveAnswers": [
+			"No, I haven't.",
+			"Only non alcoholic beverages for me.",
+			"Nope.",
+            "I am not an alcoholic.",
+            "I've only been on the pop, officer.",
+            "Only spring water, officer!"
+		],
+		"NegativeAnswers": [
+			"Only this bottle of beer.",
+			"I might've had a few driving beers...",
+			"The real question is have YOU had anything to drink?",
+			"You trying to say I look like a junkie?",
+            "Are you discriminating me?",
+            "I'm not an alcoholic!",
+            "Do you know who I am? I'm Ronnie Pickering!"
+		]
+	},
+	
+	/**
+	* Drugs Questions
+	*/
+	{
+		"Text": "Have you taken any illegal drugs?",
+		"Attribute": "Drugs",
+		"PositiveAnswers": [
+			"No, I haven't.",
+			"I don't participate in those kinds of things.",
+			"Nope.",
+			"I don't take drugs.",
+			"Not that I know of.",
+			"Drugs are for mugs.",
+            "Please don't be so ridiculous.",
+            "The only drug I'm on is love, officer!",
+            "My only drug is you, officer!",
+            "Simply? No! That would be illegal"
+		],
+		"NegativeAnswers": [
+			"Have you?",
+			"Do I look like a junkie to you?",
+			"What are you trying to say?",
+			"Why?",
+			"Erm... No...",
+			"Nooo...",
+			"What?",
+			"Maybe.",
+			"Someone might've spiked my drink.",
+			"When have I NEVER taken any illegal drugs?",
+            "No, I haven't. I would if you had some on offer.",
+            "I'm not into that sort of thing, officer."
+		]
+	},
+	
+	/**
+	* Attitude Questions
+	*/
+	{
+		"Text": "Where are you headed?",
+		"Attribute": "Attitude",
+		"PositiveAnswers": [
+			"I'm on my way to work.",
+			"I'm on my way home.",
+			"I'm just going to the shops.",
+			"Just out for a wander, really.",
+			"Just going to mate my mate's house.",
+			"Headed back to the gaff.",
+			"Away to pick up some beer.",
+			"To my nan's house.",
+			"To the cinema.",
+			"I need to go to the hospital.",
+			"I'm headed to the night club.",
+			"Just going to the cross, mate.",
+			"Was thinking of going to the Myre.",
+			"The hills.",
+			"The arena.",
+            "The airport.",
+            "I'm just off to the shops, need anything?"
+		],
+		"NegativeAnswers": [
+			"What has that got to do with you?",
+			"Hopefully away from you.",
+			"Hopefully not jail.",
+			"I'm not answering that question.",
+			"Away to sail away from London in a banana boat.",
+			"Work. I'm late. And you're going to get me fired!",
+			"Tell me where you're going first.",
+			"Probably jail.",
+            "I'm headed to the shops to pick up some driving beers.",
+            "Wouldn't you like to know, pig.",
+            "Hopefully no where near you."
+		]
+	}
+]

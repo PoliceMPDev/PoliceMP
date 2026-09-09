@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Item Name",
+        "MaleItem" : true,
+        "aceGroupsRequired": [],
+        "componentID": 0,
+        "drawableID": 0,
+        "textureID": 0,
+        "paletteID": 0,
+        "isProp": false
+    },
+    {
+        "name": "Item Name",
+        "aceGroupsRequired": ["Police.afoTrained", "Police.rpuTrained"],
+        "MaleItem" : true,
+        "componentID": 0,
+        "drawableID": 0,
+        "textureID": 0,
+        "paletteID": 0,
+        "isProp": false
+    }
+]

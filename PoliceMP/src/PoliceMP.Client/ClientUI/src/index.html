@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+
+        <!-- LEGACY -->
+        <style type="text/css">
+            body {
+                margin: 0;
+                padding: 0;
+                background-color: transparent;
+            }
+    
+            iframe {
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                border: 0;
+                width: 100%;
+                height: 100%;
+            }
+        </style>
+        <script type="module">
+            import Emitter from 'https://unpkg.com/event-e3@^8/event-e3.js';
+    
+            class PoliceMP extends Emitter {
+                constructor(name, frame) {
+                    super();
+    
+                    this.name = name;
+                    this.frame = frame;
+                }
+    
+                show() {
+                    console.log("Show");
+                    this.frame.style.visibility = 'visible';
+                    this.frame.contentWindow.focus();
+                }
+    
+                hide() {
+                    console.log("Hide");
+                    this.frame.style.visibility = 'hidden';
+                    this.frame.contentWindow.blur();
+                }
+    
+                focus() {
+                    console.log("Focus");
+                    this.frame.contentWindow.focus();
+                }
+    
+                log(...args) {
+                    console.log(...args);
+                }
+    
+                send(eventName, data = null) {
+                    console.log(`[NUI] Send: ${this.name} - ${eventName}`, JSON.stringify(data));
+                    return fetch(`https://${GetParentResourceName()}/${this.name.toLowerCase()}/${eventName.toLowerCase()}`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json; charset=UTF-8'
+                        },
+                        body: JSON.stringify(data)
+                    });
+                }
+            }
+    
+            const frames = [];
+    
+            const frameReady = (frame, callback) => {
+                frame.addEventListener('load', () => {
+                    if (frame.contentDocument.readyState !== 'loading') {
+                        return callback();
+                    }
+    
+                    return frame.contentDocument.addEventListener('DOMContentLoaded', callback);
+                });
+            };
+    
+            function load(overlay, url) {
+                const frame = document.createElement('iframe');
+    
+                frameReady(frame, async () => {
+                    frame.contentWindow.policemp.send('policemp:ready');
+                    frame.contentWindow.policemp.emit('ready');
+                });
+    
+                frame.style.visibility = 'hidden';
+                frame.allow = 'microphone *;';
+                frame.src = "nui://PoliceMP/" + url;
+    
+                document.body.appendChild(frame);
+    
+                frame.contentWindow.policemp = new PoliceMP(overlay, frame);
+                frames[overlay] = frame;
+            }
+    
+            window.addEventListener('message', e => {
+                if (e.data === undefined || e.data.eventName === undefined) {
+                    return;
+                }
+    
+                console.log('[NUI] Message: ' + JSON.stringify(e.data));
+    
+                const eventName = e.data.eventName;
+                const overlay = e.data.overlay || null;
+                const data = e.data.data || null;
+    
+                console.log(`[NUI] Event: ${overlay} - ${eventName}`, JSON.stringify(data));
+    
+                if (eventName == 'policemp:load') {
+                    load(overlay, `client/Overlays/Legacy/${overlay}/${data.file}`);
+                    return;
+                }
+    
+                for (let frame in frames) {
+                    if (frame != overlay) {
+                        continue;
+                    }
+    
+                    if (eventName == 'policemp:destroy') {
+                        document.body.removeChild(frames[frame]);
+                        continue;
+                    }
+    
+                    if (eventName == 'policemp:visible') {
+                        if (data) {
+                            frames[frame].contentWindow.policemp.show();
+                        } else {
+                            frames[frame].contentWindow.policemp.hide();
+                        }
+    
+                        continue;
+                    }
+    
+                    console.log(`[NUI] Trigger: ${overlay} - ${eventName}`);
+                    frames[frame].contentWindow.policemp.emit(eventName, data);
+                }
+            });
+        </script>
+        <!-- END LEGACY -->
+    </head>
+    <body style="background-color: transparent;">
+        <div id="app"></div>
+        <script src="index.tsx"></script>
+    </body>
+</html>

@@ -1,0 +1,2536 @@
+[
+  {
+    "garageName": "Leman Street Firearms Base",
+    "aceGroupsRequired": [
+
+        "Police.afoTrained"
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -307.808,
+    "yEntry": -2705.466,
+    "zEntry": 6.155415,
+    "xWalkExit": -304.7620,
+    "yWalkExit": -2703.0701,
+    "zWalkExit": 6.0021,
+    "garageCategories": [
+      
+      "Content Creator",
+      "Digital Team",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC"
+      
+    ],
+    "exitPoints": [
+      {
+        "xExit": -324.4484,
+        "yExit": -2724.968,
+        "zExit": 6.00874,
+        "hExit": 133.2903
+      },
+      {
+        "xExit": -327.42,
+        "yExit": -2723.78,
+        "zExit": 5.66,
+        "hExit": 134.93 
+      }
+    ]
+  },
+  {
+    "garageName": "East Ham Fire Station",
+    "aceGroupsRequired": [
+      "Fire.Trained"
+    ],
+    "blipType": 50,
+    "blipColour": 75,
+    "xEntry": 346.44,
+    "yEntry": 3397.33,
+    "zEntry": 36.61,
+    "xEntryEA": 336.785,
+    "yEntryEA": 3404.039,
+    "zEntryEA": 36.48201,
+    "xWalkExit": 339.70,
+    "yWalkExit": 3402.56,
+    "zWalkExit": 36.61,
+    "xWalkExitEA": 333.2007,
+    "yWalkExitEA": 3402.623,
+    "zWalkExitEA": 36.45178,
+    "garageCategories": [
+      "East Ham Fire",
+      "Fire Officer Vehicles",
+      "LFB Dev"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 329.49,
+        "yExit": 3392.25,
+        "zExit": 36.76,
+        "hExit": 21.35
+      },
+      {
+        "xExit": 365.35,
+        "yExit": 3410.78,
+        "zExit": 36.63,
+        "hExit": 24.29
+      }
+    ]
+  },
+  {
+    "garageName": "Alperton Traffic Base",
+    "aceGroupsRequired": [
+        "Police.rpuTrained"
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -1045.799,
+    "yEntry": -2010.312,
+    "zEntry": 13.17019,
+    "xWalkExit": -1053.219,
+    "yWalkExit": -2013.537,
+    "zWalkExit": 13.1702,
+    "garageCategories": [
+      
+      "Area Response Unit",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "Dev Garage",
+      "T2 Dev",
+      "Matrix Supervisor",
+      "Matrix Team",
+      "City Police",
+      "Tac Ops DLC",
+      "Police Subscriber",
+      "The Retro Pack",
+      "BTP",
+      "BTP Supervisor"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1022.577,
+        "yExit": -1995.276,
+        "zExit": 13.17231,
+        "hExit": -133.3064
+      },
+      {
+        "xExit": -1013.898,
+        "yExit": -2003.502,
+        "zExit": 13.17231,
+        "hExit": 43.74754
+      }
+    ]
+  },
+  {
+    "garageName": "Rockford Hills Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -566.72717285156,
+    "yEntry": -132.58288574219,
+    "zEntry": 37.947887420654,
+    "xWalkExit": -563.65399169922,
+    "yWalkExit": -139.28903198242,
+    "zWalkExit": 38.231758117676,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -569.69586181641,
+        "yExit": -146.52508544922,
+        "zExit": 37.91654586792,
+        "hExit": 198
+      },
+      {
+        "xExit": -587.24194335938,
+        "yExit": -157.12373352051,
+        "zExit": 37.946098327637,
+        "hExit": 111
+      },
+      {
+        "xExit": -550.72241210938,
+        "yExit": -142.56260681152,
+        "zExit": 38.241065979004,
+        "hExit": 293
+      },
+      {
+        "xExit": -561.98138427734,
+        "yExit": -171.67471313477,
+        "zExit": 38.189250946045,
+        "hExit": 19
+      },
+      {
+        "xExit": -574.67333984375,
+        "yExit": -151.89756774902,
+        "zExit": 37.958240509033,
+        "hExit": 199
+      }
+    ]
+  },
+  {
+    "garageName": "Mission Row Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": 458.2478,
+    "yEntry": -1012.426,
+    "zEntry": 28.28616,
+    "xWalkExit": 457.587,
+    "yWalkExit": -1002.489,
+    "zWalkExit": 30.72129,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Digital Team",
+      "Dev Garage",
+      "Storage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "WIP GARAGE (DO NOT SHOWCASE)",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 452.5332,
+        "yExit": -1017.511,
+        "zExit": 28.16265,
+        "hExit": 93.0499
+      },
+      {
+        "xExit": 444.7429,
+        "yExit": -1017.511,
+        "zExit": 28.16265,
+        "hExit": 93.0499
+      },
+      {
+        "xExit": 435.5818,
+        "yExit": -1018.411,
+        "zExit": 28.50987,
+        "hExit": 93.0499
+      }
+    ]
+  },
+    {
+    "garageName": "Training Base Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -1738.07,
+    "yEntry": 3026.571,
+    "zEntry": 32.837,
+    "xWalkExit": 1745.476,
+    "yWalkExit": 3024.59,
+    "zWalkExit": 32.821,
+    "garageCategories": [
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "Dev Garage",
+      "Storage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [ 
+      {
+        "xExit": -1737.2509,
+        "yExit": 3041.1863,
+        "zExit": 32.8294,
+        "hExit": 97.0838
+      }
+    ]
+  },
+  {
+    "garageName": "MET Traffic Base",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": 2522.7161,
+    "yEntry": -367.5450,
+    "zEntry": 93.1408,
+    "xWalkExit": 2521.2607,
+    "yWalkExit": -369.2508,
+    "zWalkExit": 93.1408,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 2538.1926,
+        "yExit": -372.4340,
+        "zExit": 92.5673,
+        "hExit": 164.9911
+      },
+      {
+        "xExit": 2541.8977,
+        "yExit": -372.4626,
+        "zExit": 92.5657,
+        "hExit": 168.7315
+      },
+      {
+        "xExit": 2540.8984,
+        "yExit": -378.6506,
+        "zExit": 92.5657,
+        "hExit": 351.9957
+      },
+      {
+        "xExit": 2537.2361,
+        "yExit": -378.3432,
+        "zExit": 92.5657,
+        "hExit": 347.0767
+      }
+    ]
+  },
+  {
+    "garageName": "Davis Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": 365.61999511719,
+    "yEntry": -1580.9083251953,
+    "zEntry": 23.805364608765,
+    "xEntryEA": 390.0351,
+    "yEntryEA": -1605.353,
+    "zEntryEA": 29.29195,
+    "xWalkExit": 361.16775512695,
+    "yWalkExit": -1576.9239501953,
+    "zWalkExit": 23.805387496948,
+    "xWalkExitEA": 392.1874,
+    "yWalkExitEA": -1607.273,
+    "zWalkExitEA": 29.29196,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 341.21820068359,
+        "yExit": -1614.3045654297,
+        "zExit": 23.803632736206,
+        "hExit": -129.91
+      },
+      {
+        "xExit": 345.10363769531,
+        "yExit": -1609.2928466797,
+        "zExit": 23.803632736206,
+        "hExit": -136.31
+      },
+      {
+        "xExit": 387.86419677734,
+        "yExit": -1634.3096923828,
+        "zExit": 29.292028427124,
+        "hExit": -45
+      },
+      {
+        "xExit": 395.28363037109,
+        "yExit": -1640.6760253906,
+        "zExit": 29.292024612427,
+        "hExit": -45
+      }
+    ]
+  },
+  {
+    "garageName": "Vespucci Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -1066.052734375,
+    "yEntry": -842.62896728516,
+    "zEntry": 5.1103506088257,
+    "xEntryEA": -1065.671,
+    "yEntryEA": -848.0245,
+    "xWalkExit": -1061.2261962891,
+    "yWalkExit": -839.20922851563,
+    "zWalkExit": 5.110435962677,
+    "xWalkExitEA": -1064.297,
+    "yWalkExitEA": -849.8233,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Team",
+      "Matrix Supervisor",
+      "Digital Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1071.8546142578,
+        "yExit": -856.43927001953,
+        "zExit": 4.8672394752502,
+        "hExit": 213.72
+      },
+      {
+        "xExit": -1068.1062011719,
+        "yExit": -853.77789306641,
+        "zExit": 4.8672299385071,
+        "hExit": 212.31
+      },
+      {
+        "xExit": -1073.3646240234,
+        "yExit": -878.98333740234,
+        "zExit": 4.7637581825256,
+        "hExit": 29.16
+      },
+      {
+        "xExit": -1077.1713867188,
+        "yExit": -880.61413574219,
+        "zExit": 4.6858463287354,
+        "hExit": 29.77
+      }
+    ]
+  },
+  {
+    "garageName": "Vinewood Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": 625.21667480469,
+    "yEntry": 16.929780960083,
+    "zEntry": 87.420791625977,
+    "xWalkExit": 621.14233398438,
+    "yWalkExit": 21.851987838745,
+    "zWalkExit": 88.370697021484,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Team",
+      "Matrix Supervisor",
+      "Digital Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 529.91632080078,
+        "yExit": -29.732244491577,
+        "zExit": 70.629524230957,
+        "hExit": 205.4
+      },
+      {
+        "xExit": 534.78338623047,
+        "yExit": -27.681833267212,
+        "zExit": 70.629524230957,
+        "hExit": 206.65
+      },
+      {
+        "xExit": 559.99395751953,
+        "yExit": -60.642158508301,
+        "zExit": 71.164695739746,
+        "hExit": 243.76
+      },
+      {
+        "xExit": 627.6064453125,
+        "yExit": 29.466070175171,
+        "zExit": 88.119926452637,
+        "hExit": 252.37
+      }
+    ]
+  },
+  {
+    "garageName": "Paleto Bay Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -450.02,
+    "yEntry": 6003.19,
+    "zEntry": 31.48,
+    "xWalkExit": -451.83,
+    "yWalkExit": 5993.16,
+    "zWalkExit": 31.48,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "Rural",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -482.56,
+        "yExit": 6024.7607421875,
+        "zExit": 30.889806747437,
+        "hExit": 225.48
+      },
+      {
+        "xExit": -475.53921508789,
+        "yExit": 6031.416015625,
+        "zExit": 30.8896484375,
+        "hExit": 226.69
+      }
+    ]
+  },
+  {
+    "garageName": "Sandy Shores Police Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": 1868.2155761719,
+    "yEntry": 3685.9675292969,
+    "zEntry": 33.780643463135,
+    "xWalkExit": 1856.0002441406,
+    "yWalkExit": 3681.5651855469,
+    "zWalkExit": 34.267520904541,
+    "garageCategories": [
+      "Response",
+      "Emergency Response Team",
+      "Area Response Unit",
+      "Rural",
+      "TSG",
+      "College Staff",
+      "Patrol Supervisor",
+      "Content Creator",
+      "County Lines",
+      "AFO",
+      "AFO - DPG",
+      "AFO - CTSFO/EXPO",
+      "AFO Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "CID",
+      "CID Supervisor",
+      "Dog Section",
+      "Dog Supervisor",
+      "NPAS",
+      "BTP",
+      "BTP Supervisor",
+      "City Police",
+      "Dev Garage",
+      "Retired",
+      "T2 Dev",
+      "Mod Garage",
+      "The Retro Pack",
+      "Police Subscriber",
+      "Tac Ops DLC",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1853.9764404297,
+        "yExit": 3675.8635253906,
+        "zExit": 33.751754760742,
+        "hExit": 208.62
+      },
+      {
+        "xExit": 1850.3927001953,
+        "yExit": 3673.6477050781,
+        "zExit": 33.755863189697,
+        "hExit": 213.35
+      },
+      {
+        "xExit": 1847.7791748047,
+        "yExit": 3671.2971191406,
+        "zExit": 33.701305389404,
+        "hExit": 223.21
+      },
+      {
+        "xExit": 1872.9200439453,
+        "yExit": 3686.2353515625,
+        "zExit": 33.631031036377,
+        "hExit": 212.48
+      },
+      {
+        "xExit": 1863.5042724609,
+        "yExit": 3703.0676269531,
+        "zExit": 33.477745056152,
+        "hExit": 27.88
+      }
+    ]
+  },
+  {
+    "garageName": "MPU Vespucci",
+    "aceGroupsRequired": [
+      "Police.mpuTrained"
+    ],
+    "blipType": 410,
+    "blipColour": 3,
+    "xEntry": -704.26422119141,
+    "yEntry": -1398.4951171875,
+    "zEntry": 5.4952855110168,
+    "xWalkExit": -706.59143066406,
+    "yWalkExit": -1396.8525390625,
+    "zWalkExit": 5.1502676010132,
+    "garageCategories": [
+      "MPU Boats",
+      "RNLI Boats"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -796.07733154297,
+        "yExit": -1500.8216552734,
+        "zExit": 0,
+        "hExit": 109
+      },
+      {
+        "xExit": -801.75347900391,
+        "yExit": -1485.3314208984,
+        "zExit": 0,
+        "hExit": 109
+      },
+      {
+        "xExit": -782.35876464844,
+        "yExit": -1433.6499023438,
+        "zExit": 0,
+        "hExit": 109
+      }
+    ]
+  },
+  {
+    "garageName": "Hangar A17 Helicopters",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": -1636.2275390625,
+    "yEntry": -3168.6032714844,
+    "zEntry": 13.991911888123,
+    "xWalkExit": -1616.2017822266,
+    "yWalkExit": -3144.5749511719,
+    "zWalkExit": 13.991676330566,
+    "garageCategories": [
+      "NPAS Helicopters",
+      "Charity Helicopters"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1668.2844238281,
+        "yExit": -3134.0393066406,
+        "zExit": 13.708969116211,
+        "hExit": 328.9
+      },
+      {
+        "xExit": -1649.2952880859,
+        "yExit": -3137.7954101562,
+        "zExit": 13.705757141113,
+        "hExit": 329.42
+      },
+      {
+        "xExit": -1636.6761474609,
+        "yExit": -3152.1730957031,
+        "zExit": 13.705757141113,
+        "hExit": 329.42
+      }
+    ]
+  },
+  {
+    "garageName": "Hangar 3 Helicopters",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": -3096.772,
+    "yEntry": 7202.392,
+    "zEntry": 44.05186,
+    "xWalkExit": -3101.8244628906,
+    "yWalkExit": 7201.5834960938,
+    "zWalkExit": 44.046310424805,
+    "garageCategories": [
+      "NPAS Helicopters",
+      "Charity Helicopters"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -3114.191,
+        "yExit": 7196.102,
+        "zExit": 43.73318,
+        "hExit": 102.46
+      },
+      {
+        "xExit": -3104.6306152344,
+        "yExit": 7171.60546875,
+        "zExit": 43.855758666992,
+        "hExit": 102.46
+      }
+    ]
+  },
+    {
+    "garageName": "Hangar 3 Planes",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 90,
+    "blipColour": 3,
+    "xEntry": -3095.9418945312,
+    "yEntry": 7198.9790039062,
+    "zEntry": 44.051826477051,
+    "xWalkExit": -3095.567,
+    "yWalkExit": 7196.383,
+    "zWalkExit": 44.05187,
+    "garageCategories": [
+      "NPAS Plane"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -3095.679,
+        "yExit": 7151.815,
+        "zExit": 44.74695,
+        "hExit": 102.46
+      }
+    ]
+  },
+  {
+    "garageName": "Hangar 3 Garage",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": -3133.562,
+    "yEntry": 7247.886,
+    "zEntry": 44.22005,
+    "xWalkExit": -3134.03,
+    "yWalkExit": 7250.139,
+    "zWalkExit": 44.22005,
+    "garageCategories": [
+      "NPAS"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -3138.983,
+        "yExit": 7253.351,
+        "zExit": 44.16635,
+        "hExit": 101.5294
+      }
+    ]
+  },
+   {
+    "garageName": "PMP Aerospace Garage",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": -1462.4493408203,
+    "yEntry": -3251.5920410156,
+    "zEntry": 13.897956848145,
+    "xWalkExit": -1466.6833496094,
+    "yWalkExit": -3248.5971679688,
+    "zWalkExit": 13.897956848145,
+    "garageCategories": [
+      "NPAS"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1460.6064453125,
+        "yExit": -3248.7385253906,
+        "zExit": 13.945151329041,
+        "hExit": 325
+      }
+    ]
+  },
+  {
+    "garageName": "Hangar A17 Plane",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 90,
+    "blipColour": 3,
+    "xEntry": -1627.177,
+    "yEntry": -3158.143,
+    "zEntry": 13.99232,
+    "xWalkExit": -1627.177,
+    "yWalkExit": -3156.962,
+    "zWalkExit": 13.99247,
+    "garageCategories": [
+      "NPAS Plane"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1591.278,
+        "yExit": -3079.556,
+        "zExit": 14.74695,
+        "hExit": -164.7967
+      }
+    ]
+  },
+  {
+    "garageName": "MCA (Air)",
+    "aceGroupsRequired": [
+      "Police.npasTrained" , "coast.guard"
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -1222.722,
+    "yEntry": -1805.307,
+    "zEntry": 4.125295,
+    "xEntryEA": -1217.288,
+    "yEntryEA": -1793.511,
+    "zEntryEA": 3.908573,
+    "xWalkExit": -1221.167,
+    "yWalkExit": -1804.231,
+    "zWalkExit": 4.125295,
+    "xWalkExitEA": -1219.475,
+    "yWalkExitEA": -1795.132,
+    "zWalkExitEA": 3.908573,
+    "garageCategories": [
+      "MCA (Air)"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1192.71,
+        "yExit": -1808.311,
+        "zExit": 4.15617,
+        "hExit": -147.5
+      }
+    ]
+  },
+  {
+    "garageName": "MCA (Ground)",
+    "aceGroupsRequired": [
+      "coast.guard"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": -1231.276,
+    "yEntry": -1812.428,
+    "zEntry": 4.099968,
+    "xWalkExit": -1232.426,
+    "yWalkExit": -1810.997,
+    "zWalkExit": 4.100178,
+    "garageCategories": [
+      "MCA (Ground)"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1208.248,
+        "yExit": -1768.299,
+        "zExit": 3.928166,
+        "hExit": -178.8115
+      },
+      {
+        "xExit": -1201.431,
+        "yExit": -1767.147,
+        "zExit": 3.928164,
+        "hExit": -178.0221
+      }
+    ]
+  },
+  {
+    "garageName": "LHS Royal London Hospital",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": 1127.07,
+    "yEntry": -1581.21,
+    "zEntry": 34.83,
+    "xEntryEA": 1158.431,
+    "yEntryEA": -1517.722,
+    "zEntryEA": 34.8434,
+    "xWalkExit": 1129.58,
+    "yWalkExit": -1581.406,
+    "zWalkExit": 34.53,
+    "xWalkExitEA": 1155.633,
+    "yWalkExitEA": -1517.982,
+    "zWalkExitEA": 34.84341,
+    "garageCategories": [
+      "NHS Managment",
+      "HEMS Ground Team",
+      "HEMS Team Leader",
+      "Clinical Response Team",
+      "JRU",
+      "Basic's Garage",
+      "Clinical Response TL",
+      "LAS Doctor",
+      "LAS Advanced Para",
+      "Hazardous Area Response Team",
+      "NHS Blood Team",
+      "NHS Dev",
+      "Survive LHS",
+      "St John's Ambulance",
+      "Clinical Student Team"
+
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1122.53,
+        "yExit": -1612.60,
+        "zExit": 35.02,
+        "hExit": -270.63585
+      },
+      {
+        "xExit": 1122.39,
+        "yExit": -1605.78,
+        "zExit": 34.580,
+        "hExit": -270.63585
+      }
+    ]
+  },
+  {
+    "garageName": "Paleto Bay NPAS Helipad",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": -463.29974365234,
+    "yEntry": 5995.3310546875,
+    "zEntry": 31.245601654053,
+    "xWalkExit": -460.32772827148,
+    "yWalkExit": 6014.0068359375,
+    "zWalkExit": 31.490114212036,
+    "garageCategories": [
+      "NPAS Helicopters",
+      "Charity Helicopters"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -475.48196411133,
+        "yExit": 5988.0483398438,
+        "zExit": 31.33670425415,
+        "hExit": 320
+      }
+    ]
+  },
+  {
+    "garageName": "Sandy Shores NPAS Plane",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 90,
+    "blipColour": 3,
+    "xEntry": 1767.229,
+    "yEntry": 3295.869,
+    "zEntry": 41.17846,
+    "xWalkExit": 1768.636,
+    "yWalkExit": 3295.017,
+    "zWalkExit": 41.19691,
+    "garageCategories": [
+      "NPAS Plane"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1720.0344,
+        "yExit": 3273.8079,
+        "zExit": 41.1494,
+        "hExit": 193.9368
+      }
+    ]
+  },
+  {
+    "garageName": "Sandy Shores NPAS Helipad",
+    "aceGroupsRequired": [
+      "Police.npasTrained"
+    ],
+    "blipType": 64,
+    "blipColour": 3,
+    "xEntry": 1771.158,
+    "yEntry": 3308.788,
+    "zEntry": 41.1552,
+    "xWalkExit": 1770.861,
+    "yWalkExit": 3307.072,
+    "zWalkExit": 41.1597,
+    "garageCategories": [
+      "NPAS Helicopters",
+      "Charity Helicopters"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1773.658,
+        "yExit": 3332.381,
+        "zExit": 42.0408,
+        "hExit": 120.82735
+      }
+    ]
+  },
+  {
+    "garageName": "M25 Highways Depot",
+    "aceGroupsRequired": [
+      "HETO.Trained"
+    ],
+    "blipType": 50,
+    "blipColour": 47,
+    "xEntry": 1550.3880615234,
+    "yEntry": 816.83795166016,
+    "zEntry": 77.146858215332,
+    "xEntryEA": 1521.587,
+    "yEntryEA": 796.1152,
+    "zEntryEA": 77.45403,
+    "xWalkExit": 1547.2862548828,
+    "yWalkExit": 810.65008544922,
+    "zWalkExit": 77.012535095215,
+    "xWalkExitEA": 1519.133,
+    "yWalkExitEA": 797.4957,
+    "zWalkExitEA": 77.44527,
+    "garageCategories": [
+      "Highways Agency",
+      "Highways Dev",
+      "Trailers",
+      "AA Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1544.6590576172,
+        "yExit": 791.34503173828,
+        "zExit": 77.267646789551,
+        "hExit": 58
+      },
+      {
+        "xExit": 1530.3853759766,
+        "yExit": 799.70092773438,
+        "zExit": 77.10863494873,
+        "hExit": 58
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": 1533.087,
+        "yExit": 785.0875,
+        "zExit": 77.21049,
+        "hExit": 60
+      }
+    ]
+  },
+  {
+    "garageName": "AA City Depot",
+    "aceGroupsRequired": [
+      "HETO.Trained"
+    ],
+    "blipType": 50,
+    "blipColour": 47,
+    "xEntry": -191.47570800781,
+    "yEntry": -1169.0421142578,
+    "zEntry": 23.163801193237,
+    "xEntryEA": -177.2589,
+    "yEntryEA": -1156.656,
+    "zEntryEA": 23.1116,
+    "xWalkExit": -198.77673339844,
+    "yWalkExit": -1170.3439941406,
+    "zWalkExit": 23.163793563843,
+    "xWalkExitEA": -177.1616,
+    "yWalkExitEA": -1153.744,
+    "zWalkExitEA": 23.11082,
+    "garageCategories": [
+      "Highways Agency",
+      "Highways Dev",
+      "Trailers",
+      "AA Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -212.01037597656,
+        "yExit": -1166.740234375,
+        "zExit": 23.044046401978,
+        "hExit": 90
+      },
+      {
+        "xExit": -210.43759155273,
+        "yExit": -1171.7542724609,
+        "zExit": 23.044046401978,
+        "hExit": 90
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": -187.6496,
+        "yExit": -1150.172,
+        "zExit": 22.69727,
+        "hExit": -90
+      }
+    ]
+  },
+  {
+    "garageName": "NHS Pillbox Hill",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": 343.7,
+    "yEntry": -562.53,
+    "zEntry": 28.74,
+    "xWalkExit": 339.69,
+    "yWalkExit": -584.42,
+    "zWalkExit": 28.8,
+    "xWalkExitEA": 344.4373,
+    "yWalkExitEA": -560.2231,
+    "zWalkExitEA": 28.74378,
+    "garageCategories": [
+      "NHS Managment",
+      "HEMS Ground Team",
+      "HEMS Team Leader",
+      "Clinical Response Team",
+      "JRU",
+      "Clinical Response TL",
+      "LAS Doctor",
+      "LAS Advanced Para",
+      "St John's Ambulance",
+      "Hazardous Area Response Team",
+      "NHS Blood Team",
+      "NHS Dev",
+      "Beep Doctor",
+      "Beep Paramedic",
+      "Survive NHS",
+      "Clinical Student Team",
+      "Beep Paramedic",
+      "Electric DLC"
+
+    ],
+    "exitPoints": [
+      {
+        "xExit": 329.5429,
+        "yExit": -576.3321,
+        "zExit": 28.37778,
+        "hExit": -20.04831
+      },
+      {
+        "xExit": 332.0266,
+        "yExit": -569.5206,
+        "zExit": 28.37747,
+        "hExit": -20.04456
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": 354.0629,
+        "yExit": -548.5424,
+        "zExit": 28.51101,
+        "hExit": -90
+      }
+    ]
+  },
+  {
+    "garageName": "NHS South Central Ambulance Station",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": -1424.5733642578,
+    "yEntry": -252.8046875,
+    "zEntry": 46.479747772217,
+    "xEntryEA": -1436.623,
+    "yEntryEA": -260.0278,
+    "zEntryEA": 46.26463,
+    "xWalkExit": -1422.6614990234,
+    "yWalkExit": -254.50492858887,
+    "zWalkExit": 46.479747772217,
+    "xWalkExitEA": -1437.933,
+    "yWalkExitEA": -261.1818,
+    "zWalkExitEA": 46.20771,
+    "garageCategories": [
+      "NHS Managment",
+      "HEMS Ground Team",
+      "HEMS Team Leader",
+      "Clinical Response Team",
+      "JRU",
+      "Beep Doctor",
+      "Beep Paramedic",
+      "Clinical Response TL",
+      "LAS Doctor",
+      "LAS Advanced Para",
+      "Hazardous Area Response Team",
+      "NHS Blood Team",
+      "NHS Dev",
+      "Survive NHS",
+      "St John's Ambulance",
+      "Clinical Student Team",
+      "Electric DLC"
+
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1425.7900390625,
+        "yExit": -261.51531982422,
+        "zExit": 46.318744659424,
+        "hExit": 130
+      },
+      {
+        "xExit": -1437.1995849609,
+        "yExit": -288.00772094727,
+        "zExit": 46.093425750732,
+        "hExit": -49
+      },
+      {
+        "xExit": -1444.0524902344,
+        "yExit": -271.95666503906,
+        "zExit": 46.375621795654,
+        "hExit": -140
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": -1444.0524902344,
+        "yExit": -271.95666503906,
+        "zExit": 46.375621795654,
+        "hExit": -140
+      }
+    ]
+  },
+  {
+  "garageName": "NHS Mount Zonah",
+  "aceGroupsRequired": [
+  ],
+  "blipType": 50,
+  "blipColour": 52,
+  "xEntry": -494.84002685547,
+  "yEntry": -366.703125,
+  "zEntry": 24.229465484619,
+  "xWalkExit": -481.98495483398,
+  "yWalkExit": -367.72161865234,
+  "zWalkExit": 24.230358123779,
+    "garageCategories": [
+      "NHS Managment",
+      "HEMS Ground Team",
+      "HEMS Team Leader",
+      "Clinical Response Team",
+      "JRU",
+      "Clinical Response TL",
+      "LAS Doctor",
+      "Beep Doctor",
+      "Beep Paramedic",
+      "LAS Advanced Para",
+      "St John's Ambulance",
+      "Hazardous Area Response Team",
+      "NHS Blood Team",
+      "NHS Dev",
+      "Survive NHS",
+      "Clinical Student Team",
+      "Electric DLC"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -453.6033,
+        "yExit": -351.3933,
+        "zExit": 24.22943,
+        "hExit": 109
+      },
+      {
+        "xExit": -454.2422,
+        "yExit": -364.8657,
+        "zExit": 24.22941,
+        "hExit": 113
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": -454.171,
+        "yExit": -340.3764,
+        "zExit": 34.12993,
+        "hExit": -8
+      }
+    ]
+  },
+  {
+    "garageName": "NHS Sandy Shores",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": 1815.697,
+    "yEntry": 3679.337,
+    "zEntry": 34.27636,
+    "xWalkExit": 1808.474,
+    "yWalkExit": 3677.457,
+    "zWalkExit": 34.27673,
+    "garageCategories": [
+      "NHS Managment",
+      "HEMS Ground Team",
+      "HEMS Team Leader",
+      "Clinical Response Team",
+      "JRU",
+      "Clinical Response TL",
+      "LAS Doctor",
+      "Beep Doctor",
+      "Beep Paramedic",
+      "LAS Advanced Para",
+      "St John's Ambulance",
+      "Hazardous Area Response Team",
+      "NHS Blood Team",
+      "NHS Dev",
+      "Survive NHS",
+      "Clinical Student Team",
+      "Electric DLC"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1814.947,
+        "yExit": 3686.925,
+        "zExit": 34.06408,
+        "hExit": -60
+      },
+      {
+        "xExit": 1805.727,
+        "yExit": 3681.678,
+        "zExit": 34.06389,
+        "hExit": -60
+      }
+    ]
+  },
+  {
+    "garageName": "NHS Cody Road HART",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": -596.13,
+    "yEntry": -2172.60,
+    "zEntry": 6.92,
+    "zEntryEA": 5.993001,
+    "xWalkExit": -586.40,
+    "yWalkExit": -2165.50,
+    "zWalkExit": 6.92,
+    "zWalkExitEA": 5.993001,
+    "garageCategories": [
+      "NHS Managment",
+      "HART - Heathrow",
+      "HART SORT - Heathrow",
+      "NHS Dev",
+      "FIM Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -584.61,
+        "yExit": -2149.47,
+        "zExit": 6.36,
+        "hExit": -60
+      },
+      {
+        "xExit": -614.08,
+        "yExit": -2141.49,
+        "zExit": 5.94,
+        "hExit": 138
+      }
+    ]
+  },
+  {
+    "garageName": "Victoria Medical Centre",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": -255.83589172363,
+    "yEntry": 6353.2509765625,
+    "zEntry": 32.626106262207,
+    "xWalkExit": -250.96855163574,
+    "yWalkExit": 6339.017578125,
+    "zWalkExit": 32.48938369751,
+    "garageCategories": [
+      "NHS Managment",
+      "HEMS Ground Team",
+      "HEMS Team Leader",
+      "Clinical Response Team",
+      "JRU",
+      "Clinical Response TL",
+      "LAS Doctor",
+      "Beep Doctor",
+      "Beep Paramedic",
+      "LAS Advanced Para",
+      "St John's Ambulance",
+      "Hazardous Area Response Team",
+      "NHS Blood Team",
+      "NHS Dev",
+      "Survive NHS",
+      "Clinical Student Team",
+      "Electric DLC"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -274.7249,
+        "yExit": 6330.614,
+        "zExit": 32.26572,
+        "hExit": -90
+      },
+      {
+        "xExit": -277.2629,
+        "yExit": 6321.674,
+        "zExit": 32.24099,
+        "hExit": -42
+      }
+    ]
+  },
+  {
+    "garageName": "JRU East Vinewood",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 52,
+    "xEntry": 895.4,
+    "yEntry": -182.83,
+    "zEntry": 73.71,
+    "xWalkExit": 897.43,
+    "yWalkExit": -179.22,
+    "zWalkExit": 73.74,
+    "garageCategories": [
+      "NHS Managment",
+      "JRU"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 902.46,
+        "yExit": -191.51,
+        "zExit": 73.79,
+        "hExit": 55.61
+      },
+      {
+        "xExit": 906.04,
+        "yExit": -186.37,
+        "zExit": 73.97,
+        "hExit": 61.7
+      }
+    ]
+  },
+  {
+    "garageName": "Rewley Road Garage",
+    "aceGroupsRequired": [
+      "Fire.Trained"
+    ],
+    "blipType": 50,
+    "blipColour": 75,
+    "xEntry": 1128.197,
+    "yEntry": -907.8928,
+    "zEntry": 51.27137,
+    "zEntryEA": 38.11887,
+    "xWalkExit": 1126.257,
+    "yWalkExit": -908.066,
+    "zWalkExit": 51.27137,
+    "zWalkExitEA": 38.11887,
+    "garageCategories": [
+      "Romford Fire",
+      "Whitechapel Fire",
+      "Fire Officer Vehicles"   
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1096.813,
+        "yExit": -888.7775,
+        "zExit": 51.26511,
+        "hExit": 0.3881522 
+      },
+    {
+        "xExit":  1102.359,
+        "yExit": -888.4474,   
+        "zExit":  51.26504,
+        "hExit": 0.2604128
+    }
+    ] 
+  },
+  {
+    "garageName": "Dockhead Fire Garage",
+    "aceGroupsRequired": [
+      "Fire.Trained"
+    ],
+    "blipType": 50,  
+    "blipColour": 75,
+    "xEntry": -1171.32,
+    "yEntry": -1248.781,
+    "zEntry": 6.963831,
+    "zEntryEA": 38.11887,
+    "xWalkExit": -1174.08,   
+    "yWalkExit": -1249.28,
+    "zWalkExit": 6.96,
+    "zWalkExitEA": 30.11887,
+    "garageCategories": [
+      "Romford Fire",
+      "Whitechapel Fire",
+      "Fire Officer Vehicles"   
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1142.954,   
+        "yExit": -1232.555,
+        "zExit":  7.184081,
+        "hExit":  -149.7582  
+      },
+    {
+        "xExit":  -1137.181,
+        "yExit": -1228.57,  
+        "zExit": 7.21779,
+        "hExit": -151.0625
+    }
+    ] 
+  },
+  {
+    "garageName": "Whitechapel Fire Station",
+    "aceGroupsRequired": [
+      "Fire.Trained",
+      "control.fim"
+    ],
+    "blipType": 50,
+    "blipColour": 75,
+    "xEntry": 1200.61,
+    "yEntry": -1481.42,
+    "zEntry": 34.84,
+    "xWalkExit": 1194.22,
+    "yWalkExit": -1481.22,
+    "zWalkExit": 34.84,
+    "garageCategories": [
+      "Whitechapel Fire",
+      "Fire Officer Vehicles",
+      "FIM Garage",
+      "LFB Dev",
+      "FRU",
+      "Whitechapel College"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1240.2019042969,
+        "yExit": -1486.4208984375,
+        "zExit": -1486.4208984375,
+        "hExit": 179.44
+     },
+     {
+        "xExit": 1215.6892089844,
+        "yExit": -1506.3371582031,
+        "zExit": 33.676120758057,
+        "hExit": 89.5
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": 1214.645,
+        "yExit": -1515.454,
+        "zExit": 34.85429,
+        "hExit": 89.5
+      }
+    ]
+  },
+  {
+    "garageName": "Croydon Fire Station",
+    "aceGroupsRequired": [
+      "Fire.Trained"
+    ],
+    "blipType": 50,
+    "blipColour": 75,
+    "xEntry": -368.52,
+    "yEntry": 6112.53,
+    "zEntry": 31.48,
+    "xEntryEA": -369.5559,
+    "yEntryEA": 6123.712,
+    "zEntryEA": 31.44036,
+    "xWalkExit": -363.49,
+    "yWalkExit": 6113.83,
+    "zWalkExit": 31.48,
+    "xWalkExitEA": -366.5949,
+    "yWalkExitEA": 6125.946,
+    "zWalkExitEA": 31.44043,
+    "garageCategories": [
+      "Croydon Fire",
+      "Fire Officer Vehicles",
+      "LFB Dev"
+    
+    ],
+    "exitPoints": [
+      {
+        "xExit": -356.34,
+        "yExit": 6124.73,
+        "zExit": 31.63,
+        "hExit": 45.95
+      },
+      {
+        "xExit": -350.16,
+        "yExit": 6131.63,
+        "zExit": 31.61,
+        "hExit": 45.03
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": -372.4996,
+        "yExit": 6139.812,
+        "zExit": 31.27294,
+        "hExit": 45
+      }
+    ]
+  },
+  {
+    "garageName": "Croydon Mountain Rescue",
+    "aceGroupsRequired": [
+      "group.mountain"
+    ],
+    "blipType": 50,
+    "blipColour": 75,
+    "xEntry": -377.18,
+    "yEntry": 6123.084,
+    "zEntry": 31.47,
+    "xWalkExit": -363.49,
+    "yWalkExit": 6113.83,
+    "zWalkExit": 31.48,
+    "garageCategories": [
+      "Croydon Mountain Rescue"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -356.34,
+        "yExit": 6124.73,
+        "zExit": 31.63,
+        "hExit": 45.95
+      },
+      {
+        "xExit": -350.16,
+        "yExit": 6131.63,
+        "zExit": 31.61,
+        "hExit": 45.03
+      }
+    ]
+  },
+  {
+    "garageName": "North City Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": -443.5009,
+    "yEntry": 1590.295,
+    "zEntry": 358.1214,
+    "xWalkExit": -446.0176, 
+    "yWalkExit": 1587.227,
+    "zWalkExit": 359.4042,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -439.2972,
+        "yExit": 1575.198,
+        "zExit": 358.3598,
+        "hExit": -123.482
+      },
+      {
+        "xExit": -435.2337,
+        "yExit": 1578.812,
+        "zExit": 357.7939,
+        "hExit": -123.2429
+      },
+      {
+        "xExit": -431.3096,
+        "yExit": 1581.672,
+        "zExit": 357.1797,
+        "hExit": -115.2137
+      }
+    ]
+  },
+  {
+    "garageName": "West Coast Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": -2958.311,
+    "yEntry": 63.03615,
+    "zEntry": 11.6085,
+    "xWalkExit": -2959.001,
+    "yWalkExit": 60.5834,
+    "zWalkExit": 11.60851,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -2971.437,
+        "yExit": 73.54103,
+        "zExit": 11.53991,
+        "hExit": 61.57801
+      },
+      {
+        "xExit": -2980.186,
+        "yExit": 73.52843,
+        "zExit": 11.6085,
+        "hExit": 51.55343
+      },
+      {
+        "xExit": -2991.328,
+        "yExit": 81.41106,
+        "zExit": 11.60851,
+        "hExit": 58.06055
+      }
+    ]
+  },
+  {
+    "garageName": "Sandy Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": 598.6898,
+    "yEntry": 2787.362,
+    "zEntry": 42.19187,
+    "xWalkExit": 598.4594,
+    "yWalkExit": 2789.151,
+    "zWalkExit": 42.19187,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+      
+    ],
+    "exitPoints": [
+      {
+        "xExit": 584.6685,
+        "yExit": 2789.565,
+        "zExit": 41.76408,
+        "hExit": 5.197234
+      },
+      {
+        "xExit": 616.1621,
+        "yExit": 2795.934,
+        "zExit": 41.62189,
+        "hExit": 96.67
+      }
+    ]
+  },
+  {
+    "garageName": "GrapeSeed Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": 725.292,
+    "yEntry": 4189.45,
+    "zEntry": 40.70922,
+    "xWalkExit": 725.2122,
+    "yWalkExit": 4185.53,
+    "zWalkExit": 40.70919,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+      
+    ],
+    "exitPoints": [
+      {
+        "xExit": 738.2083,
+        "yExit": 4190.333,
+        "zExit": 40.74103,
+        "hExit": -82.6812
+      },
+      {
+        "xExit": 748.8062,
+        "yExit": 4190.834,
+        "zExit": 40.73801,
+        "hExit": -66.26856
+      }
+    ]
+  },
+  {
+    "garageName": "Heathrow Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": -770.6108,
+    "yEntry": -2603.3872,
+    "zEntry": 13.8731,
+    "xWalkExit": -767.3784,
+    "yWalkExit": -2596.7419,
+    "zWalkExit": 13.8800,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -755.9064,
+        "yExit": -2595.6118,
+        "zExit": 13.8285,
+        "hExit": 330.8859
+      },
+      {
+        "xExit": -739.9545,
+        "yExit": -2591.5959,
+        "zExit": 13.8285,
+        "hExit": 335.3115
+      }
+    ]
+  },
+  {
+    "garageName": "Kingston Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": -2663.22,
+    "yEntry": 6321.898,
+    "zEntry": 16.21489,
+    "xWalkExit": -2661.826,
+    "yWalkExit": 6319.607,
+    "zWalkExit": 16.21489,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -2663.291,
+        "yExit": 6312.207,
+        "zExit": 16.21487,
+        "hExit": 23.55353
+      },
+      {
+        "xExit": -2658.982,
+        "yExit": 6307.915,
+        "zExit": 16.21489,
+        "hExit": 55.08093
+      }
+    ]
+  },
+  {
+    "garageName": "South East Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry":  1509.574,
+    "yEntry": -2135.245,
+    "zEntry": 76.50844,
+    "xWalkExit": 1507.658,
+    "yWalkExit": -2135.32,
+    "zWalkExit": 76.466642,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1534.686,
+        "yExit": -2109.484,
+        "zExit": 76.53445,
+        "hExit": 2.802115
+      },
+      {
+        "xExit": 1531.354,
+        "yExit": -2121.568,
+        "zExit": 76.3263,
+        "hExit": -2.219833
+      }
+    ]
+  },
+  {
+    "garageName": "Paleto Outskirts Civ Garage",
+    "aceGroupsRequired": [
+      "Civ.Trained"
+    ],
+    "blipType": 0,
+    "blipColour": 75,
+    "xEntry": 1528.223,
+    "yEntry": 6336.975,
+    "zEntry": 24.20848,
+    "xWalkExit": 1526.532,
+    "yWalkExit": 6337.472,
+    "zWalkExit": 24.19743,
+    "garageCategories": [
+      "Civillian - Base Vehicle's",
+      "Civillian - Roof Removal Cars",
+      "Civillian - Commercial",
+      "Civillian - Coupe",
+      "Civillian - Exotic",
+      "Civillian - Hatchback",
+      "Civillian - Motorbike",
+      "Civillian - Saloon",
+      "Civillian - SUV",
+      "Civillian - Tuned",
+      "CIV Dev Garage"
+    ],
+    "exitPoints": [
+      {
+        "xExit": 1489.958,
+        "yExit": 6349.482,
+        "zExit": 23.56411,
+        "hExit": 53.729
+      },
+      {
+        "xExit": 1497.929,
+        "yExit": 6343.629,
+        "zExit": 23.55955,
+        "hExit": 53.69074
+      }
+    ]
+  },
+  {
+    "garageName": "Lambeth Forensics Garage",
+    "aceGroupsRequired": [
+
+    ],
+    "blipType": 50,
+    "blipColour": 3,
+    "xEntry": -1589.102,
+    "yEntry": -856.1295,
+    "zEntry": 10.11271,
+    "xEntryEA": -1594.974,
+    "yEntryEA": -868.6559,
+    "zEntryEA": 10.05919,
+    "xWalkExit": -1590.500,
+    "yWalkExit": -858.500,
+    "zWalkExit": 10.11271,
+    "xWalkExitEA": -1597.469,
+    "yWalkExitEA": -866.4262,
+    "zWalkExitEA": 10.11271,
+    "garageCategories": [
+      "CID",
+      "CID Supervisor",
+      "RTPC",
+      "RTPC SEG",
+      "RTPC Advanced",
+      "RTPC TPAC",
+      "RTPC Supervisor",
+      "Matrix Supervisor",
+      "Matrix Team"
+    ],
+    "exitPoints": [
+      {
+        "xExit": -1585.102,
+        "yExit": -843.8386,
+        "zExit": 10.11269,
+        "hExit": 140.229
+      }
+    ],
+    "exitPointsEA": [
+      {
+        "xExit": -1611.949,
+        "yExit": -878.119,
+        "zExit": 9.194574,
+        "hExit": 139
+      }
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 267.6,
+    "yEntry": -1259.9,
+    "zEntry": 29.1,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 176.6,
+    "yEntry": -1561.8,
+    "zEntry": 29.2,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": -69.6,
+    "yEntry": -1760.6,
+    "zEntry": 29.5,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": -526.3,
+    "yEntry": -1211.0,
+    "zEntry": 18.1,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": -2095.5,
+    "yEntry": -316.8,
+    "zEntry": 13.0,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": -1801.7,
+    "yEntry": 804.2,
+    "zEntry": 138.4,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 621.6,
+    "yEntry": 268.5,
+    "zEntry": 103.0,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 1179.8,
+    "yEntry": -329.8,
+    "zEntry": 69.3,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 1209.7,
+    "yEntry": -1405.0,
+    "zEntry": 35.2,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 2580.6,
+    "yEntry": 361.6,
+    "zEntry": 108.4,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 2680.6,
+    "yEntry": 3263.7,
+    "zEntry": 55.2,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 2004.8,
+    "yEntry": 3775.1,
+    "zEntry": 32.4,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 263.9,
+    "yEntry": 2608.3,
+    "zEntry": 44.8,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 48.8,
+    "yEntry": 2778.2,
+    "zEntry": 57.8,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": -2555.2,
+    "yEntry": 2334.5,
+    "zEntry": 33.0,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": -93.8,
+    "yEntry": 6419.7,
+    "zEntry": 31.4,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 180.3,
+    "yEntry": 6602.7,
+    "zEntry": 31.8,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  },
+  {
+    "garageName": "Petrol Station",
+    "aceGroupsRequired": [
+    ],
+    "blipType": 361,
+    "blipColour": 39,
+    "xEntry": 1686.7,
+    "yEntry": 4928.2,
+    "zEntry": 42.0,
+    "xWalkExit": 0,
+    "yWalkExit": 0,
+    "zWalkExit": 0,
+    "garageCategories": [
+    ],
+    "exitPoints": [
+    ]
+  }
+]

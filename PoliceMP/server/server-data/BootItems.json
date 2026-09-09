@@ -1,0 +1,46 @@
+[
+    {
+        "DisplayName": "Enforcer",
+        "Weapon": "Enforcer"
+    },
+    {
+        "DisplayName": "Baton Gun",
+        "Weapon": "BatonGun"
+    },
+    {
+        "DisplayName": "SIG Sauer P226",
+        "Weapon": "SIGSauerP226"
+    },
+    {
+        "DisplayName": "GlockG17",
+        "Weapon": "GlockG17"
+    },
+    {
+        "DisplayName": "G36C",
+        "Weapon": "G36C"
+    },
+    {
+        "DisplayName": "L115A3",
+        "Weapon": "L115A3"
+    },
+    {
+        "DisplayName": "Scar DMR",
+        "Weapon": "ScarDMR"
+    },
+    {
+        "DisplayName": "MP5",
+        "Weapon": "MP5"
+    },
+    {
+        "DisplayName": "Speed Gun",
+        "Weapon": "SpeedGun"
+    },
+    {
+        "DisplayName": "Defib",
+        "Prop": "Defib"
+    },
+    {
+        "DisplayName": "Medic Kit",
+        "Prop": "MedicKit"
+    }
+]

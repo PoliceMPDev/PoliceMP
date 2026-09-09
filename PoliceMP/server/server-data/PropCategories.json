@@ -1,0 +1,219 @@
+[
+  {
+    "categoryName": "Cones",
+    "aceGroupsRequired": [
+    ],
+    "allowedBranches": [
+      "Police",
+      "Fire",
+      "Highways"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Signs",
+    "aceGroupsRequired": [
+      "Police.pc"
+    ],
+    "allowedBranches": [
+      "Police"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Speed Signs",
+    "aceGroupsRequired": [
+      "Police.pc"
+    ],
+    "allowedBranches": [
+      "Police"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CID",
+    "aceGroupsRequired": [
+      "Police.cidTrained"
+    ],
+    "allowedBranches": [
+      "Police"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "AFO",
+    "aceGroupsRequired": [
+      "Police.afoTrained"
+    ],
+    "allowedBranches": [
+      "Police"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "NHS",
+    "aceGroupsRequired": [
+      "nhs.paramedic"
+    ],
+    "allowedBranches": [
+      "Nhs"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Worklights",
+    "aceGroupsRequired": [
+    ],
+    "allowedBranches": [
+      "Nhs",
+      "Police",
+      "Fire",
+      "Highways"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Construction/Agro",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Crime Scenes",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Bags",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Cash",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Drugs",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Debris",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Senior",
+    "aceGroupsRequired": [
+      "SeniorCiv.Trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Weapons",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Bodies",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "CIV - Misc",
+    "aceGroupsRequired": [
+      "civ.trained"
+    ],
+    "allowedBranches": [
+      "Civ"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Media",
+    "aceGroupsRequired": [
+      "Digital.Team"
+    ],
+    "allowedBranches": [
+      "Police"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Barriers",
+    "aceGroupsRequired": [
+      "Police.Whitelisted"
+    ],
+    "allowedBranches": [
+      "Police",
+      "Civ",
+      "Highways"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Events",
+    "aceGroupsRequired": [
+      "Police.adminAuth"
+    ],
+    "allowedBranches": [
+      "Police",
+      "Civ",
+      "Highways"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  },
+  {
+    "categoryName": "Fire",
+    "aceGroupsRequired": [
+      "Fire.Trained"
+    ],
+    "allowedBranches": [
+      "Fire"
+    ],
+    "props": [{"propName": "dummy", "propFile": "dummy", "propCategories": ["dummy"], "propSpeedRestriction": 0  } ]
+  }
+]

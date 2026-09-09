@@ -1,0 +1,7 @@
+The Server Configs have been setup with the correct license key for each use.
+
+Rename as needed, but don't push the server.cfg to git! Instead, rename back to as it's meant to be!
+
+server.dev.cfg - Dev / Local Testing
+server.prodono.cfg - Pro Donator / Early Access
+server.prd.cfg - Main / Production Server

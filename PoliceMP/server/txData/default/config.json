@@ -1,0 +1,32 @@
+{
+  "global": {
+    "verbose": false,
+    "serverName": null,
+    "language": "en",
+    "forceFXServerPort": null
+  },
+  "logger": {},
+  "monitor": {
+    "restarterSchedule": [],
+    "healthCheck": {
+      "failThreshold": 15,
+      "failLimit": 300
+    },
+    "heartBeat": {
+      "failThreshold": 15,
+      "failLimit": 30
+    }
+  },
+  "authenticator": {},
+  "webServer": {},
+  "discordBot": {
+    "enabled": false,
+    "token": null,
+    "announceChannel": null
+  },
+  "fxRunner": {
+    "serverDataPath": null,
+    "cfgPath": null,
+    "autostart": true
+  }
+}
