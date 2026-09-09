@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VehicleConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Gadgets>
+    <Entry xsi:type="Ladder">
+      <Base>
+        <BoneName>misc_b</BoneName>
+        <RotationSpeed>11</RotationSpeed>
+        <RotationAxis X="0" Y="0" Z="1" />
+      </Base>
+      <Main>
+        <BoneName>misc_c</BoneName>
+        <RotationSpeed>3</RotationSpeed>
+        <RotationAxis X="1" Y="0" Z="0" />
+        <MinAngle>0</MinAngle>
+        <MaxAngle>65</MaxAngle>
+      </Main>
+      <ExtensionParts>
+        <Entry>
+          <BoneName>misc_d</BoneName>
+          <MoveSpeed>0.2</MoveSpeed>
+          <ExtensionDistance>6</ExtensionDistance>
+        </Entry>
+        <Entry>
+          <BoneName>misc_e</BoneName>
+          <MoveSpeed>0.2</MoveSpeed>
+          <ExtensionDistance>6</ExtensionDistance>
+        </Entry>
+        <Entry>
+          <BoneName>misc_f</BoneName>
+          <MoveSpeed>0.2</MoveSpeed>
+          <ExtensionDistance>6</ExtensionDistance>
+        </Entry>
+      </ExtensionParts>
+      <Bucket>
+        <BoneName>misc_g</BoneName>
+        <RotationSpeed>11</RotationSpeed>
+        <RotationAxis X="1" Y="0" Z="0" />
+        <MinAngle>0</MinAngle>
+        <MaxAngle>155</MaxAngle>
+      </Bucket>
+    </Entry>
+  </Gadgets>
+</VehicleConfig>
