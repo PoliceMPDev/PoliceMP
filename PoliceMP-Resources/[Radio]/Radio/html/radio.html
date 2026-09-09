@@ -1,0 +1,938 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="radio.css" type="text/css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+    </head>
+</html>
+
+<body>
+    <div class="radio">
+        <div class="screen">
+            <div id="MainMenu">
+
+                <div class="options" style="background-color: #373d60; right: 73px; width: 32px; bottom: -20px; height: 10px;">Select</div>
+                <div class="options" style="background-color: #373d60; right: -2px; width: 32px; bottom: -20px; height: 10px;">Cancel</div>
+
+                <div class="menuButton selected" data-id="phone">
+                    <i class="fa fa-phone"></i>
+                </div> 
+                <div class="menuButton" data-id="mail">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <div class="menuButton" data-id="talkGroup">
+                    <i class="fa fa-users"></i>
+                </div>
+                <div class="menuButton" data-id="gps">
+                    <i class="fa fa-globe"></i>
+                </div>
+                <div class="menuButton" data-id="choseFQ">
+                    <i class="fa fa-square"></i>
+                </div>
+                <div class="menuButton">
+                    <i class="fa fa-compress"></i>
+                </div>
+                <div class="menuButton" data-id="Audio">
+                    <i class="fa fa-wrench"></i>
+                </div>
+                <div class="menuButton">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="menuButton">
+                    <i class="fa fa-info-circle"></i>
+                </div>
+            </div>
+
+            <div id="MainRadio">
+                <div class="options" style="font-size:x-small; font-weight: bold; color: black; right: 65px; width: 50px; bottom: 90px; height: 15px;">SC20</div>
+                <div class="options" style="font-size:small; font-weight: bold; color: blue; right: -10px; width: 50px; bottom: 75px; height: 15px;"> <span id='date-time'></span></div>
+                <div class="options" style="font-size:xx-small; color: blue; right: -4px; width: 60px; bottom: 60px; height: 15px;"><span id='date-month'></span></div>
+                <div class="TalkGroups TalkSelected">
+                    <i class="fa fa-users"></i>
+                    <span id='FQ'></span>
+                </div>
+                <div class="TalkGroups" style="bottom:30px">
+                    <i class="fa fa-square"></i>
+                    SECURE
+                </div>
+
+                <div class="optionsBottom" style="right: 73px; width: 32px; bottom: -21px; height: 10.5px;" data-id="Menu">Menu</div>
+                <div class="optionsBottom" style="right: 35.5px; width: 32px; bottom: -21px; height: 10.5px;" data-id="Groups">Groups</div>
+                <div class="optionsBottom" style="right: -2px; width: 32px; bottom: -21px; height: 10.5px;" data-id="ReSize" >ReSize</div>
+            </div>
+
+            <div id="talkGroup">
+                <div class="options" style="font-size:xx-small; font-weight: bold; color: black; right: 0px; width: 100px; bottom: 91px; height: 15px;">TG Selection</div>
+                <i class="fa fa-envelope" style="position:absolute; font-size: xx-small; right: 90px; bottom: 96.5px;"></i>
+                <div id="talkGroupsList" class="example" style="height:100px; background: white;color:blue;overflow-y: scroll; overflow-x: hidden;scrollbar-width: none;-ms-overflow-style: none;"></div>
+                <div class="optionsBottom" style="right: 73px; width: 32px; bottom: -21px; height: 10.5px;" data-id="Select">Select</div>
+                <div class="optionsBottom" style="right: -2px; width: 32px; bottom: -21px; height: 10.5px;" data-id="Cancel">Cancel</div>
+            </div>
+        </div>
+
+        <div id="phone">
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 365px; height: 15px;">Phone Options</div>
+            <div class="Phone PhoneSelected" style="bottom:345px; right:226px;">History</div>
+            <div class="Phone" style="bottom:325px; right:220px;">Call / P2P</div>
+            <div class="optionsBottom" style="right: 273px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Select">Select</div>
+            <div class="optionsBottom" style="right: 198px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Cancel">Cancel</div>
+        </div>
+
+        <div id="phoneCall">
+            <div class="options" style="font-size:xx-small; font-weight: bold; color: black; right: 200px; width: 100px; bottom: 360px; height: 15px;"><span id="calling-number-title"></div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 330px;line-height: 20px; height: 20px;"><span id="calling-number"></span></div>
+        </div>
+
+        <div id="choseFQ">
+            <div class="options" style="font-size:xx-small; font-weight: bold; color: black; right: 200px; width: 100px; bottom: 360px; height: 15px;">Choose Custom Frequency</div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 330px;line-height: 20px; height: 20px;"><span id="fq-choice"></span></div>
+            <div class="optionsBottom" style="right: 273px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Select">Select</div>
+            <div class="optionsBottom" style="right: 198px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Cancel">Cancel</div>
+        </div>
+
+        <div id="phoneCallRecieve">
+            <div class="options" style="font-size:xx-small; font-weight: bold; color: black; right: 200px; width: 100px; bottom: 360px; height: 15px;">Recieving Call</div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 330px;line-height: 20px; height: 20px;"><span id="number"></span></div>
+        </div>
+
+        <div id="phoneOnCall">
+            <div class="options" style="font-size:xx-small; font-weight: bold; color: black; right: 200px; width: 100px; bottom: 360px; height: 15px;">On Call / P2P</div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 330px;line-height: 20px; height: 20px;"><span id="callTimer"></span></div>
+        </div>
+
+        <div id="history">
+            <div class="options" style="font-size:xx-small; font-weight: bold; color: black; right: 200px; width: 100px; bottom: 365px; height: 15px;">Out Going Calls</div>
+            <i class="fa fa-phone" style="color:#373d60; position:absolute; font-size: xx-small; right: 290px; bottom: 370;"></i>
+            <div id="historyHolder" class="screen" style="height:90px;background: white;color:blue;overflow-y: scroll; overflow-x: hidden;scrollbar-width: none;-ms-overflow-style: none;"></div>
+            <div class="optionsBottom" style="right: 273px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Select">Select</div>
+            <div class="optionsBottom" style="right: 198px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Cancel">Cancel</div>
+        </div>
+        <div id="mail">
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 365px; height: 15px;">Mail Options</div>
+            <div class="mail mailSelected" style="bottom:345px; right:226px;">Your Mail</div>
+            <div class="mail" style="bottom:325px; right:220px;">Send Mail</div>
+            <div class="optionsBottom" style="right: 273px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Select">Select</div>
+            <div class="optionsBottom" style="right: 198px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Cancel">Cancel</div>
+        </div>
+        <div id="mailSend">
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 365px; height: 15px;">Send Mail (Coming Soon)</div>
+        </div>
+        <div id="mailHistory">
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 365px; height: 15px;">Mail History (Coming Soon)</div>
+        </div>
+
+        <div id="GPS">
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 365px; height: 15px;">GPS</div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 340px;line-height: 20px; height: 20px;"><span id="location"></span></div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 315px;line-height: 20px; height: 20px;"><span id="direction"></span></div>
+            <div class="options" style="background-color: #373d60; font-size:x-small; font-weight: bold; color: white; right: 200px; width: 100px; bottom: 290px;line-height: 20px; height: 20px;"><span id="speed"></span></div>
+            <div class="optionsBottom" style="right: 198px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Cancel">Close</div>
+        </div>
+
+        <div id="Audio">
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 365px; height: 15px;">Settings</div>
+            <div class="options" style="font-size:x-small; font-weight: bolder; color: #373d60; right: 203px; width: 100px; bottom: 340px; height: 15px;">Audio</div>
+            <div>
+                <span id="rangeValue">30</span>
+                <Input class="range" type="range" name="slider" value="30" min="0" max="100" onChange="rangeSlide(this.value)" onmousemove="rangeSlide(this.value)"></Input>
+            </div>
+            <script type="text/javascript">
+                function rangeSlide(value) {
+                    document.getElementById('rangeValue').innerHTML = value;
+                    $.post('http://Radio/RadioAudioChange', JSON.stringify({
+                        text: value
+                    }));
+                }
+            </script>
+            <div class="optionsBottom" style="right: 198px; width: 32px; bottom: 254px; height: 10.5px;" data-id="Cancel">Close</div>
+        </div>        
+
+        <!-- Top Buttons -->
+        
+        <div id="Panic" class="button" style="right: 240px; width: 18px; bottom: 468px; height: 15px;" data-id="Panic Button"></div>
+
+        <!-- Arrow Buttons -->
+
+        <div id="button" class="button" style="right: 293px; width: 15px; bottom: 207px; height: 15px;" data-id="LeftButton"></div>
+        <div id="button" class="button" style="right: 245px; width: 15px; bottom: 212px; height: 15px;" data-id="MiddleButton"></div>
+        <div id="button" class="button" style="right: 197px; width: 15px; bottom: 207px; height: 15px;" data-id="RightButton"></div>
+
+        <!-- Arrows -->
+
+        <div id="button" class="button" style="right: 275px; width: 10px; bottom: 163px; height: 30px;" data-id="LeftArrow"></div>
+        <div id="button" class="button" style="right: 220px; width: 10px; bottom: 163px; height: 30px;" data-id="RightArrow"></div>
+
+        <div id="button" class="button" style="right: 238px; width: 30px; bottom: 188px; height: 10px;" data-id="TopArrow"></div>
+        <div id="button" class="button" style="right: 238px; width: 30px; bottom: 162px; height: 10px;" data-id="BottomArrow"></div>
+
+
+        <!-- Phone Buttons -->
+
+        <div id="button" class="button" style="right: 300px; width: 10px; bottom: 163px; height: 30px;" data-id="GreenPhone"></div>
+        <div id="RedPhone" class="button" style="right: 195px; width: 10px; bottom: 162.5px; height: 30px;" data-id="RedPhone"></div>
+
+        <!-- Left Buttons -->
+
+        <div id="button" class="button" style="right: 290px; bottom: 140px;" data-id="1"></div>
+        <div id="button" class="button" style="right: 290px; bottom: 115px;" data-id="4"></div>
+        <div id="button" class="button" style="right: 290px; bottom: 90px;" data-id="7"></div>
+        <div id="button" class="button" style="right: 290px; bottom: 65px;" data-id="*"></div>
+
+        <!-- Middle Buttons -->
+        
+        <div id="button" class="button" style="right: 245px; bottom: 135px;" data-id="2"></div>
+        <div id="button" class="button" style="right: 245px; bottom: 110px;" data-id="5"></div>
+        <div id="button" class="button" style="right: 245px; bottom: 85px;" data-id="8"></div>
+        <div id="button" class="button" style="right: 245px; bottom: 62.5px;" data-id="0"></div>
+
+        <!-- Right Buttons -->
+        
+        <div id="button" class="button" style="right: 195px; bottom: 140px;" data-id="3"></div>
+        <div id="button" class="button" style="right: 195px; bottom: 115px;" data-id="6"></div>
+        <div id="button" class="button" style="right: 195px; bottom: 90px;" data-id="9"></div>
+        <div id="button" class="button" style="right: 200px; bottom: 65px;" data-id="#"></div>
+
+        <div id="button" class="button" style="right: 295px; width: 30px; bottom: 475px; height: 30px" data-id="TopLeftRadio"></div>
+    </div>
+</body>
+
+<script>
+
+    document.getElementById('calling-number-title').innerHTML= "Enter Number";
+
+    var RadioChoices = {
+        frequency:"",
+    }
+
+    function date(){
+        var date = new Date();
+        if(date.getMinutes() < 10){
+            document.getElementById('date-time').innerHTML= date.getHours()+":0"+date.getMinutes();
+        }else{
+            document.getElementById('date-time').innerHTML= date.getHours()+":"+date.getMinutes();
+        }
+
+        var day
+        var month
+        const i = date.getDay()
+        const m = date.getMonth()
+        if(i === 0){
+            day = "Mon, "
+        }else if(i === 1){
+            day = "Tue, "
+        }else if(i === 2){
+            day = "Wed, "
+        }else if(i === 3){
+            day = "Thu, "
+        }else if(i === 4){
+            day = "Fri, "
+        }else if(i === 5){
+            day = "Sat, "
+        }else if(i === 6){
+            day = "Sun, "
+        }
+
+        if(m === 0){
+            month = "Jan"
+        }else if(m === 1){
+            month = "Feb"
+        }else if(m === 2){
+            month = "Mar"
+        }else if(m === 3){
+            month = "Apr"
+        }else if(m === 4){
+            month = "May"
+        }else if(m === 5){
+            month = "Jun"
+        }else if(m === 6){
+            month = "Jul"
+        }else if(m === 7){
+            month = "Aug"
+        }else if(m === 8){
+            month = "Sep"
+        }else if(m === 9){
+            month = "Oct"
+        }else if(m === 10){
+            month = "Nov"
+        }else if(m === 11){
+            month = "Dec"
+        }
+
+        document.getElementById('date-month').innerHTML= day + date.getDate() + " " + month;
+    }
+
+    document.getElementById('FQ').innerHTML= RadioChoices.frequency;
+    setInterval(function () {
+        date()
+        document.getElementById('FQ').innerHTML= RadioChoices.frequency;
+    }, 100);
+
+
+
+
+    var Frequencies = [];
+    var PressedButtons = [];
+    var OwnFQ  = ""
+    var CallHistory = [];
+    var TG = [];
+    var str = "";
+    var calling = false;
+    var Job = false;
+
+    // Time of Hold Down
+
+    var Time = 0;
+    let time;
+
+    const a = document.getElementById("RedPhone");
+    const b = document.getElementById("Panic");
+    a.onpointerdown = function() {
+        time = Date.now();
+    }
+    a.onpointerup = function() {
+
+        Time = Date.now() - time
+    }
+
+    b.onpointerdown = function() {
+        time = Date.now();
+    }
+    b.onpointerup = function() {
+
+        Time = Date.now() - time
+    }
+    
+    var passToLUA = false
+
+    // Link to LUA
+
+    $(function () {
+
+
+        var interval
+
+        function startCallTimer(){
+            var callTimeSec = 0
+            var callTimeMin = 0
+            document.getElementById('callTimer').innerHTML= "Connecting...";
+            interval = setInterval(function () {
+                if(callTimeSec == 60){
+                    callTimeMin++
+                    callTimeSec = 0
+                }
+                if(callTimeSec < 10){
+                    passHTML = callTimeMin + ":0" + callTimeSec 
+                }else{
+                    passHTML = callTimeMin + ":" + callTimeSec 
+                }
+                document.getElementById('callTimer').innerHTML= passHTML;
+                callTimeSec++
+            }, 1000);
+        }
+
+        function stopInterval(){
+            clearInterval(interval)
+        }
+
+        function hideAll(){
+            $('#MainMenu').hide()
+            $('#talkGroup').hide()
+            $("#MainRadio").hide()
+            $("#phoneCall").hide()
+            $("#phone").hide()
+            $("#phoneCallRecieve").hide()
+            $('#history').hide()
+            $('#mail').hide()
+            $("#phoneOnCall").hide()
+            $("#GPS").hide()
+            $('#mailHistory').hide()
+            $('#mailSend').hide()
+            $("#choseFQ").hide()
+            $("#Audio").hide()
+        }
+
+        function display(bool, player, phone, tg, job) {
+            Job = job
+
+            if(bool){
+                $('body').show()
+                hideAll()
+                $("#MainRadio").show()
+
+                var generatedHtml = '';
+                var nR = 1;
+
+                CallHistory.forEach(function (entry) {
+                    if (nR == 1) { 
+                        generatedHtml = generatedHtml + '<div class="HistoryEntry TalkSelected" style="position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + entry + '</div>';
+                    } else {
+                        generatedHtml = generatedHtml + '<div class="HistoryEntry" style="position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + entry + '</div>';
+                    }
+
+                    nR++;
+                });
+
+                $('#historyHolder').html(generatedHtml);
+
+                var generatedHtml2 = '';
+                var nR1 = 1;
+
+                tg.forEach(function (entry) {
+                    if (nR1 == 1) { 
+                        generatedHtml2 = generatedHtml2 + '<div class="TGEntry RadioTalkSelected" style=" bottom:-15px; position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + '<i class="fa fa-users"></i>' + " " + entry + '</div>';
+                    }
+                    else if (nR1 > 6){
+                        generatedHtml2 = generatedHtml2 + '<div class="TGEntry" style=" bottom:-25px; position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + '<i class="fa fa-users"></i>' + " " + entry + '</div>';
+                    }
+                    else {
+                        generatedHtml2 = generatedHtml2 + '<div class="TGEntry" style=" bottom:-15px; position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + '<i class="fa fa-users"></i>' + " " + entry + '</div>';
+                    }
+
+                    nR1++;
+                });
+
+                $('#talkGroupsList').html(generatedHtml2);
+
+
+                TG = tg
+
+                if(player){
+                    hideAll()
+                    $("#phoneCallRecieve").show()
+                    document.getElementById('number').innerHTML= player;
+                    CallHistory.push(player)
+                }
+                if(phone){
+                    hideAll()
+                    $("#phoneOnCall").show()
+                    startCallTimer(true)
+                }
+
+            }else{
+                stopInterval()
+                $('body').hide()
+            }
+        }
+
+        display(false)
+
+        window.addEventListener('message', function(evt) {
+            var item = evt.data;
+            var GPS = item.gps
+            if(GPS){
+                document.getElementById('location').innerHTML= GPS.Street;
+                document.getElementById('direction').innerHTML= GPS.Direction;
+                document.getElementById('speed').innerHTML= GPS.Speed;
+            }else{
+                if (item.bool){
+                    display(true, item.player, item.phone, item.talkGroups, item.Job)
+                }
+                else{
+                    display(false)
+                }
+            }
+        })
+
+        $('.button').on('click', function(evt) {
+
+
+            var dataText = $(this).attr("data-id")
+
+            if(dataText === "Panic Button"){
+                if(Time > 1499){
+                    $.post('http://Radio/RadioClick', JSON.stringify({
+                        text: dataText
+                    }));
+                }
+            }
+
+            if(dataText === "TopLeftRadio" && $('#phoneCallRecieve').is(":hidden")){
+                if($('#MainRadio').is(":hidden")){
+                    hideAll()
+                    $("#MainRadio").show()
+                    return
+                }else{
+                    passToLUA = dataText
+                }
+            }
+
+            if(dataText === "RedPhone"){
+                if(Time > 999 && $('#phoneCallRecieve').is(":hidden")){
+                    $.post('http://Radio/Close');
+                }
+            }
+
+            PressedButtons.push(dataText)
+            // Main Radio
+
+
+            if(dataText.length < 2 && $('#choseFQ').is(":hidden")){
+                hideAll()
+                $("#phoneCall").show()
+            }
+
+            if($('#choseFQ').is(":visible")){
+                document.getElementById('fq-choice').innerHTML= OwnFQ;
+                if(dataText.length < 2 && dataText != "#" && dataText!="*"){
+                    OwnFQ = OwnFQ.concat(dataText)
+                    document.getElementById('fq-choice').innerHTML= OwnFQ;
+                }
+                if(dataText == "LeftButton"){
+                    if(OwnFQ != ""){
+                        $.post('http://Radio/OwnFQ', JSON.stringify({
+                            text: OwnFQ
+                        }));
+                    }
+                    hideAll()
+                    $("#MainRadio").show()
+                    RadioChoices.frequency = "Custom FQ:" + OwnFQ
+                    OwnFQ = ""
+                    document.getElementById('fq-choice').innerHTML= "";
+                }
+                if(dataText == "RightButton"){
+                    hideAll()
+                    OwnFQ = ""
+                    document.getElementById('fq-choice').innerHTML= "";
+                    $("#MainRadio").show()
+                }  
+            }
+
+            else if($('#MainRadio').is(":visible")){
+
+                if(dataText == "BottomArrow"){
+                var x = document.getElementsByClassName("TalkGroups");
+                    for(let i = 0; i < x.length; i++){
+                        if(x[i].className == "TalkGroups TalkSelected"){
+                            if(i+1 != x.length){
+                                x[i].className = "TalkGroups"
+                                x[i+1].className = "TalkGroups TalkSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "TopArrow"){
+                var x = document.getElementsByClassName("TalkGroups");
+                    for(let i = 0; i < x.length; i++){
+                        if(x[i].className == "TalkGroups TalkSelected"){
+                            if(i-1 >= 0){
+                                x[i].className = "TalkGroups"
+                                x[i-1].className = "TalkGroups TalkSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "LeftButton"){
+                    $('#MainRadio').hide()
+                    $('#talkGroup').hide()
+                    $('#MainMenu').show()
+                }
+                if(dataText == "MiddleButton"){
+                    hideAll()
+                    $('#talkGroup').show()
+                }
+                if(dataText == "RightButton"){
+                }
+            }
+
+                // Main Menu
+
+            else if($('#MainMenu').is(":visible")){
+
+                if(dataText == "RightArrow"){
+                var x = document.getElementsByClassName("MenuButton");
+                for(let i = 0; i < x.length; i++){
+                    if(x[i].className == "menuButton selected"){
+                        if(i+1 != x.length){
+                            x[i].className = "menuButton"
+                            x[i+1].className = "menuButton selected"
+                        }
+                        break
+                    }
+                }
+            }
+            if(dataText == "LeftArrow"){
+                var x = document.getElementsByClassName("MenuButton");
+                for(let i = 0; i < x.length; i++){
+                    if(x[i].className == "menuButton selected"){
+                        if(i != 0){
+                            x[i].className = "menuButton"
+                            x[i-1].className = "menuButton selected"
+                        }
+                        break
+                    }
+                }
+            }
+            if(dataText == "TopArrow"){
+                var x = document.getElementsByClassName("MenuButton");
+                for(let i = 0; i < x.length; i++){
+                    if(x[i].className == "menuButton selected"){
+                        if(i-3 >= 0){
+                            x[i].className = "menuButton"
+                            x[i-3].className = "menuButton selected"
+                        }
+                        break
+                    }
+                }
+            }
+            if(dataText == "BottomArrow"){
+                var x = document.getElementsByClassName("MenuButton");
+                for(let i = 0; i < x.length; i++){
+                    if(x[i].className == "menuButton selected"){
+                        if(x.length > i+3){
+                            x[i].className = "menuButton"
+                            x[i+3].className = "menuButton selected"
+                        }
+                        break
+                    }
+                }
+            }
+
+            if(dataText == "LeftButton"){
+                var x = document.getElementsByClassName("MenuButton");
+                for(var i = 0; i < x.length; i++){
+                    if(x[i].className == "menuButton selected"){
+                        break
+                    }
+                }
+                if(x[i].dataset.id == "talkGroup"){
+                    if(Job){
+                        $('#MainMenu').hide()
+                        $('#MainRadio').hide()
+                        $('#talkGroup').show()
+                    }
+                }
+                if(x[i].dataset.id == "phone"){
+                    $('#MainMenu').hide()
+                    $('#MainRadio').hide()
+                    $('#phone').show()
+                }
+                if(x[i].dataset.id == "mail"){
+                    hideAll()
+                    $('#mail').show()
+                }
+                if(x[i].dataset.id == "gps"){
+                    hideAll()
+                    $.post('http://Radio/GPS', JSON.stringify({
+                        text: str
+                    }));
+                    $("#GPS").show()
+                }
+                if(x[i].dataset.id == "choseFQ"){
+                    hideAll()
+                    $("#choseFQ").show()
+                }
+                if(x[i].dataset.id == "Audio"){
+                    $('#MainMenu').hide()
+                    $('#MainRadio').hide()
+                    $('#Audio').show()
+                }
+            }
+
+            if(dataText == "RightButton"){
+                $('#MainMenu').hide()
+                $('#talkGroup').hide()
+                $('#MainRadio').show()
+                $('#talkGroup').hide()
+            }
+            return;
+        }
+
+
+        else if($('#talkGroup').is(":visible")){
+            if(dataText == "BottomArrow"){
+            var x = document.getElementsByClassName("TGEntry");
+                for(let i = 0; i != TG.length; i++){
+                    if(x[i].className == "TGEntry RadioTalkSelected"){
+                        if(i+1 != TG.length){
+                            x[i].className = "TGEntry"
+                            x[i+1].className = "TGEntry RadioTalkSelected"
+                        }
+                        break
+                    }
+                }
+            }
+
+            if(dataText == "TopArrow"){
+            var x = document.getElementsByClassName("TGEntry");
+                for(let i = 0; i < TG.length; i++){
+                    if(x[i].className == "TGEntry RadioTalkSelected"){
+                        if(i-1 >= 0){
+                            x[i].className = "TGEntry"
+                            x[i-1].className = "TGEntry RadioTalkSelected"
+                        }
+                        break
+                    }
+                }
+            }
+
+            if(dataText == "LeftButton"){
+                var x = document.getElementsByClassName("TGEntry");
+                for(var i = 0; i < TG.length+1; i++){
+                    if(x[i].className == "TGEntry RadioTalkSelected"){
+                        RadioChoices.frequency = x[i].textContent
+                        $.post('http://Radio/RadioFQ', JSON.stringify({
+                            text: i+1
+                        }));
+                        $('#talkGroup').hide()
+                        $("#MainRadio").show()
+                        break
+                    }
+                }
+
+            }
+            if(dataText == "RightButton"){
+                $('#talkGroup').hide()
+                $("#MainRadio").show()
+            }
+
+        }
+        else if($('#phoneCall').is(":visible")){
+            document.getElementById('calling-number-title').innerHTML= "Enter Number";
+            document.getElementById('calling-number').innerHTML= str;
+
+            if (dataText.length < 2 && !calling){ 
+                str = str.concat(dataText)
+                document.getElementById('calling-number-title').innerHTML= "Enter Number";
+                document.getElementById('calling-number').innerHTML= str;
+            }
+
+            else if(dataText == "GreenPhone"){
+                calling = true
+                document.getElementById('calling-number-title').innerHTML= "Calling Number";
+                
+                CallHistory.unshift(str)
+
+                $.post('http://Radio/PhoneCall', JSON.stringify({
+                    text: str
+                }));
+                
+
+                str = ""
+                calling = false
+
+            }
+
+            else if(dataText == "RedPhone"){
+                calling = false
+                str = ""
+                document.getElementById('calling-number-title').innerHTML= "Enter Number";
+                document.getElementById('calling-number').innerHTML= str;
+                $("#phoneCall").hide()
+                $("#MainRadio").show()
+            }
+        }
+        else if($('#phone').is(":visible")){
+                if(dataText == "BottomArrow"){
+                    var x = document.getElementsByClassName("Phone");
+                    for(let i = 0; i < 2; i++){
+                        if(x[i].className == "Phone PhoneSelected"){
+                            if(i+1 != 2){
+                                x[i].className = "Phone"
+                                x[i+1].className = "Phone PhoneSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "TopArrow"){
+                    var x = document.getElementsByClassName("Phone");
+                    for(let i = 0; i < 2; i++){
+                        if(x[i].className == "Phone PhoneSelected"){
+                            if(i-1 >= 0){
+                                x[i].className = "Phone"
+                                x[i-1].className = "Phone PhoneSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "LeftButton"){
+                    var x = document.getElementsByClassName("Phone");
+                    for(var i = 0; i < x.length; i++){
+                        if(x[i].className == "Phone PhoneSelected"){
+                            if(i === 0){
+                                $('#history').show()
+                                $("#phone").hide()
+
+                                var generatedHtml = '';
+                                var nR = 1;
+
+                                CallHistory.forEach(function (entry) {
+                                    if (nR == 1) { 
+                                        generatedHtml = generatedHtml + '<div class="HistoryEntry TalkSelected" style="position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + entry + '</div>';
+                                    } else {
+                                        generatedHtml = generatedHtml + '<div class="HistoryEntry" style="position: relative !important; width: 100%; text-align:left; margin-bottom: 3px;font-family: Arial, Helvetica, sans-serif;text-indent: 2px;font-size: xx-small;">' + entry + '</div>';
+                                    }
+
+                                    nR++;
+                                });
+
+                                $('#historyHolder').html(generatedHtml);
+                            }
+                            else{
+                                $('#phone').hide()
+                                $("#phoneCall").show()
+                            }
+                            break
+                        }
+                    }
+                }
+                if(dataText == "RightButton"){
+                    $('#phone').hide()
+                    $("#MainRadio").show()
+                }
+            }
+            else if($('#history').is(":visible")){
+                
+                if(dataText == "BottomArrow"){
+                    var x = document.getElementsByClassName("HistoryEntry");
+
+                    for(let i = 0; i < x.length; i++){
+                        if(x[i].className == "HistoryEntry TalkSelected"){
+                            if(i+1 != x.length){
+                                x[i].className = "HistoryEntry"
+                                x[i+1].className = "HistoryEntry TalkSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "TopArrow"){
+                    var x = document.getElementsByClassName("HistoryEntry");
+
+                    for(let i = 0; i < x.length; i++){
+                        if(x[i].className == "HistoryEntry TalkSelected"){
+                            if(i-1 >= 0){
+                                x[i].className = "HistoryEntry"
+                                x[i-1].className = "HistoryEntry TalkSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+                if(dataText == "RightButton"){
+                    $('#history').hide()
+                    $("#MainRadio").show()
+                }
+            }
+            else if($('#phoneCallRecieve').is(":visible")){
+                if(dataText === "RedPhone"){
+                    $('#phoneCallRecieve').hide()
+                    $("#MainRadio").show()
+                    $.post('http://Radio/CallRecieve', JSON.stringify({
+                        text: "EndCall"
+                    }));
+                }
+                else if(dataText === "GreenPhone"){
+                    $('#phoneCallRecieve').hide()
+                    $("#phoneOnCall").show()
+                    $.post('http://Radio/CallRecieve', JSON.stringify({
+                        text: "AnswerCall"
+                    }));
+                }
+            }
+
+            
+
+            else if($('#phoneOnCall').is(":visible")){
+                if(dataText === "RedPhone"){
+                    stopInterval()
+                    $.post('http://Radio/CallRecieve', JSON.stringify({
+                        text: "EndCall"
+                    }));
+                    $('#phoneOnCall').hide()
+                    $("#MainRadio").show()
+                }
+                if(dataText === "RedPhone"){
+                    $('#phoneOnCall').hide()
+                    $("#MainRadio").show()
+                }
+            }
+
+            else if($('#mail').is(":visible")){
+                if(dataText == "BottomArrow"){
+                    var x = document.getElementsByClassName("mail");
+                    for(let i = 0; i < 2; i++){
+                        if(x[i].className == "mail mailSelected"){
+                            if(i+1 != 2){
+                                x[i].className = "mail"
+                                x[i+1].className = "mail mailSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "TopArrow"){
+                    var x = document.getElementsByClassName("mail");
+                    for(let i = 0; i < 2; i++){
+                        if(x[i].className == "mail mailSelected"){
+                            if(i-1 >= 0){
+                                x[i].className = "mail"
+                                x[i-1].className = "mail mailSelected"
+                            }
+                            break
+                        }
+                    }
+                }
+
+                if(dataText == "LeftButton"){
+                    var x = document.getElementsByClassName("mail");
+                    for(var i = 0; i < x.length; i++){
+                        if(x[i].className == "mail mailSelected"){
+                            if(i === 0){
+                                $('#mailHistory').show()
+                                $("#mail").hide()
+                            }
+                            else{
+                                $('#mail').hide()
+                                $("#mailSend").show()
+                            }
+                            break
+                        }
+                    }
+                }
+                if(dataText == "RightButton"){
+                    $('#mail').hide()
+                    $("#MainRadio").show()
+                }
+            }
+
+            else if($('#GPS').is(":visible")){
+                if(dataText == "RightButton"){
+                    $('#GPS').hide()
+                    $("#MainRadio").show()
+                }
+            }
+
+            else if($('#Audio').is(":visible")){
+                if(dataText == "RightButton"){
+                    $('#Audio').hide()
+                    $("#MainRadio").show()
+                }
+            }
+
+
+            if(passToLUA){
+                $.post('http://Radio/RadioClick', JSON.stringify({
+                    text: passToLUA
+                }));
+            }
+
+            passToLUA = false
+            Time = 0
+
+            return;
+        })
+    })
+
+
+
+</script>

@@ -1,0 +1,199 @@
+.radio {
+    height: 750px;
+    width: 500px;
+    background: url('images/Radio.png');
+    background-size: contain;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+    z-index: 0;
+}
+
+.button {
+    position : absolute;
+    width: 20px;
+    height: 10px;
+    right: 0.1;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.screen {
+    position: absolute;
+    height: 105px;
+    width: 105px;
+    background: white;
+    bottom: 275px;
+    right: 200px;
+}
+
+.menuButton {
+    width: 12.5px;
+    display: inline-block;
+    float: left;
+    height: 12.5px;
+    padding: 8px 10px 10px 10px;
+    color: #333;
+    text-align: center;
+}
+
+.menuButton {
+    width: 12.5px;
+    display: inline-block;
+    float: left;
+    height: 12.5px;
+    padding: 8px 10px 10px 10px;
+    color: #333;
+    text-align: center;
+}
+
+.selected {
+    background: #97bcda;
+    color: #fff;
+    right: 100px;
+    width: 20px;
+    border-radius: 2px;
+}
+
+.options {
+    position : absolute;
+    text-align: center;
+    background-color: transparent;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-small;
+    color: white;
+}
+
+.optionsBottom {
+    position : absolute;
+    text-align: center;
+    background-color: transparent;
+    font-weight:lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:xx-small;
+    color: white;
+    background-color: #373d60;
+}
+
+.optionsSelected {
+    background-color: #97bcda;
+    color: white;
+}
+
+.TalkSelected {
+    position : absolute;
+    color: white;
+    background-color: red;
+}
+
+.RadioTalkSelected {
+    position : absolute;
+    color: white;
+    background-color: red;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+}
+
+
+.TalkGroups {
+    position : absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 45px;
+    left: 0px;
+    right: 0px;
+    text-indent: 2px;
+    font-size: xx-small;
+    text-align: left;
+}
+
+.mainTalkSelected {
+    position : absolute;
+    color: white;
+    background-color: red;
+}
+
+
+.mainTalkGroups {
+    position : absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 45px;
+    left: 0px;
+    right: 0px;
+    text-indent: 2px;
+    font-size: xx-small;
+    text-align: left;
+}
+
+.PhoneSelected {
+    position : absolute;
+    color: white;
+    background-color: red;
+}
+
+
+.Phone {
+    position : absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+    text-indent: 2px;
+    font-size: x-small;
+    text-align: center;
+}
+
+.mailSelected {
+    position : absolute;
+    color: white;
+    background-color: red;
+}
+
+
+.mail {
+    position : absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 10px;
+    text-indent: 2px;
+    font-size: x-small;
+    text-align: center;
+}
+
+.screen::-webkit-scrollbar {
+    display: none;
+  }
+
+#rangeValue {
+  position: absolute;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 1.3em;
+  color: #af0303;
+  font-weight: 600;
+  top: 420px;
+  right:201px;
+}
+.range {
+  position: absolute;
+  width: 100px;
+  height: 5px;
+  top: 410px;
+  right:200px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #af0303;
+  cursor: pointer;
+  border: 4px solid #af0303;
+  box-shadow: -407px 0 0 400px #af0303;
+}

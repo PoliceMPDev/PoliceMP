@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <script src='https://kit.fontawesome.com/542bf0c7a9.js' crossorigin='anonymous'></script>
+    <link rel='stylesheet' href='reset.css' type='text/css'>
+    <link rel='stylesheet' href='style/radio-core.css' type='text/css'>
+</head>
+<body>
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <audio id='button-click' src='resources/click.ogg'></audio>
+    <audio id='talk-start' src='resources/talk-start.ogg'></audio>
+    <audio id='talk-end' src='resources/talk-end.ogg'></audio>
+
+    <div id='radio-core'>
+        <div id='radio-container'>
+            <div id='radio-screen'>
+                <h3>Talk Group <i class="fas fa-users"></i></h3>
+                <div id='talk-group-container'>
+                    <h1>Ops 1</h1>
+                </div>
+
+                <div id='active-talkers-container'>
+                    <p><b>Speaking:</b> <i></i></p>
+                </div>
+
+                <div id='menu-options'>
+                    <button>Units</button>
+                    <button>Mute</button>
+                </div>
+            </div>
+
+            <div id='radio-buttons'>
+                <div id='radio-buttons-row-1'>
+                    <button></button>
+                    <button></button>
+                    <button></button>
+                </div>
+                <div id='radio-buttons-row-2'>
+                    <button id='radio-on'></button>
+
+                    <div>
+                        <button id='radio-channel-up'></button>
+                        <button id='radio-channel-down'></button>
+                    </div>
+
+                    <button id='radio-off'></button>
+                </div>
+                <div id='radio-buttons-row-3'>
+                  <button id='channel-1'></button>
+                  <button id='channel-2'></button>
+                  <button id='channel-3'></button>
+                </div>
+                <div id='radio-buttons-row-4'>
+                  <button id='channel-4'></button>
+                  <button id='channel-5'></button>
+                  <button id='channel-6'></button>
+                </div>
+                <div id='radio-buttons-row-5'>
+                  <button id='channel-7'></button>
+                  <button id='channel-8'></button>
+                  <button id='channel-9'></button>
+                </div>
+                <div id='radio-buttons-row-6'>
+                  <button></button>
+                  <button id='channel-10'></button>
+                  <button></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='script/radio-core.js'></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+{
+    "RadioChannels":[
+        "General TG:1",
+        "Talkgroup 2 TG:2",
+        "Talkgroup 3 TG:3",
+        "Talkgroup 4 TG:4",
+        "Talkgroup 5 TG:5",
+        "Talkgroup 6 TG:6",
+        "Talkgroup 7 TG:7",
+        "Talkgroup 8 TG:8",
+        "Talkgroup 9 TG:9"
+    ],
+    
+    "ESX": false,
+    "QBCore": false,
+
+    "Mumble": false,
+    "PMA": true,
+
+    "FX": true,
+
+    "BadgerDiscordAPI": [
+        {
+            "using": false,
+            "roleIDs": [
+                "108717881968197664",
+                "108717881968197663",
+                "908717881968197662"
+            ]
+        }
+    ],
+
+    "InventoryItem": "radio",
+    "Job":[
+        "police",
+        "ambulance"
+    ],
+
+    "CommandName":"radio",
+
+    "fqcommand":"f",
+
+    "PlayPanicNoiseTwice": false
+}

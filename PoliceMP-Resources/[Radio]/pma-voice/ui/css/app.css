@@ -1,0 +1,22 @@
+.voiceInfo {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    position: fixed;
+    text-align: right;
+    bottom: 0.3125rem; /* 5px */
+    padding: 0;
+    right: 0.3125rem; /* 5px */
+    font-size: 1.05rem; /* 12px */
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 0.078rem 0 0 #000, 0 -0.078rem 0 #000, 
+                 0 0.078rem 0 #000, -0.078rem 0 0 #000; /* Adjusted for rem */
+  }
+  
+  .talking {
+    color: hsl(0, 100%, 73%);
+  }
+  
+  p {
+    margin: 0;
+  }
+  

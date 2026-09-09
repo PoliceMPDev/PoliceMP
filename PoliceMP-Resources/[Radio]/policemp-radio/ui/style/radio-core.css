@@ -1,0 +1,282 @@
+button {
+    outline: none;
+    border: none;
+}
+
+h1, h3, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+#radio-core {
+    width: 15vw;
+    height: 70vh;
+
+    position: absolute;
+
+    right: 0;
+    bottom: -70vh;
+
+    background-image: url('../resources/radio.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    transition-duration: 500ms;
+}
+
+#radio-container {
+    width: 8vw;
+    height: 37vh;
+
+    margin-top: 31.4vh; /* 31.4vh */
+    margin-left: 3.5vw;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#radio-screen {
+    background: black;
+
+    height: 16.7vh; /* 16.7vh */
+
+    margin-left: 0.5vw;
+    margin-right: 0.5vw;
+}
+
+#radio-screen > h3 {
+    margin-top: 1.5vh;
+    margin-left: 0.2vw;
+
+    font-size: 1vh;
+}
+
+#radio-screen > #talk-group-container {
+    margin-left: 0.2vw;
+    margin-right: 0.2vw;
+    margin-top: 0.5vh;
+
+    height: 7vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#radio-screen > #talk-group-container > h1 {
+    font-size: 1.3vh;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+#active-talkers-container {
+    display: none;
+
+    background: #e2e2e2;
+
+    margin-left: 0.2vw;
+    margin-right: 0.3vw;
+
+    height: 4.8vh;
+}
+
+#active-talkers-container > p {
+    height: 100%;
+
+    font-size: 1vh;
+    padding: 3px;
+
+    overflow-y: auto;
+
+    line-height: 1.2vh;
+}
+
+#active-talkers-container > p > b {
+    font-weight: bold;
+}
+
+#menu-options {
+    padding-top: 0.4vh;
+
+    display: none;
+    justify-content: space-between;
+
+    bottom: 0;
+}
+
+#menu-options > button {
+    background: none;
+    color: white;
+
+    font-size: 1vh;
+    width: 2.3vw;
+}
+
+#radio-buttons {
+    height: 18vh;
+
+    margin-top: 2vh;
+    margin-right: 0.3vw;
+}
+
+#radio-buttons-row-1 {
+    height: 2.6vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-buttons-row-1 > button {
+    background: none;
+}
+
+#radio-buttons-row-1 > button {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-1 > button:nth-child(odd) {
+    flex-grow: 0.5;
+}
+
+#radio-buttons-row-2 {
+    display: flex;
+
+    height: 5.6vh;
+}
+
+#radio-buttons-row-2 > button {
+    background: none;
+}
+
+#radio-buttons-row-2 > button:hover {
+    background: rgba(29, 100, 165, 0.205);
+}
+
+#radio-buttons-row-2 > * {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-2 > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#radio-buttons-row-2 > div > button {
+    background: none;
+
+    width: 2vw;
+
+    flex-grow: 1;
+}
+
+#radio-buttons-row-2 > div > button:hover {
+    background: rgba(29, 100, 165, 0.205);
+}
+
+#radio-buttons-row-2 > button {
+    flex-grow: 0.25;
+}
+/* Row 3 */
+
+#radio-buttons-row-3 {
+    height: 2.6vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-buttons-row-3 > button {
+    background: none;
+}
+
+#radio-buttons-row-3 > button {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-3 > button:nth-child(odd) {
+    flex-grow: 1;
+}
+#radio-buttons-row-3 > button:hover {
+    background: rgba(29, 100, 165, 0.205);
+}
+
+/* Row 4 */
+
+#radio-buttons-row-4 {
+    height: 2.6vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-buttons-row-4 > button {
+    background: none;
+}
+
+#radio-buttons-row-4 > button {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-4 > button:nth-child(odd) {
+    flex-grow: 1;
+}
+#radio-buttons-row-4 > button:hover {
+    background: rgba(29, 100, 165, 0.205);
+}
+
+/* Row 5 */
+
+#radio-buttons-row-5 {
+    height: 2.6vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-buttons-row-5 > button {
+    background: none;
+}
+
+#radio-buttons-row-5 > button {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-5 > button:nth-child(odd) {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-5 > button:hover {
+    background: rgba(29, 100, 165, 0.205);
+}
+
+/* Row 5 */
+
+#radio-buttons-row-6 {
+    height: 2.6vh;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#radio-buttons-row-6 > button {
+    background: none;
+}
+
+#radio-buttons-row-6 > button {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-6 > button:nth-child(odd) {
+    flex-grow: 1;
+}
+
+#radio-buttons-row-6 > button:hover {
+    background: rgba(29, 100, 165, 0.205);
+}
