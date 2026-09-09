@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "PoliceMP.Server": {
+      "commandName": "Executable",
+      "workingDirectory": "..\\"
+    }
+  }
+}

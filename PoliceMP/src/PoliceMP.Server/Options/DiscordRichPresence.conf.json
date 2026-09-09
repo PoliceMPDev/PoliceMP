@@ -1,0 +1,23 @@
+{
+  "DiscordRichPresence": {
+    "AppId": "851190500152049686",
+    "Asset": "simple_logo",
+    "AssetText": "discord.gg/policemp",
+    "AssetSmall": "info-512",
+    "AssetSmallText": "PoliceMP.com",
+
+    // Only able to have maximum of 2 action buttons
+    "ActionButtons": [
+      {
+        "Index": 0,
+        "Label": "Play",
+        "Url": "fivem://connect/policemp.com:30120"
+      },
+      {
+        "Index": 1,
+        "Label": "Discord",
+        "Url": "https://discord.gg/policemp"
+      }
+    ]
+  }
+}

@@ -1,0 +1,398 @@
+{
+  "Items": {
+    "Items": [
+      {
+        "Id": "1",
+        "Name": "Cannabis 1/4 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Probably enough for a small joint",
+        "Chance": "10"
+      },
+      {
+        "Id": "2",
+        "Name": "Cannabis 1/2 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Enough for a joint",
+        "Chance": "8"
+      },
+      {
+        "Id": "3",
+        "Name": "Cannabis 1 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Enough for a reasonable joint",
+        "Chance": "5"
+      },
+      {
+        "Id": "4",
+        "Name": "Cannabis 10 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Could be a supply amount",
+        "Chance": "3"
+      },
+      {
+        "Id": "5",
+        "Name": "Cannabis 50 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Definitly be a supply amount",
+        "Chance": "2"
+      },
+      {
+        "Id": "6",
+        "Name": "Cannabis Joint",
+        "IsIllegal": true,
+        "Description": "Cannabis Joint",
+        "Chance": "15"
+      },
+      {
+        "Id": "7",
+        "Name": "Cannabis Grinder",
+        "IsIllegal": false,
+        "Description": "Small tub for grinding up cannabis",
+        "Chance": "15"
+      },
+      {
+        "Id": "8",
+        "Name": "Bong",
+        "IsIllegal": false,
+        "Description": "Used for the consumption of cannabis",
+        "Chance": "15"
+      },
+      {
+        "Id": "9",
+        "Name": "Cocaine Powder 1 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Could be a supply amount",
+        "Chance": "10"
+      },
+      {
+        "Id": "10",
+        "Name": "Cocaine Powder 10 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Supply amount",
+        "Chance": "5"
+      },
+      {
+        "Id": "11",
+        "Name": "Cocaine Powder 100 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Supply amount",
+        "Chance": "2"
+      },
+      {
+        "Id": "12",
+        "Name": "Crack Cocaine 1 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Could be a supply amount",
+        "Chance": "10"
+      },
+      {
+        "Id": "13",
+        "Name": "Crack Cocaine 10 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Supply amount",
+        "Chance": "5"
+      },
+      {
+        "Id": "14",
+        "Name": "Crack Cocaine 100 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Supply amount",
+        "Chance": "2"
+      },
+      {
+        "Id": "15",
+        "Name": "Diazepam Tablet",
+        "IsIllegal": true,
+        "Description": "Small blue tablet",
+        "Chance": "20"
+      },
+      {
+        "Id": "16",
+        "Name": "Bag Of Daisys (10 Tablets)",
+        "IsIllegal": true,
+        "Description": "Bag of small bule tablets",
+        "Chance": "15"
+      },
+      {
+        "Id": "17",
+        "Name": "Bag Of Daisys (50 Tablets)",
+        "IsIllegal": true,
+        "Description": "Bag of small bule tablets",
+        "Chance": "10"
+      },
+      {
+        "Id": "18",
+        "Name": "Bag Of Daisys (100 Tablets)",
+        "IsIllegal": true,
+        "Description": "Bag of small bule tablets",
+        "Chance": "5"
+      },
+      {
+        "Id": "19",
+        "Name": "Ecstasy Tablet",
+        "IsIllegal": true,
+        "Description": "Small yelllow tablet",
+        "Chance": "10"
+      },
+      {
+        "Id": "20",
+        "Name": "Bag Of Ecstasy (10 Tablets)",
+        "IsIllegal": true,
+        "Description": "Bag of small yelllow tablets",
+        "Chance": "5"
+      },
+      {
+        "Id": "21",
+        "Name": "Bag Of Ecstasy (50 Tablets)",
+        "IsIllegal": true,
+        "Description": "Bag of small bule tablets",
+        "Chance": "3"
+      },
+      {
+        "Id": "22",
+        "Name": "Bag Of Ecstasy (100 Tablets)",
+        "IsIllegal": true,
+        "Description": "Bag of small yelllow tablets",
+        "Chance": "2"
+      },
+      {
+        "Id": "23",
+        "Name": "Heroin 1 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Small bag of brown powder",
+        "Chance": "10"
+      },
+      {
+        "Id": "24",
+        "Name": "Heroin 10 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Small bag of brown powder",
+        "Chance": "5"
+      },
+      {
+        "Id": "25",
+        "Name": "Heroin 100 Gram Bag",
+        "IsIllegal": true,
+        "Description": "Small bag of brown powder",
+        "Chance": "2"
+      },
+      {
+        "Id": "26",
+        "Name": "Primed Heroin Syringe",
+        "IsIllegal": true,
+        "Description": "Syringe ready for use",
+        "Chance": "8"
+      },
+      {
+        "Id": "27",
+        "Name": "Used Heroin Syringe",
+        "IsIllegal": true,
+        "Description": "Used heroin syringe",
+        "Chance": "10"
+      },
+      {
+        "Id": "28",
+        "Name": "Boyles Burnt Spoon",
+        "IsIllegal": false,
+        "Description": "Teaspoon that has been heated from the bottom",
+        "Chance": "8"
+      },
+      {
+        "Id": "29",
+        "Name": "Lighter",
+        "IsIllegal": false,
+        "Description": "Re light my fire",
+        "Chance": "40"
+      },
+      {
+        "Id": "30",
+        "Name": "Cigarette",
+        "IsIllegal": false,
+        "Description": "Single cigarette",
+        "Chance": "50"
+      },
+      {
+        "Id": "31",
+        "Name": "Pack Of Cigarettes",
+        "IsIllegal": false,
+        "Description": "Multiple cigarettes in a small box",
+        "Chance": "40"
+      },
+      {
+        "Id": "32",
+        "Name": "Bottle Of Juice",
+        "IsIllegal": false,
+        "Description": "Drink in a bottle",
+        "Chance": "60"
+      },
+      {
+        "Id": "33",
+        "Name": "Can Of Juice",
+        "IsIllegal": false,
+        "Description": "Drink in a can",
+        "Chance": "60"
+      },
+      {
+        "Id": "34",
+        "Name": "Packet Of Crisps",
+        "IsIllegal": false,
+        "Description": "Crisps in a packet",
+        "Chance": "60"
+      },
+      {
+        "Id": "35",
+        "Name": "Chocolate Bar",
+        "IsIllegal": false,
+        "Description": "Nice chocolate bar",
+        "Chance": "60"
+      },
+      {
+        "Id": "36",
+        "Name": "Nice Egg",
+        "IsIllegal": false,
+        "Description": "I wonder where you found this.....",
+        "Chance": "5"
+      },
+      {
+        "Id": "37",
+        "Name": "Mobile Phone",
+        "IsIllegal": false,
+        "Description": "Regular mobile phone",
+        "Chance": "80"
+      },
+      {
+        "Id": "38",
+        "Name": "Burner Phone",
+        "IsIllegal": false,
+        "Description": "Typically used to organise illicit business",
+        "Chance": "10"
+      },
+      {
+        "Id": "39",
+        "Name": "Keys",
+        "IsIllegal": false,
+        "Description": "Set of keys on a keyring",
+        "Chance": "80"
+      },
+      {
+        "Id": "40",
+        "Name": "Notepad",
+        "IsIllegal": false,
+        "Description": "Some paper to wrtie notes on",
+        "Chance": "50"
+      },
+      {
+        "Id": "41",
+        "Name": "Pen",
+        "IsIllegal": false,
+        "Description": "A pen for writing",
+        "Chance": "50"
+      },
+      {
+        "Id": "42",
+        "Name": "Pencil",
+        "IsIllegal": false,
+        "Description": "A pencil for writing",
+        "Chance": "30"
+      },
+      {
+        "Id": "43",
+        "Name": "USB Stick",
+        "IsIllegal": false,
+        "Description": "A small device for storing files",
+        "Chance": "45"
+      },
+      {
+        "Id": "44",
+        "Name": "Wallet",
+        "IsIllegal": false,
+        "Description": "Holder for money",
+        "Chance": "85"
+      },
+      {
+        "Id": "45",
+        "Name": "Torch",
+        "IsIllegal": false,
+        "Description": "Small devices that shines light",
+        "Chance": "35"
+      },
+      {
+        "Id": "46",
+        "Name": "Comb",
+        "IsIllegal": false,
+        "Description": "Comb for sorting the hair",
+        "Chance": "35"
+      },
+      {
+        "Id": "47",
+        "Name": "Headphones",
+        "IsIllegal": false,
+        "Description": "Used for listening to music",
+        "Chance": "45"
+      },
+      {
+        "Id": "48",
+        "Name": "Knife",
+        "IsIllegal": true,
+        "Description": "Sharp knife, should not be allowed in the street",
+        "Chance": "10"
+      },
+      {
+        "Id": "49",
+        "Name": "Gold Ring",
+        "IsIllegal": false,
+        "Description": "A golden ring, looks expensive",
+        "Chance": "20"
+      },
+      {
+        "Id": "50",
+        "Name": "Stamp",
+        "IsIllegal": false,
+        "Description": "Used to send paper Emails",
+        "Chance": "25"
+      },
+      {
+        "Id": "51",
+        "Name": "Carrier Bag",
+        "IsIllegal": false,
+        "Description": "Used for holding items",
+        "Chance": "45"
+      },
+      {
+        "Id": "52",
+        "Name": "Watch",
+        "IsIllegal": false,
+        "Description": "Used for telling the time",
+        "Chance": "50"
+      },
+      {
+        "Id": "53",
+        "Name": "Vape",
+        "IsIllegal": false,
+        "Description": "Cloud generation machine",
+        "Chance": "35"
+      },
+      {
+        "Id": "54",
+        "Name": "Handgun Glock 9mm",
+        "IsIllegal": true,
+        "Description": "A Pistol Glock 9mm",
+        "Chance": "10"
+      },
+      {
+        "Id": "55",
+        "Name": "Rifle AK-47",
+        "IsIllegal": true,
+        "Description": "An automatic rifle AK-47",
+        "Chance": "8"
+      },
+      {
+        "Id": "56",
+        "Name": "Bullets 9mm",
+        "IsIllegal": true,
+        "Description": "A box of 9mm bullets",
+        "Chance": "10"
+      }
+    ]
+  }
+}

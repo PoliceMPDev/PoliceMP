@@ -1,0 +1,163 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+        <AssemblyName>PoliceMP.Server.net</AssemblyName>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+        <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+        <OutputPath>bin\Release</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+        <OutputPath>..\..\server\server-data\resources\PoliceMP\server\</OutputPath>
+    </PropertyGroup>
+
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+            None
+        </ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch>
+        <LangVersion>9</LangVersion>
+        <Nullable>disable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="BCrypt.Net-Next" Version="4.0.2"/>
+        <PackageReference Include="Bogus" Version="32.0.2"/>
+        <PackageReference Include="CitizenFX.Core.Server" Version="1.0.5879"/>
+        <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.Logging" Version="3.1.15"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="3.1.15"/>
+        <PackageReference Include="Newtonsoft.Json" Version="12.0.3"/>
+        <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="2.2.6"/>
+        <PackageReference Include="Portable.BouncyCastle" Version="1.8.9"/>
+        <PackageReference Include="RestSharp" Version="105.0.0"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Legacy\Main\PoliceMP.Main.Core.Server\PoliceMP.Main.Core.Server.csproj" />
+        <ProjectReference Include="..\PoliceMP.Core.Client\PoliceMP.Core.Client.csproj"/>
+        <ProjectReference Include="..\PoliceMP.Core.Server\PoliceMP.Core.Server.csproj"/>
+        <ProjectReference Include="..\PoliceMP.Core.Shared\PoliceMP.Core.Shared.csproj"/>
+        <ProjectReference Include="..\PoliceMP.Data\PoliceMP.Data.csproj"/>
+        <ProjectReference Include="..\PoliceMP.Shared\PoliceMP.Shared.csproj"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Reference Include="Microsoft.CSharp">
+            <HintPath>C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5.2\Microsoft.CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.EntityFrameworkCore">
+            <HintPath>..\PoliceMP.Data\bin\Debug\Microsoft.EntityFrameworkCore.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+  <ItemGroup>
+    <None Update="Options\Action.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\DiscordRichPresence.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Auth.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Items.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Offences.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Speech.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\VehicleInfo.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\PedInfo.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\PlayerController.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Questions.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\SpeedBumps.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\VehicleFaultGenerator.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Spawn.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\Server.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\World.conf.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="Options\DogOptions.conf.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+    <ItemGroup>
+        <None Update="Options\Action.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\DiscordRichPresence.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Auth.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Items.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Offences.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Speech.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\VehicleInfo.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\PedInfo.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\PlayerController.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Questions.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\SpeedBumps.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\VehicleFaultGenerator.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Spawn.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\Server.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+        <None Update="Options\World.conf.json">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+
+</Project>

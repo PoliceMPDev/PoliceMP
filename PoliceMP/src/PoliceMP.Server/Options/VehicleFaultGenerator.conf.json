@@ -1,0 +1,25 @@
+{
+  "VehicleFaultGenerator": {
+    "IllegalStuffChance": 20,
+    "SpeedingChance": 10,
+    "RunRedLightChance": 5,
+    "HeadlightsOffChance": 2,
+    "PoorBodyHealthChance": 2,
+    "PoorEngineHealthChance": 2,
+    "PoorPetrolTankHealthChance": -1,
+    "BurstTyreChance": 2,
+    "AlarmActiveChance": 1,
+    "DodgyDriverChance": 5,
+    "SpeedingSpeed": 200,
+    "SpeedingDrivingStyle": 786603,
+    "RunRedLightDrivingStyle": 319,
+    "DodgyDriverDrivingStyle": 262663,
+    "AlarmTimeLeft": 15000,
+    "PoorBodyMinHealth": 100,
+    "PoorBodyMaxHealth": 500,
+    "PoorEngineMinHealth": 100,
+    "PoorEngineMaxHealth": 500,
+    "PoorPetrolTankMinHealth": 100,
+    "PoorPetrolTankMaxHealth": 500
+  }
+}

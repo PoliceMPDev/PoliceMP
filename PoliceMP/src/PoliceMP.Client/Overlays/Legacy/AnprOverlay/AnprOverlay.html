@@ -1,0 +1,173 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="anpr-overlay.css" />
+    <link rel="stylesheet" type="text/css" href="..\Assets\Bootstrap\css\bootstrap.min.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/ptq5ghf.css">
+</head>
+<body>
+    <div class="anpr-wrapper">
+        <div class="anpr-top-bar">
+            <div class="anpr-unit">
+                <span class="anpr-signal anpr-signal-1"></span>
+                <span class="anpr-signal anpr-signal-2"></span>
+                <span class="anpr-signal anpr-signal-3"></span>
+                <span class="anpr-signal anpr-signal-4"></span>
+            </div>
+            <div class="anpr-title">Automatic Number Plate Recognition</div>
+            <div class="anpr-time" id="time">00:00</div>
+        </div>
+        <div class="anpr-main">
+            <div class="anpr-plate-wrapper">
+                <div class="anpr-plate-column-wrapper">
+                    <div class="anpr-number-plate-wrapper">
+                        <div class="anpr-number-plate" id="plate">UX12 VAS</div>
+                        <span class="anpr-country">GB</span>
+                        <img src="icon-lock.png" class="anpr-icon-lock" id="lock" />
+                    </div>
+                    <div class="anpr-car-model-wrapper">
+                        <div id="model">[MODEL]</div>
+                        <div id="colour">[COLOUR]</div>
+                    </div>
+                </div>
+                <div class="anpr-speed" id="speed">
+                    0 MPH
+                </div>
+            </div>
+            <div class="anpr-state-wrapper">
+                <div class="anpr-state anpr-state-open" id="stateSearch">Searching for vehicle...</div>
+                <div class="anpr-state anpr-state-pass" id="statePass">No Results</div>
+                <div class="anpr-state anpr-state-alert" id="stateWarning">Warning</div>
+            </div>
+            <div class="anpr-markers-wrapper">
+                <div class="anpr-marker anpr-marker-off" id="tax">Tax</div>
+                <div class="anpr-marker anpr-marker-off" id="insurance">Insurance</div>
+                <div class="anpr-marker anpr-marker-off" id="mot">Mot</div>
+                <div class="anpr-marker anpr-marker-off" id="drugs-intel">Drugs</div>
+                <div class="anpr-marker anpr-marker-off" id="weapons-intel">Weapons</div>
+                <div class="anpr-marker anpr-marker-off" id="stolen">Stolen</div>
+                <div class="anpr-marker anpr-marker-off" id="fail-to-stop">Fts</div>
+                <div class="anpr-marker anpr-marker-off" id="wanted">Wanted</div>
+                <div class="anpr-marker anpr-marker-off" id="other">Other</div>
+            </div>
+            <div class="anpr-divisions-wrapper">
+                <div class="anpr-division" id="afo">AFO</div>
+                <div class="anpr-division" id="cid">CID</div>
+                <div class="anpr-division" id="dsu">DSU</div>
+                <div class="anpr-division" id="ert">ERT</div>
+                <div class="anpr-division" id="rtpc">RTPC</div>
+            </div>
+        </div>
+    </div>
+    <script src="../Assets/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript">
+        policemp.on('showAlpr',
+            () => {
+                resetInterface();
+                $("body").show();
+				
+            });
+
+        policemp.on('hideAlpr',
+            () => {
+                resetInterface();
+                $("body").hide();
+            });
+
+        policemp.on('lockAlpr',
+            () => {
+                $("#lock").show();
+            });
+
+        policemp.on('unlockAlpr',
+            () => {
+                $("#lock").hide();
+            });
+
+        policemp.on('clearAlpr',
+            () => {
+                resetInterface();
+            });
+
+        policemp.on('updateAlpr',
+            (data) => {
+                $("#plate").text(data.Plate);
+                $("#speed").text(data.Mph + " MPH");
+                $("#model").text(data.Model);
+                $("#colour").text(data.Colour.split(/(?=[A-Z])/).join(" "));
+
+                console.log('data mot is ' + data.MOT);
+				
+                setBoxFlagged("#mot", data.MOT);
+                setBoxFlagged("#insurance", data.Insurance);
+                setBoxFlagged("#tax", data.Tax);
+                setBoxFlagged("#drugs-intel", data.DrugsIntel);
+                setBoxFlagged("#weapons-intel", data.WeaponsIntel);
+                setBoxFlagged("#fail-to-stop", data.FailToStop);
+                setBoxFlagged("#stolen", data.Stolen);
+                setBoxFlagged("#wanted", data.OutstandingCrime);
+                setBoxFlagged("#other", data.Other);
+                updateTime();
+
+                if (data.WeaponsIntel) {
+                    $("#afo").addClass("anpr-division-on");
+                }
+                else if (data.FailToStop || data.Stolen) {
+                    $("#rtpc").addClass("anpr-division-on");
+                }
+                else if (data.DrugsIntel) {
+                    $("#dsu").addClass("anpr-division-on");
+                }
+                else if (data.OutstandingCrime || data.Other) {
+                    $("#cid").addClass("anpr-division-on");
+                }
+                else if (data.Tax || data.Insurance || data.MOT) {
+                    $("#ert").addClass("anpr-division-on");
+                }
+                else {
+                    $("#stateSearch").hide();
+                    $("#statePass").show();
+                    $("#stateWarning").hide();
+                }
+            });
+	
+        function setBoxFlagged(box, value) {
+            if (!value) {
+                setBoxNone(box);
+            } else {
+                $(box).removeClass("anpr-marker-off").addClass("anpr-marker-on");
+                $("#stateSearch").hide();
+                $("#statePass").hide();
+                $("#stateWarning").show();
+            }
+        }
+	
+        function setBoxNone(box) {
+            $(box).removeClass("anpr-marker-on").addClass("anpr-marker-off");
+        }
+
+        function updateTime() {
+            var currentDate = new Date();
+            $("#time").text(currentDate.getHours() + ":" + String(currentDate.getMinutes()).padStart(2, '0'));
+        }
+	
+        function resetInterface() {
+            $("#plate").text("XX99 XXX");
+            $("#speed").text("0 MPH");
+            $("#model").text("NO VEHICLE");
+            $("#colour").text("N/A");
+            $(".anpr-marker").removeClass("anpr-marker-on").addClass("anpr-marker-off");
+            $(".anpr-division").removeClass("anpr-division-on");
+            $("#lock").hide();
+
+            $("#stateSearch").show();
+            $("#statePass").hide();
+            $("#stateWarning").hide();
+
+            updateTime();
+        }
+    </script>
+</body>
+</html>

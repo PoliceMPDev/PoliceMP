@@ -1,0 +1,223 @@
+﻿@page "/person-search"
+@using PoliceMP.Web.Client.ViewModels
+@using PoliceMP.Shared.Models
+@inject HttpClient Http
+
+<div class="container">
+    <div class="card mb-4">
+        <div class="card-header">Person Search</div>
+        <div class="card-body">
+            <EditForm Model="@_personSearchViewModel" OnValidSubmit="@HandleValidSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label>Name</label>
+                            <InputText class="form-control" @bind-Value="_personSearchViewModel.Name" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <button class="form-control" type="submit">Submit</button>
+                        </div>
+                    </div>
+                </div>
+            </EditForm>
+            
+            @if (!string.IsNullOrEmpty(_errorMessage))
+            {
+                <div class="alert alert-danger" role="alert">
+                    @_errorMessage
+                </div>
+            }
+        </div>
+    </div>
+
+    @if (_pedInfo != null)
+    {
+        <div class="card mb-4">
+            <div class="card-header">Person Details</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label>First Name</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.FirstName" />
+                        </div>
+                        <div class="col-lg-6">
+                            <label>Last Name</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.LastName" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label>Date of Birth</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.DateOfBirth.ToString("dd/MM/yyyy")" />
+                        </div>
+                        <div class="col-lg-6">
+                            <label>Height</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.Height" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label>Address</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.Street" />
+                        </div>
+                        <div class="col-lg-6">
+                            <label>Nationality</label>
+                            <input class="form-control" disabled="disabled" value="British" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <label>Employer</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.Company" />
+                        </div>
+                        <div class="col-lg-6">
+                            <label>Job Title</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.JobTitle" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card mb-4">
+            <div class="card-header">DVLA Details</div>
+            <div class="card-body">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label>Driving License</label>
+                            <input class="form-control" disabled="disabled" value="@(_pedInfo.HasDrivingLicense ? "Yes" : "No")" />
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Held Since</label>
+                            <input class="form-control" disabled="disabled" value="@(_pedInfo.HasDrivingLicense ? _pedInfo.ReceivedDrivingLicenseDate.ToString("dd/MM/yyyy") : "N/A")" />
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Owned Vehicle Plate</label>
+                            <input class="form-control" disabled="disabled" value="@(string.IsNullOrEmpty(_pedInfo.OwnedVehiclePlate) ? "N/A" : _pedInfo.OwnedVehiclePlate)" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <label>Points</label>
+                            <input class="form-control" disabled="disabled" value="@_pedInfo.DrivingLicensePoints" />
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Driving Ban</label>
+                            <input class="form-control" disabled="disabled" value="@(_pedInfo.IsBannedFromDriving ? "Yes" : "No")" />
+                        </div>
+                        <div class="col-lg-4">
+                            <label>Ban Expiry Date</label>
+                            <input class="form-control" disabled="disabled" value="@(_pedInfo.IsBannedFromDriving ? _pedInfo.DrivingBanExpiryDate.ToString("dd/MM/yyyy") : "N/A")" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header">Criminal Markers</div>
+                    <div class="card-body">
+                        @if (!_pedInfo.CriminalMarkers.Any())
+                        {
+                            <p>This person has no criminal markers.</p>
+                        }
+                        else
+                        {
+                            <ul class="list-group list-group-flush">
+                                @foreach (string criminalMarker in _pedInfo.CriminalMarkers)
+                                {
+                                    <li class="list-group-item">@criminalMarker</li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header">Charges</div>
+                    <div class="card-body">
+                        @if (!_pedInfo.Charges.Any())
+                        {
+                            <p>This person has no charges.</p>
+                        }
+                        else
+                        {
+                            <ul class="list-group list-group-flush">
+                                @foreach (string charge in _pedInfo.Charges)
+                                {
+                                    <li class="list-group-item">@charge</li>
+                                }
+                            </ul>
+                        }
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card mb-4">
+                    <div class="card-header">Warrants</div>
+                    <div class="card-body">
+                        @if (!_pedInfo.Warrants.Any())
+                        {
+                            <p>This person has no warrants.</p>
+                        }
+                        else
+                        {
+                            <ul class="list-group list-group-flush">
+                                @foreach (string warrant in _pedInfo.Warrants)
+                                {
+                                    <li class="list-group-item">@warrant</li>
+                                }
+                            </ul>
+                            }
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+
+</div>
+@code {
+    private PedInfo _pedInfo;
+    private string _errorMessage;
+    private readonly PersonSearchViewModel _personSearchViewModel = new ();
+
+    private async void HandleValidSubmit()
+    {
+        try
+        {
+            _errorMessage = string.Empty;
+            _pedInfo = await Http.GetFromJsonAsync<PedInfo>($"PedInfo/GetByName/{_personSearchViewModel.Name}");
+            _pedInfo.CriminalMarkers.AddRange(new []{ "Test1", "test2", "test3", "test4" });
+            _pedInfo.Charges.AddRange(new []{ "Test1", "test2", "test3", "test4" });
+            _pedInfo.Warrants.AddRange(new []{ "Test1", "test2", "test3", "test4" });
+        }
+        catch (HttpRequestException)
+        {
+            _pedInfo = null;
+            _errorMessage = $"Could not find a match for '{_personSearchViewModel.Name}'.";
+        }
+
+        StateHasChanged();
+    }
+}

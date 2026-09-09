@@ -1,0 +1,339 @@
+{
+  "Offences": {
+    "MaxOffences": 5, 
+    "Offences": [
+      
+        {
+          "Category": "Endorsable",
+          "Name": "Driving at...In a 30mph",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving at...In a 40mph",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving at...In a 50mph",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving at...In a 60mph",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving at...In a 70mph",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Drive a motorvehicle without any insurance",
+          "Points": "6",
+          "Fine": "300",
+          "ShouldSeizeVehicle": "True"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving a non-roadworthy vehicle",
+          "Points": "6",
+          "Fine": "400",
+          "ShouldSeizeVehicle": "True"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Fail to give information of driver's identity",
+          "Points": "6",
+          "Fine": "200",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Drive otherwise than in accordance with license",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Brakes defective",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Careless driving",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Steering defective",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Pedestrian crossing contravention",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Tyres defective",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Failure to stop at a red traffic light",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Dangerous parking",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Fail to comply with traffic sign",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Fail to comply with police constable",
+          "Points": "3",
+          "Fine": "1000",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Failed to stop when required by police ",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Use of handheld mobile phone while driving",
+          "Points": "6",
+          "Fine": "200",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Illegal licence/number plate",
+          "Points": "3",
+          "Fine": "1000",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Obstructed number plate",
+          "Points": "3",
+          "Fine": "425",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving in wrong direction",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Drive off carriageway",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Make Illegal U turn",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Illegal stop on hard shoulder",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Misuse of 999",
+          "Points": "0",
+          "Fine": "2000",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Vehicle in prohibited lane",
+          "Points": "3",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Over the prescribed limit of alcohol",
+          "Points": "12",
+          "Fine": "2000",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Over the prescribed limit of cannabis",
+          "Points": "12",
+          "Fine": "2000",
+          "ShouldSeizeVehicle": "true"
+        },
+        {
+          "Category": "Endorsable",
+          "Name": "Driving whilst under the influence of drugs",
+          "Points": "12",
+          "Fine": "2000",
+          "ShouldSeizeVehicle": "true"
+        },
+        
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Exhaust defective",
+          "Points": "0",
+          "Fine": "50",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Lights defective",
+          "Points": "0",
+          "Fine": "50",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Failure to wear seatbelt",
+          "Points": "0",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Driving motorcycle without a helmet",
+          "Points": "0",
+          "Fine": "400",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Fail to notify change of ownership",
+          "Points": "0",
+          "Fine": "50",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Drive with no MOT",
+          "Points": "0",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "No valid excise licence - TAX",
+          "Points": "0",
+          "Fine": "100",
+          "ShouldSeizeVehicle": "False"
+        },
+        {
+          "Category": "Non-Endorsable",
+          "Name": "Overtake where prohibited",
+          "Points": "0",
+          "Fine": "50",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Urinate/Deficate in a Public Place",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Being drunk and incapable in a public place",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Being under the influence in a public place",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Breach of the Peace",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Drinking in a public place",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Malicious Mischief",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Littering",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        },
+        {
+          "Category": "Anti-Social",
+          "Name": "Shoplifting",
+          "Points": "0",
+          "Fine": "40",
+          "ShouldSeizeVehicle": "false"
+        }
+      
+    ]
+  } 
+}

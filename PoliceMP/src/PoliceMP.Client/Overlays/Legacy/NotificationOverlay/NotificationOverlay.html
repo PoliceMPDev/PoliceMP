@@ -1,0 +1,143 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" type="text/css" href="..\Assets\Bootstrap\css\bootstrap.min.css" />
+    <style>
+        body {
+            background-color: transparent;
+            overflow: hidden;
+        }
+
+        .toast {
+            background-color: rgba(24, 26, 27, 0.85);
+            background-clip: border-box;
+            border-color: rgba(140, 130, 115, 0.1);
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 0.25rem 0.75rem;
+            -webkit-backdrop-filter: none;
+            backdrop-filter: none;
+            overflow: hidden;
+        }
+
+        .toast-header {
+            background-color: rgba(24, 26, 27, 0.85);
+            color: rgb(158, 150, 137);
+        }
+
+        #toast-container {
+            background-color: rgba(0,0,0,0);
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            padding: 10px 0 0 10px;
+        }
+
+        .toast-body {
+            color: rgb(209, 205, 199);
+            font-size: 1.1em !important;
+        }
+
+        hr {
+            background-color: rgb(158, 150, 137);
+        }
+    </style>
+</head>
+<body>
+<div aria-live="polite" aria-atomic="true" style="position: relative; min-height: 780px; background-color: rgba(0, 0, 0, 0);">
+    <div id="toast-container"></div>
+</div>
+
+<script src="..\Assets\jquery-3.5.1.min.js"></script>
+<script src="..\Assets\Bootstrap\js\bootstrap.min.js"></script>
+<script type="text/javascript">
+    let toasts = [];
+
+    function showToast(title, subTitle, message, delay = 10000, color = "#007aff") {
+        const existingToast = toasts.find(t => t.message === message && t.title === title);
+        if (existingToast) {
+            removeToast(existingToast.id);
+        }
+
+        const id = `toast-${uuidv4()}`;
+
+        $('#toast-container').append(`
+            <div id="${id}" class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="width: 300px">
+                <div class="toast-header">
+                    <svg class="bd-placeholder-img rounded mr-2" width="10" height="10" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="${color}"></rect></svg>
+                    <strong class="mr-auto">${title}</strong>
+                    <small>${subTitle}</small>
+                </div>
+                <div class="toast-body">${message}</div>
+            </div>
+        `);
+
+        const toast = {
+            id,
+            title,
+            subTitle,
+            message
+        };
+
+        $(`#${id}`).toast({ delay: delay });
+        $(`#${id}`).toast('show');
+
+        toasts.push(toast);
+        updateDisplay();
+
+        setTimeout(function () {
+            removeToast(id);
+        }, delay + 1000);
+    }
+
+    function removeToast(id) {
+        toasts = toasts.filter(t => t.id !== id);
+        $(`#${id}`).remove();
+        updateDisplay();
+    }
+
+    function updateDisplay() {
+        for (let i = 0; i < toasts.length; i++) {
+            const element = $(`#${toasts[i].id}`);
+            if (element == null) {
+                continue;
+            }
+
+            domRect = element.offset();
+
+            if (domRect.top < 350) {
+                element.css('visibility', 'hidden');
+            } else {
+                element.css('visibility', 'visible');
+            }
+        }
+    }
+
+    function uuidv4() {
+        return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g,
+            function(c) {
+                var r = Math.random() * 16 | 0, v = c == 'x' ? r : (r & 0x3 | 0x8);
+                return v.toString(16);
+            });
+    }
+
+    policemp.on('ready',
+        () => {
+            policemp.show();
+        });
+
+    policemp.on('showToast',
+        (data) => {
+            if (data.type === "success") {
+                showToast(data.title, 'Success', data.message, data.delayMs, "#32CD32");
+            } else if (data.type === "warning") {
+                showToast(data.title, 'Warning', data.message, data.delayMs, "#FFD700");
+            } else if (data.type === "error") {
+                showToast(data.title, 'Error', data.message, data.delayMs, "#DC143C");
+            } else {
+                showToast(data.title, 'Info', data.message, data.delayMs, "#007AFF");
+            }
+        });
+</script>
+</body>
+</html>

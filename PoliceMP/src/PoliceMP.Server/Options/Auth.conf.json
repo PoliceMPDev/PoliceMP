@@ -1,0 +1,9 @@
+{
+  "Auth": {
+    "MaxLoginAttempts": 5,
+    "MinPasswordLength": 6,
+    "MaxPasswordLength": 64,
+    "MinUsernameLength": 3,
+    "MaxUsernameLength": 24 
+  } 
+}

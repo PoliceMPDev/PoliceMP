@@ -1,0 +1,333 @@
+body {
+    font-family: proxima-nova, sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    background: none !important;
+}
+
+.anpr-wrapper {
+    background-image: url("anpr_ui.png");
+    width: 41.3em;
+    height: 22.5em;
+    padding: 1.4375em 1.4375em 2.75em 1.4375em;
+    position: fixed;
+    bottom: 100px;
+    right: 10px;
+    border-radius: 0;
+}
+
+@media only screen and (max-width: 1920px) {
+    .anpr-wrapper {
+        background-image: url("anpr_ui.png");
+        width: 28.8em;
+        height: 15.5em;
+        padding: 1em 1.4375em 2.75em 1em;
+        position: fixed;
+        bottom: 50px;
+        right: 10px;
+        border-radius: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+.anpr-top-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    font-weight: 500;
+    color: white;
+    background-color: #181B21;
+}
+
+.anpr-signal {
+    width: 2px;
+    display: inline-block;
+}
+
+.anpr-signal-1 {
+    height: 3.5px;
+    background-color: #0f9800;
+}
+
+.anpr-signal-2 {
+    height: 7px;
+    background-color: #0f9800;
+}
+
+.anpr-signal-3 {
+    height: 10.5px;
+    background-color: #0f9800;
+}
+.anpr-signal-4 {
+    height: 14px;
+    background-color: white;
+}
+
+.anpr-time {
+    align-self: flex-end;
+}
+
+@media only screen and (max-width: 1920px) {
+    .anpr-top-bar {
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+
+    .anpr-signal-1 {
+        height: 2.5px;
+    }
+
+    .anpr-signal-2 {
+        height: 5px;
+    }
+
+    .anpr-signal-3 {
+        height: 7.5px;
+    }
+
+    .anpr-signal-4 {
+        height: 10px;
+    }
+}
+
+@font-face {
+    font-family: proxima-nova, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Charles Wright Bold";
+    font-style: normal;
+    font-weight: normal;
+    src: local("Charles Wright Bold"), url("../Assets/Fonts/CharlesWright-Bold.woff") format("woff");
+}
+
+.anpr-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #EFF1F2;
+    height: 17em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.anpr-plate-wrapper {
+    padding: 20px 5px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.anpr-number-plate {
+    color: black;
+    display: block;
+    border: 1px solid #d7d6d6;
+    width: 300px;
+    background: linear-gradient(to bottom, #f8d038 0%,#f5ca2e 100%);
+    padding: 0em 1em 0em 2.75em;
+    font-size: 2em;
+    border-radius: 5px;
+    border: 1px solid #000;
+    position: relative;
+    font-family: "Charles Wright Bold";
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+
+.anpr-country:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 30px;
+    height: 15px;
+    background-image: url("uk_flag.png");
+    background-repeat: no-repeat;
+    background-size: 25px 15px;
+}
+
+.anpr-icon-lock {
+    position: absolute;
+    height: 40px;
+    right: 5px;
+    top: 5px;
+}
+
+.anpr-icon-lock-off {
+    display: none;
+}
+
+.anpr-icon-lock-on {
+    display: block;
+}
+
+.anpr-number-plate-wrapper {
+    position: relative;
+}
+
+.anpr-country {
+    content: 'GB';
+    font-family: helvetica, ariel, sans-serif;
+    font-weight: bold;
+    display: block;
+    width: 50px;
+    height: 100%;
+    font-size: 1em;
+    background: #063298;
+    position: absolute;
+    top: 0;
+    border-radius: 5px 0 0 5px;
+    color: #f8d038;
+    line-height: 76px;
+    padding-left: 12px;
+}
+
+.anpr-speed {
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.anpr-car-model-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 1920px) {
+    .anpr-main {
+        height: 12em;
+    }
+
+    .anpr-number-plate {
+        width: 200px;
+        font-size: 1em;
+        padding: 0.2em 1em 0.2em 4.75em;
+    }
+
+    .anpr-icon-lock {
+        height: 20px;
+    }
+
+    .anpr-country {
+        font-size: 0.6em;
+        line-height: 50px;
+        padding-left: 14px;
+    }
+
+    .anpr-country:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 7px;
+        left: 12px;
+        width: 30px;
+        height: 15px;
+        background-image: url("uk_flag.png");
+        background-repeat: no-repeat;
+        background-size: 20px 10px;
+    }
+
+    .anpr-speed {
+        font-size: 1.5em;
+    }
+
+    .anpr-car-model-wrapper {
+        font-size: 0.7em;
+    }
+}
+
+.anpr-state-wrapper {
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.anpr-state-open,
+.anpr-state-pass,
+.anpr-state-alert {
+    padding: 5px 0;
+}
+
+.anpr-state-open {
+    background-color: #898989;
+}
+
+.anpr-state-pass {
+    background-color: #0f9800;
+}
+
+.anpr-state-alert {
+    background-color: #CC0000;
+}
+
+.anpr-markers-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.anpr-marker {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    background-color: #CC0000;
+    width: 150px;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 8px;
+}
+
+.anpr-marker-off {
+    display: none;
+}
+
+.anpr-marker-on {
+    display: block;
+}
+
+.anpr-divisions-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    padding: 0.75em 0;
+}
+
+.anpr-division {
+    color: #181B21;
+    font-weight: bold;
+}
+
+.anpr-division-on {
+    color: #16df21
+}
+
+@media only screen and (max-width: 1920px) {
+    .anpr-state-wrapper {
+        font-size: 0.7em;
+    }
+
+    .anpr-marker {
+        font-size: 0.8em;
+        padding: 4px 0;
+        width: 125px;
+        font-weight: 500;
+    }
+
+    .anpr-divisions-wrapper {
+        padding: 0.25em 0;
+        font-size: 0.9em;
+    }
+}

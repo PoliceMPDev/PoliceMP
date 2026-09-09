@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2AD2CE67-6EA8-499E-8FE4-DB00ABED63D4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PoliceMP.Shared</RootNamespace>
+    <AssemblyName>PoliceMP.Shared</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <LangVersion>latestMajor</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DotNetZip, Version=1.13.4.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\DotNetZip.1.13.4\lib\net40\DotNetZip.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Portable.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Annotations, Version=4.2.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+      <HintPath>..\..\..\..\Users\Shadow\.nuget\packages\system.componentmodel.annotations\4.7.0\ref\netstandard2.0\System.ComponentModel.Annotations.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Behaviors\AiCallouts\AgroAtEveryoneBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\BurningInFireBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\DrugDealerBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\FighterBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\FilmingShockedBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\HandsUpBehaviour.cs" />
+    <Compile Include="Behaviors\AiCallouts\MisperBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\DrunkBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\PlayAnimationBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\PlayScenarioBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\StealACarBehaviour.cs" />
+    <Compile Include="Behaviors\AiCallouts\StrandedBehavior.cs" />
+    <Compile Include="Behaviors\AiCallouts\WanderingRadiusBehaviour.cs" />
+    <Compile Include="Behaviors\Cuff\CuffedBehaviour.cs" />
+    <Compile Include="Behaviors\Dog\DogBehavior.cs" />
+    <Compile Include="Behaviors\FailToStop\FailToStopBehavior.cs" />
+    <Compile Include="Behaviors\Jump\JumpBehavior.cs" />
+    <Compile Include="Behaviors\Tailgate\TailgateBehavior.cs" />
+    <Compile Include="Behaviors\Test\TestBehavior.cs" />
+    <Compile Include="Behaviors\UseNearestScenario\UseNearestScenarioBehaviorType.cs" />
+    <Compile Include="Behaviors\UseNearestScenario\UseNearestScenarioBrainState.cs" />
+    <Compile Include="Behaviors\Writhe\WritheBrainBehavior.cs" />
+    <Compile Include="Configurables\PlatePrefixes.cs" />
+    <Compile Include="Configurables\PlateSuffixLetters.cs" />
+    <Compile Include="Configurables\PlateYears.cs" />
+    <Compile Include="Constants\BootItems.cs" />
+    <Compile Include="Constants\ClientEvents.cs" />
+    <Compile Include="Constants\Decors\ELSDecors.cs" />
+    <Compile Include="Constants\Decors\PedDecors.cs" />
+    <Compile Include="Constants\Decors\VehicleDecors.cs" />
+    <Compile Include="Constants\FeatureToggle.cs" />
+    <Compile Include="Constants\ResourceKvp.cs" />
+    <Compile Include="Constants\Events\ScriptManagerEvents.cs" />
+    <Compile Include="Constants\ServerEvents.cs" />
+    <Compile Include="Constants\SpeedBumpNetworkConstants.cs" />
+    <Compile Include="Constants\Sounds.cs" />
+    <Compile Include="Constants\States\EntityDecors.cs" />
+    <Compile Include="Constants\States\GlobalState.cs" />
+    <Compile Include="Constants\States\PedStates.cs" />
+    <Compile Include="Constants\States\PlayerStates.cs" />
+    <Compile Include="Constants\States\VehicleStates.cs" />
+    <Compile Include="Constants\TextEntries.cs" />
+    <Compile Include="Enums\Attributes.cs" />
+    <Compile Include="Enums\BackupType.cs" />
+    <Compile Include="Enums\BootAction.cs" />
+    <Compile Include="Enums\Prop.cs" />
+    <Compile Include="Enums\RoutingBucket.cs" />
+    <Compile Include="Enums\Extensions.cs" />
+    <Compile Include="Enums\PoliceSpawn.cs" />
+    <Compile Include="Enums\DogAnim.cs" />
+    <Compile Include="Enums\DogFx.cs" />
+    <Compile Include="Enums\DogSound.cs" />
+    <Compile Include="Enums\Gender.cs" />
+    <Compile Include="Enums\PersonalityType.cs" />
+    <Compile Include="Enums\SmartFireType.cs" />
+    <Compile Include="Enums\UserDivision.cs" />
+    <Compile Include="Enums\UserBranch.cs" />
+    <Compile Include="Enums\Weapon.cs" />
+    <Compile Include="Enums\WeatherType.cs" />
+    <Compile Include="Models\ArmouryEntity.cs" />
+    <Compile Include="Models\ArmouryItem.cs" />
+    <Compile Include="Models\BackupRequest.cs" />
+    <Compile Include="Models\PmpBlipColor.cs" />
+    <Compile Include="Models\BootItem.cs" />
+    <Compile Include="Models\CachedPedInfo.cs" />
+    <Compile Include="Models\CachedVehicleInfo.cs" />
+    <Compile Include="Models\CustomCharacter.cs" />
+    <Compile Include="Models\DistantBlip.cs" />
+    <Compile Include="Models\EntitySpawnModels.cs" />
+    <Compile Include="Models\DistantBlipState.cs" />
+    <Compile Include="Models\PlayerInfo.cs" />
+    <Compile Include="Models\GarageCategory.cs" />
+    <Compile Include="Models\GarageEntity.cs" />
+    <Compile Include="Models\GarageVehicles.cs" />
+    <Compile Include="Models\Item.cs" />
+    <Compile Include="Models\Locker.cs" />
+    <Compile Include="Models\LockerItem.cs" />
+    <Compile Include="Models\Offence.cs" />
+    <Compile Include="Models\PedInfo.cs" />
+    <Compile Include="Models\PedOutfit.cs" />
+    <Compile Include="Models\Person.cs" />
+    <Compile Include="Models\PropCategory.cs" />
+    <Compile Include="Models\PropItem.cs" />
+    <Compile Include="Models\Question.cs" />
+    <Compile Include="Models\RandomMachine\VehicleEntity.cs" />
+    <Compile Include="Models\RoadManagementItem.cs" />
+    <Compile Include="Models\SpawnLocation.cs" />
+    <Compile Include="Models\SpeedHumpLocation.cs" />
+    <Compile Include="Models\SpeedLocation.cs" />
+    <Compile Include="Models\SpeedProp.cs" />
+    <Compile Include="Models\Ticket.cs" />
+    <Compile Include="Models\UserAces.cs" />
+    <Compile Include="Models\UserRole.cs" />
+    <Compile Include="Models\VehicleInfo.cs" />
+    <Compile Include="Models\Weather\Clouds.cs" />
+    <Compile Include="Models\Weather\ConvertTemp.cs" />
+    <Compile Include="Models\Weather\Coord.cs" />
+    <Compile Include="Models\Weather\Main.cs" />
+    <Compile Include="Models\Weather\OpenWeather.cs" />
+    <Compile Include="Models\Weather\Sys.cs" />
+    <Compile Include="Models\Weather\Weather.cs" />
+    <Compile Include="Models\Weather\Wind.cs" />
+    <Compile Include="NetworkMessages\Behaviors\Common\Commands\SetPedBehaviorCommand.cs" />
+    <Compile Include="NetworkMessages\Buckets\Notifications\EntityMovedBucketEvent.cs" />
+    <Compile Include="NetworkMessages\Buckets\Notifications\PlayerMovedBucketEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Commands\BreakVehicleCommand.cs" />
+    <Compile Include="NetworkMessages\Callouts\Commands\StartFireEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\CalloutCreatedEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\CalloutErrorNotificationEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\CalloutInfoEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\CalloutResolvedEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\ExperiencePointsNofitication.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\PlayerAttachedToCalloutEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\PlayerDetachedFromCalloutNotification.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\PlaySpeechEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\UserClockedOffNotificationEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Notifications\UserClockedOnNotificationEvent.cs" />
+    <Compile Include="NetworkMessages\Callouts\Queries\GetCalloutInfoByIdQuery.cs" />
+    <Compile Include="NetworkMessages\Dog\Commands\RemovePlayerDogCommand.cs" />
+    <Compile Include="NetworkMessages\Dog\Commands\SetDogNameCommand.cs" />
+    <Compile Include="NetworkMessages\Dog\Commands\SpawnDogCommand.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\DogLostOwnerEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\DogNameChangedEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\DogShouldTeleportEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\DogTookDownPlayerEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\PlayerDogRemovedEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\PlayerDogSmelledDrugsOnPedEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\PlayerDogSmelledNothingOnPedEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Notifications\PlayerDogSpawnedEvent.cs" />
+    <Compile Include="NetworkMessages\Dog\Queries\GetDogOptionsQuery.cs" />
+    <Compile Include="NetworkMessages\Dog\Queries\GetPlayerDogClientQuery.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\EnableWeaponsEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\EntityCreatedEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\EntityDamagedEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PedCuffedNotification.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PedTaseredEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PedUncuffedNotification.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PlayAmbientSoundEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PlayerDroppedEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PlayerJoinedEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\PlayerSpawnedEvent.cs" />
+    <Compile Include="NetworkMessages\Game\Notifications\ShockingEvents\EventShockingCarCrashOccurred.cs" />
+    <Compile Include="NetworkMessages\Game\Queries\GetDriverOfVehicleQuery.cs" />
+    <Compile Include="NetworkMessages\WorldEvents\Notifications\CarCrashOccurredEvent.cs" />
+    <Compile Include="NetworkMessages\WorldEvents\Notifications\VehicleFailedToStopEvent.cs" />
+    <Compile Include="NetworkMessages\XPSystem\Notifications\SetXPEvent.cs" />
+    <Compile Include="NetworkMessages\XPSystem\Notifications\XPDecreasedEvent.cs" />
+    <Compile Include="NetworkMessages\XPSystem\Notifications\XPIncreasedEvent.cs" />
+    <Compile Include="Options\ActionOptions.cs" />
+    <Compile Include="Options\AuthOptions.cs" />
+    <Compile Include="Options\DiscordRichPresenceOptions.cs" />
+    <Compile Include="Options\DogOptions.cs" />
+    <Compile Include="Options\ItemOptions.cs" />
+    <Compile Include="Options\OffenceOptions.cs" />
+    <Compile Include="Options\Options.cs" />
+    <Compile Include="Options\PedInfoOptions.cs" />
+    <Compile Include="Options\PlayerControllerOptions.cs" />
+    <Compile Include="Options\QuestionOptions.cs" />
+    <Compile Include="Options\ServerOptions.cs" />
+    <Compile Include="Options\SpawnOptions.cs" />
+    <Compile Include="Options\SpeedBumpOptions.cs" />
+    <Compile Include="Options\SpeechOptions.cs" />
+    <Compile Include="Options\VehicleFaultGeneratorOptions.cs" />
+    <Compile Include="Options\VehicleInfoOptions.cs" />
+    <Compile Include="Options\WorldOptions.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Results\ActionResult.cs" />
+    <Compile Include="Services\DateTimeService.cs" />
+    <Compile Include="Services\Interfaces\IDateTimeService.cs" />
+    <Compile Include="Services\MockDateTimeService.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="fxmanifest.lua">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PoliceMP.Core.Mediator\PoliceMP.Core.Mediator.csproj">
+      <Project>{208c38c7-5b32-4b19-9b96-81c928ab6be3}</Project>
+      <Name>PoliceMP.Core.Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Core.Shared\PoliceMP.Core.Shared.csproj">
+      <Project>{7ddce823-2db9-4297-b0e8-b5ac6b5c836e}</Project>
+      <Name>PoliceMP.Core.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy "$(TargetDir)fxmanifest.lua" "$(ProjectDir)..\..\server\server-data\resources\PoliceMP"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

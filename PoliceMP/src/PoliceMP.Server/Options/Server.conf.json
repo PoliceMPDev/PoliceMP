@@ -1,0 +1,12 @@
+{
+  "Server": {
+    "Name": "PoliceMP",
+    "Version": "0.1",
+    "IsDevelopment": true,
+    "LogLevel": "Debug",
+    "Discord": "https://discord.gg/7YZ42gk"
+  },
+  "ConnectionStrings": {
+    "Database": "server=145.239.204.120;database=policempdev;user=FiveMServer;password=yUT5gU6c3RaEn5KxyUT5gU6c3RaEn5Kx"
+  }
+}

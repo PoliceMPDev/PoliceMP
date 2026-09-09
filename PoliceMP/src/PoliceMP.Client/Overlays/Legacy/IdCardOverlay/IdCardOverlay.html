@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="../Assets/materialize/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="id-card">
+    <img src="assets/images/male.png" />
+    <p id="name"></p>
+    <div id="inline">
+        <p id="dob"></p>
+        <p id="sex"></p>
+        <p id="height"></p>
+    </div>
+    <div id="licenses">
+
+    </div>
+    <p id="signature"></p>
+</div>
+<script src="../Assets/jquery-3.5.1.min.js"></script>
+<script src="../Assets/materialize/materialize.js"></script>
+<script type="text/javascript">
+    policemp.on('ready',
+        () => {
+            policemp.show();
+        });
+
+    policemp.on('showIdCard',
+        (data) => {
+            const firstName = data.firstName;
+            const lastName = data.lastName;
+            const fullName = firstName + ' ' + lastName;
+            const dateOfBirth = data.dateOfBirth;
+            const isMale = data.isMale;
+            const height = data.height;
+            const type = data.type;
+            const drivingLicenseTypes = data.drivingLicenseTypes;
+
+            if (type === 'driver' || type == null || type === "none") {
+                $('img').show();
+                $('#name').css('color', '#282828');
+
+                if (isMale) {
+                    $('img').attr('src', 'images/male.png');
+                    $('#sex').text('male');
+                } else {
+                    $('img').attr('src', 'images/female.png');
+                    $('#sex').text('female');
+                }
+
+                $('#name').text(fullName);
+                $('#dob').text(dateOfBirth);
+                $('#height').text(height);
+                $('#signature').text(fullName);
+
+                if (type === 'driver') {
+                    for (let i = 0; i < drivingLicenseTypes.length; i++) {
+                        $('#licenses').append(`<p>${drivingLicenseTypes[i]}</p>`);
+                    }
+
+                    $('#id-card').css('background', 'url(images/license.png)');
+                } else {
+                    $('#id-card').css('background', 'url(images/idcard.png)');
+                }
+            } else if (type === 'weapon') {
+                $('img').hide();
+                $('#name').css('color', '#d9d9d9');
+                $('#name').text(fullName);
+                $('#dob').text(dateOfBirth);
+                $('#signature').text(fullName);
+
+                $('#id-card').css('background', 'url(images/firearm.png)');
+            }
+
+            $('#id-card').show();
+        });
+
+        policemp.on('closeIdCard',
+            (data) => {
+                $('#name').text('');
+                $('#dob').text('');
+                $('#height').text('');
+                $('#signature').text('');
+                $('#sex').text('');
+                $('#id-card').hide();
+                $('#licenses').html('');
+            });
+</script>
+</body>
+</html>

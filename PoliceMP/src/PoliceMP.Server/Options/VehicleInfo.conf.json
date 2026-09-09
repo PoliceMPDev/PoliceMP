@@ -1,0 +1,24 @@
+{
+  "VehicleInfo": {
+    "MotExpiredChance": 2,
+    "TaxExpiredChance": 2,
+    "InsuranceExpiredChance": 2,
+    "MarkerChance": 2,
+    "MultipleMarkersChance": 5,
+    "MaxMarkers": 4,
+    "HasLegalItemsChance": 50,
+    "HasIllegalItemsChance": 5,
+    "MaxLegalItems": 5,
+    "MaxIllegalItems": 3,
+    "Markers": [
+      "Drugs Intel",
+      "Weapons Intel",
+      "Fail to Stop",
+      "Outstanding Crime",
+      "Stolen",
+      "Written Off",
+      "Scrapped",
+      "Exported"
+    ]
+  }
+}

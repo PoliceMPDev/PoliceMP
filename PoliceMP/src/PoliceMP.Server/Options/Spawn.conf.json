@@ -1,0 +1,11 @@
+{
+  "Spawn": {
+    "Position": {
+      "X": "427",
+      "Y": "-980",
+      "Z": "31"
+    },
+    "Model": "mp_m_freemode_01",
+    "RespawnDelayMs": 2000
+  }
+}

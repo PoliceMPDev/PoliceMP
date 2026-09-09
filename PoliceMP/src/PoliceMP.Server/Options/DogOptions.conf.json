@@ -1,0 +1,201 @@
+﻿{
+  "DogOptions": {
+    "Kennels": [
+      {
+        "DisplayName": "Police Kennel",
+        "Position": {
+          "X": 386.56619262695, 
+          "Y": -1611.3773193359, 
+          "Z": 29.29204750061
+        },
+        "DisplayRange": 10.0,
+        "ActivationRange": 1.0
+      },
+      {
+        "DisplayName": "Police Kennel",
+        "Position": {
+          "X": -459.43347167969,
+          "Y": 6012.8276367188,
+          "Z": 31.489923477173
+        },
+        "DisplayRange": 10.0,
+        "ActivationRange": 1.0
+      },
+      {
+        "DisplayName": "Police Kennel",
+        "Position": {
+          "X": 1869.2621,
+          "Y": 3688.1719,
+          "Z": 33.7421
+        },
+        "DisplayRange": 10.0,
+        "ActivationRange": 1.0
+      }
+    ],
+    "Dogs": [
+      {
+        "Name": "Black & Tan British Shepard",
+        "Model": "a_c_shepherd",
+        "ComponentVariation": 0,
+        "SitScenario": "WORLD_DOG_SITTING_ROTTWEILER",
+        "CanTakeDownTarget": true,
+        "CanSniffTarget": false,
+        "Animations": {
+          "Bark": {
+            "Dict": "creatures@rottweiler@amb@world_dog_barking@idle_a",
+            "Anim": "idle_b"
+          },
+          "Intimidate": [
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_01"
+            },
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_02"
+            }
+          ],
+          "TakedownFromBackDog": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "dog_takedown_from_back"
+          },
+          "TakedownFromBackVictim": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "victim_takedown_from_back"
+          }
+        }
+      },
+      
+      {
+        "Name": "Red & Tan British Shepard",
+        "Model": "a_c_shepherd",
+        "ComponentVariation": 1,
+        "SitScenario": "WORLD_DOG_SITTING_ROTTWEILER",
+        "CanTakeDownTarget": true,
+        "CanSniffTarget": false,
+        "Animations": {
+          "Bark": {
+            "Dict": "creatures@rottweiler@amb@world_dog_barking@idle_a",
+            "Anim": "idle_b"
+          },
+          "Intimidate": [
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_01"
+            },
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_02"
+            }
+          ],
+          "TakedownFromBackDog": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "dog_takedown_from_back"
+          },
+          "TakedownFromBackVictim": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "victim_takedown_from_back"
+          }
+        }
+      },
+
+      {
+        "Name": "Tan Sable British Shepherd",
+        "Model": "a_c_shepherd",
+        "ComponentVariation": 2,
+        "SitScenario": "WORLD_DOG_SITTING_ROTTWEILER",
+        "CanTakeDownTarget": true,
+        "CanSniffTarget": false,
+        "Animations": {
+          "Bark": {
+            "Dict": "creatures@rottweiler@amb@world_dog_barking@idle_a",
+            "Anim": "idle_b"
+          },
+          "Intimidate": [
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_01"
+            },
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_02"
+            }
+          ],
+          "TakedownFromBackDog": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "dog_takedown_from_back"
+          },
+          "TakedownFromBackVictim": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "victim_takedown_from_back"
+          }
+        }
+      },
+
+      {
+        "Name": "Black British Shepherd",
+        "Model": "a_c_shepherd",
+        "ComponentVariation": 3,
+        "SitScenario": "WORLD_DOG_SITTING_ROTTWEILER",
+        "CanTakeDownTarget": true,
+        "CanSniffTarget": false,
+        "Animations": {
+          "Bark": {
+            "Dict": "creatures@rottweiler@amb@world_dog_barking@idle_a",
+            "Anim": "idle_b"
+          },
+          "Intimidate": [
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_01"
+            },
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_02"
+            }
+          ],
+          "TakedownFromBackDog": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "dog_takedown_from_back"
+          },
+          "TakedownFromBackVictim": {
+            "Dict": "creatures@rottweiler@melee@",
+            "Anim": "victim_takedown_from_back"
+          }
+        }
+      },
+      {
+        "Name": "Golden Retriever",
+        "Model": "a_c_retriever",
+        "ComponentVariation": 0,
+        "SitScenario": "WORLD_DOG_SITTING_RETRIEVER",
+        "CanTakeDownTarget": false,
+        "CanSniffTarget": true,
+        "Animations": {
+          "Bark": {
+            "Dict": "creatures@retriever@amb@world_dog_barking@idle_a",
+            "Anim": "idle_b"
+          },
+          "Intimidate": [
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_01"
+            },
+            {
+              "Dict": "missexile2",
+              "Anim": "taunt_02"
+            }
+          ],
+          "TakedownFromBackDog": {
+            "Dict": "creatures@retriever@melee@",
+            "Anim": "dog_takedown_from_back"
+          },
+          "TakedownFromBackVictim": {
+            "Dict": "creatures@retriever@melee@",
+            "Anim": "victim_takedown_from_back"
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+﻿{
+  "PlayerController": {
+    "InteractionCameraLockOnRangeOnFootClose": 5.0,
+    "InteractionCameraLockOnRangeOnFootFar": 20.0
+  } 
+}

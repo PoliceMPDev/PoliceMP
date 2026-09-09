@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{DF9BEA3E-1ECE-4838-A0E3-080B26900E46}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PoliceMP.Core.Client</RootNamespace>
+    <AssemblyName>PoliceMP.Core.Client.net</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\server\server-data\resources\PoliceMP\client\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core.Client, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CitizenFX.Core.Client.1.0.5879\lib\net45\CitizenFX.Core.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Portable.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abstraction\DrivingStyleFlag.cs" />
+    <Compile Include="Abstraction\EventNames.cs" />
+    <Compile Include="Abstraction\NavMeshRouteResult.cs" />
+    <Compile Include="Abstraction\ScriptTaskHash.cs" />
+    <Compile Include="Abstraction\ServerInfo.cs" />
+    <Compile Include="Abstraction\ShapeTest.cs" />
+    <Compile Include="Abstraction\TaskType.cs" />
+    <Compile Include="Abstraction\PathNodeFlags.cs" />
+    <Compile Include="Abstraction\PathUtils.cs" />
+    <Compile Include="Abstraction\PedConfigFlags.cs" />
+    <Compile Include="Abstraction\PedTextDraw.cs" />
+    <Compile Include="Abstraction\ShockingEventType.cs" />
+    <Compile Include="Abstraction\StateBagProxy.cs" />
+    <Compile Include="Abstraction\SynchronizedScene.cs" />
+    <Compile Include="Abstraction\TaskSequenceType.cs" />
+    <Compile Include="Abstraction\TextDraw.cs" />
+    <Compile Include="Abstraction\VehicleExtensions.cs" />
+    <Compile Include="Abstraction\VehicleMissionType.cs" />
+    <Compile Include="Abstraction\VehicleTempAction.cs" />
+    <Compile Include="Actions\ActionException.cs" />
+    <Compile Include="Actions\ActionHandler.cs" />
+    <Compile Include="Actions\ActionManager.cs" />
+    <Compile Include="Actions\Interfaces\IAction.cs" />
+    <Compile Include="Actions\Interfaces\IActionHandler.cs" />
+    <Compile Include="Actions\Interfaces\IActionManager.cs" />
+    <Compile Include="Abstraction\PlayerControlFlag.cs" />
+    <Compile Include="Commands\CommandBuilder.cs" />
+    <Compile Include="Commands\CommandManager.cs" />
+    <Compile Include="Commands\Interfaces\ICommandBuilder.cs" />
+    <Compile Include="Commands\Interfaces\ICommandManager.cs" />
+    <Compile Include="Communications\ClientCommunicationsManager.cs" />
+    <Compile Include="Communications\ClientMediatorException.cs" />
+    <Compile Include="Communications\Interfaces\IClientCommunicationsManager.cs" />
+    <Compile Include="Communications\LegacyClientCommunicationsManager.cs" />
+    <Compile Include="Communications\ClientEventManager.cs" />
+    <Compile Include="Communications\FiveEventManager.cs" />
+    <Compile Include="Communications\Interfaces\ILegacyClientCommunicationsManager.cs" />
+    <Compile Include="Communications\Interfaces\IClientEventManager.cs" />
+    <Compile Include="Communications\Interfaces\IClientRpcManager.cs" />
+    <Compile Include="Communications\ClientRpcManager.cs" />
+    <Compile Include="DebugUtils.cs" />
+    <Compile Include="Extensions\EntityExtensions.cs" />
+    <Compile Include="Extensions\PedExtensions.cs" />
+    <Compile Include="Extensions\PlayerExtensions.cs" />
+    <Compile Include="Extensions\StateBagExtensions.cs" />
+    <Compile Include="Extensions\TaskSequenceExtensions.cs" />
+    <Compile Include="Extensions\VectorExtensions.cs" />
+    <Compile Include="Extensions\VehicleExtensions.cs" />
+    <Compile Include="Extensions\WeaponExtensions.cs" />
+    <Compile Include="Interface\GetInstructionalButtonMessage.cs" />
+    <Compile Include="Interface\IExportsAccessor.cs" />
+    <Compile Include="Interface\IGlobalStateAccessor.cs" />
+    <Compile Include="Interface\ILegacyNuiManager.cs" />
+    <Compile Include="Interface\INuiManager.cs" />
+    <Compile Include="Interface\IPlayerListAccessor.cs" />
+    <Compile Include="Overlays\IOverlay.cs" />
+    <Compile Include="Interface\ITickManager.cs" />
+    <Compile Include="Interface\LegacyNuiManager.cs" />
+    <Compile Include="Interface\LegacyOverlay.cs" />
+    <Compile Include="Interface\NuiManager.cs" />
+    <Compile Include="Overlays\Overlay.cs" />
+    <Compile Include="IoC\IServiceContainer.cs" />
+    <Compile Include="IoC\IServiceContainerBuilder.cs" />
+    <Compile Include="IoC\ServiceContainer.cs" />
+    <Compile Include="IoC\ServiceContainerBuilder.cs" />
+    <Compile Include="IoC\ServiceContainerException.cs" />
+    <Compile Include="Scripts\Blackboard.cs" />
+    <Compile Include="Scripts\BrainScriptException.cs" />
+    <Compile Include="Scripts\EntityScript.cs" />
+    <Compile Include="Scripts\IScriptManager.cs" />
+    <Compile Include="Options\Interfaces\IOptionsManager.cs" />
+    <Compile Include="Options\OptionsManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\IScriptManagerBuilder.cs" />
+    <Compile Include="Scripts\PedBehavior.cs" />
+    <Compile Include="Scripts\PedBehaviorBase.cs" />
+    <Compile Include="Scripts\Script.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Scripts\ScriptManager.cs" />
+    <Compile Include="Scripts\ScriptManagerBuilder.cs" />
+    <Compile Include="Scripts\ScriptManagerException.cs" />
+    <Compile Include="Scripts\ServiceContainerExtensions.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PoliceMP.Core.Mediator\PoliceMP.Core.Mediator.csproj">
+      <Project>{208c38c7-5b32-4b19-9b96-81c928ab6be3}</Project>
+      <Name>PoliceMP.Core.Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Core.Shared\PoliceMP.Core.Shared.csproj">
+      <Project>{7ddce823-2db9-4297-b0e8-b5ac6b5c836e}</Project>
+      <Name>PoliceMP.Core.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Shared\PoliceMP.Shared.csproj">
+      <Project>{2AD2CE67-6EA8-499E-8FE4-DB00ABED63D4}</Project>
+      <Name>PoliceMP.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

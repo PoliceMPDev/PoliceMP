@@ -1,0 +1,61 @@
+{
+  "Action": {
+    "BloodAlcoholLimit": 0.08, 
+    "CannabisObservations": [
+      "Eyes look <span class='text-danger'>red</span><br>",
+      "Smells of <span class='text-danger'>cannabis</span>.<br>",
+      "Co-ordination appears to be <span class='text-danger'>impaired</span><br>",
+      "Appears to be <span class='text-danger'>on edge</span><br>",
+      "Seems to be <span class='text-warning'>laughing at the slightest thing</span><br>",
+      "Talking as if they have an <span class='text-warning'>overly dry mouth</span><br>"
+    ],
+    "CocaineObservations": [
+      "Pupils look <span class='text-danger'>dilated<br>",
+      "Showing <span class='text-danger'>alert</span> and <span class='text-danger'>jumpy behaviour<br>",
+      "Evidence of <span class='text-danger'>white powder</span> around the nose<br>"
+    ],
+    "HeroinObservations": [
+      "Visible indicators of <span class='text-danger'>needle use</span><br>",
+      "Appears to be <span class='text-danger'>drowsy</span><br>"
+    ],
+    "EcstasyObservations": [
+      "Jaw is <span class='text-danger'>swinging</span><br>",
+      "Appears to be <span class='text-warning'>sweating excessively</span><br>",
+      "Appears to be <span class='text-warning'>suspiciously happy</span><br>",
+      "Pupils look <span class='text-danger'>dilated</span><br>",
+      "Appears to be <span class='text-warning'>full of energy</span><br>"
+    ],
+    "AlcoholObservations": [
+      "Appears to have <span class='text-warning'>slurred speech</span><br>",
+      "Smells of <span class='text-warning'>alcohol</span><br>",
+      "Can't seem to <span class='text-warning'>stay still</span><br>",
+      "They are <span class='text-danger'>speaking aggressively</span><br>"
+    ],
+    "JailPoints": [
+      {
+        "RadiusPoint": {
+          "X": "461.07",
+          "Y": "-996.22",
+          "Z": "24.91"
+        },
+        "Cells": [
+          {
+            "X": "468.27",
+            "Y": "-994.7",
+            "Z": "24.91"
+          },
+          {
+            "X": "467.54",
+            "Y": "-1006.00",
+            "Z": "24.91"
+          },
+          {
+            "X": "472.61",
+            "Y": "-994.50",
+            "Z": "24.91"
+          }
+        ]
+      }
+    ] 
+  }
+}

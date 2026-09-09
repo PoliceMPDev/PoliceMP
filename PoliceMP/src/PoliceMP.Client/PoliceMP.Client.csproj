@@ -1,0 +1,686 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{045162A0-15BE-41A0-955B-288F6F79F966}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PoliceMP.Client</RootNamespace>
+    <AssemblyName>PoliceMP.Client.net</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <LangVersion>default</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>embedded</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\server\server-data\resources\PoliceMP\client\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core.Client, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\CitizenFX.Core.Client.1.0.6878\lib\net45\CitizenFX.Core.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="MenuAPI, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MenuAPI.FiveM.3.2.0\lib\net452\MenuAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.Portable.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Stateless, Version=3.0.0.0, Culture=neutral, PublicKeyToken=93038f0927583c9a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stateless.3.1.0\lib\net45\Stateless.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Actions\AnalyseBody\AnalyseBody.cs" />
+    <Compile Include="Actions\AnalyseBody\AnalyseBodyHandler.cs" />
+    <Compile Include="Actions\AnalyseEngineTemp\AnalyseEngineTempHandler.cs" />
+    <Compile Include="Actions\AnalyseEngineTemp\AnalyseEngineTemp.cs" />
+    <Compile Include="Actions\AskAllOccupantsToStepOut\AskAllOccupantsToStepOut.cs" />
+    <Compile Include="Actions\AskAllOccupantsToStepOut\AskAllOccupantsToStepOutHandler.cs" />
+    <Compile Include="Actions\AskDriverToStepOut\AskPedToStepOut.cs" />
+    <Compile Include="Actions\AskDriverToStepOut\AskPedToStepOutHandler.cs" />
+    <Compile Include="Actions\AskForId\AskForId.cs" />
+    <Compile Include="Actions\AskForId\AskForIdHandler.cs" />
+    <Compile Include="Actions\BagBody\BagBody.cs" />
+    <Compile Include="Actions\BagBody\BagBodyHandler.cs" />
+    <Compile Include="Actions\BikePickup\BikePickup.cs" />
+    <Compile Include="Actions\BikePickup\BikePickupHandler.cs" />
+    <Compile Include="Actions\BootEnter\BootEnter.cs" />
+    <Compile Include="Actions\BootEnter\BootEnterHandler.cs" />
+    <Compile Include="Actions\BootEnter\BootEnter.cs" />
+    <Compile Include="Actions\BootEnter\BootEnterHandler.cs" />
+    <Compile Include="Actions\Breathalyse\Breathalyse.cs" />
+    <Compile Include="Actions\Breathalyse\BreathalyseHandler.cs" />
+    <Compile Include="Actions\CollectDNA\CollectDNAHandler.cs" />
+    <Compile Include="Actions\CollectDNA\CollectDNA.cs" />
+    <Compile Include="Actions\CPR\CPR.cs" />
+    <Compile Include="Actions\CPR\CPRHandler.cs" />
+    <Compile Include="Actions\CuffPlayer\CuffPlayer.cs" />
+    <Compile Include="Actions\CuffPlayer\CuffPlayerHandler.cs" />
+    <Compile Include="Actions\Cuff\Cuff.cs" />
+    <Compile Include="Actions\Cuff\CuffHandler.cs" />
+    <Compile Include="Actions\Defib\Defib.cs" />
+    <Compile Include="Actions\Defib\DefibHandler.cs" />
+    <Compile Include="Actions\Drugalyse\Drugalyse.cs" />
+    <Compile Include="Actions\Drugalyse\DrugalyseHandler.cs" />
+    <Compile Include="Actions\Follow\Follow.cs" />
+    <Compile Include="Actions\Follow\FollowHandler.cs" />
+    <Compile Include="Actions\Grab\Grab.cs" />
+    <Compile Include="Actions\Grab\GrabHandler.cs" />
+    <Compile Include="Actions\HandsUp\HandsUp.cs" />
+    <Compile Include="Actions\HandsUp\HandsUpHandler.cs" />
+    <Compile Include="Actions\JailPed\JailPed.cs" />
+    <Compile Include="Actions\JailPed\JailPedHandler.cs" />
+    <Compile Include="Actions\Kneel\Kneel.cs" />
+    <Compile Include="Actions\Kneel\KneelHandler.cs" />
+    <Compile Include="Actions\LieDown\LieDown.cs" />
+    <Compile Include="Actions\LieDown\LieDownHandler.cs" />
+    <Compile Include="Actions\Medic\Medic.cs" />
+    <Compile Include="Actions\Medic\MedicHandler.cs" />
+    <Compile Include="Actions\ObservePed\ObservePed.cs" />
+    <Compile Include="Actions\ObservePed\ObservePedHandler.cs" />
+    <Compile Include="Actions\PutPedInCar\PutPedInCar.cs" />
+    <Compile Include="Actions\PutPedInCar\PutPedInCarHandler.cs" />
+    <Compile Include="Actions\QuestionPed\QuestionPed.cs" />
+    <Compile Include="Actions\QuestionPed\QuestionPedHandler.cs" />
+    <Compile Include="Actions\ReleasePed\ReleasePed.cs" />
+    <Compile Include="Actions\ReleasePed\ReleasePedHandler.cs" />
+    <Compile Include="Actions\RunName\RunName.cs" />
+    <Compile Include="Actions\RunName\RunNameHandler.cs" />
+    <Compile Include="Actions\RunPlate\RunPlate.cs" />
+    <Compile Include="Actions\RunPlate\RunPlateHandler.cs" />
+    <Compile Include="Actions\SearchPed\SearchPed.cs" />
+    <Compile Include="Actions\SearchPed\SearchPedHandler.cs" />
+    <Compile Include="Actions\SearchVehicle\SearchVehicle.cs" />
+    <Compile Include="Actions\SearchVehicle\SearchVehicleHandler.cs" />
+    <Compile Include="Actions\SmashWindows\SmashWindows.cs" />
+    <Compile Include="Actions\SmashWindows\SmashWindowsHandler.cs" />
+    <Compile Include="Actions\StandUp\StandUp.cs" />
+    <Compile Include="Actions\StandUp\StandUpHandler.cs" />
+    <Compile Include="Actions\TacklePed\TacklePed.cs" />
+    <Compile Include="Actions\TicketPed\TicketPed.cs" />
+    <Compile Include="Actions\TicketPed\TicketPedHandler.cs" />
+    <Compile Include="Actions\ToggleSirens\ToggleSirens.cs" />
+    <Compile Include="Actions\ToggleSirens\ToggleSirensHandler.cs" />
+    <Compile Include="Actions\UseVehicleDoor\UseVehicleDoor.cs" />
+    <Compile Include="Actions\UseVehicleDoor\UseVehicleDoorHandler.cs" />
+    <Compile Include="Actions\WarnPed\WarnPed.cs" />
+    <Compile Include="Actions\WarnPed\WarnPedHandler.cs" />
+    <Compile Include="Behaviors\AiCallouts\BurningInFireBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\DrugDealerBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\FighterBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\FilmingShockedBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\HandsUpBehaviourImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\MisperBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\DrunkBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\PlayAnimationBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\PlayScenarioBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\AgroAtEveryoneBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\StealACarImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\StrandedBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\WanderInRadiusImplementation.cs" />
+    <Compile Include="Behaviors\CuffedBehaviourImplementation.cs" />
+    <Compile Include="Behaviors\DogBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\FailToStopBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\JumpBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\TailgateBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\TestBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\WritheBrainBehaviorImplementation.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="Extensions\EnumHelper.cs" />
+    <Compile Include="Extensions\MathExtensions.cs" />
+    <Compile Include="Extensions\MenuExtensions.cs" />
+    <Compile Include="Extensions\QuaternionExtensions.cs" />
+    <Compile Include="Extensions\Vector3Extension.cs" />
+    <Compile Include="Overlays\CarDashboard\CarDashboardScript.cs" />
+    <Compile Include="Overlays\Legacy\AnprOverlay\AnprOverlay.cs" />
+    <Compile Include="Overlays\Legacy\AnprOverlay\AnprViewModel.cs" />
+    <Compile Include="Overlays\Hooks\UserInterfaceHooksResource.cs" />
+    <Compile Include="Overlays\Legacy\IdCardOverlay\IdCard.cs" />
+    <Compile Include="Overlays\Legacy\IdCardOverlay\IdCardOverlay.cs" />
+    <Compile Include="Overlays\Interaction\IInteractionHud.cs" />
+    <Compile Include="Overlays\Interaction\InteractionActionMessage.cs" />
+    <Compile Include="Overlays\Interaction\InteractionContextMessage.cs" />
+    <Compile Include="Overlays\Interaction\InteractionHud.cs" />
+    <Compile Include="Overlays\NewNotification\NewNotificationMessage.cs" />
+    <Compile Include="Overlays\NewNotification\NewNotificationMessageContent.cs" />
+    <Compile Include="Overlays\NewNotification\NewNotificationOverlay.cs" />
+    <Compile Include="Overlays\Legacy\NotificationOverlay\NotificationOverlay.cs" />
+    <Compile Include="Overlays\Legacy\SoundPlayerOverlay\SoundPlayerOverlay.cs" />
+    <Compile Include="Scripts\AiCallouts\AiCallouts.cs" />
+    <Compile Include="Scripts\AiCallouts\AiLocationsClient.cs" />
+    <Compile Include="Scripts\AiCallouts\shizen.cs" />
+    <Compile Include="Scripts\AiCallouts\SmackBoyle.cs" />
+    <Compile Include="Scripts\ALP\ALPScript.cs" />
+    <Compile Include="Scripts\AnprPings\AnprPings.cs" />
+    <Compile Include="Scripts\Anticheat\MenuCheck.cs" />
+    <Compile Include="Scripts\Autopilot\Autopilot.cs" />
+    <Compile Include="Scripts\CivVehicleContents\CivSearchDictionaries.cs" />
+    <Compile Include="Scripts\CivVehicleContents\CivVehicleContents.cs" />
+    <Compile Include="Scripts\CivWalkingStylesMenu\CivWalkingStylesMenu.cs" />
+    <Compile Include="Scripts\CuffedPlayerScript\CuffedPlayerScript.cs" />
+    <Compile Include="Scripts\ExperienceSystem\ExperienceSystem.cs" />
+    <Compile Include="Scripts\HeliTasksScript\HeliTasksScript.cs" />
+    <Compile Include="Scripts\HighwaysConvoyScript\HighwaysConvoyScript.cs" />
+    <Compile Include="Scripts\HUD\HeliHUD.cs" />
+    <Compile Include="Scripts\Indicators\Indicators.cs" />
+    <Compile Include="Scripts\LFBPanic\LFBPanicScript.cs" />
+    <Compile Include="Scripts\Manual\Manual.cs" />
+    <Compile Include="Scripts\MedicalEquipment\MedicalEquipment.cs" />
+    <Compile Include="Scripts\CCTV\CCTV.cs" />
+    <Compile Include="Scripts\EmergencyCallScript\EmergencyCallScript.cs" />
+    <Compile Include="Scripts\Admin\AdminChecks.cs" />
+    <Compile Include="Scripts\Admin\IAdmin.cs" />
+    <Compile Include="Scripts\Admin\AdminYeetGun.cs" />
+    <Compile Include="Scripts\Armoury\IArmoury.cs" />
+    <Compile Include="Scripts\Callsign\CallSignMenuScript.cs" />
+    <Compile Include="Scripts\CameraScripts\HelicopterHoldCameraScript.cs" />
+    <Compile Include="Scripts\CameraScripts\PitCameraScript.cs" />
+    <Compile Include="Scripts\CharCustom\CharCustomScript.cs" />
+    <Compile Include="Scripts\Admin\AdminMenu.cs" />
+    <Compile Include="Scripts\Admin\AdminTool.cs" />
+    <Compile Include="Scripts\CharCustom\ICharCustom.cs" />
+    <Compile Include="Scripts\Civ\BurstTyre.cs" />
+    <Compile Include="Scripts\Civ\CivArmoury.cs" />
+    <Compile Include="Scripts\ClothingLocker\IClothingLocker.cs" />
+    <Compile Include="Scripts\Commands\DriftScript.cs" />
+    <Compile Include="Scripts\Commands\SpawnVehicleCommand.cs" />
+    <Compile Include="Scripts\Commands\OtherCommands.cs" />
+    <Compile Include="Scripts\ControlNotify\ControlNotify.cs" />
+    <Compile Include="Scripts\DebugScripts\DebugScript.cs" />
+    <Compile Include="Scripts\Dsu\DogScript.cs" />
+    <Compile Include="Scripts\ELS\ELSScript.cs" />
+    <Compile Include="Scripts\ELS\IELS.cs" />
+    <Compile Include="Scripts\Garage\VehicleTowing.cs" />
+    <Compile Include="Scripts\HideBlips\HideBlipsScript.cs" />
+    <Compile Include="Scripts\ClothingLocker\OutfitCommands.cs" />
+    <Compile Include="Scripts\Anticheat\BlacklistWeapons.cs" />
+    <Compile Include="Scripts\Anticheat\HealthCheck.cs" />
+    <Compile Include="Scripts\Anticheat\SkinCheck.cs" />
+    <Compile Include="Scripts\HideBlips\IHideBlipsScript.cs" />
+    <Compile Include="Scripts\HUD\Hud.cs" />
+    <Compile Include="Scripts\Fuel\FuelScript.cs" />
+    <Compile Include="Scripts\Boot\IBootSystem.cs" />
+    <Compile Include="Scripts\CalmVehicles\CalmVehiclesScript.cs" />
+    <Compile Include="Scripts\Garage\IGarageInterface.cs" />
+    <Compile Include="Scripts\DebugScripts\DebugPedScript.cs" />
+    <Compile Include="Scripts\Interiors\LoadInteriors.cs" />
+    <Compile Include="Scripts\LorryWeighScript\LorryWeighScript.cs" />
+    <Compile Include="Scripts\MedicalActions\WalkingStyles.cs" />
+    <Compile Include="Scripts\MedicalActions\MovementHandler.cs" />
+    <Compile Include="Scripts\MedicalActions\MedicalActionsScript.cs" />
+    <Compile Include="Scripts\NHS\NHSBlood.cs" />
+    <Compile Include="Scripts\NHS\NhsProps.cs" />
+    <Compile Include="Scripts\Npas\NoExitHelicopterScript.cs" />
+    <Compile Include="Scripts\Npas\NpasHoverScript.cs" />
+    <Compile Include="Scripts\PlayerToPlayerActions\ActionCuffHandler.cs" />
+    <Compile Include="Scripts\PrisonBlips\PrisonBlips.cs" />
+    <Compile Include="Scripts\RemoteBlips\RemoteBlips.cs" />
+    <Compile Include="Scripts\RoadManagement\RoadManagementView.cs" />
+    <Compile Include="Scripts\SyncDeadPlayers\SyncDeadPlayersScript.cs" />
+    <Compile Include="Scripts\NoWantedLevel\NoWantedLevelScript.cs" />
+    <Compile Include="Scripts\EntityFreeze\EntityFreezeHandler.cs" />
+    <Compile Include="Scripts\PlayerControllerScript\IPlayerController.cs" />
+    <Compile Include="Scripts\Anpr\AnprScript.cs" />
+    <Compile Include="Scripts\Anpr\AnprState.cs" />
+    <Compile Include="Scripts\PlayerControllerScript\PlayerActionFlags.cs" />
+    <Compile Include="Scripts\PlayerTags\DistantBlipsScript.cs" />
+    <Compile Include="Scripts\PlayerTags\PlayerTagsScript.cs" />
+    <Compile Include="Scripts\PlayerToPlayerActions\ActionArrestHandler.cs" />
+    <Compile Include="Scripts\PlayerToPlayerActions\ActionCPRHandler.cs" />
+    <Compile Include="Scripts\PlayerToPlayerActions\ActionDefibHandler.cs" />
+    <Compile Include="Scripts\Pointing\Pointing.cs" />
+    <Compile Include="Scripts\Pullover\IPulloverScript.cs" />
+    <Compile Include="Scripts\Pullover\PulloverScript.cs" />
+    <Compile Include="Scripts\Pullover\PulloverState.cs" />
+    <Compile Include="Scripts\RoadManagement\RoadManagement.cs" />
+    <Compile Include="Scripts\ServicePoints\ServicePoints.cs" />
+    <Compile Include="Scripts\Sound\SoundHandler.cs" />
+    <Compile Include="Scripts\Spawn\ISpawnScript.cs" />
+    <Compile Include="Scripts\SpeedBumps\SpeedBumps.cs" />
+    <Compile Include="Scripts\Tackle\TackleScript.cs" />
+    <Compile Include="Scripts\Taser\TaserHandler.cs" />
+    <Compile Include="Scripts\Taser\TaserPedWritheScript.cs" />
+    <Compile Include="Scripts\Toolbox\Toolbox.cs" />
+    <Compile Include="Scripts\Trains\TrainsScript.cs" />
+    <Compile Include="Scripts\TwitterChatScript\TwitterChatScript.cs" />
+    <Compile Include="Scripts\VehicleMenu\VehicleCustomMenu.cs" />
+    <Compile Include="Scripts\VehicleMenu\VehicleMenu.cs" />
+    <Compile Include="Scripts\RadioMenu\RadioMenuScript.cs" />
+    <Compile Include="Scripts\Voice\RadioDisplayScript.cs" />
+    <Compile Include="Behaviors\AiCallouts\StealACarImplementation.cs" />
+    <Compile Include="Behaviors\AiCallouts\DrunkBehaviorImplementation.cs" />
+    <Compile Include="Behaviors\CuffedBehaviourImplementation.cs" />
+    <Compile Include="Scripts\AiCallouts\AiCallouts.cs" />
+    <Compile Include="Scripts\AiCallouts\AiLocationsClient.cs" />
+    <Compile Include="Scripts\PlayerToPlayerActions\ActionCuffHandler.cs" />
+    <Compile Include="Scripts\RoadManagement\RoadManagementView.cs" />
+    <Compile Include="Scripts\Voice\RadioDisplayScript.cs" />
+    <Compile Include="Scripts\Weapons\FireModeSelect.cs" />
+    <Compile Include="Scripts\Weapons\ForbiddenWeapon.cs" />
+    <Compile Include="Scripts\Weather\WeatherScript.cs" />
+    <Compile Include="Scripts\WhatThreeWord\WhatThreeWordScript.cs" />
+    <Compile Include="Scripts\XPSystem\XPSystem.cs" />
+    <Compile Include="Services\AIEventService.cs" />
+    <Compile Include="Services\BehaviorService.cs" />
+    <Compile Include="Services\BehaviorTypeProvider.cs" />
+    <Compile Include="Services\BehaviorTypeProviderServiceContainerBuilderExtensions.cs" />
+    <Compile Include="Services\CommonFunctionsService.cs" />
+    <Compile Include="Services\CurrentTicketService.cs" />
+    <Compile Include="Services\CustomCharacterService.cs" />
+    <Compile Include="Services\FeatureService.cs" />
+    <Compile Include="Services\InputService.cs" />
+    <Compile Include="Services\Interfaces\IAIEventService.cs" />
+    <Compile Include="Services\Interfaces\IBehaviorService.cs" />
+    <Compile Include="Services\Interfaces\IBehaviorTypeProvider.cs" />
+    <Compile Include="Services\Interfaces\ICommonFunctionsService.cs" />
+    <Compile Include="Services\Interfaces\ICurrentTicketService.cs" />
+    <Compile Include="Services\Interfaces\ICustomCharacterService.cs" />
+    <Compile Include="Services\Interfaces\IFeatureService.cs" />
+    <Compile Include="Services\Interfaces\IGameInputManager.cs" />
+    <Compile Include="Services\Interfaces\IInputService.cs" />
+    <Compile Include="Services\GameInputManager.cs" />
+    <Compile Include="Services\InputManagerDefaults.cs" />
+    <Compile Include="Services\Interfaces\IQuestionService.cs" />
+    <Compile Include="Services\Interfaces\ISpeechService.cs" />
+    <Compile Include="Services\Interfaces\IPermissionService.cs" />
+    <Compile Include="Services\Interfaces\IPersonalityService.cs" />
+    <Compile Include="Services\Interfaces\IPlayerService.cs" />
+    <Compile Include="Services\NetworkOwnerService.cs" />
+    <Compile Include="Services\Overlays\IOverlayManager.cs" />
+    <Compile Include="Services\Overlays\IOverlayManagerBuilder.cs" />
+    <Compile Include="Services\Overlays\OverlayManager.cs" />
+    <Compile Include="Services\Overlays\OverlayManagerBuilder.cs" />
+    <Compile Include="Services\Overlays\OverlayManagerException.cs" />
+    <Compile Include="Services\Overlays\ServiceContainerBuilderExtensions.cs" />
+    <Compile Include="Services\PersonalityService.cs" />
+    <Compile Include="Services\PlayerService.cs" />
+    <Compile Include="Services\QuestionService.cs" />
+    <Compile Include="Services\SpeechService.cs" />
+    <Compile Include="Services\PermissionService.cs" />
+    <Compile Include="Utils\CameraUtils\BaseCamera.cs" />
+    <Compile Include="Utils\CameraUtils\BasicCamera.cs" />
+    <Compile Include="Utils\CameraUtils\SpringArmCamera.cs" />
+    <Compile Include="Properties\Annotations.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\Backup\BackupMenu.cs" />
+    <Compile Include="Scripts\Afk\AfkScript.cs" />
+    <Compile Include="Scripts\Armoury\Armoury.cs" />
+    <Compile Include="Scripts\Boot\BootSystem.cs" />
+    <Compile Include="Scripts\ClothingLocker\ClothingLocker.cs" />
+    <Compile Include="Scripts\DamageReducer\DamageReducer.cs" />
+    <Compile Include="Scripts\DiscordRichPresence\DiscordRichPresence.cs" />
+    <Compile Include="Scripts\Dsu\DsuNaming.cs" />
+    <Compile Include="Scripts\Garage\Garage.cs" />
+    <Compile Include="Scripts\PedInteractionMenu\IPedInteractionMenuScript.cs" />
+    <Compile Include="Scripts\PedInteractionMenu\PedInteractionMenuScript.cs" />
+    <Compile Include="Scripts\PlateGenerator\PlateGenerator.cs" />
+    <Compile Include="Scripts\PlayerControllerScript\ContextualActionsProvider.cs" />
+    <Compile Include="Scripts\PlayerControllerScript\Interfaces\IContextualActionsProvider.cs" />
+    <Compile Include="Scripts\PlayerControllerScript\PlayerAction.cs" />
+    <Compile Include="Scripts\PlayerControllerScript\PlayerControllerScript.cs" />
+    <Compile Include="Scripts\RoleplayCommands\RoleplayCommands.cs" />
+    <Compile Include="Scripts\Spawn\SpawnScript.cs" />
+    <Compile Include="Scripts\HemsHeliMissions\HemsHeliMissions.cs" />
+    <Compile Include="Scripts\TestMenu.cs" />
+    <Compile Include="Scripts\Test\TestScript.cs" />
+    <Compile Include="Scripts\VehicleFaultGenerator\VehicleFaultGenerator.cs" />
+    <Compile Include="Scripts\Voice\VoiceKeyScript.cs" />
+    <Compile Include="Scripts\Weapons\FlashBang.cs" />
+    <Compile Include="Services\AnimationService.cs" />
+    <Compile Include="Services\InstructionalButtonsService.cs" />
+    <Compile Include="Services\Interfaces\IAnimationService.cs" />
+    <Compile Include="Services\Interfaces\IPedInfoCacheService.cs" />
+    <Compile Include="Services\Interfaces\IPedInfoService.cs" />
+    <Compile Include="Services\Interfaces\ISoundService.cs" />
+    <Compile Include="Services\Interfaces\IVehicleInfoCacheService.cs" />
+    <Compile Include="Services\Interfaces\IVehicleInfoService.cs" />
+    <Compile Include="Services\Interfaces\IInstructionalButtonsService.cs" />
+    <Compile Include="Services\Interfaces\INotificationService.cs" />
+    <Compile Include="Services\NotificationService.cs" />
+    <Compile Include="Services\PedInfoCacheService.cs" />
+    <Compile Include="Services\PedInfoService.cs" />
+    <Compile Include="Services\SoundService.cs" />
+    <Compile Include="Services\VehicleInfoCacheService.cs" />
+    <Compile Include="Services\VehicleInfoService.cs" />
+    <Compile Include="Utils\CameraUtils\SmoothCamera.cs" />
+    <Compile Include="Utils\Death.cs" />
+    <Compile Include="Utils\PmpMath.cs" />
+    <Compile Include="Utils\ScreenUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PoliceMP.Core.Client\PoliceMP.Core.Client.csproj">
+      <Project>{df9bea3e-1ece-4838-a0e3-080b26900e46}</Project>
+      <Name>PoliceMP.Core.Client</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Core.Mediator\PoliceMP.Core.Mediator.csproj">
+      <Project>{208c38c7-5b32-4b19-9b96-81c928ab6be3}</Project>
+      <Name>PoliceMP.Core.Mediator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Core.Shared\PoliceMP.Core.Shared.csproj">
+      <Project>{7ddce823-2db9-4297-b0e8-b5ac6b5c836e}</Project>
+      <Name>PoliceMP.Core.Shared</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PoliceMP.Shared\PoliceMP.Shared.csproj">
+      <Project>{2ad2ce67-6ea8-499e-8fe4-db00abed63d4}</Project>
+      <Name>PoliceMP.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Overlays\Legacy\Assets\Bootstrap\css\bootstrap.min.css.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Overlays\Legacy\Assets\Bootstrap\js\bootstrap.min.js.map">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Overlays\Legacy\Assets\Fonts\CharlesWright-Bold.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Overlays\Legacy\Assets\Fonts\JustSignature.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="Overlays\Legacy\IdCardOverlay\JustSignature.woff">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\AnprOverlay.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\plate.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\anpr-overlay.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\anpr_ui.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\uk_flag.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\icon-lock.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\AnprOverlay\side.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\Assets\Bootstrap\css\bootstrap.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\Assets\Bootstrap\js\bootstrap.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\Assets\jquery-3.5.1.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\Assets\materialize\materialize.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\Assets\materialize\materialize.min.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\IdCardOverlay.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\images\female.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\images\firearm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\images\idcard.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\images\license.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\images\male.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\images\pmp-licence.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\IdCardOverlay\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\NotificationOverlay\NotificationOverlay.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\SoundPlayerOverlay.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\999mode.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\APULooped.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\APUStart.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\APUStop.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\arcsound.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\attention.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodCrashEng.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodCrashSco.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodCrashWel.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodKortzNew.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodMtZonahNew.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodOOTEng.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodOOTSco.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodOOTWel.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodRoyalLondonNew.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodSandyNew.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodStThomasNew.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodVictoriaNew.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodWrongHosEng.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodWrongHosSco.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\BloodWrongHosWel.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\Bullhorn.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\cuff.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\DefibBeeps.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\DefibNoShockAdvised.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\double_beep.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\double_beep.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\firemdtsound.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\GPWS100ftwav.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\GPWS10ft.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\GPWS20ft.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\GPWS30ft.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\GPWS40ft.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\GPWS50ft.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\inhaler.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\LawsonsDelivered.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\LawsonsMissionCrash.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\LawsonsMultiplayerJoin.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\LawsonsNewMission.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\LawsonsWrongLocation.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\levelup.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\mobilise.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\officer_down.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\passoff.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\passon.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\patdown.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\patdown2.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\reactivate.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\rumbler.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\search_car.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\single_beep.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\snake.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\stage1pass.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\stage2pass.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\taser.ogg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\trombone.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\whistle.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Overlays\Legacy\SoundPlayerOverlay\Sounds\yay.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="BeforeBuild">
+    <Exec Command="npx yarn" WorkingDirectory="./ClientUI" />
+    <Exec Command="npx yarn run build-prod" WorkingDirectory="./ClientUI" />
+  </Target>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>robocopy "$(ProjectDir)ClientUI\dist" ".\ui" /S /PURGE
+IF %25ERRORLEVEL%25 GEQ 8 exit %25ERRORLEVEL%25
+exit 0</PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="..\packages\MSBuild.Extension.Pack.1.9.1\build\net40\MSBuild.Extension.Pack.targets" Condition="Exists('..\packages\MSBuild.Extension.Pack.1.9.1\build\net40\MSBuild.Extension.Pack.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\MSBuild.Extension.Pack.1.9.1\build\net40\MSBuild.Extension.Pack.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\MSBuild.Extension.Pack.1.9.1\build\net40\MSBuild.Extension.Pack.targets'))" />
+  </Target>
+</Project>
