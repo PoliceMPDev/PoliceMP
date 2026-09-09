@@ -1,0 +1,324 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<CMapTypes>
+  <archetypes>
+    <Item type="CMloArchetypeDef">
+      <lodDist value="60" />
+      <flags value="0" />
+      <specialAttribute value="0" />
+      <bbMin x="0.0" y="0.0" z="0.0" />
+      <bbMax x="0.0" y="0.0" z="0.0" />
+      <bsCentre x="0.0" y="0.0" z="0.0" />
+      <bsRadius value="0" />
+      <hdTextureDist value="40" />
+      <name>alpertongarage_int_shell_col</name>
+      <physicsDictionary>alpertongarage_int_shell_col</physicsDictionary>
+      <assetType>ASSET_TYPE_ASSETLESS</assetType>
+      <assetName>alpertongarage_int_shell_col</assetName>
+      <mloFlags value="0" />
+      <entities>
+        <Item type="CEntityDef">
+          <archetypeName>alpertongarage_int_shell</archetypeName>
+          <flags value="0" />
+          <guid value="0" />
+          <position x="0.0" y="0.0" z="0.0" />
+          <rotation x="-0.0" y="-0.0" z="-0.0" w="1.0" />
+          <scaleXY value="1" />
+          <scaleZ value="1" />
+          <parentIndex value="-1" />
+          <lodDist value="200" />
+          <childLodDist value="0" />
+          <lodLevel>LODTYPES_DEPTH_ORPHANHD</lodLevel>
+          <numChildren value="0" />
+          <priorityLevel>PRI_REQUIRED</priorityLevel>
+          <ambientOcclusionMultiplier value="255" />
+          <artificialAmbientOcclusion value="255" />
+          <tintValue value="0" />
+        </Item>
+      </entities>
+      <rooms itemType="CMloRoomDef">
+        <Item>
+          <name>limbo</name>
+          <bbMin x="-16.84901" y="-39.576435" z="-1.2130394" />
+          <bbMax x="20.355526" y="35.343746" z="10.093175" />
+          <blend value="1" />
+          <timecycleName>int_gasstation</timecycleName>
+          <flags value="0" />
+          <portalCount value="17" />
+          <floorId value="0" />
+          <exteriorVisibiltyDepth value="-1" />
+          <attachedObjects />
+        </Item>
+        <Item>
+          <name>Room</name>
+          <bbMin x="-16.847715" y="-39.576435" z="-1.2130394" />
+          <bbMax x="20.355526" y="35.343746" z="10.093175" />
+          <blend value="1" />
+          <timecycleName>int_gasstation</timecycleName>
+          <flags value="0" />
+          <portalCount value="17" />
+          <floorId value="0" />
+          <exteriorVisibiltyDepth value="-1" />
+          <attachedObjects>0</attachedObjects>
+        </Item>
+      </rooms>
+      <portals itemType="CMloPortalDef">
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,-18.557827,-0.8108058</Item>
+            <Item>20.338425,-18.55783,3.258244</Item>
+            <Item>20.338425,-26.189392,3.258244</Item>
+            <Item>20.338425,-26.189388,-0.8108058</Item>
+          </corners>
+          <attachedObjects>0</attachedObjects>
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,-27.367565,-0.8108058</Item>
+            <Item>20.338425,-27.367565,1.5502458</Item>
+            <Item>20.338425,-29.069546,1.5502458</Item>
+            <Item>20.338425,-29.069546,-0.8108058</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,17.167942,1.01127</Item>
+            <Item>20.338425,17.167942,3.7011483</Item>
+            <Item>20.338425,-15.103942,3.7011483</Item>
+            <Item>20.338425,-15.10394,1.01127</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,34.370735,0.5741854</Item>
+            <Item>20.338425,34.370735,2.1807833</Item>
+            <Item>20.338425,30.768734,2.1807833</Item>
+            <Item>20.338425,30.768734,0.5741854</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,34.792522,6.9838147</Item>
+            <Item>20.338425,34.792522,8.098911</Item>
+            <Item>20.352306,23.932281,8.092179</Item>
+            <Item>20.338425,23.93808,6.9838147</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,17.167942,6.9838147</Item>
+            <Item>20.352306,17.164375,8.09218</Item>
+            <Item>20.338425,-15.103942,8.098911</Item>
+            <Item>20.338425,-15.103942,6.9838147</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>20.338425,-17.671684,6.9838147</Item>
+            <Item>20.338425,-17.671684,8.098911</Item>
+            <Item>20.338425,-31.6133,8.098911</Item>
+            <Item>20.338425,-31.6133,6.9796014</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>2.446226,35.343746,1.1755915</Item>
+            <Item>2.446226,35.343746,2.6783009</Item>
+            <Item>16.621307,35.343746,2.6783009</Item>
+            <Item>16.621307,35.343746,1.1755915</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-14.712189,35.343746,1.1755915</Item>
+            <Item>-14.712189,35.343746,2.6783009</Item>
+            <Item>-1.6846892,35.343746,2.6783009</Item>
+            <Item>-1.6846892,35.343746,1.1755915</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-16.83477,32.66551,2.6067996</Item>
+            <Item>-16.83477,19.719696,2.6067996</Item>
+            <Item>-16.83477,19.719696,3.7011483</Item>
+            <Item>-16.83477,32.66551,3.7011483</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-16.83477,19.719696,6.9838147</Item>
+            <Item>-16.83477,19.719696,8.06298</Item>
+            <Item>-16.83477,32.66551,8.06298</Item>
+            <Item>-16.83477,32.66551,6.9838147</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-16.83477,17.151112,6.9838147</Item>
+            <Item>-16.83477,-15.10394,6.9838147</Item>
+            <Item>-16.83477,-15.099754,8.061127</Item>
+            <Item>-16.83477,17.151112,8.061127</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-16.83477,-34.83143,6.9796014</Item>
+            <Item>-16.83477,-34.83143,8.061127</Item>
+            <Item>-16.83477,-17.671684,8.061127</Item>
+            <Item>-16.83477,-17.671684,6.9838147</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-16.83477,-17.671684,2.6067996</Item>
+            <Item>-16.83477,-34.83143,2.6067996</Item>
+            <Item>-16.83477,-34.83143,3.7011483</Item>
+            <Item>-16.83477,-17.671684,3.7011483</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-16.83477,17.151112,2.6067996</Item>
+            <Item>-16.83477,-15.10394,2.6067996</Item>
+            <Item>-16.83477,-15.10394,3.7011483</Item>
+            <Item>-16.83477,17.151112,3.7011483</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>-1.7602934,-39.569855,1.1755915</Item>
+            <Item>-1.7602934,-39.569855,2.6783009</Item>
+            <Item>-14.723631,-39.569855,2.6783009</Item>
+            <Item>-14.723631,-39.569855,1.175592</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+        <Item>
+          <roomFrom value="1" />
+          <roomTo value="0" />
+          <flags value="0" />
+          <mirrorPriority value="0" />
+          <opacity value="0" />
+          <audioOcclusion value="0" />
+          <corners>
+            <Item>16.50334,-39.569855,1.1755915</Item>
+            <Item>16.50334,-39.569855,2.6783009</Item>
+            <Item>2.4536169,-39.569855,2.6783009</Item>
+            <Item>2.4536178,-39.569855,1.1755915</Item>
+          </corners>
+          <attachedObjects />
+        </Item>
+      </portals>
+    </Item>
+  </archetypes>
+  <name>alpertongarage_mlo</name>
+</CMapTypes>
