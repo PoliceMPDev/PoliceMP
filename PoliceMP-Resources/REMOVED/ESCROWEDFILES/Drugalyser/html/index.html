@@ -1,0 +1,49 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script>
+            var audioPlayer = null;
+            // Listen for NUI Messages.
+            window.addEventListener('message', function(event) {
+                // Check for playSound transaction
+                if (event.data.transactionType == "playSound") {
+                
+                  if (audioPlayer != null) {
+                    audioPlayer.pause();
+                  }
+
+                  audioPlayer = new Audio("./sounds/" + event.data.transactionFile + ".ogg");
+                  audioPlayer.volume = event.data.transactionVolume;
+                  audioPlayer.play();
+
+                }
+            });
+        </script>
+	</head>
+	<body>
+		<div id="container">
+      <img src="images/DrugSubject.png" id="img" />
+      <input type="radio" name="cannabisYes_No" id="CannabisYes" checked></input>
+      <input type="radio" name="cannabisYes_No" id="CannabisNo"></input>
+      <input type="radio" name="cocaineYes_No" id="CocaineYes" checked></input>
+      <input type="radio" name="cocaineYes_No" id="CocaineNo"></input>
+      <button id="submit" type="submit" class="submit btn-shock py-3 px-4 center">Submit</button>
+		</div>
+    <div id="container2">
+      <img src="images/DrugCannabis.png" id="img" />
+		</div>
+    <div id="container3">
+      <img src="images/DrugCocaine.png" id="img" />
+		</div>
+    <div id="container4">
+      <img src="images/DrugCocaineAndCannabis.png" id="img" />
+		</div>
+    <div id="container5">
+      <img src="images/DrugClear.png" id="img" />
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

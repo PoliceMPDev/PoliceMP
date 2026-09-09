@@ -1,0 +1,15 @@
+{
+    "debug": false,
+
+    "tileDirectory": "images/tiles",
+    "iconDirectory": "images/icons",
+    "showIdentifiers" : false,
+    "groupPlayers": false,
+    "maps" : [
+        {
+            "name": "Normal",
+            "url": "{tileDirectory}/postal_resize/minimap_sea_{y}_{x}.png",
+            "minZoom": -2
+        }
+    ]
+}

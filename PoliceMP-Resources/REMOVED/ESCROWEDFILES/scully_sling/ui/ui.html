@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="app">
+        <div v-if="displayMain" id="sling-main" class="w-full h-screen flex flex-col items-center justify-center text-white">
+            <div class="w-160 rounded-lg overflow-hidden shadow-lg bg-gray-800">
+                <div class="flex justify-between px-4 py-2 bg-gray-700">
+                    <h2 class="text-lg font-semibold">{{ language.mainTitle }}</h2>
+                    <button class="text-white hover:text-gray-300"><i class="fas fa-times" @click="closeMenu"></i></button>
+                </div>
+                <div class="p-4">
+                    <div v-for="(weapon, index) in displayedWeapons" :key="index" class="flex items-center space-x-2 mb-2">
+                        <div class="flex-grow">{{ weapon.name }}</div>
+                        <button @click="toggleOption(weapon, 'default')" :class="{'bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg': weapon.selected === 'default', 'bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg': weapon.selected != 'default'}">{{ language.default }}</button>
+                        <button @click="toggleOption(weapon, 'custom')" :class="{'bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg': weapon.selected === 'custom', 'bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg': weapon.selected != 'custom'}">{{ language.custom }}</button>
+                    </div>
+                </div>
+                <div class="flex justify-center space-x-2 mb-4">
+                    <button v-for="page in totalPages" :key="page" @click="selectedPage = page" :class="{'w-8 h-8 rounded-full bg-gray-600 hover:bg-gray-500 focus:ring focus:ring-gray-300': selectedPage === page}">{{ page }}</button>
+                </div>
+            </div>
+        </div>
+        <div v-if="displayEdit" id="edit-modal" class="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50">
+            <div class="bg-gray-800 rounded-lg p-4 w-full md:w-80 right-0">
+                <h2 class="text-lg font-semibold text-white mb-4">{{ language.editWeapon }}</h2>
+                <div class="mb-2">
+                    <label class="block font-semibold text-white">{{ language.boneSelector }}:</label>
+                    <select v-model="editingWeapon.bone" class="w-full bg-gray-700 p-1 rounded text-white">
+                        <option v-for="(value, label) in boneOptions" :value="value">{{ label }}</option>
+                    </select>
+                </div>
+                <div class="mb-2">
+                    <label class="block font-semibold text-white">{{ language.positionOffset }}:</label>
+                    <input v-model="editingWeapon.offset" class="w-full bg-gray-700 p-1 rounded text-white" placeholder="x, y, z">
+                </div>
+                <div class="mb-2">
+                    <label class="block font-semibold text-white">{{ language.rotationOffset }}:</label>
+                    <input v-model="editingWeapon.rotation" class="w-full bg-gray-700 p-1 rounded text-white" placeholder="x, y, z">
+                </div>
+                <div class="flex justify-between">
+                    <button @click="saveEdit" class="bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg text-white">{{ language.save }}</button>
+                    <button @click="resetEdit" class="bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg text-white">{{ language.reset }}</button>
+                    <button @click="cancelEdit" class="bg-gray-600 hover:bg-gray-500 px-2 py-1 rounded-lg text-white">{{ language.cancel }}</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@3.2.21/dist/vue.global.prod.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+.notif-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+    color: var(--white);
+    padding: 1.5%;
+
+    .notif-contain {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 100%;
+        gap: 0.3vw;
+        padding-bottom: 11%;
+
+        .notif {
+            position: relative;
+            display: flex;
+            align-items: center;
+            z-index: 1;
+            background: var(--degrade-radial-noir);
+            color: var(--white);
+            padding: 0.5%;
+            gap: 3%;
+            width: 14.5%;
+            border-radius: 0.15vw;
+            border: solid 0.1vw var(--white-30);
+            font-size: 0.7vw;
+
+            &.enter-from-left {
+                transform: translateX(0%);
+                transition: transform 0.5s ease-in-out;
+            }
+
+            &.exit-to-left {
+                transform: translateX(-120%);
+                transition: transform 0.5s ease-in-out;
+            }
+
+            .progress-bar {
+                position: absolute;
+                // bottom: -0.1vw;
+                // border: none;
+
+                bottom: -0.3%;
+                left: 0;
+                height: 0.1vw;
+                width: 100%;
+                border-radius: 0 5vw 5vw 0.15vw;
+
+                .progress-bar-fill {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+
+                    height: 100%;
+                    background: var(--blue);
+                }
+            }
+
+        }
+
+        .notiftwo {
+            padding: 0.5%;
+            flex-direction: column;
+            padding: 0.8% 0.5%;
+            gap: 1vw;
+            border-radius: 0.2vw;
+
+            .header {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                font-size: 0.8vw;
+
+                .left {
+                    display: flex;
+                    align-items: center;
+                    gap: 0.4vw;
+
+                    img {
+                        width: 1vw;
+                    }
+                }
+
+                .right {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+
+                    p {
+                        background: var(--red);
+                        padding: 0.2vw 0.4vw;
+                        border-radius: 0.15vw;
+                        font-size: 0.6vw;
+                        color: var(--white);
+                    }
+                }
+            }
+
+            .footer {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+
+                .left {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0.5vw;
+
+                    .desc {
+                        display: flex;
+                        align-items: center;
+                        gap: 0.4vw;
+                        font-size: 0.6vw;
+                        color: var(--white-50);
+                    }
+
+                    img {
+                        width: 0.8vw;
+                    }
+                }
+
+                .right {
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: center;
+
+                    p {
+                        background: var(--grey);
+                        padding: 0.2vw 0.4vw;
+                        border-radius: 0.15vw;
+                        font-size: 0.6vw;
+                        color: var(--white-50);
+                    }
+                }
+            }
+        }
+
+        .img-border {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: solid 0.1vw var(--white-50);
+            border-radius: 1vw;
+            padding: 0.1vw;
+
+            img {
+                height: 1.1vw;
+                width: 1.1vw;
+            }
+        }
+    }
+}

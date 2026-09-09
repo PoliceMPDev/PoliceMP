@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/jquery.js"></script>
+</head>
+<body>
+<div class="keybind-hint">
+    <label id="text-prefix">Press</label>
+    <div class="keybind-block">
+        <label id="text-keybind">-</label>
+    </div>
+    <label id="text-suffix">to idle</label>
+</div>
+</body>
+</html>
+
+<script>
+    $(document).ready(function () {
+        $keybindHint = $('.keybind-hint');
+        $keybindHint.hide();
+
+        window.addEventListener('message', ({data}) => {
+            if (data.event === 'setStyle') {
+                $keybindHint.css('top', data.top);
+                $keybindHint.css('bottom', data.bottom);
+                $keybindHint.css('left', data.left);
+                $keybindHint.css('right', data.right);
+                $keybindHint.show();
+
+                const $body = $('body').get(0).style;
+
+                $body.setProperty('--fontSize', data.fontSize + 'vh');
+                $body.setProperty('--bgColor', data.bgColor);
+                $body.setProperty('--textColor', data.textColor);
+                $body.setProperty('--keybindBgColor', data.keybindBgColor);
+                $body.setProperty('--keybindTextColor', data.keybindTextColor);
+                $body.setProperty('--borderRadius', data.borderRadius + 'vh');
+            }
+            if (data.event === 'hide') {
+                $('body').fadeOut(300);
+            }
+            if (data.event === 'show') {
+                $('body').fadeIn(300);
+
+                $('#text-prefix').html(data.prefix);
+                $('#text-keybind').html(data.keybind);
+                $('#text-suffix').html(data.suffix);
+            }
+        });
+    });
+</script>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap');
+
+    body {
+        display: none;
+
+        --fontSize: 0.9vh;
+
+        --bgColor: rgba(194, 207, 204, 0.6);
+        --textColor: rgba(20, 20, 20, 1);
+
+        --keybindBgColor: rgba(40, 40, 40, 0.6);
+        --keybindTextColor: rgba(255, 255, 255, 1);
+
+        --borderRadius: 0px;
+    }
+
+    .keybind-hint {
+        position: fixed;
+
+        top: auto;
+        left: auto;
+        right: 16px;
+        bottom: 16px;
+
+        background-color: var(--bgColor);
+        border-radius: var(--borderRadius);
+        height: auto;
+        width: auto;
+        padding: 2px 5px;
+
+
+        text-transform: uppercase;
+
+        color: var(--textColor);
+        font-size: var(--fontSize);
+        font-weight: lighter;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    .keybind-block {
+        padding: 2px;
+        height: var(--fontSize);
+        width: var(--fontSize);
+        background-color: var(--keybindBgColor);
+        color: var(--keybindTextColor);
+        border-radius: var(--borderRadius);
+
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #text-keybind {
+        width: var(--fontSize);
+        text-align: center;
+    }
+</style>

@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script>
+            var audioPlayer = null;
+            // Listen for NUI Messages.
+            window.addEventListener('message', function(event) {
+                // Check for playSound transaction
+                if (event.data.transactionType == "playSound") {
+                
+                  if (audioPlayer != null) {
+                    audioPlayer.pause();
+                  }
+
+                  audioPlayer = new Audio("./sounds/" + event.data.transactionFile + ".ogg");
+                  audioPlayer.volume = event.data.transactionVolume;
+                  audioPlayer.play();
+
+                }
+            });
+        </script>
+	</head>
+	<body>
+		<div id="container">
+      <img src="images/BreahtalyserSubject.png" id="img" />
+      <input type="number" placeholder="Amount of Alcohol (Limit is 35)" id="amount"/>
+      <button id="submit" type="submit" class="submit btn-shock py-3 px-4 center">Submit</button>
+		</div>
+    <div id="container2">
+      <img src="images/BreathWait.png" id="img" />
+		</div>
+    <div id="container3">
+      <img src="images/BreathPass.png" id="img" />
+      <button id="closeSource" type="submit" class="submit2 btn-shock py-3 px-4 center">Close</button>
+		</div>
+    <div id="container4">
+      <img src="images/BreathFail.png" id="img" />
+      <button id="closeSource2" type="submit" class="submit2 btn-shock py-3 px-4 center">Close</button>
+		</div>
+        <script src="./index.js" type="text/javascript"></script>
+	</body>
+</html>

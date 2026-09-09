@@ -1,0 +1,766 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPedInventoryLoadOutManager>
+  <LoadOuts>
+    <Item>
+      <Name>LOADOUT_DEFAULT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_ANIMAL</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_ANIMAL</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COUGAR</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_COUGAR</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_HILLBILLY</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="1.000000" />
+            </Item>
+          </Items>
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_CULT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="1.000000" />
+            </Item>
+          </Items>
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_CHEAT_0</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_CHEAT_1</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_GUARD</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_NETWORK_BOT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_LOST</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="1.000000" />
+            </Item>
+          </Items>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_LOST_L1</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_LOST_L2</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_LOST_L3</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_MEXICAN</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="1.000000" />
+            </Item>
+          </Items>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_MEXICAN_L1</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_MEXICAN_L2</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_MEXICAN_L3</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_FAMILY</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="1.000000" />
+            </Item>
+          </Items>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_ASIAN</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_UNARMED</WeaponName>
+                <Ammo value="0" />
+                <Flags />
+                <ComponentNames />
+              </Item>
+              <Chance value="1.000000" />
+            </Item>
+          </Items>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_SECUR</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_NIGHTSTICK</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_POLICE_GUARD</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_NIGHTSTICK</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_STUNGUN</WeaponName>
+          <Ammo value="100" />
+          <Flags>EquipThisWeapon InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_NIGHTSTICK</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_STUNGUN</WeaponName>
+          <Ammo value="100" />
+          <Flags>InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP_L1</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_STUNGUN</WeaponName>
+          <Ammo value="100" />
+          <Flags>InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP_L2</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_NIGHTSTICK</WeaponName>
+                <Ammo value="100" />
+                <Flags>InfiniteAmmo</Flags>
+                <ComponentNames />
+              </Item>
+              <Chance value="0.250000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_STUNGUN</WeaponName>
+                <Ammo value="100" />
+                <Flags>InfiniteAmmo</Flags>
+                <ComponentNames />
+              </Item>
+              <Chance value="0.750000" />
+            </Item>
+          </Items>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP_L3</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutRandom">
+          <Items>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_NIGHTSTICK</WeaponName>
+                <Ammo value="100" />
+                <Flags>InfiniteAmmo</Flags>
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+            <Item>
+              <Item type="CLoadOutWeapon">
+                <WeaponName>WEAPON_STUNGUN</WeaponName>
+                <Ammo value="100" />
+                <Flags>InfiniteAmmo</Flags>
+                <ComponentNames />
+              </Item>
+              <Chance value="0.500000" />
+            </Item>
+          </Items>
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_SWAT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags>InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags>EquipThisWeapon InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_SWAT_NO_LASER</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags>InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags>EquipThisWeapon InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP_SHOTGUN</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_FIREMAN</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_FIREEXTINGUISHER</WeaponName>
+          <Ammo value="2000" />
+          <Flags>InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP_HELI</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COP_BOAT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_ARMY</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags>EquipThisWeapon InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_UNARMED</WeaponName>
+          <Ammo value="100" />
+          <Flags>InfiniteAmmo</Flags>
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_ANIMAL_RETRIEVER</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_ANIMAL_RETRIEVER</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_SMALL_DOG</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_SMALL_DOG</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_TIGER_SHARK</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_TIGER_SHARK</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_HAMMERHEAD_SHARK</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_HAMMERHEAD_SHARK</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_KILLER_WHALE</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_KILLER_WHALE</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_BOAR</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_BOAR</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_PIG</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_PIG</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COYOTE</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_COYOTE</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_DEER</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_DEER</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_HEN</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_HEN</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_RABBIT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_RABBIT</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_CAT</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_CAT</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+    <Item>
+      <Name>LOADOUT_COW</Name>
+      <Items>
+        <Item type="CLoadOutWeapon">
+          <WeaponName>WEAPON_COW</WeaponName>
+          <Ammo value="0" />
+          <Flags />
+          <ComponentNames />
+        </Item>
+      </Items>
+    </Item>
+  </LoadOuts>
+</CPedInventoryLoadOutManager>

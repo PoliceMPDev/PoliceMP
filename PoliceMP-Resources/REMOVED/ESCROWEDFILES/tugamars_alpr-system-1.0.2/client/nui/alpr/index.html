@@ -1,0 +1,481 @@
+<html>
+   <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet"> 
+		<link type="text/css" rel="stylesheet" href="assets/stylesheet.css" />
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin=""/>
+		<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""></script>
+		<script src="assets/first-bundle.js"></script>
+		<style>
+			.alpr-system {
+				position: absolute;
+				top: 25%;
+				width: 60%;
+				height: 50%;
+				background-color:#7a7a7a;
+				margin: auto;
+				border: 20px black solid;
+				border-top-width: 20px;
+				border-bottom-width: 20px;
+				border-radius: 20px;
+				overflow: auto;
+				z-index: 1;
+				padding-bottom: 10px;
+				display: none;
+			}
+			.leaflet-container a {
+    		color: #00000000 !important;
+			}
+			.leaflet-container .leaflet-control-attribution, .leaflet-container .leaflet-control-scale {
+   			 font-size: 0px !important;
+			}
+			
+			.lst-logo {
+				width: 50px;
+				vertical-align:middle;
+				margin-top: 15px;
+				margin-left: 20px;
+				float: left;
+			}
+			
+			.alpr-header {
+				height: 70px;
+				background-color: #b3b3b3;
+			}
+			
+			.alpr-header > .left-side {
+				float: left;
+				width: 30%;
+				height: 100%;
+			}
+			
+			.alpr-header > .right-side {
+				float: right;
+				width: 70%;
+				height: 100%;
+			}
+			
+			.search-box {
+				float: right;
+				width: 250px;
+				height: 30px;
+				margin-top: 20px;
+				padding: 6px 12px;
+				font-size: 14px;
+				border: 1px solid #ccc;
+				border-radius: 4px;
+				box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+			}
+			
+			.search-box-submit {
+				float: right;
+				width: 100px;
+				height: 30px;
+				margin-top: 20px;
+				margin-right: 50px;
+			}
+			
+			.alpr-body {
+				background-color:#7a7a7a;
+				height: calc(100% - 70px);
+				width:100%;
+				font-family: 'Roboto', sans-serif;
+			}
+			
+			.lst-name {
+				margin:0;
+				float: left;
+				height: 35px;
+				margin-left: 20px;
+				margin-top: 15px;
+				text-transform:uppercase;
+				font-family: 'Roboto', sans-serif;
+				color:#FFF;
+			}
+			
+			.btn-close {
+				float: right;
+				margin-right: 5px;
+				height: 25px;
+				margin-top: 5px;
+				border: none;
+				background-color: #c10000;
+				color: #FFF;
+				font-weight: bolder;
+			}
+			
+			.alpr-body > div {
+				width: 60%;
+				margin: 0 auto;
+			}
+			
+			.alpr-hits {
+				width: 100%;
+			}
+			
+			.alpr-hits th {
+				text-align: left;
+			}
+			
+			.main {
+				width: 100%;
+			}
+			
+			.map-stuff {
+				z-index: 2;
+				width: 50%;
+				height: 60%;
+				border: 5px solid #000;
+				border-radius: 20px;
+				position: absolute;
+				right: 0;
+				top: 15%;
+				padding: 5px;
+				background-color:rgb(15, 168, 210);
+			}
+			
+			body,html {
+				background: transparent!important;
+			}
+			
+			.btn-red {
+				float: right;
+				margin-right: 5px;
+				height: 25px;
+				margin-top: 5px;
+				border: none;
+				background-color: #c10000;
+				color: #FFF;
+				line-height:10px;
+			}
+			
+			.btn.btn-open-map {
+				width: 20%;
+				background-color: #0088ff;
+				text-align: center;
+				color: #FFF;
+				margin-top: 15px;
+				margin-left: 10px;
+				margin-bottom: 15px;
+			}
+		</style>
+		
+   </head>
+   
+   <body>
+			<div class="map-stuff">
+				<div id="wrapper" class="container-fluid">
+					<main id="map-holder" class="col-12 main" >
+						<div id="map-canvas" style="position: relative; overflow: hidden; background-color: rgb(15, 168, 210);"></div>
+					</main>
+				</div>
+			</div>
+   
+		<div class="alpr-system">
+			
+			<div class="alpr-header">
+				<div class="left-side">
+					<img src="img/los-santos-transport-logo.png" class="lst-logo">
+					<p class="lst-name">DVLA<br>ANPR System</p>
+				</div>
+				<div class="right-side">
+					
+					<button class="btn-close" id="close-system">X</button>
+					
+					<form id="lp-search-form">
+						<input type="submit" class="search-box-submit" value="Search">
+						<input type="text" class="search-box" id="lp-search" placeholder="Number Plate">
+					</form>
+					
+					<button class="btn btn-red" id="close-map">Close map</button>
+					
+				</div>
+			</div>
+			
+			<div class="alpr-body">
+				<div class="btn btn-open-map" id="openMapAlprs">Show ANPR Cameras</div>
+				<div class="btn btn-open-map" id="openMapAlprshits">Show ANPR Hits</div>
+				<div class="btn btn-open-map" id="copyToClipboard">Copy results</div>
+				<div>
+					<h3 style="margin-top: 0px;" id="title-searching-for">Searching for: </h3>
+					<table class="alpr-hits">
+						<thead>
+							<tr>
+								<th>Date/Time</th>
+								<th>Location Of Plate</th>
+							</tr>
+						</thead>
+						
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+				
+			</div>
+		</div>
+		
+		<script src="assets/last-bundle.js"></script>
+		<script>
+		var greenIcon = L.icon({
+			iconUrl: 'images/icons/debug.png',
+
+			iconSize:     [23, 32], // size of the icon
+			iconAnchor:   [23, 32/2], // point of the icon which will correspond to marker's location
+			popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+		});
+		var normalIcon = L.icon({
+			iconUrl: 'images/icons/normal.png',
+
+			iconSize:     [23, 32], // size of the icon
+			iconAnchor:   [23, 32/2], // point of the icon which will correspond to marker's location
+			popupAnchor:  [-3, -76] // point from which the popup should open relative to the iconAnchor
+		});
+		
+		globalInit();
+		</script>
+		<script type="text/javascript">
+			var alprplaces=null;
+			var currentalprhits=null;
+			var s=null;
+
+			var currentTime=null;
+			var timeInterval=null;
+		
+			window.addEventListener('message', (event) => {
+				if (event.data.type === 'enableui') {
+					if(event.data.enable) $(".alpr-system").show("fade"); else {$(".alpr-system").hide(); $(".map-stuff").hide(); }
+				}
+				
+				if(event.data.type === 'alprsearchresults'){
+					handleSearchResults(event.data.data);
+					handleTime(event);
+
+				}
+				
+				if(event.data.type === 'alprsearchresultsbyalpr'){
+					handleSearchResultsByAlpr(event.data.data);
+					handleTime(event);
+				}
+				
+				if(event.data.type === 'alprplaces'){
+					alprplaces=event.data.data;
+				} 
+			});
+
+			function handleTime(event){
+				currentTime=event.data.time*1000;
+				if(timeInterval != null){
+					clearInterval(timeInterval);
+					timeInterval=null;
+				}
+				timeInterval=setInterval(function () {
+					currentTime+=1000;
+				}, 1000);
+			}
+			
+			function handleSearchResults(data) {
+    data = JSON.parse(data);
+    currentalprhits = data;
+
+    $(".alpr-hits tbody").html("");
+
+    if (data.length > 0) {
+        let currentTime = new Date();
+        let formattedCurrentTime = formatDateTime(currentTime);
+        let s = "\nData obtained on " + formattedCurrentTime + " by Transit Authority\n";
+        s += "\nDate, ALPR Title, ALPR X, ALPR Y, ALPR Z\n";
+
+        for (let k in data) {
+            element = data[k];
+            let alprTime = new Date(element.datetime * 1000);
+            let formattedAlprTime = formatDateTime(alprTime);
+
+            $(".alpr-hits tbody").append("<tr><td>" + formattedAlprTime + "</td><td>" + alprplaces[element.alpr].title + "</td></tr>");
+            s += '"' + formattedAlprTime + '", "' + alprplaces[element.alpr].title + '", ' + alprplaces[element.alpr].coords[0] + '", ' + alprplaces[element.alpr].coords[1] + '", ' + alprplaces[element.alpr].coords[2] + "\n";
+        }
+    } else {
+        $(".alpr-hits tbody").html("<tr><td colspan='2' style='text-align: center;'>No results</td></tr>");
+    }
+}
+
+function formatDateTime(dateTime) {
+    let formattedDateTime = dateTime.toLocaleString('en-GB', { timeZone: 'UTC' });
+    return formattedDateTime;
+}
+
+			
+			function handleSearchResultsByAlpr(data){
+				data=JSON.parse(data);
+				$(".alpr-hits tbody").html("");
+				
+				if(data.length > 0){
+
+					let currDate=new Date(currentTime);
+
+					s+="\n" + "Data obtained on " + currDate.toUTCString() + " by Transit Authority\n";
+					s+="\nDate,Plate\n";
+
+					for(let k in data){
+						element=data[k];
+						let prevDate=new Date(element.datetime*1000);
+						
+						$(".alpr-hits tbody").append("<tr><td>"+timeDiff(currDate,prevDate)+"</td><td>"+element.plate+"</td></tr>");
+						s+='"' + prevDate.toUTCString() + '", "' + element.plate + '"';
+					}
+					
+				} else {
+					$(".alpr-hits tbody").html("<tr><td colspawn='2' style='text-align: center;'>No results</td></tr>");
+				}
+				
+			}
+			
+		
+			$(function() {
+
+
+				$(document).on('keydown', function(event) {
+					if (event.key === "Escape") {
+						fetch('https://'+GetParentResourceName()+'/closeALPRgui', {
+							method: 'POST',
+							headers: {
+								'Content-Type': 'application/json; charset=UTF-8',
+							}
+						}).then(resp => resp.json()).then(resp => {});
+					}
+				});
+				$(".map-stuff").hide();
+				
+				$('#lp-search-form').on('submit', function(e) { 
+					e.preventDefault();
+					let data = {'search':$("#lp-search").val()};
+					
+					$("#title-searching-for").text("Searching for: " + $("#lp-search").val());
+					s="Date for plate: " + $("#lp-search").val();
+					
+					fetch('https://'+GetParentResourceName()+'/getALPRhit', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json; charset=UTF-8',
+						},
+						body: JSON.stringify(data)
+					}).then(resp => resp.json()).then(resp => {});
+				});
+				
+				$("#close-system").on('click', function(e) {
+					fetch('https://'+GetParentResourceName()+'/closeALPRgui', {
+						method: 'POST',
+						headers: {
+							'Content-Type': 'application/json; charset=UTF-8',
+						}
+					}).then(resp => resp.json()).then(resp => {});
+				});
+				
+				$("#close-map").on('click', function(e) {
+					$(".map-stuff").hide();
+				});
+				
+				
+				$("#openMapAlprs").on('click', function(e) {
+					setTimeout(function(){ Map.invalidateSize(); }, 500);
+					clearAllMarkers();
+
+					for(let k in alprplaces){
+						let alpr=alprplaces[k];
+						let description="<a href='#' class='map-alpr-record-search' onclick='getAlprRecords("+k+")' data-alpr='"+k+"'>Check last records</a>";
+						let objM = new MarkerObject(alpr.title, new Coordinates(alpr.coords[0], alpr.coords[1], alpr.coords[2]), MarkerTypes[6], description, "", "");
+						createMarker(false, false, objM, "");
+					}
+					
+					$(".map-stuff").show();
+				});
+				
+				$("#openMapAlprshits").on('click', function(e) {
+					setTimeout(function(){ Map.invalidateSize(); }, 500);
+					clearAllMarkers();
+					
+					for(let k in currentalprhits){
+						let element=currentalprhits[k];
+						let alpr=alprplaces[element.alpr];
+						
+						let marker=MarkerTypes[999];
+						if(k != 0){
+							marker=MarkerTypes[6];
+						}
+
+						
+						let currDate=new Date(currentTime);
+						let prevDate=new Date(element.datetime*1000);
+						
+						let description=timeDiff(currDate,prevDate);
+						
+						
+						let objM = new MarkerObject(alpr.title, new Coordinates(alpr.coords[0], alpr.coords[1], alpr.coords[2]), marker, description, "", "");
+						createMarker(false, false, objM, "");
+					}
+					
+					$(".map-stuff").show();
+				});
+
+				$("#copyToClipboard").on('click', function(e){
+
+					const clipElem = document.createElement('textarea');
+					clipElem.value = s;
+					document.body.appendChild(clipElem);
+					clipElem.select();
+					document.execCommand('copy');
+					document.body.removeChild(clipElem);
+				});
+			});
+			
+			function timeDiff(curr, prev) { 
+				var ms_Min = 60 * 1000; // milliseconds in Minute 
+				var ms_Hour = ms_Min * 60; // milliseconds in Hour 
+				var ms_Day = ms_Hour * 24; // milliseconds in day 
+				var ms_Mon = ms_Day * 30; // milliseconds in Month 
+				var ms_Yr = ms_Day * 365; // milliseconds in Year 
+				var diff = curr - prev; //difference between dates. 
+				// If the diff is less then milliseconds in a minute 
+				if (diff < ms_Min) { 
+					return Math.round(diff / 1000) + ' seconds ago'; 
+	  
+					// If the diff is less then milliseconds in a Hour 
+				} else if (diff < ms_Hour) { 
+					return Math.round(diff / ms_Min) + ' minutes ago'; 
+	  
+					// If the diff is less then milliseconds in a day 
+				} else if (diff < ms_Day) { 
+					return Math.round(diff / ms_Hour) + ' hours ago'; 
+	  
+					// If the diff is less then milliseconds in a Month 
+				} else if (diff < ms_Mon) { 
+					return '~' + Math.round(diff / ms_Day) + ' days ago'; 
+	  
+					// If the diff is less then milliseconds in a year 
+				} else if (diff < ms_Yr) { 
+					return '~' + Math.round(diff / ms_Mon) + ' months ago'; 
+				} else { 
+					return '~' + Math.round(diff / ms_Yr) + ' years ago'; 
+				} 
+			} 
+			
+			function getAlprRecords(alpr){
+				let alprid=alpr;
+				let data = {'alpr':alprid};
+					
+				$("#title-searching-for").text("ALPR hits for: " + alprplaces[alprid].title );
+				s="Date for ALPR: " + alprplaces[alprid].title + "(" + alprplaces[alprid].coords[0] + "," + alprplaces[alprid].coords[1] + ","  + alprplaces[alprid].coords[2] + ")";
+					
+				fetch('https://'+GetParentResourceName()+'/getALPRhitByALPR', {
+					method: 'POST',
+					headers: {
+						'Content-Type': 'application/json; charset=UTF-8',
+					},
+					body: JSON.stringify(data)
+				}).then(resp => resp.json()).then(resp => {});
+			}
+
+		</script>
+   </body>
+</html>

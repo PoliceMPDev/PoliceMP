@@ -1,0 +1,14 @@
+{
+    "AllowedVehicles": [
+        {"SpawnCode":"MO81", "x": 0.45, "y":0.5, "z": 0.4, "xrot": 90.0, "Bone": "defualt"},
+        {"SpawnCode":"addpolbmwg212021", "x": 0.7, "y":0.3, "z": 0.3, "xrot": 90.0, "Bone":"brakelight_l"},
+        {"SpawnCode":"deflummaum", "x": 0.7, "y":0.3, "z": 0.3, "xrot": 90.0, "Bone":"brakelight_l"},
+        {"SpawnCode":"LG74JDV", "x": 0.7, "y":0.3, "z": 0.3, "xrot": 90.0, "Bone":"brakelight_l"}
+    ],
+
+    "Developers": [
+        "steam:110000113be89f3",
+        "steam:110000217be74ad"
+    
+    ]
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_DOUBLEBARREL_BARREL_01</Name>
+			<Model>shotgunbarrel1</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_shotgun</FlashFx>
+            <ShouldSilence value="false" />		
+			<RecoilShakeAmplitudeModifier value="1.00" />				
+		</Item>		
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_DOUBLEBARREL_BARREL_02</Name>
+			<Model>shotgunbarrel2</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_shotgun</FlashFx>
+            <ShouldSilence value="false" />		
+			<RecoilShakeAmplitudeModifier value="1.20" />					
+		</Item>		
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_DOUBLEBARREL_BARREL_03</Name>
+			<Model>shotgunbarrel3</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_shotgun</FlashFx>
+            <ShouldSilence value="false" />			
+			<RecoilShakeAmplitudeModifier value="1.35" />				
+		</Item>		
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_DOUBLEBARREL_BARREL_04</Name>
+			<Model>shotgunbarrel4</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+      <AccuracyModifier type="CWeaponAccuracyModifier">
+        <AccuracyModifier value="1.70000" />
+      </AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_shotgun</FlashFx>
+            <ShouldSilence value="false" />			
+			<RecoilShakeAmplitudeModifier value="0.90" />				
+		</Item>		
+		<Item type="CWeaponComponentSuppressorInfo">
+			<Name>COMPONENT_DOUBLEBARREL_BARREL_05</Name>
+			<Model>shotgunbarrel5</Model>
+			<LocName>"BARREL"</LocName>
+			<LocDesc>"BARREL"</LocDesc>
+			<AttachBone>AAPGrip</AttachBone>
+			<WeaponAttachBone>WAPGrip</WeaponAttachBone>
+      <AccuracyModifier type="CWeaponAccuracyModifier">
+        <AccuracyModifier value="2.00000" />
+      </AccuracyModifier>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="5"/>
+			<HudRange value="0"/>
+			<MuzzleBone>Gun_SuMuzzle</MuzzleBone>
+			<FlashFx>muz_shotgun</FlashFx>
+            <ShouldSilence value="false" />		
+			<RecoilShakeAmplitudeModifier value="0.80" />		  		
+		</Item>			
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+			<modelName>doublebarrelfm</modelName>
+			<txdName>doublebarrelfm</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>			
+		<Item>
+			<modelName>shotgunbarrel1</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>		
+		<Item>
+			<modelName>shotgunbarrel2</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>	
+		<Item>
+			<modelName>shotgunbarrel3</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>	
+		<Item>
+			<modelName>shotgunbarrel4</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>	
+		<Item>
+			<modelName>shotgunbarrel5</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>		
+		<Item>
+			<modelName>doublebarrelfm_mag1</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>			
+		<Item>
+			<modelName>doublebarrelfm_shell</modelName>
+			<txdName>doublebarrelfm1</txdName>
+			<ptfxAssetName>NULL</ptfxAssetName>
+			<lodDist value="300"/>
+		</Item>					
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
+

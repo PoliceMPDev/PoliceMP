@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions/>
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_police_accident</name>
+      <textureDictionary>prop_police_accident</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_police_accident</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_police_accident</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_police_accident</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_police_collison</name>
+      <textureDictionary>prop_police_collison</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_police_collison</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_police_collison</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_police_collison</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_police_right_left</name>
+      <textureDictionary>prop_police_right_left</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_police_right_left</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_police_right_left</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_police_right_left</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_police_slow</name>
+      <textureDictionary>prop_police_slow</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_police_slow</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_police_slow</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_police_slow</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_speed_camera</name>
+      <textureDictionary>prop_speed_camera</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_speed_camera</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_speed_camera</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_speed_camera</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_speed_enforcement</name>
+      <textureDictionary>prop_speed_enforcement</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_speed_enforcement</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_speed_enforcement</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_speed_enforcement</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_use_hard_shoulder</name>
+      <textureDictionary>prop_use_hard_shoulder</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_use_hard_shoulder</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_use_hard_shoulder</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_use_hard_shoulder</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_police_road_closed</name>
+      <textureDictionary>prop_police_road_closed</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_police_road_closed</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_police_road_closed</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="2.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_police_road_closed</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_hazmattent</name>
+      <textureDictionary>prop_hazmattent</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_hazmattent</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_hazmattent</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="1.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_hazmattent</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="75.00000000"/>
+      <flags value="537001984"/>
+      <specialAttribute value="0"/>
+      <bbMin x="-1.01605300" y="-0.46666300" z="-0.00446900"/>
+      <bbMax x="1.01605300" y="0.46666300" z="1.07967300"/>
+      <bsCentre x="0.00000000" y="0.00000000" z="0.53760210"/>
+      <bsRadius value="1.24257000"/>
+      <hdTextureDist value="15.00000000"/>
+      <name>prop_incident</name>
+      <textureDictionary>prop_incident</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_incident</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_incident</name>
+          <offsetPosition x="-0.00003052" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>dst_wood_splinter</fxName>
+          <fxType value="4"/>
+          <boneTag value="-1"/>
+          <scale value="1.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_incident</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_BARRIER_WORK05</settings>
+        </Item>
+      </extensions>
+    </Item>
+  </archetypes>
+  <name>prop_police_signs</name>
+  <dependencies/>
+  <compositeEntityTypes/>
+</CMapTypes>

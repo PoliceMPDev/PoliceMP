@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CMapTypes>
+  <extensions />
+  <archetypes>
+    <Item type="CBaseArchetypeDef">
+      <lodDist value="2000" />
+      <flags value="32" />
+      <specialAttribute value="" />
+      <bbMin x="" y="" z="" />
+      <bbMax x="" y="" z="" />
+      <bsCentre x="" y="" z="" />
+      <bsRadius value="" />
+      <hdTextureDist value="100" />
+      <name>prop_bearright</name>
+      <textureDictionary>prop_bearright</textureDictionary>
+      <clipDictionary />
+      <drawableDictionary />
+      <physicsDictionary>prop_bearright</physicsDictionary>
+      <assetType>ASSET_TYPE_DRAWABLE</assetType>
+      <assetName>prop_bearright</assetName>
+      <extensions />
+    </Item>
+	    <Item type="CBaseArchetypeDef">
+      <lodDist value="120.00000000"/>
+      <flags value="549584896"/>
+      <specialAttribute value="3"/>
+      <bbMin x="-0.59678380" y="-0.27471600" z="-0.01701200"/>
+      <bbMax x="0.23041630" y="0.58110410" z="4.02715300"/>
+      <bsCentre x="-0.18318370" y="0.15319400" z="2.00507100"/>
+      <bsRadius value="2.10784000"/>
+      <hdTextureDist value="12.00000000"/>
+      <name>prop_temptraffic</name>
+      <textureDictionary>prop_temptraffic</textureDictionary>
+      <clipDictionary/>
+      <drawableDictionary/>
+      <physicsDictionary/>
+      <assetType>ASSET_TYPE_FRAGMENT</assetType>
+      <assetName>prop_temptraffic</assetName>
+      <extensions>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_temptraffic</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>brk_lamppost_base</fxName>
+          <fxType value="3"/>
+          <boneTag value="57408"/>
+          <scale value="1.00000000"/>
+          <probability value="100"/>
+          <flags value="4"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefParticleEffect">
+          <name>prop_temptraffic</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <offsetRotation x="0.00000000" y="0.00000000" z="0.00000000" w="1.00000000"/>
+          <fxName>brk_sparking_wires</fxName>
+          <fxType value="3"/>
+          <boneTag value="-1"/>
+          <scale value="1.00000000"/>
+          <probability value="100"/>
+          <flags value="0"/>
+          <color value="0xFFFFFFFF"/>
+        </Item>
+        <Item type="CExtensionDefAudioCollisionSettings">
+          <name>prop_temptraffic</name>
+          <offsetPosition x="0.00000000" y="0.00000000" z="0.00000000"/>
+          <settings>MOD_PROP_TRAFFIC_03A</settings>
+        </Item>
+      </extensions>
+    </Item>
+  </archetypes>
+  <name>
+  </name>
+  <dependencies />
+  <compositeEntityTypes />
+  <CreatedBy>Skylumz YTYP Generator</CreatedBy>
+</CMapTypes>

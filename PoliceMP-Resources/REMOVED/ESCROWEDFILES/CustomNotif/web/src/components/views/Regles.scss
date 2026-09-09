@@ -1,0 +1,52 @@
+/*regles page*/
+
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+}
+
+:root {
+    --black:
+        rgba(0, 0, 0, 1);
+    --red:
+        #C33131;
+    --blue:
+        #5088F4;
+    --white:
+        rgba(255, 255, 255, 1);
+    --white-70:
+        rgba(255, 255, 255, 0.7);
+    --white-50:
+        rgba(255, 255, 255, 0.5);
+    --white-30:
+        rgba(255, 255, 255, 0.3);
+    --white-0:
+        rgba(255, 255, 255, 0);
+    --green:
+        #3DDE98;
+    --grey:
+        rgba(20, 22, 24, 0.5);
+    --degrade-radial-sombre:
+        linear-gradient(180deg, rgba(21, 77, 187, 0.02) 0%, rgba(21, 77, 187, 0.08) 100%), radial-gradient(50% 50.00% at 50% 50.00%, rgba(27, 28, 30, 0.48) 0%, rgba(27, 28, 30, 0.36) 100%);
+    --degrade-radial-clair:
+        linear-gradient(180deg, rgba(152, 191, 228, 0.2) 0%, rgba(154, 191, 224, 0.04) 100%);
+    --degrade-radial:
+        radial-gradient(50% 50.00% at 50% 50.00%, rgba(26, 36, 53, 0.48) 0%, rgba(26, 36, 53, 0.36) 100%);
+    --degrade-radial-noir:
+        radial-gradient(50% 50.00% at 50% 50.00%, rgba(39, 42, 48, 0.64) 0%, rgba(39, 42, 48, 0.48) 100%);
+    --degrade-radial-bleu:
+        radial-gradient(50% 50.00% at 50% 50.00%, rgba(49, 70, 106, 0.64) 0%, rgba(39, 64, 104, 0.48) 100%);
+    --degrade-radial-rouge:
+        radial-gradient(50% 50.00% at 50% 50.00%, rgba(106, 49, 49, 0.64) 0%, rgba(104, 39, 39, 0.48) 100%);
+
+
+
+
+
+}

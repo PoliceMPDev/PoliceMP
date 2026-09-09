@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.min.js" type="text/javascript"></script>
+        <script>
+            var audioPlayer = null;
+            var pressurePlayer = null;
+            window.addEventListener('message', function(event) {
+                if(event.data.command == "play"){
+                  audioPlayer = new Howl({src: ["./" + event.data.file + ".ogg"]});
+                  audioPlayer.volume(event.data.sound);
+                  audioPlayer.play();
+                }else if(event.data.command == "pressure"){
+                  pressurePlayer = new Howl({src: ["./pressure.ogg"]});
+                  pressurePlayer.volume(event.data.sound);
+                  pressurePlayer.play();
+                }else if(event.data.command == "fadein"){
+                  pressurePlayer.fade(0, 1, 500);
+                }else if(event.data.command == "fadeout"){
+                  pressurePlayer.fade(1, 0, 500);
+                }
+            });
+        </script>
+    </head>
+</html>
