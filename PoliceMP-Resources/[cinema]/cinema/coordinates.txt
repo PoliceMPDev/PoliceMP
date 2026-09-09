@@ -1,0 +1,40 @@
+legion square
+
+positionX: 153.9
+
+positionY: -988.7
+
+positionZ: 36.9
+
+rotationX: 0
+
+rotationY: 0
+
+rotationZ: 20
+
+scaleX: 0.6
+
+scaleY: 0.344999969
+
+scaleZ: 0
+
+
+above CRUCIAL FIX
+
+positionX: 250.5
+
+positionY: -826.48
+
+positionZ: 65.4
+
+rotationX: 0
+
+rotationY: 0
+
+rotationZ: 19.98
+
+scaleX: 0.8
+
+scaleY: 0.5
+
+scaleZ: 0

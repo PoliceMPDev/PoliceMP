@@ -1,0 +1,54 @@
+<html>
+
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka" rel="stylesheet">
+    <script>
+        var audioPlayerLoop = null;
+        var audioPlayer = null;
+        window.addEventListener('message', function(event) {
+            if (event.data.submissionType == "sendSound") {
+                if (event.data.loop == null || event.data.loop == "false") {
+                    event.data.loop = false;
+                }
+                if (event.data.loop == "true") {
+                    event.data.loop = true;
+                }
+                if (audioPlayer != null && event.data.loop == false) {
+                    audioPlayer.pause();
+                }
+                if (audioPlayerLoop != null && event.data.loop == true) {
+                    audioPlayerLoop.loop(false);
+                    audioPlayerLoop.stop();
+                    audioPlayerLoop.unload();
+                    audioPlayerLoop = null;
+                    return;
+                }
+                if (event.data.loop == true) {
+                    audioPlayerLoop = new Howl({
+                        src: ["./sounds/" + event.data.submissionFile + ".ogg"],
+                        loop: true,
+                    });
+                    audioPlayerLoop.volume(event.data.submissionVolume);
+                    audioPlayerLoop.play();
+                } else {
+                    audioPlayer = new Howl({
+                        src: ["./sounds/" + event.data.submissionFile + ".ogg"],
+                    });
+                    audioPlayer.volume(event.data.submissionVolume);
+                    audioPlayer.play();
+                }
+            }
+        });
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

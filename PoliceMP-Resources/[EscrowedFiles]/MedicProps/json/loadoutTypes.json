@@ -1,0 +1,27 @@
+{
+    "loadoutTypes": [
+        {
+            "name": "ambulance",
+            "equipment": [
+                { "name": "Scoop", "propname": "prop_scoop" },
+                { "name": "Primary Bag", "propname": "prop_primarybag" },
+                { "name": "O2 Cylinder", "propname": "prop_o2cylinder" },
+                { "name": "ALS Bag", "propname": "prop_alsbag" },
+                
+                {"name": "Entonox", "propname": "prop_entonox"},
+                {"name": "Zoll Z Vent (APP)", "propname": "prop_zollvent"}, 
+                {"name": "APP Bag", "propname": "prop_appbag"},
+                {"name": "HEMS Bag Orange", "propname": "prop_hemsbagorange"},
+                {"name": "HEMS Bag Black", "propname": "prop_hemsbagblack"}
+            ]
+        },
+        {
+            "name": "ambulancecar",
+            "equipment": [
+                { "name": "Primary Bag", "propname": "prop_primarybag" },
+                { "name": "O2 Cylinder", "propname": "prop_o2cylinder" },
+                { "name": "ALS Bag", "propname": "prop_alsbag" }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,150 @@
+Thank you for purchasing this Alcaline's Medic Pack !
+
+To be informed when a new package is out, ask a question or make a suggestion you can join the discord
+https://discord.gg/x3qsYjUzAq
+
+WARNING -------------------------------------------------------------------------------------
+
+You are not allowed to share, modify or sell files of this package.
+
+HOW TO INSTALL -------------------------------------------------------------------------------------
+
+- Put alca_medic_pack folder in your resource folder
+- Add "start alca_medic_pack" in your server.cfg
+- Add props name in your dpemote or script (DON'T FORGET TO CREATE OBJECT AND ATTACH IT TO THE PED. YOUR SCRIPT CAN'T 
+GUESS ALONE WHAT YOU WANT FROM IT)
+
+
+PROP LIST COORDINATES-------------------------------------------------------------------------------
+Some props may appear with an ugly rotation. If it doesn't suit your animation you'll have to modify 
+in your script. These are coordinations I suggest, you can choose your own.
+
+Animation list (you can use any other animation but you'll have to find yourself the good coordinations):
+"eat@pills@anim", "eat_pills_clip" (eating pills animation)
+"radiography@animation", "radio_clip" (looking radio animation)
+"disinfect@sting@anim", "sting_clip" (syringe animation)
+"self@bandage@leg", "self_leg_clip" (self bandage leg animation)
+"bandage@animation", "bandage_selfarm_clip" (self bandage arm animation)
+"bandage@animation@arm", "bandage_arm_clip" (bandage animation)
+"surgery@scalpel@anim", "scalpel_clip" (surgery animation)
+"defibrillator@animation", "defib_clip" (defibrillator animation)
+"take@temperature@anim", "thermo_clip" (temperature check animation)
+
+alcaprop_medic_radiography (bone 18905):   xPos: 0.44 , yPos: 0.14 , zPos: 0.06 , xRot: 240.0 , yRot: -60.0 , zRot: 42.0
+alcaprop_medic_tylenal (and similar tablets box)(bone 18905):   xPos: 0.16 , yPos: 0.04 , zPos: 0.02 , xRot: -8.0 , yRot: 168.0 , zRot: 186.0
+alcaprop_medic_pills (bone 18905):   xPos: 0.14 , yPos: 0.0 , zPos: 0.02 , xRot: 74.0 , yRot: 112.0 , zRot: 186.0
+alcaprop_medic_gauze (bone 18905):   xPos: 0.16 , yPos: 0.02 , zPos: 0.03 , xRot: 0.0 , yRot: 0.0 , zRot: 0.0
+alcaprop_medic_syringe (bone 57005):   xPos: 0.17 , yPos: 0.02 , zPos: 0.02 , xRot: 195.0 , yRot: 27.0 , zRot: 11.0
+alcaprop_medic_syrup (bone 18905):   xPos: 0.07 , yPos: 0.02 , zPos: 0.04 , xRot: 209.0 , yRot: -79.0 , zRot: 11.0
+alcaprop_medic_bandage (bone 18905):   xPos: 0.14 , yPos: 0.02 , zPos: 0.02 , xRot: 98.0 , yRot: -104.0 , zRot: -158.0
+alcaprop_medic_pressure_monitor (bone 22711):   xPos: -0.08 , yPos: 0.0 , zPos: 0.02 , xRot: 0.0 , yRot: -90.0 , zRot: -180.0
+alcaprop_medic_defibrillator  1 (bone 18905):   xPos: 0.18 , yPos: 0.01 , zPos: 0.02 , xRot: 110.0 , yRot: -24.0 , zRot: 166.0
+alcaprop_medic_defibrillator  2 (bone 57005):   xPos:  0.18, yPos:  0.01, zPos:  -0.02, xRot:  73.0, yRot:  -2.0, zRot: 164.0
+
+HELP FOR SCRIPT-------------------------------------------------------------------------------
+If you prefer to make it in your own script, don't forget to create the object, call the animation, attach the prop to the ped and delete it at the end of animation (the script can't guess alone) 
+
+use  AttachEntityToEntity, RequestAnimDict, TaskPlayAnim, StopAnimTask, DetachEntity, DeleteEntity, CreateObject
+you can find everything on CFX forum or google
+ 
+
+HELP FOR DPEMOTES-------------------------------------------------------------------------------
+--add this to your dpemote > Client > AnimationList.Lua
+   ["defibrillator"] = {"defibrillator@animation", "defib_clip", "Defibrillator", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_defibrillator",
+       PropBone = 18905,
+       PropPlacement = {0.18, 0.01, 0.02, 110.0, -24.0, 166.0},
+       SecondProp = "alcaprop_medic_defibrillator",
+       SecondPropBone = 57005,
+       SecondPropPlacement = {0.18, 0.01, -0.02, 73.0, -2.0, 165.0},
+
+       --
+       EmoteLoop = false,
+       EmoteMoving = true,
+   }},
+
+   ["thermo"] = {"take@temperature@anim", "thermo_clip", "Take temperature", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_thermo",
+       PropBone = 57005,
+       PropPlacement = {0.13, 0.04, -0.01, 103.0, -97.0, 166.0},
+       --
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+
+  ["syringe"] = {"disinfect@sting@anim", "sting_clip", "Injection", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_gauze",
+       PropBone = 18905,
+       PropPlacement = {0.16, 0.02, 0.03, 0.0, 0.0, 0.0},
+       SecondProp = "alcaprop_medic_syringe",
+       SecondPropBone = 57005,
+       SecondPropPlacement = {0.17, 0.02, 0.02, 195.0, 27.0, 11.0},
+       --
+       EmoteLoop = false,
+       EmoteMoving = true,
+   }},
+
+-- For tablets, I recommand not to use dpemotes but to add each tablets and pills in your own script (request animation, create object etc)
+   ["eat_pills"] = {"eat@pills@anim", "eat_pills_clip", "Take pills", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_tylenal",
+       PropBone = 18905,
+       PropPlacement = {0.16, 0.04, 0.02, -8.0, 168.0, 186.0},
+       --
+       EmoteLoop = false,
+       EmoteMoving = true,
+   }},
+
+   ["surgery"] = {"surgery@scalpel@anim", "scalpel_clip", "Surgery", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_scalpel",
+       PropBone = 57005,
+       PropPlacement = {0.13, 0.06, -0.02, -2.0, -24.0, 180.0},
+       --
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+
+   ["radio_look"] = {"radiography@animation", "radio_clip", "Look radiography", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_radiography",
+       PropBone = 18905,
+       PropPlacement = {0.44, 0.14, 0.06, 240.0, -60.0, 42.0},
+       --
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+
+   ["bandage1"] = {"bandage@animation@arm", "bandage_arm_clip", "Bandage1", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_bandage",
+       PropBone = 18905,
+       PropPlacement = {0.14, 0.02, 0.02, 98.0, -104.0, -158.0},
+       --
+       EmoteLoop = true,
+       EmoteMoving = true,
+   }},
+
+   ["bandage2"] = {"bandage@animation", "bandage_selfarm_clip", "Bandage2", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_bandage",
+       PropBone = 18905,
+       PropPlacement = {0.14, 0.02, 0.02, 98.0, -104.0, -158.0},
+       --
+       EmoteLoop = true,
+       EmoteMoving = false,
+   }},
+
+   ["bandage3"] = {"self@bandage@leg", "self_leg_clip", "Bandage3", AnimationOptions =
+   {
+       Prop = "alcaprop_medic_bandage",
+       PropBone = 18905,
+       PropPlacement = {0.14, 0.02, 0.02, 98.0, -104.0, -158.0},
+       --
+       EmoteLoop = true,
+       EmoteMoving = false,
+   }},
+

@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script>
+        window.addEventListener('message', function(event) {
+            if (event.data.updateType == "heliwinchuienable") {
+                document.getElementById("container").style = "display: block";
+            }
+
+            if (event.data.updateType == "heliwinchuidisable") {
+                document.getElementById("container").style = "display: none";
+            }
+
+            if (event.data.updateType == "heliwinchuiupdate") {
+                if (event.data.direction == "up")
+                {
+                    document.getElementById("uiimage").src = "img/UP.png";
+                }else if (event.data.direction == "down")
+                {
+                    document.getElementById("uiimage").src = "img/DOWN.png";
+                } else if(event.data.direction == "stop"){
+                    document.getElementById("uiimage").src = "img/STOP.png";
+                }
+
+                if (event.data.hold == "true")
+                {
+                    document.getElementById("holdimage").style = "display: block";
+                } else {
+                    document.getElementById("holdimage").style = "display: none";
+                }
+                document.getElementById("altitude").textContent = event.data.altitude+"m";
+                document.getElementById("winchlength").textContent = event.data.winchlength+"m";
+            }
+        });
+
+    </script>
+</head>
+
+<body>
+
+    <div id="container" class="container">
+        <div id="HeliWinchUI" class="HeliWinchUI">
+            <img id="uiimage" class="uiimage" src="img/STOP.png" />
+            <img id="holdimage" class="holdimage" src="img/HOLD.png" />
+            <p id="altitude" class="altitude">0m</p>
+            <p id="winchlength" class="winchlength">0m</p>
+            
+        </div>
+    </div>
+    
+
+</body>
+
+</html>
+
+
+<style>
+    .container {
+        position: relative;
+        float: right;
+        display: none;
+    }
+
+    /* Style the image */
+    .uiimage {
+        display: block;
+        z-index: -1;
+    }
+
+/*     .HeliWinchUI {
+        position: absolute;
+        display: block;
+        right: 0%;
+        top: 0%;
+    } */
+
+    .holdimage {
+        display: none;
+        position: absolute;
+        z-index: 3 !important;
+        top: 0%
+    }
+    .altitude {
+
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000000;
+        right: 59%;
+        top: 65%;
+        text-align: left;
+        width: 70px;  
+    }
+
+    .winchlength {
+        position: absolute;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        color: #000000;
+        right: 31%;
+        top: 65%;
+        text-align: left;
+        width: 50px;
+
+    }
+
+    
+</style>

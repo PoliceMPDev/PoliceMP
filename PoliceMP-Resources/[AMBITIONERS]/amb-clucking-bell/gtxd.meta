@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CMapParentTxds>
+  <txdRelationships>
+    <Item>
+      <parent>1_amb_cluck_interior</parent>
+      <child>amb_cluck_interior</child>
+    </Item>
+    <Item>
+      <parent>2_amb_cluck_interior</parent>
+      <child>1_amb_cluck_interior</child>
+    </Item>
+  </txdRelationships>
+</CMapParentTxds>

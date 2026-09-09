@@ -1,0 +1,25 @@
+fx_version 'cerulean'
+games { 'gta5' }
+
+description "Simple Notification Script using https://notifyjs.com/ - edited by Albo1125"
+
+ui_page "html/index.html"
+
+client_script "cl_notify.lua"
+
+export "SetQueueMax"
+export "SendNotification"
+
+files {
+    "html/index.html",
+    "html/pNotify.js",
+    "html/noty.js",
+    "html/noty.css",
+    "html/themes.css",
+    --"html/sound-example.wav",
+	"html/deployment.ogg",
+	"html/logo.png",
+	"html/panic.wav",
+	"html/urgentcallback.ogg",
+    "html/pageralert.ogg"
+}

@@ -1,0 +1,14 @@
+{
+    "vehicles": [
+        {
+            "name": "ambulance",
+            "type": "ambulance",
+            "door": "boot"
+        },
+        {
+            "name": "police",
+            "type": "ambulancecar",
+            "door": "boot"
+        }
+    ]
+}

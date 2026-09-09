@@ -1,0 +1,41 @@
+Beach Screening!
+
+{
+    "PositionX": -1678.948974609,
+    "PositionY": -928.343078613,
+    "PositionZ": 20.62909317,
+    "RotationX": 0.0,
+    "RotationY": 0.0,
+    "RotationZ": -140.0,
+    "ScaleX": 0.969999969,
+    "ScaleY": 0.484999985,
+    "ScaleZ": -0.100000001
+}
+
+Vinewood Bowl
+
+{
+    "PositionX": 679.150024414,
+    "PositionY": 578.400024414,
+    "PositionZ": 136.899993896,
+    "RotationX": 0.0,
+    "RotationY": 0.0,
+    "RotationZ": 20.0,
+    "ScaleX": 0.574999988,
+    "ScaleY": 0.287,
+    "ScaleZ": 0.0
+}
+
+Legion
+
+{
+    "PositionX": 250.5,
+    "PositionY": -826.479980469,
+    "PositionZ": 65.400001526,
+    "RotationX": 0.0,
+    "RotationY": 0.0,
+    "RotationZ": 19.979999542,
+    "ScaleX": 0.800000012,
+    "ScaleY": 0.5,
+    "ScaleZ": 0.0
+}
