@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="150" />
+  <proxies>
+	<Item>theshard_001</Item>
+	<Item>theshard_033</Item>
+	<Item>theshard_072</Item>
+	<Item>theshard_g</Item>
+	<Item>theshard_mlo_house_1</Item>
+	<Item>theshard_mlo_house_2</Item>
+	<Item>theshard_mlo_house_3</Item>
+	<Item>theshard_mlo_house_4</Item>
+	<Item>theshard_mlo_house_5</Item>
+	<Item>theshard_mlo_house_6</Item>
+	<Item>theshard_mlo_house_7</Item>
+	<Item>theshard_mlo_house_8</Item>
+	<Item>theshard_mlo_house_9</Item>
+	<Item>theshard_mlo_house_10</Item>
+	<Item>theshard_mlo_house_11</Item>	
+	<Item>theshard_mlo_house_12</Item>	
+	<Item>theshard_mlo_house_13</Item>	
+	<Item>thegherkin_milo</Item>
+	<Item>thegherkin_40_milo</Item>	
+	<Item>babani_garden_1</Item>		
+	<Item>babani_garden_2</Item>			
+
+  </proxies>
+</SInteriorOrderData>

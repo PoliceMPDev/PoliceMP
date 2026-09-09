@@ -1,0 +1,53 @@
+
+
+
+London Pack - Important Information 
+
+1. XSound Requirement 
+   - Ensure you have the `xsound` script installed.  
+   - It must be started before the London Pack in your server.cfg.  
+
+2. Tower Bridge Controls
+   - Use the command /openbridge to open Tower Bridge.  
+
+3. Command Permissions  
+   - To grant a player permission to use commands, you must add their Discord ID.  
+   - Edit london_pack\scripts/config.lua and add the player's Discord ID.  
+
+4. Summer Square Version 
+   - If you want the Summer Square version, add `summer_square_london_01` or `summer_square_london_02` to the `stream` folder.  
+
+
+
+
+
+
+it is setup for chair in there 
+add in to your set script 
+
+    [-1126331894] = { sit = { type = 'barstool', seats = {[1] = vector4(0.0, 0.08, 0.8, 180.13)} } }, -- the shard
+    [1181820963] = { sit = { type = 'chair2', seats = {[1] = vector4(0.0, 0.08, 0.48, 180.13)} } }, -- the shard    	
+
+
+
+if  you have npc  in your server and they drive on tower bridge download the extra script from discord to remove  npc on bridge only 
+
+
+
+
+
+
+
+you need to know what time zone is your vps is  
+
+example like if your vps located in Germany we have 1 hr difrend uk to Germany  
+
+so if we want play 13:00 pm  you must set the time in config for 14:00  and it is play 1 bing in 13:00 in uk time  and for any other time zone like this  
+
+
+
+if your vps from France or Germany  use the config.lua  in side  france_and_germany folder i make it ready for you 
+  
+
+
+make sure you have xsound  script  and start it before all London pack and this script as well 

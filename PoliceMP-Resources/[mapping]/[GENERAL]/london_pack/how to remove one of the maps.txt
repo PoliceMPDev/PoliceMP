@@ -1,0 +1,30 @@
+how to delete one of the maps 
+
+to  delete the shard 
+
+in this location london_pack\stream\optional_maps_delete  delete SHARD  folder here 
+
+-----------------------
+
+
+to  delete the legion  
+
+in this location london_pack\stream\optional_maps_delete  delete LEGION   folder here 
+
+
+------------
+and do one of this 2 ways  down 
+
+
+
+if you delete only legion do this as well 
+
+in this location london_pack\replace  copy  [delete_legion_need] folder and paste in to  london_pack\stream\map_data
+
+OR  
+
+if you delete shard and legion at same time  do this  
+
+in this location london_pack\replace  copy  [delete_legion_shard_need] folder and paste in to  london_pack\stream\map_data
+
+

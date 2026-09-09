@@ -1,0 +1,50 @@
+body {
+    font-family: 'VT323', Courier, monospace;
+    background: transparent !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.menu {
+    background: #222;
+    border: 3px solid #111;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+    display: none;
+}
+
+h2 {
+    color: #999;
+    font-size: 18px; /* Reduced from 22px to 18px */
+    margin-bottom: 10px;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #333;
+    border-radius: 4px;
+    color: #999;
+    cursor: pointer;
+    font-family: 'VT323', Courier, monospace;
+    font-size: 16px; /* Reduced from 20px to 16px */
+    font-weight: bold;
+    width: 100%;
+    padding: 8px; /* Adjusted padding for smaller look */
+    margin: 4px 0;
+}
+
+button:hover {
+    background: #111;
+    color: #fff;
+}
+
+.close-btn {
+    background: red;
+    border: 2px solid #700;
+}
