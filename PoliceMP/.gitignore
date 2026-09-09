@@ -1,0 +1,18 @@
+server/server/
+server/server-data/cache
+server/server-data/imgui.ini
+/server/server-data/resources/bigjobbie/bans.json
+/server/server-data/resources/bigjobbie/panel_logs.json
+/server/server-data/resources/[MiscResources]/els-plus/elsplus
+/server/server-data/resources/[MiscResources]/els-plus/elsplus
+/.vs/PoliceMP Server/v16
+/.vs
+src/.idea/.idea.PoliceMP/.idea/.gitignore
+src/nuget.config
+out
+src/PoliceMP.Client/ClientUI/.parcel-cache/
+
+server/server-data/.replxx_history
+server/server-data/db/
+server/server-data/db/default/
+server/server-data/db/roleplaytime/
