@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="5250" />
+  <proxies>
+	<Item>rlrp_jobc_milo_</Item>
+	<Item>rlrp_dvla_milo_</Item>
+	<Item>ambstationinterior_milo_</Item>
+	<Item>davis_pd_milo_</Item>
+	<Item>wetherspoon_interior_milo_</Item>
+	</proxies>
+</SInteriorOrderData>

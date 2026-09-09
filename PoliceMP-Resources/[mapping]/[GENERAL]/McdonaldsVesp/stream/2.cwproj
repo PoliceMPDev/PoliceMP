@@ -1,0 +1,19 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>almeiidaa_mcdonalds_milo_.ymap</Item>
+    <Item>hei_vb_25_strm_0.ymap</Item>
+    <Item>hei_vb_rd_strm_0.ymap</Item>
+    <Item>vb_occl_01.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>almeiidaa_mcdonalds.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+</CodeWalkerProject>

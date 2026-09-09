@@ -1,0 +1,23 @@
+<CodeWalkerProject>
+  <Name>New CodeWalker Project</Name>
+  <Version value="1" />
+  <YmapFilenames>
+    <Item>ymap\hedwig_demeter_milo_.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_2.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_3.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_4.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_5.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_6.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_7.ymap</Item>
+    <Item>ymap\hedwig_demeter_milo_8.ymap</Item>
+  </YmapFilenames>
+  <YtypFilenames>
+    <Item>hedwig_demeter.ytyp</Item>
+  </YtypFilenames>
+  <YbnFilenames />
+  <YndFilenames />
+  <YnvFilenames />
+  <TrainsFilenames />
+  <ScenarioFilenames />
+  <AudioRelFilenames />
+</CodeWalkerProject>
