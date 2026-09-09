@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+    <div id="panel-container">
+      <div class="panel">
+        <div class="display">
+          <div class="status">
+            <div class="status-indicator" id="status-indicator"></div>
+            <p class="status-text">Status: <span id="status-text">Normal</span></p>
+          </div>
+          <div class="led-screen">
+            <p id="message-text"></p>
+          </div>
+        </div>
+        <div class="buttons">
+          <button class="alarm-button" id="activate">Emergency</button>
+          <button class="reset-button" id="reset" disabled>Reset</button>
+        </div>
+      </div>
+  </div>
+</html>
+
+ 

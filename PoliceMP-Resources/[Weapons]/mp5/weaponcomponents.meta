@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponComponentInfoBlob>
+  <Data>
+  </Data>
+  <Infos>
+  
+	<!-- MAGAZINES - SMG MK II -->	
+	
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MP5_LIVEAUTO_CLIP_01</Name>
+      <Model>w_sb_mp5liveauto_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="30" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo />
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MP5_LIVEAUTO_CLIP_02</Name>
+      <Model>w_sb_mp5liveauto_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="100" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="60" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo />
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MP5_TRAININGAUTO_CLIP_01</Name>
+      <Model>w_sb_mp5trainingauto_mag1</Model>
+      <LocName>WCT_CLIP1</LocName>
+      <LocDesc>WCD_CLIP1</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="false" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="30" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo />
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+    <Item type="CWeaponComponentClipInfo">
+      <Name>COMPONENT_MP5_TRAININGAUTO_CLIP_02</Name>
+      <Model>w_sb_mp5trainingauto_mag2</Model>
+      <LocName>WCT_CLIP2</LocName>
+      <LocDesc>WCD_CLIP2</LocDesc>
+      <AttachBone>AAPClip</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="100" />
+      <HudAccuracy value="0" />
+      <HudRange value="0" />
+      <ClipSize value="60" />
+      <ReloadData ref="RELOAD_DEFAULT" />
+	  <AmmoInfo />
+      <TracerFx />
+      <TracerFxSpacing value="-1" />
+      <TracerFxForceLast value="-1" />
+    </Item>
+	
+	<!-- SIGHTS -->
+	
+    <Item type="CWeaponComponentScopeInfo">
+      <Name>COMPONENT_AT_SIGHT_MP5</Name>
+      <Model>w_at_sights_mp5</Model>
+      <LocName>WCT_SCOPE_MP5</LocName>
+      <LocDesc>WCD_SCOPE_MP5</LocDesc>
+      <AttachBone>AAPScop</AttachBone>
+      <AccuracyModifier type="NULL" />
+      <DamageModifier type="NULL" />
+      <bShownOnWheel value="true" />
+      <CreateObject value="true" />
+      <HudDamage value="0" />
+      <HudSpeed value="0" />
+      <HudCapacity value="0" />
+      <HudAccuracy value="5" />
+      <HudRange value="0" />
+      <CameraHash />
+      <RecoilShakeAmplitude value="0.280000" />
+      <ExtraZoomFactorForAccurateMode value="1.200000" />
+      <Reticule value="0" />
+      <ReticuleHash />
+	  <SpecialScopeType />
+    </Item>
+	
+  </Infos>
+  <InfoBlobName>DLC - Gunrunning</InfoBlobName>
+</CWeaponComponentInfoBlob>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		<Item>
+		  <modelName>markomods-x45</modelName>
+		  <txdName>markomods-x45</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-frame1</modelName>
+		  <txdName>markomods-x45-frames</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-frame2</modelName>
+		  <txdName>markomods-x45-frames</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-frame3</modelName>
+		  <txdName>markomods-x45-frames</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-frame4</modelName>
+		  <txdName>markomods-x45-frames</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-frame5</modelName>
+		  <txdName>markomods-x45-frames</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag1</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag2</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag3</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag4</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag5</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag6</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag7</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-mag8</modelName>
+		  <txdName>markomods-x45-mags</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-flsh1</modelName>
+		  <txdName>markomods-x45-flashlights</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-flsh2</modelName>
+		  <txdName>markomods-x45-flashlights</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-flsh3</modelName>
+		  <txdName>markomods-x45-flashlights</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-flsh4</modelName>
+		  <txdName>markomods-x45-flashlights</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-slide1</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-slide2</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-slide3</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-slide4</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-slide5</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-barrel1</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-barrel2</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-barrel3</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-barrel4</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+		<Item>
+		  <modelName>markomods-x45-barrel5</modelName>
+		  <txdName>markomods-x45-slides</txdName>
+		  <ptfxAssetName>NULL</ptfxAssetName>
+		  <lodDist value="75"/>
+		</Item>
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

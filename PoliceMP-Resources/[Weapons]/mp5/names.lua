@@ -1,0 +1,6 @@
+Citizen.CreateThread(function()
+	AddTextEntry('WT_LIVEMP5AUTO', 'Live MP5 Automatic')
+	AddTextEntry('WT_LIVEMP5SEMI', 'Live MP5 Semi-Automatic')
+	AddTextEntry('WT_TRAININGMP5AUTO', 'Training MP5 Automatic')
+	AddTextEntry('WT_TRAININGMP5SEMI', 'Training MP5 Semi-Automatic')
+end)

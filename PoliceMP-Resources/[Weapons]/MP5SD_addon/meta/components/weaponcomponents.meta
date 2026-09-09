@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF - 8"?>
+
+<CWeaponComponentInfoBlob>
+	<Infos>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_MP5SD_CLIP_01</Name>
+			<Model>mp5sd_fm_mag1</Model>
+			<LocName>WCT_CLIP1</LocName>
+			<LocDesc>WCD_CR_CLIP1</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="30"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT"/>
+		</Item>
+		<Item type="CWeaponComponentClipInfo">
+			<Name>COMPONENT_MP5SD_CLIP_02</Name>
+			<Model>mp5sd_fm_mag2</Model>
+			<LocName>WCT_CLIP2</LocName>
+			<LocDesc>WCD_CMPR_CLIP2</LocDesc>
+			<AttachBone>AAPClip</AttachBone>
+			<WeaponAttachBone>WAPClip</WeaponAttachBone>
+			<AccuracyModifier type="NULL"/>
+			<DamageModifier type="NULL"/>
+			<bShownOnWheel value="false"/>
+			<CreateObject value="true"/>
+			<HudDamage value="0"/>
+			<HudSpeed value="0"/>
+			<HudCapacity value="0"/>
+			<HudAccuracy value="0"/>
+			<HudRange value="0"/>
+			<ClipSize value="50"/>
+			<AmmoInfo/>
+			<ReloadData ref="RELOAD_DEFAULT"/>
+		</Item>		
+	</Infos>
+	<InfoBlobName/>
+</CWeaponComponentInfoBlob>
+

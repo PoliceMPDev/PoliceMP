@@ -1,0 +1,58 @@
+@keyframes lightAnimation {
+   0% {
+     opacity: 1;
+   }
+   10% {
+     opacity: 0;
+   }
+   13% {
+     opacity: 0;
+   }
+   23% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+
+body {
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+}
+
+#uiContainer {
+   display: block;
+   position: absolute;
+
+   bottom: -250px;
+   right: 10px;
+   transition: bottom 800ms ease-out;
+}
+
+.leds {
+   position: absolute;
+
+   border-radius: 50%;
+   height: 15px;
+   width: 15px;
+
+   bottom: 72px;
+   right: 98px;
+}
+
+.green {
+   background-image: linear-gradient(to top, #02cc13f1, #02cc13f1);
+   box-shadow: 0px 0px 10px 6px #02cc13;
+
+   opacity: 1;
+}
+
+.red {
+   background-image: linear-gradient(to top, #fd0404e1, #fd0404e1);
+   box-shadow: 0px 0px 10px 6px #fd0404;
+
+   opacity: 0;
+   animation: lightAnimation 1s infinite 110ms;
+}

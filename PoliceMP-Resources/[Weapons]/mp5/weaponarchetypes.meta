@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		
+		<!-- Weapon Variant - Assault Rifle Mk2 -->
+		<Item>
+			<modelName>w_sb_mp5liveauto</modelName>
+			<txdName>w_sb_mp5liveauto</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_mp5liveauto_mag1</modelName>
+			<txdName>w_sb_mp5liveauto_mag1</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_mp5liveauto_mag2</modelName>
+			<txdName>w_sb_mp5liveauto_mag2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_mp5livesemi</modelName>
+			<txdName>w_sb_mp5livesemi</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		
+		<Item>
+			<modelName>w_sb_mp5trainingauto</modelName>
+			<txdName>w_sb_mp5trainingauto</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_mp5trainingauto_mag1</modelName>
+			<txdName>w_sb_mp5trainingauto_mag1</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_mp5trainingauto_mag2</modelName>
+			<txdName>w_sb_mp5trainingauto_mag2</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_sb_mp5trainingsemi</modelName>
+			<txdName>w_sb_mp5trainingsemi</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		
+		
+		<Item>
+			<modelName>w_at_sights_mp5</modelName>
+			<txdName>w_at_sights_mp5</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

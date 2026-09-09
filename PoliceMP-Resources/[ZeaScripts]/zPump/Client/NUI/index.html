@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="Screen-Main.css"
+      rel="stylesheet"
+    />
+    <link
+      href="Screen-Ing-On.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="preconnect"
+      href="https://rsms.me/"
+    />
+    <link
+      rel="stylesheet"
+      href="https://rsms.me/inter/inter.css"
+    />
+    <script
+      src="nui://game/ui/jquery.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cfx-nui-my-resource/production.js"
+      async
+    ></script>
+    <script src="Main.js"></script>
+    <script src="https://canvas-gauges.com/download/latest/all/gauge.min.js"></script>
+  </head>
+
+  <body>
+    <div id="Panel-Container">
+      <div class="Panel-Screen"></div>
+
+      <div class="Panel-Body-Button_L_1">
+        <div
+          class="Panel-Body-Button_L_Circle_PumpToggle"
+          onclick="TogglePump()"
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_L_2">
+        <div
+          class="Panel-Body-Button_L_Circle_3BAR"
+          onclick='SwitchPressure("3.0")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_L_3">
+        <div
+          class="Panel-Body-Button_L_Circle_55BAR"
+          onclick='SwitchPressure("5.5")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_L_4">
+        <div
+          class="Panel-Body-Button_L_Circle_7BAR"
+          onclick='SwitchPressure("7.0")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_L_5">
+        <div
+          class="Panel-Body-Button_L_Circle_30BAR"
+          onclick='SwitchPressure("30")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_L_6">
+        <div class="Panel-Body-Button_L_Circle"></div>
+      </div>
+
+      <div class="Panel-Body-Button_L_7">
+        <div class="Panel-Body-Button_L_Circle"></div>
+      </div>
+
+      <div class="Panel-Body-GreenLight"></div>
+
+      <div class="Panel-Body-Button_R_1">
+        <div
+          class="Panel-Body-Button_R_Circle_RPMUP"
+          onclick='SwitchRPM("Increase")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_R_2">
+        <div
+          class="Panel-Body-Button_R_Circle_RPMDOWN"
+          onclick='SwitchRPM("Decrease")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_R_3">
+        <div
+          class="Panel-Body-Button_R_Circle_RPMIDLE"
+          onclick='SwitchRPM("Idle")'
+        ></div>
+      </div>
+
+      <div class="Panel-Body-Button_R_4">
+        <div class="Panel-Body-Button_R_Circle"></div>
+      </div>
+
+      <div class="Panel-Body-Button_R_5">
+        <div class="Panel-Body-Button_R_Circle"></div>
+      </div>
+
+      <div class="Panel-Body-Button_R_6">
+        <div class="Panel-Body-Button_R_Circle"></div>
+      </div>
+
+      <div id="Panel-Body-Button_R_7">
+        <div class="Panel-Body-Button_7_Interior"></div>
+        <div class="Panel-Body-Button_7_Interior_2"></div>
+        <div class="Panel-Body-Button_7_Interior_3"></div>
+        <div class="Panel-Body-Button_7_Interior_4"></div>
+        <div class="Panel-Body-Button_7_Interior_5"></div>
+      </div>
+
+      <div id="Screen-Ingition-Off">
+        <p class="INGOFF">IGNITION OFF</p>
+      </div>
+
+      <div id="Screen-Ingition-On">
+        <div class="Inner_Button_L_1">
+          <div id="PumpText">
+            <p class="PUMP">Pump</p>
+          </div>
+          <div id="Pump-On-Body">
+            <img
+              src="https://cdn.discordapp.com/attachments/1036099718952009778/1036133672518168596/PumpSym.png"
+            />
+          </div>
+        </div>
+        <div class="Inner_Button_L_2">
+          <div id="TextBody">
+            <p class="BAR3">3 bar L/P</p>
+          </div>
+        </div>
+        <div class="Inner_Button_L_3">
+          <div id="TextBody">
+            <p class="BAR55">5.5 bar L/P</p>
+          </div>
+        </div>
+        <div class="Inner_Button_L_4">
+          <div id="TextBody">
+            <p class="BAR7">7 bar L/P</p>
+          </div>
+        </div>
+        <div class="Inner_Button_L_5">
+          <div id="TextBody">
+            <p class="BAR30">30 bar H/P</p>
+          </div>
+        </div>
+        <div class="Inner_Button_L_6">
+          <div id="TextBody">
+            <p class="SUSPDUMP">Susp. Dump</p>
+          </div>
+        </div>
+        <div class="Inner_Button_L_7">
+          <div id="TextBody">
+            <p class="MORE">More ...</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_1">
+          <div id="TextBody">
+            <p class="RPMUP">RPM UP</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_2">
+          <div id="TextBody">
+            <p class="RPMDOWN">RPM DOWN</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_3">
+          <div id="TextBody">
+            <p class="RPMIDLE">RPM IDLE</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_4">
+          <div id="TextBody">
+            <p class="LIGHTMAST">Light Mast</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_5">
+          <div id="TextBody">
+            <p class="REARREDS">Rear Reds</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_6">
+          <div id="TextBody">
+            <p class="REARSCENE">Rear Scene</p>
+          </div>
+        </div>
+        <div class="Inner_Button_R_7">
+          <div id="TextBody">
+            <p class="FINEADJUST">Fine Adjust (Push = HTT)</p>
+          </div>
+        </div>
+        <div id="FoamTank"></div>
+        <div id="WaterTank"></div>
+        <div id="E1">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1036099896811474974/E1.png"
+          />
+        </div>
+        <div class="GuageOutlineHP"></div>
+        <div class="GuageBoxHP">
+          <p id="HPValue">0</p>
+          <p class="BAR">Bar</p>
+        </div>
+        <div class="GuageOutlineLP"></div>
+        <div class="GuageBoxLP">
+          <p id="LPValue">0.0</p>
+          <p class="BAR">Bar</p>
+        </div>
+        <div class="GuageOutlineTEMP"></div>
+        <div class="GuageBoxTEMP">
+          <p id="TEMPValue">8°C</p>
+        </div>
+        <div class="GuageOutlineCOMP"></div>
+        <div class="GuageBoxCOMP">
+          <p class="BARCOMP">Bar</p>
+          <p id="COMPValue">0.0</p>
+        </div>
+        <p id="REQSTPRESS">Requesting 0.0 Bar LOW Pressure</p>
+        <p id="PressControl">(Manual) Pressure Control</p>
+        <div id="WATER">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1038270560267943957/W_A_T_E_R_1.png"
+          />
+        </div>
+        <div id="FOAM">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1038270789104967730/F_O_A_M_A.png"
+          />
+        </div>
+        <div id="HP">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1036782146511196191/HIGH_Pressure.png"
+          />
+        </div>
+        <div id="LP">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1036782894854717440/LOW_Pressure.png"
+          />
+        </div>
+        <div id="TEMP">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1037783049145954375/Temp._1.png"
+          />
+        </div>
+        <div id="COMP">
+          <img
+            src="https://cdn.discordapp.com/attachments/1036099718952009778/1037782614662205540/Compound_1.png"
+          />
+        </div>
+        <canvas
+          id="HPGuage"
+          data-type="radial-gauge"
+          data-width="320"
+          data-height="360"
+          data-units=""
+          data-title="false"
+          data-min-value="0"
+          data-max-value="40"
+          data-value="0"
+          data-animate-on-init="false"
+          data-major-ticks="0, 5, 10, 15, 20, 25, 30, 35, 40"
+          data-minor-ticks="2"
+          data-stroke-ticks="true"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-needle="rgb(255,0,0)"
+          data-color-needle-start="rgb(255,0,0)"
+          data-color-needle-end="rgb(255,0,0)"
+          data-needle-end="83"
+          data-needle-start="0"
+          data-borders="false"
+          data-border-shadow-width="0"
+          data-ticks-angle="225"
+          data-start-angle="67.5"
+          data-needle-type="arrow"
+          data-needle-width="3"
+          data-needle-circle-size="15"
+          data-needle-circle-outer="false"
+          data-needle-circle-inner="true"
+          data-color-needle-shadow-down="#000000"
+          data-color-needle-circle-inner="#333"
+          data-color-needle-circle-inner-end="#333"
+          data-highlights="[]"
+          data-color-plate="transparent"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-numbers="#eee"
+          data-font-numbers-size="22"
+          data-value-box="false"
+          data-animation-rule="linear"
+          data-animation-duration="1100"
+        ></canvas>
+        <canvas
+          id="LPGuage"
+          data-type="radial-gauge"
+          data-width="320"
+          data-height="360"
+          data-units=""
+          data-title="false"
+          data-min-value="0"
+          data-max-value="20"
+          data-value="0.00"
+          data-animate-on-init="false"
+          data-major-ticks="0, , 5, , 10, , 15, , 20"
+          data-minor-ticks="2"
+          data-stroke-ticks="true"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-needle="rgb(255,0,0)"
+          data-color-needle-start="rgb(255,0,0)"
+          data-color-needle-end="rgb(255,0,0)"
+          data-needle-end="83"
+          data-needle-start="0"
+          data-ticks-angle="225"
+          data-start-angle="67.5"
+          data-borders="false"
+          data-border-shadow-width="0"
+          data-needle-type="arrow"
+          data-needle-width="3"
+          data-needle-circle-size="15"
+          data-needle-circle-outer="false"
+          data-needle-circle-inner="true"
+          data-color-needle-shadow-down="#000000"
+          data-color-needle-circle-inner="#333"
+          data-color-needle-circle-inner-end="#333"
+          data-highlights="[]"
+          data-color-plate="transparent"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-numbers="#eee"
+          data-font-numbers-size="22"
+          data-value-box="false"
+          data-animation-rule="linear"
+          data-animation-duration="900"
+        ></canvas>
+
+        <canvas
+          id="TempGuage"
+          data-type="radial-gauge"
+          data-width="220"
+          data-height="220"
+          data-units=""
+          data-title="false"
+          data-min-value="0"
+          data-max-value="40"
+          data-value="8"
+          data-animate-on-init="false"
+          data-major-ticks="0, , 20, , 40"
+          data-minor-ticks="0"
+          data-stroke-ticks="true"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-needle="rgb(255,0,0)"
+          data-color-needle-start="rgb(255,0,0)"
+          data-color-needle-end="rgb(255,0,0)"
+          data-needle-end="83"
+          data-needle-start="0"
+          data-borders="false"
+          data-border-shadow-width="0"
+          data-ticks-angle="140"
+          data-start-angle="111"
+          data-needle-type="arrow"
+          data-needle-width="3"
+          data-needle-circle-size="25"
+          data-needle-circle-outer="false"
+          data-needle-circle-inner="true"
+          data-color-needle-shadow-down="#000000"
+          data-color-needle-circle-inner="#333"
+          data-color-needle-circle-inner-end="#333"
+          data-highlights="[]"
+          data-color-plate="transparent"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-numbers="#eee"
+          data-font-numbers-size="26"
+          data-value-box="false"
+          data-animation-rule="bounce"
+          data-animation-duration="900"
+        ></canvas>
+
+        <canvas
+          id="CompGuage"
+          data-type="radial-gauge"
+          data-width="211"
+          data-height="220"
+          data-units=""
+          data-title="false"
+          data-min-value="-1.0"
+          data-max-value="20"
+          data-value="9.5"
+          data-animate-on-init="false"
+          data-major-ticks="-1.0,,-0.5,,0,,10,,20"
+          data-minor-ticks="2"
+          data-stroke-ticks="true"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-needle="rgb(255,0,0)"
+          data-color-needle-start="rgb(255,0,0)"
+          data-color-needle-end="rgb(255,0,0)"
+          data-needle-end="83"
+          data-needle-start="0"
+          data-borders="false"
+          data-border-shadow-width="0"
+          data-ticks-angle="225"
+          data-start-angle="67.5"
+          data-needle-type="arrow"
+          data-needle-width="3"
+          data-needle-circle-size="16"
+          data-needle-circle-outer="false"
+          data-needle-circle-inner="true"
+          data-color-needle-shadow-down="#000000"
+          data-color-needle-circle-inner="#333"
+          data-color-needle-circle-inner-end="#333"
+          data-highlights="[]"
+          data-color-plate="transparent"
+          data-color-major-ticks="#f5f5f5"
+          data-color-minor-ticks="#ddd"
+          data-color-numbers="#eee"
+          data-font-numbers-size="26"
+          data-value-box="false"
+          data-animation-rule="bounce"
+          data-animation-duration="900"
+        ></canvas>
+      </div>
+    </div>
+  </body>
+</html>

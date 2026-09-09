@@ -1,0 +1,480 @@
+:root {
+  font-family: 'Inter', sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  :root {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+/* Main Body */
+
+#Panel-Container {
+  display: none;
+  z-index: 1;
+  position: relative;
+  background: #212121;
+  height: 796px;
+  width: 1117.948974609375px;
+  left: 32px;
+  top: 60px;
+  border-radius: 35px;
+}
+
+/* Centre Screen */
+
+.Panel-Screen {
+  z-index: 2;
+  position: absolute;
+  background: #000000;
+  height: 698px;
+  width: 900px;
+  left: 111px;
+  top: 50px;
+  border-radius: 15px;
+}
+
+/* LEFT Buttons */
+/* Button Left Body {First} */
+
+.Panel-Body-Button_L_1 {
+  z-index: 3;
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 655px;
+  left: 35px;
+}
+
+/* Button Left Body {Second} */
+
+.Panel-Body-Button_L_2 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 573px;
+  left: 35px;
+}
+
+/* Button Left Body {Third} */
+
+.Panel-Body-Button_L_3 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 491px;
+  left: 35px;
+}
+
+/* Button Left Body {Fourth} */
+
+.Panel-Body-Button_L_4 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 409px;
+  left: 35px;
+}
+
+/* Button Left Body {Fifth} */
+
+.Panel-Body-Button_L_5 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 327px;
+  left: 35px;
+}
+
+/* BARs */
+
+.Panel-Body-Button_L_Circle_3BAR {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_L_Circle_55BAR {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_L_Circle_7BAR {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_L_Circle_30BAR {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_L_Circle_3BAR:hover {
+  cursor: pointer;
+}
+
+.Panel-Body-Button_L_Circle_55BAR:hover {
+  cursor: pointer;
+}
+
+.Panel-Body-Button_L_Circle_7BAR:hover {
+  cursor: pointer;
+}
+
+.Panel-Body-Button_L_Circle_30BAR:hover {
+  cursor: pointer;
+}
+
+/* Button Left Body {Sixth} */
+
+.Panel-Body-Button_L_6 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 245px;
+  left: 35px;
+}
+
+/* Button Left Body {Seventh} */
+
+.Panel-Body-Button_L_7 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(180deg);
+  bottom: 100px;
+  left: 35px;
+}
+
+.Panel-Body-GreenLight {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: #15ff00;
+  transform: rotate(0deg);
+  bottom: 90px;
+  left: 30px;
+}
+
+/* Button Left Interior Circle */
+
+.Panel-Body-Button_L_Circle {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(180deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_L_Circle_PumpToggle {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(180deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_L_Circle_PumpToggle:hover {
+  cursor: pointer;
+}
+
+/* RIGHT Buttons */
+/* Button Right Body {First} */
+
+.Panel-Body-Button_R_1 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(0deg);
+  bottom: 655px;
+  right: 31px;
+}
+
+/* Button Right Body {Second} */
+
+.Panel-Body-Button_R_2 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(0deg);
+  bottom: 573px;
+  right: 31px;
+}
+
+/* Button Right Body {Third} */
+
+.Panel-Body-Button_R_3 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(0deg);
+  bottom: 491px;
+  right: 31px;
+}
+
+/* Button Right Body {Fourth} */
+
+.Panel-Body-Button_R_4 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(0deg);
+  bottom: 409px;
+  right: 31px;
+}
+
+/* Button Right Body {Fifth} */
+
+.Panel-Body-Button_R_5 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(0deg);
+  bottom: 327px;
+  right: 31px;
+}
+
+/* Button Right Body {Sixth} */
+
+.Panel-Body-Button_R_6 {
+  position: absolute;
+  width: 75px;
+  height: 49px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 0px 30px 30px 0px;
+  transform: rotate(0deg);
+  bottom: 245px;
+  right: 31px;
+}
+
+/* Button Right Body {Seventh} */
+
+#Panel-Body-Button_R_7 {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 64px;
+  height: 62px;
+  background: #161616;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  bottom: 99px;
+  right: 30px;
+}
+
+/* Center Circle */
+
+.Panel-Body-Button_7_Interior {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  bottom: 15px;
+  right: 16px;
+}
+
+/* Directional Arrows */
+
+.Panel-Body-Button_7_Interior_2 {
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 50.5px;
+  right: 26px;
+}
+
+.Panel-Body-Button_7_Interior_3 {
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #ff4d00;
+  transform: rotate(180deg);
+  bottom: 5px;
+  right: 25.5px;
+}
+
+.Panel-Body-Button_7_Interior_4 {
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #ff4d00;
+  transform: rotate(90deg);
+  bottom: 26px;
+  right: 3.5px;
+}
+
+.Panel-Body-Button_7_Interior_5 {
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 8px solid #ff4d00;
+  transform: rotate(-90deg);
+  bottom: 26px;
+  right: 47.5px;
+}
+
+/* Button Right Interior Circle */
+
+.Panel-Body-Button_R_Circle {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_R_Circle_RPMUP {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_R_Circle_RPMDOWN {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_R_Circle_RPMIDLE {
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  width: 34px;
+  height: 33px;
+  background: #161616;
+  border: 2px solid #ff4d00;
+  transform: rotate(0deg);
+  bottom: 5.55px;
+  left: 30px;
+}
+
+.Panel-Body-Button_R_Circle_RPMUP:hover {
+  cursor: pointer;
+}
+
+.Panel-Body-Button_R_Circle_RPMDOWN:hover {
+  cursor: pointer;
+}
+
+.Panel-Body-Button_R_Circle_RPMIDLE:hover {
+  cursor: pointer;
+}
+
+/* Screen Ignition Off */
+
+#Screen-Ingition-Off {
+  display: none;
+  z-index: 10;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+}

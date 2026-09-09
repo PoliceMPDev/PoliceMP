@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div id="form-container">
+      <h2>Incident Turnout Form</h2>
+      <form id="incident-form">
+          <div class="form-group">
+            <label for="mobilise">MOBILISE:</label>
+            <input type="text" id="mobilise" name="mobilise" placeholder="Enter mobilised appliances (comma-separated)" required>
+          </div>
+          <div class="form-group">
+            <label for="incident-type">INCIDENT TYPE:</label>
+            <input type="text" id="incident-type" name="incident-type" placeholder="Enter incident type" required>
+          </div>
+          <div class="form-group">
+            <label for="incident-address">INCIDENT ADDRESS:</label>
+            <input type="text" id="incident-address" name="incident-address" placeholder="Enter incident address" required>
+          </div>
+          <div class="form-group">
+            <label for="incident-details">INCIDENT DETAILS:</label>
+            <textarea id="incident-details" name="incident-details" rows="4" placeholder="Provide incident details" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="talkgroup">TALKGROUP:</label>
+            <input type="text" id="talkgroup" name="talkgroup" placeholder="Specify talkgroup" required>
+          </div>
+          <div class="form-group">
+            <label for="map-ref">MAP REF:</label>
+            <input type="text" id="map-ref" name="map-ref" placeholder="Enter map reference" required>
+          </div>
+          <div class="button-container">
+            <button type="submit" class="submit-button">SUBMIT</button>
+            <button type="button" class="cancel-button" id="cancel-button">CANCEL</button>
+          </div>
+      </form>
+    </div>
+    <div id="tipsheet-container"></div>
+  </body> 
+</html>
+
+ 

@@ -1,0 +1,99 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    height: 100vh;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: -moz-none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+#panel-container {
+    position: absolute;
+    width: 80%;
+    max-width: 600px;
+    bottom: -250px;
+    transition: bottom 800ms ease-out;
+}
+
+.panel {
+    background-color: #333;
+    border: 5px solid #666;
+    border-radius: 10px;
+    width: 100%;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    color: #fff;
+}
+
+.display {
+    margin-bottom: 20px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.status-indicator {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: green;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.6);
+}
+
+.status-text {
+    font-size: 18px;
+    margin: 0;
+}
+
+.led-screen {
+    background-color: #000;
+    color: #00ff00;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.alarm-button, .reset-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff0000;
+    color: #fff;
+    margin: 0 20px;
+    transition: background-color 0.3s;
+}
+
+.alarm-button:hover, .reset-button:hover {
+    background-color: #cc0000;
+}
+
+.alarm-button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+
+.reset-button:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}

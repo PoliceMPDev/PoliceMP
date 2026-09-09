@@ -1,0 +1,224 @@
+html,body{
+   width: 100%;
+   height: 100%;
+
+   padding: 0;
+   margin: 0;
+
+   overflow: hidden;
+   -webkit-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+button {
+   outline: none;
+}
+
+/* ============================ */
+/* Base UI */
+
+#standby_maxi {
+   display: none;
+   position: absolute;
+
+   top: 36.726vh;
+   left: 80%;
+
+   width: 20.932vh;
+   height: 59.9vh;
+
+   background-image: url('img/standby_maxi.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+/* ============================ */
+/* Resize */
+
+#resize {
+   position: absolute;
+
+   right: -6px;
+   bottom: -9px;
+}
+
+#resize svg {
+   transform: rotate(315deg);
+}
+
+/* ============================ */
+/* Button */
+
+.button {
+   padding: 0px !important;
+   text-align: center; 
+   box-sizing: border-box; 
+
+   background: #808080; /* for test purpose : rgb(95 255 95 / 38%) */
+
+   border-radius:0.43vh;
+   border: transparent;
+
+   font-weight:bold;
+   color: black;
+   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Line added */
+   position:relative;
+}
+
+.button::before {
+   content: '';
+   position: absolute;
+
+   top:0;
+   left:0;
+
+   background: rgba(255, 255, 255, 0.1); /* Transparent layer */
+   border-radius:0.43vh;
+
+   z-index: 1;
+}
+
+.button-container {
+   display: flex;
+   flex-direction: row;
+   position: absolute;
+
+   top: 3.50vh; 
+   left: 4.09vh; 
+}
+
+.remote-button {
+   font-size: 1vh;
+   cursor: pointer;
+}
+
+.remote-button::before,.remote-button {
+   width: 4.59vh;
+   height: 4.682vh;
+}
+
+.remote-button:not(:first-child) {
+   margin-top: 1.44vh;
+}
+
+.large-buttons {
+   display: flex;
+   position: absolute;
+
+   top: 38.7vh;
+   left: 4vh;
+   
+   flex-direction: column;
+}
+
+.large-button {
+   cursor: pointer;
+   font-size:1.4vh;
+   margin-top: 1.6vh;
+}
+
+.large-button::before, .large-button {
+   height: 4.69vh;
+   width: 11.1vh;
+}
+
+/* ============================ */
+/* Column */
+
+.column {
+   display: flex;
+   flex-direction: column;
+}
+
+.column:first-child {
+   margin-right: 1.80vh; 
+}
+
+/* ============================ */
+/* standby_mini */
+
+#standby_mini {
+   display: none;
+   position: absolute;
+   top: 50.726vh;
+   left: 83%;
+   width: 17.932vh;
+   height: 40vh;
+   background-image: url('img/standby_mini.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#standby_mini .button-container {
+	top: 3.78vh;
+	left: 4.43vh;
+}
+
+#standby_mini .remote-button::before,#standby_mini .remote-button {
+	width: 4vh;
+	height: 4vh;
+	font-size: 0.9vh;
+}
+
+#standby_mini .remote-button:not(:first-child) {
+   margin-top:2.7vh; 
+}
+
+#standby_mini .column:first-child {
+   margin-right: 1.6vh; 
+}
+
+#standby_mini .large-buttons {
+   top: 22.3vh;
+   left: 4.3vh;
+}
+
+#standby_mini .large-button::before, #standby_mini .large-button {
+	height: 4.176vh;
+	width: 9.78vh;
+}
+
+/* ============================ */
+/* standby_midi */
+
+#standby_midi {
+   display: none;
+   position: absolute;
+   top: 50.726vh;
+   left: 83%;
+   width: 17.932vh;
+   height: 40vh;
+   background-image: url('img/standby_midi.png');
+   background-repeat: no-repeat;
+   background-size: contain;
+}
+
+#standby_midi .button-container {
+	top: 3.3676vh;
+	left: 3.9vh;
+}
+
+#standby_midi .remote-button::before,#standby_midi .remote-button {
+	width: 3.6vh;
+	height: 3.569vh;
+	font-size: 0.8vh;
+}
+
+#standby_midi .remote-button:not(:first-child) {
+   margin-top:2.398vh; 
+}
+
+#standby_midi .column:first-child {
+   margin-right: 1.3vh;
+}
+
+#standby_midi .large-buttons {
+   top: 25.57vh;
+   left: 3.79vh;
+}
+
+#standby_midi .large-button::before, #standby_midi .large-button {
+	height: 3.69vh;
+	width: 8.689vh;
+}

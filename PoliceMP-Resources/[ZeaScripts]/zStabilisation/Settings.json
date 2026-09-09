@@ -1,0 +1,89 @@
+{
+  "commandSettings": {
+    "hgvPlatform": {
+      "command": "Platform",
+      "description": "[zStabilisation] Place a HGV Platform",
+      "arguments": {
+        "smallPlatform": "Small",
+        "LargePlatform": "Large"
+      }
+    },
+    "plasticWedge": {
+      "command": "Wedge",
+      "description": "[zStabilisation] Place a Plastic Wedge",
+      "arguments": {
+        "smallWedge": "Small",
+        "LargeWedge": "Large"
+      }
+    },
+    "plasticBlock": {
+      "command": "Block",
+      "description": "[zStabilisation] Place a Plastic Block",
+      "arguments": {
+        "smallBlock": "Small",
+        "mediumBlock": "Medium",
+        "largeBlock": "Large",
+        "extralargeBlock": "ExtraLarge"
+      }
+    },
+    "stabfastStabiliser": {
+      "command": "Stabfast",
+      "description": "[zStabilisation] Place a Stabfast Stabiliser"
+    },
+    "paratechShoring": {
+      "command": "Paratech",
+      "description": "[zStabilisation] Place a Paratech Shoring Stabiliser"
+    },
+    "salvageSheet": {
+      "command": "Tarp",
+      "description": "[zStabilisation] Place a Salvage Sheet"
+    },
+    "stepChock": {
+      "command": "StepChock",
+      "description": "[zStabilisation] Place a Step Chock"
+    }
+  },
+
+  "editorSettings": {
+   "movementSyncing": false,
+    "movementIncrements": {
+      "x": 0.005,
+      "y": 0.005,
+      "z": 0.005,
+      "Pitch": 1.0,
+      "Rotate": 0.7
+    },
+    "entityOpacity": 95
+  },
+
+  "whitelistSettings": {
+    "hgvPlatform": {
+      "requirePermission": false,
+      "permission": "zstab.hgvPlatform"
+    },
+    "plasticWedge": {
+      "requirePermission": false,
+      "permission": "zstab.plasticWedge"
+    },
+    "plasticBlock": {
+      "requirePermission": false,
+      "permission": "zstab.plasticBlock"
+    },
+    "stabfastStabiliser": {
+      "requirePermission": false,
+      "permission": "zstab.stabfastStabiliser"
+    },
+    "paratechShoring": {
+      "requirePermission": false,
+      "permission": "zstab.paratechShoring"
+    },
+    "salvageSheet": {
+      "requirePermission": false,
+      "permission": "zstab.salvageSheet"
+    },
+    "stepChock": {
+      "requirePermission": false,
+      "permission": "zstab.stepChock"
+    }
+  }
+}

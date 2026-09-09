@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <link href="styles.css" rel="stylesheet"></link>
+    </head>
+    <body>
+        <!-- Data Commands: -->
+        <!-- // 'front_blues' // 'front_whites' // 'rear_blues' // 'rear_reds' // 'alley_lights' // 'message_board' // 'at_scene' // 'primary_reset' // 'toggle_siren' // 'dual_tones' // -->
+
+        <!--standby_maxi-->
+        
+        <div id="standby_maxi" class="resize-drag">
+            <div class="button-container">
+                <div class="column">
+                    <button class="remote-button button" data-command="front_blues">Front Blues</button>
+                    <button class="remote-button button" data-command="rear_reds">Rear Reds</button>
+                    <button class="remote-button button" data-command="alley_lights">Alley Lights</button>
+                    <button class="remote-button button" data-command="at_scene">At<br>Scene</button>
+                    <button class="remote-button button" data-command="empty"></button>
+                    <button class="remote-button button" data-command="empty"></button>
+                </div>
+                <div class="column">
+                    <button class="remote-button button" data-command="front_whites">Front Whites</button>
+                    <button class="remote-button button" data-command="rear_blues">Rear Blues</button>
+                    <button class="remote-button button" data-command="message_board">Message Board</button>
+                    <button class="remote-button button" data-command="dual_tones">Dual Tones</button>
+                    <button class="remote-button button" data-command="empty"></button>
+                    <button class="remote-button button" data-command="empty"></button>
+                </div>
+            </div>
+
+            <div class="large-buttons">
+                <button class="large-button button" data-command="primary_reset">999/Reset</button>
+                <button class="large-button button" data-command="toggle_siren">Siren</button>
+            </div>
+        </div>
+
+        <!--standby_mini-->
+
+        <div id="standby_mini" class="resize-drag">
+            <div class="button-container">
+                <div class="column">
+                    <button class="remote-button button front-blues" data-command="front_blues">Front Blues</button>
+                    <button class="remote-button button rear-reds" data-command="front_whites">Front Whites</button>
+                    <button class="remote-button button" data-command="at_scene">At<br>Scene</button>
+                </div>
+                <div class="column">
+                    <button class="remote-button button" data-command="rear_reds">Rear Reds</button>
+                    <button class="remote-button button" data-command="rear_blues">Rear Blues</button>
+                    <button class="remote-button button" data-command="toggle_siren">Siren Arm</button>
+                </div>
+            </div>
+             <div class="large-buttons">
+                <button class="large-button button" data-command="primary_reset">999</button>
+            </div>
+        </div>
+
+        <!--standby_midi-->
+
+        <div id="standby_midi" class="resize-drag">
+            <div class="button-container">
+                <div class="column">
+                    <button class="remote-button button front-blues" data-command="front_blues">Front Blues</button>
+                    <button class="remote-button button rear-reds" data-command="front_whites">Front Whites</button>
+                    <button class="remote-button button" data-command="alley_lights">Alley Lights</button>
+                    <button class="remote-button button" data-command="at_scene">At<br>Scene</button>
+                </div>
+                <div class="column">
+                    <button class="remote-button button" data-command="rear_blues">Rear Blues</button>
+                    <button class="remote-button button" data-command="rear_reds">Rear Reds</button>
+                    <button class="remote-button button" data-command="message_board">Message Board</button>
+                    <button class="remote-button button" data-command="toggle_siren">Siren Arm</button>
+                </div>
+            </div>
+             <div class="large-buttons">
+                <button class="large-button button" data-command="primary_reset">999</button>
+            </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>

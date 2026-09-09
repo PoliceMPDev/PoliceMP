@@ -1,0 +1,2407 @@
+{
+    "weapon_advancedrifle": {
+        "label": "Advanced Rifle",
+        "attachments": {
+            "Magazines": [
+                {
+                    "label": "Default Magazine",
+                    "value": "COMPONENT_ADVANCEDRIFLE_CLIP_01"
+                },
+                {
+                    "label": "Extended Magazine",
+                    "value": "COMPONENT_ADVANCEDRIFLE_CLIP_02"
+                }				
+            ],	
+            "Finish": [
+                {
+                    "label": "Gilded Gun Metal Finish",
+                    "value": "COMPONENT_ADVANCEDRIFLE_VARMOD_LUXE"
+                }			
+            ],						
+            "Flashlight": [
+                {
+                    "label": "Flashlight",
+                    "value": "COMPONENT_AT_AR_FLSH"
+                }			
+            ],				
+            "Suppressor": [
+                {
+                    "label": "Suppressor",
+                    "value": "COMPONENT_AT_AR_SUPP"
+                }		
+            ],			
+            "Scope": [
+                {
+                    "label": "Scope",
+                    "value": "COMPONENT_AT_SCOPE_SMALL"
+                }			
+            ]	
+        }
+    },
+    "weapon_appistol": {
+        "label": "AP Pistol",
+        "attachments": {
+            "Magazines": [
+                {
+                    "label": "Default Magazine",
+                    "value": "COMPONENT_APPISTOL_CLIP_01"
+                },
+                {
+                    "label": "Extended Magazine",
+                    "value": "COMPONENT_APPISTOL_CLIP_02"
+                }				
+            ],	
+            "Finish": [
+                {
+                    "label": "Gilded Gun Metal Finish",
+                    "value": "COMPONENT_APPISTOL_VARMOD_LUXE"
+                }			
+            ],						
+            "Flashlight": [
+                {
+                    "label": "Flashlight",
+                    "value": "COMPONENT_AT_PI_FLSH"
+                }			
+            ],				
+            "Suppressor": [
+                {
+                    "label": "Suppressor",
+                    "value": "COMPONENT_AT_PI_SUPP"
+                }		
+            ]
+        }
+    },
+    "weapon_assaultrifle": {
+        "label": "Assault Rifle",
+        "attachments": {
+            "Magazines": [
+                {
+                    "label": "Default Magazine",
+                    "value": "COMPONENT_ASSAULTRIFLE_CLIP_01"
+                },
+                {
+                    "label": "Extended Magazine",
+                    "value": "COMPONENT_ASSAULTRIFLE_CLIP_02"
+                },
+                {
+                    "label": "Drum Magazine",
+                    "value": "COMPONENT_ASSAULTRIFLE_CLIP_03"
+                }				
+            ],	
+            "Finish": [
+                {
+                    "label": "Gilded Gun Metal Finish",
+                    "value": "COMPONENT_ASSAULTRIFLE_VARMOD_LUXE"
+                }			
+            ],						
+            "Flashlight": [
+                {
+                    "label": "Flashlight",
+                    "value": "COMPONENT_AT_AR_FLSH"
+                }			
+            ],				
+            "Suppressor": [
+                {
+                    "label": "Suppressor",
+                    "value": "COMPONENT_AT_AR_SUPP_02"
+                }		
+            ],				
+            "Scope": [
+                {
+                    "label": "Scope",
+                    "value": "COMPONENT_AT_SCOPE_MACRO"
+                }		
+            ],				
+            "Grip": [
+                {
+                    "label": "Grip",
+                    "value": "COMPONENT_AT_AR_AFGRIP"
+                }		
+            ]
+        }
+    },
+    "weapon_assaultrifle_mk2": {
+        "label": "Assault Rifle MK II",
+        "attachments": {
+            "Magazines": [
+                {
+                    "label": "Default Magazine",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_01"
+                },
+                {
+                    "label": "Extended Magazine",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_02"
+                },
+                {
+                    "label": "Armor Piercing Rounds",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_ARMORPIERCING"
+                },
+                {
+                    "label": "Full Metal Jacket Rounds",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_FMJ"
+                },
+                {
+                    "label": "Incendiary Rounds",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_INCENDIARY"
+                },
+                {
+                    "label": "Tracer Rounds",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_TRACER"
+                }				
+            ],	
+            "Camos": [
+                {
+                    "label": "Brushstroke Camo",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_02"
+                },
+                {
+                    "label": "Woodland Camo",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_03"
+                },	
+                {
+                    "label": "Skull",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_04"
+                },	
+                {
+                    "label": "Sessanta Nove",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_05"
+                },	
+                {
+                    "label": "Perseus",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_06"
+                },	
+                {
+                    "label": "Leopard",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_07"
+                },	
+                {
+                    "label": "Zebra",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_08"
+                },	
+                {
+                    "label": "Geometric",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_09"
+                },	
+                {
+                    "label": "Boom!",
+                    "value": "COMPONENT_ASSAULTRIFLE_MK2_CAMO_10"
+                }	
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP_02"
+                    }		
+                ],	
+                "Barrels": [
+                    {
+                        "label": "Default Barrel",
+                        "value": "COMPONENT_AT_AR_BARREL_01"
+                    },
+                    {
+                        "label": "Heavy Barrel",
+                        "value": "COMPONENT_AT_AR_BARREL_02"
+                    }	
+                ],				
+                "Scope": [
+                    {
+                        "label": "Small Scope",
+                        "value": "COMPONENT_AT_SCOPE_MACRO_MK2"
+                    },
+                    {
+                        "label": "Large Scope",
+                        "value": "COMPONENT_AT_SCOPE_MEDIUM_MK2"
+                    },
+                    {
+                        "label": "Holo Scope",
+                        "value": "COMPONENT_AT_SIGHTS"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP_02"
+                    }		
+                ],				
+                "Muzzle": [
+                    {
+                        "label": "Flat Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_01"
+                    },
+                    {
+                        "label": "Tactical  Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_02"
+                    },
+                    {
+                        "label": "Fat-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_03"
+                    },
+                    {
+                        "label": "Precision Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_04"
+                    },
+                    {
+                        "label": "Heavy Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_05"
+                    },
+                    {
+                        "label": "Slanted Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_06"
+                    },
+                    {
+                        "label": "Split-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_07"
+                    }		
+                ]
+            }
+        },
+        "weapon_assaultshotgun": {
+            "label": "Assault Shotgun",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_ASSAULTSHOTGUN_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_ASSAULTSHOTGUN_CLIP_02"
+                    }			
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP"
+                    }		
+                ],								
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP"
+                    }		
+                ]
+            }
+        },
+        "weapon_assaultsmg": {
+            "label": "Assault SMG",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_ASSAULTSMG_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_ASSAULTSMG_CLIP_02"
+                    }				
+                ],	
+                "Finish": [
+                    {
+                        "label": "Yusuf Amir Luxury Finish",
+                        "value": "COMPONENT_ASSAULTSMG_VARMOD_LOWRIDER"
+                    }			
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP_02"
+                    }		
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "COMPONENT_AT_SCOPE_MACRO"
+                    }		
+                ]				
+            }
+        },
+        "weapon_autoshotgun": {
+            "label": "Sweeper Shotgun",
+                "attachments": {
+            }
+        },
+        "weapon_bat": {
+            "label": "Baseball Bat",
+                "attachments": {
+            }
+        },
+        "weapon_brick": {
+            "label": "Brick",
+                "attachments": {
+            }
+        },
+        "weapon_brick2": {
+            "label": "Brick 2",
+                "attachments": {
+            }
+        },
+        "weapon_ball": {
+            "label": "Ball",
+                "attachments": {
+            }
+        },
+        "weapon_battleaxe": {
+            "label": "Battle Axe",
+                "attachments": {
+            }
+        },
+        "weapon_bottle": {
+            "label": "Bottle",
+                "attachments": {
+            }
+        },
+        "weapon_bullpuprifle": {
+            "label": "Bullpup Rifle",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_BULLPUPRIFLE_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_BULLPUPRIFLE_CLIP_02"
+                    }				
+                ],	
+                "Finish": [
+                    {
+                        "label": "Gilded Gun Metal Finish",
+                        "value": "COMPONENT_BULLPUPRIFLE_VARMOD_LOW"
+                    }			
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP"
+                    }		
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "COMPONENT_AT_SCOPE_SMALL"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP"
+                    }		
+                ]			
+            }
+        },
+        "weapon_bullpuprifle_mk2": {
+            "label": "Bullpup Rifle MK II",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_02"
+                    },
+                    {
+                        "label": "Armor Piercing Rounds",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_ARMORPIERCING"
+                    },
+                    {
+                        "label": "Full Metal Jacket Rounds",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_FMJ"
+                    },
+                    {
+                        "label": "Incendiary Rounds",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_INCENDIARY"
+                    },
+                    {
+                        "label": "Tracer Rounds",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CLIP_TRACER"
+                    }				
+                ],	
+                "Camos": [
+                    {
+                        "label": "Brushstroke Camo",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_02"
+                    },
+                    {
+                        "label": "Woodland Camo",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_03"
+                    },	
+                    {
+                        "label": "Skull",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_04"
+                    },	
+                    {
+                        "label": "Sessanta Nove",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_05"
+                    },	
+                    {
+                        "label": "Perseus",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_06"
+                    },	
+                    {
+                        "label": "Leopard",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_07"
+                    },	
+                    {
+                        "label": "Zebra",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_08"
+                    },	
+                    {
+                        "label": "Geometric",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_09"
+                    },	
+                    {
+                        "label": "Boom!",
+                        "value": "COMPONENT_BULLPUPRIFLE_MK2_CAMO_10"
+                    }	
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP"
+                    }		
+                ],	
+                "Barrels": [
+                    {
+                        "label": "Default Barrel",
+                        "value": "COMPONENT_AT_BP_BARREL_01"
+                    },
+                    {
+                        "label": "Heavy Barrel",
+                        "value": "COMPONENT_AT_BP_BARREL_02"
+                    }	
+                ],				
+                "Scope": [
+                    {
+                        "label": "Small Scope",
+                        "value": "COMPONENT_AT_SCOPE_MACRO_02_MK2"
+                    },
+                    {
+                        "label": "Medium Scope",
+                        "value": "COMPONENT_AT_SCOPE_SMALL_MK2"
+                    },
+                    {
+                        "label": "Holo Scope",
+                        "value": "COMPONENT_AT_SIGHTS"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP_02"
+                    }		
+                ],				
+                "Muzzle": [
+                    {
+                        "label": "Flat Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_01"
+                    },
+                    {
+                        "label": "Tactical  Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_02"
+                    },
+                    {
+                        "label": "Fat-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_03"
+                    },
+                    {
+                        "label": "Precision Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_04"
+                    },
+                    {
+                        "label": "Heavy Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_05"
+                    },
+                    {
+                        "label": "Slanted Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_06"
+                    },
+                    {
+                        "label": "Split-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_07"
+                    }
+                ]
+            }
+        },
+        "weapon_bullpupshotgun": {
+            "label": "Bullup Shotgun",
+                "attachments": {					
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP_02"
+                    }		
+                ],								
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP"
+                    }		
+                ]			
+            }
+        },
+        "weapon_bzgas": {
+            "label": "BZ Gas",
+                "attachments": {
+            }
+        },
+        "weapon_carbinerifle": {
+            "label": "Carbine Rifle",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_CARBINERIFLE_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_CARBINERIFLE_CLIP_02"
+                    },
+                    {
+                        "label": "Drum Magazine",
+                        "value": "COMPONENT_CARBINERIFLE_CLIP_03"
+                    }				
+                ],	
+                "Finish": [
+                    {
+                        "label": "Yusuf Amir Luxury Finish",
+                        "value": "COMPONENT_CARBINERIFLE_VARMOD_LUXE"
+                    }			
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP"
+                    }		
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "COMPONENT_AT_SCOPE_MEDIUM"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP"
+                    }		
+                ]			
+            }
+        },
+        "WEAPON_SIG716": {
+            "label": "SIG 716",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "mdx_sig716_mag1"
+                    }			
+                ],										
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "mdx_sig716_supp"
+                    }		
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "mdx_sig716_scope"
+                    }		
+                ]		
+            }
+        },
+        "WEAPON_SIGMCX": {
+            "label": "SIG MCX",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "w_ar_sigmcx_mag1"
+                    }			
+                ],										
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "mdx_sig716_supp"
+                    }		
+                ],
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "sig_flsh"
+                    }			
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "w_at_sigmcxscope"
+                    }		
+                ]		
+            }
+        },
+        "weapon_carbinerifle_mk2": {
+            "label": "Carbine Rifle MK II",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": " COMPONENT_CARBINERIFLE_MK2_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": " COMPONENT_CARBINERIFLE_MK2_CLIP_02"
+                    },
+                    {
+                        "label": "Armor Piercing Rounds",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CLIP_ARMORPIERCING"
+                    },
+                    {
+                        "label": "Full Metal Jacket Rounds",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CLIP_FMJ"
+                    },
+                    {
+                        "label": "Incendiary Rounds",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CLIP_INCENDIARY"
+                    },
+                    {
+                        "label": "Tracer Rounds",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CLIP_TRACER"
+                    }				
+                ],	
+                "Camos": [
+                    {
+                        "label": "Brushstroke Camo",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_02"
+                    },
+                    {
+                        "label": "Woodland Camo",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_03"
+                    },	
+                    {
+                        "label": "Skull",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_04"
+                    },	
+                    {
+                        "label": "Sessanta Nove",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_05"
+                    },	
+                    {
+                        "label": "Perseus",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_06"
+                    },	
+                    {
+                        "label": "Leopard",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_07"
+                    },	
+                    {
+                        "label": "Zebra",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_08"
+                    },	
+                    {
+                        "label": "Geometric",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_09"
+                    },	
+                    {
+                        "label": "Boom!",
+                        "value": "COMPONENT_CARBINERIFLE_MK2_CAMO_10"
+                    }	
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP"
+                    }		
+                ],	
+                "Barrels": [
+                    {
+                        "label": "Default Barrel",
+                        "value": "COMPONENT_AT_CR_BARREL_01"
+                    },
+                    {
+                        "label": "Heavy Barrel",
+                        "value": "COMPONENT_AT_CR_BARREL_02"
+                    }	
+                ],				
+                "Scope": [
+                    {
+                        "label": "Small Scope",
+                        "value": "COMPONENT_AT_SCOPE_MACRO_MK2"
+                    },
+                    {
+                        "label": "Medium Scope",
+                        "value": "COMPONENT_AT_SCOPE_MEDIUM_MK2"
+                    },
+                    {
+                        "label": "Holo Scope",
+                        "value": "COMPONENT_AT_SIGHTS"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP_02"
+                    }		
+                ],				
+                "Muzzle": [
+                    {
+                        "label": "Flat Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_01"
+                    },
+                    {
+                        "label": "Tactical  Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_02"
+                    },
+                    {
+                        "label": "Fat-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_03"
+                    },
+                    {
+                        "label": "Precision Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_04"
+                    },
+                    {
+                        "label": "Heavy Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_05"
+                    },
+                    {
+                        "label": "Slanted Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_06"
+                    },
+                    {
+                        "label": "Split-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_07"
+                    }
+                ]
+            }
+        },
+        "weapon_combatmg": {
+            "label": "Combat MG",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_COMBATMG_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_COMBATMG_CLIP_02"
+                    }			
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "COMPONENT_AT_SCOPE_MEDIUM"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP"
+                    }		
+                ]			
+            }
+        },
+        "weapon_combatmg_mk2": {
+            "label": "Combat MG MK II",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_COMBATMG_MK2_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_COMBATMG_MK2_CLIP_02"
+                    },
+                    {
+                        "label": "Armor Piercing Rounds",
+                        "value": "COMPONENT_COMBATMG_MK2_CLIP_ARMORPIERCING"
+                    },
+                    {
+                        "label": "Full Metal Jacket Rounds",
+                        "value": "COMPONENT_COMBATMG_MK2_CLIP_FMJ"
+                    },
+                    {
+                        "label": "Incendiary Rounds",
+                        "value": "COMPONENT_COMBATMG_MK2_CLIP_INCENDIARY"
+                    },
+                    {
+                        "label": "Tracer Rounds",
+                        "value": "COMPONENT_COMBATMG_MK2_CLIP_TRACER"
+                    }				
+                ],	
+                "Camos": [
+                    {
+                        "label": "Brushstroke Camo",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_02"
+                    },
+                    {
+                        "label": "Woodland Camo",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_03"
+                    },	
+                    {
+                        "label": "Skull",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_04"
+                    },	
+                    {
+                        "label": "Sessanta Nove",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_05"
+                    },	
+                    {
+                        "label": "Perseus",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_06"
+                    },	
+                    {
+                        "label": "Leopard",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_07"
+                    },	
+                    {
+                        "label": "Zebra",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_08"
+                    },	
+                    {
+                        "label": "Geometric",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_09"
+                    },	
+                    {
+                        "label": "Boom!",
+                        "value": "COMPONENT_COMBATMG_MK2_CAMO_10"
+                    }	
+                ],						
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],	
+                "Barrels": [
+                    {
+                        "label": "Default Barrel",
+                        "value": "COMPONENT_AT_MG_BARREL_01"
+                    },
+                    {
+                        "label": "Heavy Barrel",
+                        "value": "COMPONENT_AT_MG_BARREL_02"
+                    }	
+                ],				
+                "Scope": [
+                    {
+                        "label": "Medium Scope",
+                        "value": "COMPONENT_AT_SCOPE_SMALL_MK2"
+                    },
+                    {
+                        "label": "Large Scope",
+                        "value": "COMPONENT_AT_SCOPE_MEDIUM_MK2"
+                    },
+                    {
+                        "label": "Holo Scope",
+                        "value": "COMPONENT_AT_SIGHTS"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP_02"
+                    }		
+                ],				
+                "Muzzle": [
+                    {
+                        "label": "Flat Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_01"
+                    },
+                    {
+                        "label": "Tactical  Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_02"
+                    },
+                    {
+                        "label": "Fat-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_03"
+                    },
+                    {
+                        "label": "Precision Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_04"
+                    },
+                    {
+                        "label": "Heavy Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_05"
+                    },
+                    {
+                        "label": "Slanted Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_06"
+                    },
+                    {
+                        "label": "Split-End Muzzle Brake",
+                        "value": "COMPONENT_AT_MUZZLE_07"
+                    }
+                ]
+            }
+        },
+        "weapon_combatpdw": {
+            "label": "Combat PDW",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_COMBATPDW_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_COMBATPDW_CLIP_02"
+                    },
+                    {
+                        "label": "Drum Magazine",
+                        "value": "COMPONENT_COMBATPDW_CLIP_03"
+                    }				
+                ],					
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Scope": [
+                    {
+                        "label": "Scope",
+                        "value": "COMPONENT_AT_SCOPE_SMALL"
+                    }		
+                ]			
+            }
+        },
+        "weapon_combatpistol": {
+            "label": "Combat Pistol",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_COMBATPISTOL_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_COMBATPISTOL_CLIP_02"
+                    }			
+                ],					
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP"
+                    }		
+                ],				
+                "Finish": [
+                    {
+                        "label": "Yusuf Amir Luxury Finish",
+                        "value": "COMPONENT_COMBATPISTOL_VARMOD_LOWRIDER"
+                    }		
+                ]			
+            }
+        },
+        "weapon_compactrifle": {
+            "label": "Compact Rifle",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_COMPACTRIFLE_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_COMPACTRIFLE_CLIP_02"
+                    },
+                    {
+                        "label": "Drum Magazine",
+                        "value": "COMPONENT_COMPACTRIFLE_CLIP_03"
+                    }			
+                ]			
+            }
+        },
+        "weapon_crowbar": {
+            "label": "Crowbar",
+                "attachments": {
+            }
+        },
+        "weapon_dagger": {
+            "label": "Antique Cavalry Dagger",
+                "attachments": {
+            }
+        },
+        "weapon_dbshotgun": {
+            "label": "Double Barrel Shotgun",
+                "attachments": {
+            }
+        },
+        "weapon_doubleaction": {
+            "label": "Double Action Revolver",
+                "attachments": {
+            }
+        },
+        "weapon_fireextinguisher": {
+            "label": "Fire Extinguisher",
+                "attachments": {
+            }
+        },
+        "weapon_flare": {
+            "label": "Flare",
+                "attachments": {
+            }
+        },
+        "weapon_flaregun": {
+            "label": "Flare Gun",
+                "attachments": {
+            }
+        },
+        "weapon_flashlight": {
+            "label": "Flashlight",
+                "attachments": {
+            }
+        },
+        "weapon_golfclub": {
+            "label": "Golf Club",
+                "attachments": {
+            }
+        },
+        "weapon_enforcer": {
+            "label": "Big Red Key",
+                "attachments": {
+            }
+        },
+        "weapon_gusenberg": {
+            "label": "Gusenberg Sweeper",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_GUSENBERG_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_GUSENBERG_CLIP_02"
+                    }		
+                ]			
+            }
+        },
+        "weapon_hammer": {
+            "label": "Hammer",
+                "attachments": {
+            }
+        },
+        "weapon_hatchet": {
+            "label": "Hatchet",
+                "attachments": {
+            }
+        },
+        "weapon_heavypistol": {
+            "label": "Heavy Pistol",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_HEAVYPISTOL_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_HEAVYPISTOL_CLIP_02"
+                    }		
+                ],					
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_PI_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_PI_SUPP"
+                    }		
+                ],				
+                "Finish": [
+                    {
+                        "label": "Etched Wood Grip Finish",
+                        "value": "COMPONENT_HEAVYPISTOL_VARMOD_LUXE"
+                    }		
+                ]		
+            }
+        },
+        "weapon_heavyshotgun": {
+            "label": "Heavy Shotgun",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_HEAVYSHOTGUN_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_HEAVYSHOTGUN_CLIP_02"
+                    },
+                    {
+                        "label": "Drum Magazine",
+                        "value": "COMPONENT_HEAVYSHOTGUN_CLIP_03"
+                    }		
+                ],					
+                "Flashlight": [
+                    {
+                        "label": "Flashlight",
+                        "value": "COMPONENT_AT_AR_FLSH"
+                    }			
+                ],				
+                "Suppressor": [
+                    {
+                        "label": "Suppressor",
+                        "value": "COMPONENT_AT_AR_SUPP_02"
+                    }		
+                ],				
+                "Grip": [
+                    {
+                        "label": "Grip",
+                        "value": "COMPONENT_AT_AR_AFGRIP"
+                    }		
+                ]		
+            }
+        },
+        "weapon_heavysniper": {
+            "label": "Heavy Sniper",
+                "attachments": {
+                "Scopes": [
+                    {
+                        "label": "Scope",
+                        "value": "COMPONENT_AT_SCOPE_LARGE"
+                    },
+                    {
+                        "label": "Advanced Scope",
+                        "value": "COMPONENT_AT_SCOPE_MAX"
+                    }	
+                ]
+            }
+        },
+        "weapon_heavysniper_mk2": {
+            "label": "Heavy Sniper MK II",
+                "attachments": {
+                "Magazines": [
+                    {
+                        "label": "Default Magazine",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CLIP_01"
+                    },
+                    {
+                        "label": "Extended Magazine",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CLIP_02"
+                    },
+                    {
+                        "label": "Armor Piercing Rounds",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CLIP_ARMORPIERCING"
+                    },
+                    {
+                        "label": "Incendiary Rounds",
+                        "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_INCENDIARY"
+                    },
+                    {
+                        "label": "Tracer Rounds",
+                        "value": "COMPONENT_ASSAULTRIFLE_MK2_CLIP_TRACER"
+                    }				
+                ],	
+                "Camos": [
+                    {
+                        "label": "Brushstroke Camo",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_02"
+                    },
+                    {
+                        "label": "Woodland Camo",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_03"
+                    },	
+                    {
+                        "label": "Skull",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_04"
+                    },	
+                    {
+                        "label": "Sessanta Nove",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_05"
+                    },	
+                    {
+                        "label": "Perseus",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_06"
+                    },	
+                    {
+                        "label": "Leopard",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_07"
+                    },	
+                    {
+                        "label": "Zebra",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_08"
+                    },	
+                    {
+                        "label": "Geometric",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_09"
+                    },	
+                    {
+                        "label": "Boom!",
+                        "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_10"
+                    }	
+                    ],			
+                    "Suppressor": [
+                        {
+                            "label": "Suppressor",
+                            "value": "COMPONENT_AT_SR_SUPP_03"
+                        }		
+                    ],	
+                    "Barrels": [
+                        {
+                            "label": "Default Barrel",
+                            "value": "COMPONENT_AT_SR_BARREL_01"
+                        },
+                        {
+                            "label": "Heavy Barrel",
+                            "value": "COMPONENT_AT_SR_BARREL_02"
+                        }	
+                    ],				
+                    "Scope": [
+                        {
+                            "label": "Zoom Scope",
+                            "value": "COMPONENT_AT_SCOPE_LARGE_MK2"
+                        },
+                        {
+                            "label": "Advanced Scope",
+                            "value": "COMPONENT_AT_SCOPE_MAX"
+                        },
+                        {
+                            "label": "Holo Scope",
+                            "value": "COMPONENT_AT_SIGHTS"
+                        }		
+                    ],				
+                    "Grip": [
+                        {
+                            "label": "Grip",
+                            "value": "COMPONENT_AT_AR_AFGRIP_02"
+                        }		
+                    ],				
+                    "Muzzle": [
+                        {
+                            "label": "Muzzle Brake",
+                            "value": "COMPONENT_AT_MUZZLE_08"
+                        },
+                        {
+                            "label": "Bel-End Muzzle Brake",
+                            "value": "COMPONENT_AT_MUZZLE_09"
+                        }		
+                    ]
+                }
+        },
+        "weapon_knife": {
+                "label": "Knife",
+                        "attachments": {
+                }
+        },
+        "weapon_knuckle": {
+                "label": "Knuckle Duster",
+                        "attachments": {
+                }
+        },
+        "weapon_machete": {
+                "label": "Machete",
+                        "attachments": {
+                }
+        },
+        "weapon_machinepistol": {
+                "label": "Machine Pistol",
+                        "attachments": {
+                    "Magazines": [
+                        {
+                            "label": "Default Magazine",
+                            "value": "COMPONENT_MACHINEPISTOL_CLIP_01"
+                        },
+                        {
+                            "label": "Extended Magazine",
+                            "value": "COMPONENT_MACHINEPISTOL_CLIP_02"
+                        },
+                        {
+                            "label": "Drum Magazine",
+                            "value": "COMPONENT_MACHINEPISTOL_CLIP_03"
+                        }		
+                    ],			
+                    "Suppressor": [
+                        {
+                            "label": "Suppressor",
+                            "value": "COMPONENT_AT_PI_SUPP"
+                        }		
+                    ]	
+                }
+        },
+        "weapon_marksmanpistol": {
+                "label": "Marksman Pistol",
+                        "attachments": {
+                }
+        },
+        "weapon_marksmanrifle": {
+                "label": "Marksman Rifle",
+                        "attachments": {
+                    "Scope": [
+                        {
+                            "label": "Scope",
+                            "value": "COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM"
+                        }
+                    ],
+                    "Grip": [
+                        {
+                            "label": "Grip",
+                            "value": "COMPONENT_AT_AR_AFGRIP"
+                        }
+                    ],
+                    "Flashlight": [
+                        {
+                            "label": "Flashlight",
+                            "value": "COMPONENT_AT_AR_FLSH"
+                        }
+                    ],
+                    "Suppressor": [
+                        {
+                            "label": "Suppressor",
+                            "value": "COMPONENT_AT_AR_SUPP"
+                        }
+                    ],
+                    "Magazines": [
+                        {
+                            "label": "Magazine",
+                            "value": "COMPONENT_MARKSMANRIFLE_CLIP_01"
+                        },
+                        {
+                            "label": "Extended Magazine",
+                            "value": "COMPONENT_MARKSMANRIFLE_CLIP_02"
+                        }
+                    ]
+                }
+        },
+        "weapon_marksmanrifle_mk2": {
+                "label": "Marksman Rifle MK II",
+                        "attachments": {
+                    "Magazines": [
+                        {
+                            "label": "Default Magazine",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_01"
+                        },
+                        {
+                            "label": "Extended Magazine",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_02"
+                        },
+                        {
+                            "label": "Armor Piercing Rounds",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_ARMORPIERCING"
+                        },
+                        {
+                            "label": "FMJ Rounds",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_FMJ"
+                        },
+                        {
+                            "label": "Tracer Rounds",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CLIP_TRACER"
+                        }				
+                    ],	
+                    "Camos": [
+                        {
+                            "label": "Brushstroke Camo",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_02"
+                        },
+                        {
+                            "label": "Woodland Camo",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_03"
+                        },	
+                        {
+                            "label": "Skull",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_04"
+                        },	
+                        {
+                            "label": "Sessanta Nove",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_05"
+                        },	
+                        {
+                            "label": "Perseus",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_06"
+                        },	
+                        {
+                            "label": "Leopard",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_07"
+                        },	
+                        {
+                            "label": "Zebra",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_08"
+                        },	
+                        {
+                            "label": "Geometric",
+                            "value": "COMPONENT_MARKSMANRIFLE_MK2_CAMO_09"
+                        },	
+                        {
+                            "label": "Boom!",
+                            "value": "COMPONENT_HEAVYSNIPER_MK2_CAMO_10"
+                        }	
+                        ],			
+                        "Suppressor": [
+                            {
+                                "label": "Suppressor",
+                                "value": "COMPONENT_AT_AR_SUPP"
+                            }		
+                        ],	
+                        "Barrels": [
+                            {
+                                "label": "Default Barrel",
+                                "value": "COMPONENT_AT_MRFL_BARREL_01"
+                            },
+                            {
+                                "label": "Heavy Barrel",
+                                "value": "COMPONENT_AT_MRFL_BARREL_02"
+                            }	
+                        ],				
+                        "Scope": [
+                            {
+                                "label": "Zoom Scope",
+                                "value": "COMPONENT_AT_SCOPE_LARGE_FIXED_ZOOM_MK2"
+                            },
+                            {
+                                "label": "Large Scope",
+                                "value": "COMPONENT_AT_SCOPE_MEDIUM_MK2"
+                            },
+                            {
+                                "label": "Holo Scope",
+                                "value": "COMPONENT_AT_SIGHTS"
+                            }		
+                        ]
+                    }
+        },
+        "weapon_mg": {
+                    "label": "MG",
+                                "attachments": {
+                        "Scope": [
+                            {
+                                "label": "Scope",
+                                "value": "COMPONENT_AT_SCOPE_SMALL_02"
+                            }
+                        ],
+                        "Magazines": [
+                            {
+                                "label": "Magazine",
+                                "value": "COMPONENT_MG_CLIP_01"
+                            },
+                            {
+                                "label": "Extended Magazine",
+                                "value": "COMPONENT_MG_CLIP_02"
+                            }
+                        ]
+                    }
+        },
+        "weapon_microsmg": {
+                    "label": "Micro SMG",
+                                "attachments": {
+                        "Scope": [
+                            {
+                                "label": "Scope",
+                                "value": "COMPONENT_AT_SCOPE_MACRO"
+                            }
+                        ],
+                        "Magazines": [
+                            {
+                                "label": "Magazine",
+                                "value": "COMPONENT_MICROSMG_CLIP_01"
+                            },
+                            {
+                                "label": "Extended Magazine",
+                                "value": "COMPONENT_MICROSMG_CLIP_02"
+                            }
+                        ],
+                        "Flashlight": [
+                            {
+                                "label": "Flashlight",
+                                "value": "COMPONENT_AT_PI_FLSH"
+                            }
+                        ],
+                        "Suppressor": [
+                            {
+                                "label": "Suppressor",
+                                "value": "COMPONENT_AT_AR_SUPP_02"
+                            }
+                        ]
+                    }
+        },
+        "weapon_minismg": {
+                    "label": "Mini SMG",
+                                "attachments": {
+                        "Magazines": [
+                            {
+                                "label": "Magazine",
+                                "value": "COMPONENT_MINISMG_CLIP_01"
+                            },
+                            {
+                                "label": "Extended Magazine",
+                                "value": "COMPONENT_MINISMG_CLIP_02"
+                            }
+                        ]
+                    }
+        },
+        "weapon_molotov": {
+                    "label": "Molotov",
+                                "attachments": {
+                    }
+        },
+        "weapon_musket": {
+                    "label": "Musket",
+                                "attachments": {
+                    }
+        },
+        "weapon_nightstick": {
+                    "label": "Nightstick",
+                                "attachments": {
+                    }
+        },
+        "weapon_petrolcan": {
+                    "label": "Jerry Can",
+                                "attachments": {
+                    }
+        },
+        "weapon_pistol": {
+                    "label": "Pistol",
+                                "attachments": {
+                        "Magazines": [
+                            {
+                                "label": "Magazine",
+                                "value": "COMPONENT_PISTOL_CLIP_01"
+                            },
+                            {
+                                "label": "Extended Magazine",
+                                "value": "COMPONENT_PISTOL_CLIP_02"
+                            }
+                        ],
+                        "Flashlight": [
+                            {
+                                "label": "Flashlight",
+                                "value": "COMPONENT_AT_PI_FLSH"
+                            }
+                        ],
+                        "Suppressor": [
+                            {
+                                "label": "Suppressor",
+                                "value": "COMPONENT_AT_PI_SUPP_02"
+                            }
+                        ]
+                    }
+        },
+        "weapon_pistol50": {
+                    "label": "Pistol .50",
+                                "attachments": {
+                        "Magazines": [
+                            {
+                                "label": "Magazine",
+                                "value": "COMPONENT_PISTOL50_CLIP_01"
+                            },
+                            {
+                                "label": "Extended Magazine",
+                                "value": "COMPONENT_PISTOL50_CLIP_02"
+                            }
+                        ],
+                        "Flashlight": [
+                            {
+                                "label": "Flashlight",
+                                "value": "COMPONENT_AT_PI_FLSH"
+                            }
+                        ],
+                        "Suppressor": [
+                            {
+                                "label": "Suppressor",
+                                "value": "COMPONENT_AT_PI_SUPP_02"
+                            }
+                        ]
+                    }
+        },
+        "weapon_pistol_mk2": {
+                    "label": "Pistol MK II",
+                                "attachments": {
+                        "Magazines": [
+                            {
+                                "label": "Default Magazine",
+                                "value": "COMPONENT_PISTOL_MK2_CLIP_01"
+                            },
+                            {
+                                "label": "Extended Magazine",
+                                "value": "COMPONENT_PISTOL_MK2_CLIP_02"
+                            }				
+                        ],	
+                        "Camos": [
+                            {
+                                "label": "Brushstroke Camo",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_02"
+                            },
+                            {
+                                "label": "Woodland Camo",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_03"
+                            },	
+                            {
+                                "label": "Skull",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_04"
+                            },	
+                            {
+                                "label": "Sessanta Nove",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_05"
+                            },	
+                            {
+                                "label": "Perseus",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_06"
+                            },	
+                            {
+                                "label": "Leopard",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_07"
+                            },	
+                            {
+                                "label": "Zebra",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_08"
+                            },	
+                            {
+                                "label": "Geometric",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_09"
+                            },	
+                            {
+                                "label": "Boom!",
+                                "value": "COMPONENT_PISTOL_MK2_CAMO_10"
+                            }	
+                            ],			
+                            "Suppressor": [
+                                {
+                                    "label": "Suppressor",
+                                    "value": "COMPONENT_AT_PI_SUPP_02"
+                                }		
+                            ],	
+                            "Compensator": [
+                                {
+                                    "label": "Compensator",
+                                    "value": "COMPONENT_AT_PI_COMP"
+                                }	
+                            ],				
+                            "Scope": [
+                                {
+                                    "label": "Mounted Scope",
+                                    "value": "COMPONENT_AT_PI_RAIL"
+                                }	
+                            ]
+                        }
+            },
+            "weapon_poolcue": {
+                        "label": "Pool Cue",
+                                        "attachments": {
+                        }
+            },
+            "weapon_megaphone": {
+                        "label": "Megaphone",
+                                        "attachments": {
+                        }
+            },
+            "weapon_pumpshotgun": {
+                        "label": "Pump Shotgun",
+                                        "attachments": {
+                            "Flashlight": [
+                                {
+                                    "label": "Flashlight",
+                                    "value": "COMPONENT_AT_AR_FLSH"
+                                }
+                            ],
+                            "Suppressor": [
+                                {
+                                    "label": "Suppressor",
+                                    "value": "COMPONENT_AT_SR_SUPP"
+                                }
+                            ]
+                        }
+            },
+            "weapon_pumpshotgun_mk2": {
+                        "label": "Pump Shotgun MK II",
+                                        "attachments": {
+                            "Magazines": [
+                                {
+                                    "label": "Default Magazine",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CLIP_01"
+                                }			
+                            ],	
+                            "Camos": [
+                                {
+                                    "label": "Brushstroke Camo",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_02"
+                                },
+                                {
+                                    "label": "Woodland Camo",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_03"
+                                },	
+                                {
+                                    "label": "Skull",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_04"
+                                },	
+                                {
+                                    "label": "Sessanta Nove",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_05"
+                                },	
+                                {
+                                    "label": "Perseus",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_06"
+                                },	
+                                {
+                                    "label": "Leopard",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_07"
+                                },	
+                                {
+                                    "label": "Zebra",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_08"
+                                },	
+                                {
+                                    "label": "Geometric",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_09"
+                                },	
+                                {
+                                    "label": "Boom!",
+                                    "value": "COMPONENT_PUMPSHOTGUN_MK2_CAMO_10"
+                                }	
+                                ],			
+                                "Suppressor": [
+                                    {
+                                        "label": "Suppressor",
+                                        "value": "COMPONENT_AT_SR_SUPP_03"
+                                    }		
+                                ],			
+                                "Scope": [
+                                    {
+                                        "label": "Small Scope",
+                                        "value": "COMPONENT_AT_SCOPE_MACRO_MK2"
+                                    },
+                                    {
+                                        "label": "Medium Scope",
+                                        "value": "COMPONENT_AT_SCOPE_SMALL_MK2"
+                                    },	
+                                    {
+                                        "label": "Holographic Scope",
+                                        "value": "COMPONENT_AT_SIGHTS"
+                                    }
+                                ]
+                            }
+            },
+            "weapon_revolver": {
+                    "label": "Heavy Revolver",
+                    "attachments": {
+                    }
+            },
+            "weapon_revolver_mk2": {
+                            "label": "Revolver MK II",
+                                                "attachments": {
+                                "Magazines": [
+                                    {
+                                        "label": "Default Magazine",
+                                        "value": "COMPONENT_REVOLVER_MK2_CLIP_01"
+                                    }			
+                                ],	
+                                "Flashlight": [
+                                    {
+                                        "label": "Flashlight",
+                                        "value": "COMPONENT_AT_PI_FLSH"
+                                    }			
+                                ],	
+                                "Camos": [
+                                    {
+                                        "label": "Brushstroke Camo",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_02"
+                                    },
+                                    {
+                                        "label": "Woodland Camo",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_03"
+                                    },	
+                                    {
+                                        "label": "Skull",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_04"
+                                    },	
+                                    {
+                                        "label": "Sessanta Nove",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_05"
+                                    },	
+                                    {
+                                        "label": "Perseus",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_06"
+                                    },	
+                                    {
+                                        "label": "Leopard",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_07"
+                                    },	
+                                    {
+                                        "label": "Zebra",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_08"
+                                    },	
+                                    {
+                                        "label": "Geometric",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_09"
+                                    },	
+                                    {
+                                        "label": "Boom!",
+                                        "value": "COMPONENT_REVOLVER_MK2_CAMO_10"
+                                    }	
+                                    ],			
+                                    "Compensator": [
+                                        {
+                                            "label": "Compensator",
+                                            "value": "COMPONENT_AT_PI_COMP_03"
+                                        }		
+                                    ],			
+                                    "Scope": [
+                                        {
+                                            "label": "Small Scope",
+                                            "value": "COMPONENT_AT_SCOPE_MACRO_MK2"
+                                        },
+                                        {
+                                            "label": "Holographic Scope",
+                                            "value": "COMPONENT_AT_SIGHTS"
+                                        }
+                                    ]
+                                }
+            },
+            "weapon_sawnoffshotgun": {
+                                "label": "Sawn Off Shotgun",
+                                                        "attachments": {
+                                }
+            },
+            "weapon_smg": {
+                                "label": "SMG",
+                                                        "attachments": {
+                                    "Flashlight": [
+                                        {
+                                            "label": "Flashlight",
+                                            "value": "COMPONENT_AT_AR_FLSH"
+                                        }
+                                    ],
+                                    "Suppressor": [
+                                        {
+                                            "label": "Suppressor",
+                                            "value": "COMPONENT_AT_PI_SUPP"
+                                        }
+                                    ],
+                                    "Scope": [
+                                        {
+                                            "label": "Scope",
+                                            "value": "COMPONENT_AT_SCOPE_MACRO_02"
+                                        }
+                                    ],
+                                    "Magazines": [
+                                        {
+                                            "label": "Magazine",
+                                            "value": "COMPONENT_SMG_CLIP_01"
+                                        },
+                                        {
+                                            "label": "Extended Magazine",
+                                            "value": "COMPONENT_SMG_CLIP_02"
+                                        },
+                                        {
+                                            "label": "Drum Magazine",
+                                            "value": "COMPONENT_SMG_CLIP_03"
+                                        }
+                                    ]
+                                }
+            },
+            "weapon_smg_mk2": {
+                                "label": "SMG MK II",
+                                                        "attachments": {
+                                    "Magazines": [
+                                        {
+                                            "label": "Default Magazine",
+                                            "value": "COMPONENT_SMG_MK2_CLIP_01"
+                                        },	
+                                        {
+                                            "label": "Extended Magazine",
+                                            "value": "COMPONENT_SMG_MK2_CLIP_02"
+                                        }		
+                                    ],	
+                                    "Barrels": [
+                                        {
+                                            "label": "Default Barrel",
+                                            "value": "COMPONENT_AT_SB_BARREL_01"
+                                        },	
+                                        {
+                                            "label": "Heavy Barrel",
+                                            "value": "COMPONENT_AT_SB_BARREL_01"
+                                        }		
+                                    ],	
+                                    "Camos": [
+                                        {
+                                            "label": "Brushstroke Camo",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_02"
+                                        },
+                                        {
+                                            "label": "Woodland Camo",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_03"
+                                        },	
+                                        {
+                                            "label": "Skull",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_04"
+                                        },	
+                                        {
+                                            "label": "Sessanta Nove",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_05"
+                                        },	
+                                        {
+                                            "label": "Perseus",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_06"
+                                        },	
+                                        {
+                                            "label": "Leopard",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_07"
+                                        },	
+                                        {
+                                            "label": "Zebra",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_08"
+                                        },	
+                                        {
+                                            "label": "Geometric",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_09"
+                                        },	
+                                        {
+                                            "label": "Boom!",
+                                            "value": "COMPONENT_SMG_MK2_CAMO_10"
+                                        }	
+                                        ],			
+                                        "Suppressor": [
+                                            {
+                                                "label": "Suppressor",
+                                                "value": "COMPONENT_AT_PI_SUPP"
+                                            }		
+                                        ],
+                                        "Flashlight": [
+                                            {
+                                                "label": "Flashlight",
+                                                "value": "COMPONENT_AT_AR_FLSH"
+                                            }		
+                                        ],			
+                                        "Scope": [
+                                            {
+                                                "label": "Small Scope",
+                                                "value": "COMPONENT_AT_SCOPE_MACRO_02_SMG_MK2"
+                                            },
+                                            {
+                                                "label": "Medium Scope",
+                                                "value": "COMPONENT_AT_SCOPE_SMALL_SMG_MK2"
+                                            },	
+                                            {
+                                                "label": "Holographic Scope",
+                                                "value": "COMPONENT_AT_SIGHTS"
+                                            }
+                                        ],
+                                        "Muzzle": [
+                                            {
+                                                "label": "Flat Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_01"
+                                            },
+                                            {
+                                                "label": "Tactical  Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_02"
+                                            },
+                                            {
+                                                "label": "Fat-End Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_03"
+                                            },
+                                            {
+                                                "label": "Precision Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_04"
+                                            },
+                                            {
+                                                "label": "Heavy Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_05"
+                                            },
+                                            {
+                                                "label": "Slanted Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_06"
+                                            },
+                                            {
+                                                "label": "Split-End Muzzle Brake",
+                                                "value": "COMPONENT_AT_MUZZLE_07"
+                                            }		
+                                        ]
+                                    }
+            },
+            "weapon_smokegrenade": {
+                                    "label": "Smoke Grenade",
+                                                                "attachments": {
+                                    }
+            },
+            "weapon_sniperrifle": {
+                                    "label": "Sniper Rifle",
+                                                                "attachments": {
+                                        "Scopes": [
+                                            {
+                                                "label": "Scope",
+                                                "value": "COMPONENT_AT_SCOPE_LARGE"
+                                            },
+                                            {
+                                                "label": "Advanced Scope",
+                                                "value": "COMPONENT_AT_SCOPE_MAX"
+                                            }
+                                        ],
+                                        "Suppressor": [
+                                            {
+                                                "label": "Suppressor",
+                                                "value": "COMPONENT_AT_AR_SUPP_02"
+                                            }
+                                        ]
+                                    }
+            },
+            "weapon_snowball": {
+                    "label": "Snowball",
+                    "attachments": {
+                    }
+            },
+            "WEAPON_FLAMETHROWER": {
+                    "label": "Flamethrower",
+                    "attachments": {
+                    }
+            },
+            "weapon_snspistol": {
+                    "label": "SNS Pistol",
+                    "attachments": {
+                    "Magazines": [
+                        {
+                            "label": "Magazine",
+                            "value": "COMPONENT_SNSPISTOL_CLIP_01"
+                        },
+                        {
+                            "label": "Extended Magazine",
+                            "value": "COMPONENT_SNSPISTOL_CLIP_02"
+                        }
+                    ]
+                }
+            },
+            "weapon_snspistol_mk2": {
+                                    "label": "SNS Pistol MK II",
+                                                                "attachments": {
+                                        "Magazines": [
+                                            {
+                                                "label": "Default Magazine",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CLIP_01"
+                                            },	
+                                            {
+                                                "label": "Extended Magazine",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CLIP_02"
+                                            }		
+                                        ],	
+                                        "Compensator": [
+                                            {
+                                                "label": "Default Barrel",
+                                                "value": "COMPONENT_AT_PI_COMP_02"
+                                            }	
+                                        ],	
+                                        "Camos": [
+                                            {
+                                                "label": "Brushstroke Camo",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_02"
+                                            },
+                                            {
+                                                "label": "Woodland Camo",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_03"
+                                            },	
+                                            {
+                                                "label": "Skull",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_04"
+                                            },	
+                                            {
+                                                "label": "Sessanta Nove",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_05"
+                                            },	
+                                            {
+                                                "label": "Perseus",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_06"
+                                            },	
+                                            {
+                                                "label": "Leopard",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_07"
+                                            },	
+                                            {
+                                                "label": "Zebra",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_08"
+                                            },	
+                                            {
+                                                "label": "Geometric",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_09"
+                                            },	
+                                            {
+                                                "label": "Boom!",
+                                                "value": "COMPONENT_SNSPISTOL_MK2_CAMO_10"
+                                            }	
+                                            ],			
+                                            "Suppressor": [
+                                                {
+                                                    "label": "Suppressor",
+                                                    "value": "COMPONENT_AT_PI_SUPP_02"
+                                                }		
+                                            ],
+                                            "Flashlight": [
+                                                {
+                                                    "label": "Flashlight",
+                                                    "value": "COMPONENT_AT_PI_FLSH_03"
+                                                }		
+                                            ],			
+                                            "Scope": [
+                                                {
+                                                    "label": "Mounted Scope",
+                                                    "value": "COMPONENT_AT_PI_RAIL_02"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "weapon_specialcarbine": {
+                                        "label": "Special Carbine",
+                                                                        "attachments": {
+                                            "Magazines": [
+                                                {
+                                                    "label": "Magazine",
+                                                    "value": "COMPONENT_SPECIALCARBINE_CLIP_01"
+                                                },
+                                                {
+                                                    "label": "Extended Magazine",
+                                                    "value": "COMPONENT_SPECIALCARBINE_CLIP_02"
+                                                },
+                                                {
+                                                    "label": "Drum Magazine",
+                                                    "value": "COMPONENT_SPECIALCARBINE_CLIP_03"
+                                                }
+                                            ],
+                                            "Scope": [
+                                                {
+                                                    "label": "Scope",
+                                                    "value": "COMPONENT_AT_SCOPE_MEDIUM"
+                                                }
+                                            ],
+                                            "Flashlight": [
+                                                {
+                                                    "label": "Flashlight",
+                                                    "value": "COMPONENT_AT_AR_SUPP_02"
+                                                }
+                                            ],
+                                            "Grip": [
+                                                {
+                                                    "label": "Grip",
+                                                    "value": "COMPONENT_AT_AR_AFGRIP"
+                                                }
+                                            ],
+                                            "Suppressor": [
+                                                {
+                                                    "label": "Suppressor",
+                                                    "value": "COMPONENT_AT_AR_SUPP_02"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "weapon_specialcarbine_mk2": {
+                                        "label": "Special Carbine MK II",
+                                                                        "attachments": {
+                                            "Magazines": [
+                                                {
+                                                    "label": "Default Magazine",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CLIP_01"
+                                                },	
+                                                {
+                                                    "label": "Extended Magazine",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CLIP_02"
+                                                }		
+                                            ],				
+                                            "Muzzle": [
+                                                {
+                                                    "label": "Flat Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_01"
+                                                },
+                                                {
+                                                    "label": "Tactical  Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_02"
+                                                },
+                                                {
+                                                    "label": "Fat-End Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_03"
+                                                },
+                                                {
+                                                    "label": "Precision Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_04"
+                                                },
+                                                {
+                                                    "label": "Heavy Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_05"
+                                                },
+                                                {
+                                                    "label": "Slanted Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_06"
+                                                },
+                                                {
+                                                    "label": "Split-End Muzzle Brake",
+                                                    "value": "COMPONENT_AT_MUZZLE_07"
+                                                }		
+                                            ],
+                                            "Camos": [
+                                                {
+                                                    "label": "Brushstroke Camo",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_02"
+                                                },
+                                                {
+                                                    "label": "Woodland Camo",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_03"
+                                                },	
+                                                {
+                                                    "label": "Skull",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_04"
+                                                },	
+                                                {
+                                                    "label": "Sessanta Nove",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_05"
+                                                },	
+                                                {
+                                                    "label": "Perseus",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_06"
+                                                },	
+                                                {
+                                                    "label": "Leopard",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_07"
+                                                },	
+                                                {
+                                                    "label": "Zebra",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_08"
+                                                },	
+                                                {
+                                                    "label": "Geometric",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_09"
+                                                },	
+                                                {
+                                                    "label": "Boom!",
+                                                    "value": "COMPONENT_SPECIALCARBINE_MK2_CAMO_10"
+                                                }	
+                                                ],			
+                                                "Suppressor": [
+                                                    {
+                                                        "label": "Suppressor",
+                                                        "value": "COMPONENT_AT_AR_SUPP_02"
+                                                    }		
+                                                ],
+                                                "Flashlight": [
+                                                    {
+                                                        "label": "Flashlight",
+                                                        "value": "COMPONENT_AT_AR_FLSH"
+                                                    }		
+                                                ],			
+                                                "Grip": [
+                                                    {
+                                                        "label": "Grip",
+                                                        "value": "COMPONENT_AT_AR_AFGRIP_02"
+                                                    }
+                                                ],			
+                                                "Barrels": [
+                                                    {
+                                                        "label": "Default Barrel",
+                                                        "value": "COMPONENT_AT_SC_BARREL_01"
+                                                    },
+                                                    {
+                                                        "label": "Heavy Barrel",
+                                                        "value": "COMPONENT_AT_SC_BARREL_02"
+                                                    }
+                                                ],			
+                                                "Scopes": [
+                                                    {
+                                                        "label": "Small Scope",
+                                                        "value": "COMPONENT_AT_SCOPE_MACRO_MK2"
+                                                    },
+                                                    {
+                                                        "label": "Large Scope",
+                                                        "value": "COMPONENT_AT_SCOPE_MEDIUM_MK2"
+                                                    },
+                                                    {
+                                                        "label": "Holographic Scope",
+                                                        "value": "COMPONENT_AT_SIGHTS"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "weapon_stungun": {
+                                            "label": "Stungun",
+                                                                                "attachments": {
+                                            }
+                                        },
+                                        "weapon_switchblade": {
+                                            "label": "Switchblade",
+                                                                                "attachments": {
+                                            }
+                                        },
+                                        "weapon_vintagepistol": {
+                                            "label": "Vintage Pistol",
+                                                                                "attachments": {
+                                                "Magazines": [
+                                                    {
+                                                        "label": "Default Magazine",
+                                                        "value": "COMPONENT_VINTAGEPISTOL_CLIP_01"
+                                                    },
+                                                    {
+                                                        "label": "Extended Magazine",
+                                                        "value": "COMPONENT_VINTAGEPISTOL_CLIP_02"
+                                                    }
+                                                ],
+                                                "Suppressor": [
+                                                    {
+                                                        "label": "Suppressor",
+                                                        "value": "COMPONENT_AT_PI_SUPP"
+                                                    }
+                                                ]
+                                            }
+                                        },
+                                        "weapon_wrench": {
+                                            "label": "Pipe Wrench",
+                                                                                "attachments": {
+                                            }
+                                        },
+                                        "weapon_stone_hatchet": {
+                                            "label": "Stone Hatchet",
+                                                                                "attachments": {
+                                            }
+                                        }
+                                        
+}
