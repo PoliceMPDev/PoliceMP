@@ -1,0 +1,162 @@
+<!--
+    * Author: Tim Plate
+    * Project: Advanced Roleplay Environment
+    * Copyright (c) 2022 Tim Plate Solutions
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.8.2/css/all.css"
+        integrity="sha384-xVVam1KS4+Qt2OrFa+VdRUoXygyKIuNWUUUBZYv+n27STsJ7oDOHJgfF0bNKLMJF" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.1/howler.spatial.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.sound.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=Cutive+Mono&display=swap" rel="stylesheet">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+</head>
+
+<body>
+    <div class="debugContainer"></div>
+
+    <div class="screenEffects" style="position: absolute; height: 100%; width: 100%; top: 0; left: 0;">
+        <div class="painEffect" style="position: absolute; height: 100%; width: 100%; top: 0; left: 0; display: none;">
+        </div>
+        <div class="bleedingEffect"
+            style="position: absolute; height: 100%; width: 100%; top: 0; left: 0; display: none;"></div>
+    </div>
+
+    <div class="unconsciousScreen">
+        <div class="text_header">NUI_YOU_ARE_UNCONSCIOUS</div>
+        <div class="remaining_time"></div>
+        <div class="progressbar"></div>
+
+        <div class="un_actions">
+            <div class="contact_medic_box">
+                <div class="contact_medic_key">NUI_MEDIC_KEY</div>
+                <div class="contact_medic_text">NUI_MEDIC_KEY_DESCRIPTION</div>
+            </div>
+
+            <div class="manual_respawn_box">
+                <div class="manual_respawn_key">NUI_MANUAL_RESPAWN_KEY</div>
+                <div class="manual_respawn_text">NUI_MANUAL_RESPAWN_DESCRIPTION</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="anesthesiaScreen">
+        <div class="text_header">NUI_YOU_ARE_ANESTHESIA</div>
+    </div>
+
+    <div class="nearbyPlayersContainer">
+        <div class="containerTitle">NUI_NEARBY_PLAYERS</div>
+        <div class="containerClose">✖</div>
+        <div class="nearbyPlayers"></div>
+    </div>
+    
+
+    <div class="menuContainer draggable">
+        <div class="menuTitle">
+            <div class="menuName">NUI_MEDICAL_MENU</div>
+            <div class="playersButton"><i class="far fa-users"></i></div>
+            <div class="closeButton">✖</div>
+            <div class="loadingIndicator" style="display: block;">
+                <i class="fal fa-sync fa-spin"></i>
+                <span>NUI_DATA_IS_BEING_SYNCED</span>
+            </div>
+            
+        </div>
+
+        <div class="menuContent">
+            <div class="left">
+                <div class="actionCategory">
+                    <i class="fal fa-diagnoses" style="color: #ffffff;" data-actionIdentifier="diagnoses"></i>
+                    <i class="fal fa-bone-break disabled" style="color: #ffffff;" data-actionIdentifier="bandages"></i>
+                    <i class="fal fa-syringe" style="color: #ffffff;" data-actionIdentifier="syringes"></i>
+                    <i class="fal fa-heart-rate" style="color: #ffffff;" data-actionIdentifier="cpr"></i>
+                    <i class="fal fa-lungs" style="color: #ffffff;" data-actionIdentifier="oxygen"></i>  
+                    <i class="fal fa-vials" style="color: #ffffff;" data-actionIdentifier="infusions"></i>
+                    <i class="fal fa-person-carry" style="color: #ffffff;" data-actionIdentifier="carry"></i>
+                    <i class="fal fa-stethoscope" style="color: #ffffff;" data-actionIdentifier="doctor"></i>
+                </div>
+
+                <div class="actionButtons">
+                    <div class="buttonContainer"></div>
+                </div>
+            </div>
+
+            <div class="center">
+                <div class="humanBody">
+                    <img class="bodyPart" orig-src="assets/images/head;n.png" src="assets/images/head;n.png"
+                        style="left: 45.25%; top: 6.1%" data-bodyPart="HEAD">
+                    <img class="bodyPart" src="assets/images/arm_left;t.png"
+                        style="left: 57%; top: 27.5%; z-index: 999;" data-bodyPart="LEFT_ARM" data-tourniquet>
+                    <img class="bodyPart" orig-src="assets/images/arm_left;n.png" src="assets/images/arm_left;n.png"
+                        style="left: 55.7%; top: 19.5%;" data-bodyPart="LEFT_ARM">
+                    <img class="bodyPart" orig-src="assets/images/arm_right;n.png" src="assets/images/arm_right;n.png"
+                        style="left: 32.4%; top: 19.5%;" data-bodyPart="RIGHT_ARM">
+                    <img class="bodyPart" src="assets/images/arm_right;t.png"
+                        style="left: 38%; top: 27.5%; z-index: 999;" data-bodyPart="RIGHT_ARM" data-tourniquet>
+                    <img class="bodyPart" orig-src="assets/images/torso;n.png" src="assets/images/torso;n.png"
+                        style="left: 42.2%; top: 19.5%;" data-bodyPart="TORSO">
+                    <img class="bodyPart" src="assets/images/leg_left;t.png"
+                        style="left: 50.25%; top: 47.7%; z-index: 999;" data-bodyPart="LEFT_LEG" data-tourniquet>
+                    <img class="bodyPart" orig-src="assets/images/leg_left;n.png" src="assets/images/leg_left;n.png"
+                        style="left: 50.25%; top: 43.59%;" data-bodyPart="LEFT_LEG">
+                    <img class="bodyPart" orig-src="assets/images/leg_right;n.png" src="assets/images/leg_right;n.png"
+                        style="left: 38.9%; top: 43.7%" data-bodyPart="RIGHT_LEG">
+                    <img class="bodyPart" src="assets/images/leg_right;t.png"
+                        style="left: 40.9%; top: 47.7%; z-index: 999;" data-bodyPart="RIGHT_LEG" data-tourniquet>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="triageSelection">
+                    <select id="triageSelect">
+                        <option style="background-color: rgb(49, 47, 47);" value="none">NUI_TRIAGE_NONE</option>
+                        <option style="background-color: rgb(23, 162, 23);" value="green">NUI_TRIAGE_GREEN</option>
+                        <option style="background-color: rgb(177, 177, 33);" value="yellow">NUI_TRIAGE_YELLOW</option>
+                        <option style="background-color: rgb(153, 18, 18);" value="red">NUI_TRIAGE_RED</option>
+                        <option style="background-color: rgb(43, 43, 43);" id="black_triage" value="black">NUI_TRIAGE_BLACK</option>
+                    </select>
+                </div>
+                <div class="menuInjuries">
+                    <div class="bodyPartTitle"></div>
+                    <ul class="bodyInjuries"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="bottom">
+            <div class="logTitle">NUI_ACTIVITY_PROTOCOL</div>
+            <i class="fal fa-copy" id="logCopy"></i>
+            <div class="activityLog" style="margin-top: 10px; user-select: none;">
+                <ul id="logList" style="margin-left: 15px; padding-top: 5px;"></ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="ecg draggable">
+        <div id="ecg-display" class="ecg-display"></div>
+        <div class="mute"><i class="fal fa-volume" style="color: white;"></i></div>
+        <div class="bpm"><span id="heart-rate-value">-</span> bpm</div>
+        <div class="pressure"><span id="pressure-value">132/88</span> mmHg</div>
+    </div>
+
+    <script type="text/javascript" src="https://cfx-nui-visn_are/nui/app.js" async></script>
+    <script type="text/javascript" src="https://cfx-nui-visn_are/nui/ecg.js" async></script>
+</body>
+
+</html>

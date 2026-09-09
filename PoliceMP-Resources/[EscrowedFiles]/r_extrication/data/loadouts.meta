@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CPedInventoryLoadOutManager>
+	<LoadOuts>
+		<Item>
+			<Name>LOADOUT_CHEAT_0</Name>
+				<Item type="CLoadOutWeapon">
+					<WeaponName>WEAPON_SPREADER</WeaponName>
+					<Ammo value="10" />
+					<Flags />
+					<ComponentNames />
+				</Item>
+				<Item type="CLoadOutWeapon">
+					<WeaponName>WEAPON_CUTTER</WeaponName>
+					<Ammo value="10" />
+					<Flags />
+					<ComponentNames />
+				</Item>
+				<Item type="CLoadOutWeapon">
+					<WeaponName>WEAPON_GLASSMASTER</WeaponName>
+					<Ammo value="10" />
+					<Flags />
+					<ComponentNames />
+				</Item>
+			</Items>
+		</Item>
+		<Item>
+			<Name>LOADOUT_CHEAT_1</Name>
+			<Items>
+				<Item type="CLoadOutWeapon">
+					<WeaponName>WEAPON_SPREADER</WeaponName>
+					<Ammo value="10" />
+					<Flags />
+					<ComponentNames />
+				</Item>
+				<Item type="CLoadOutWeapon">
+					<WeaponName>WEAPON_CUTTER</WeaponName>
+					<Ammo value="10" />
+					<Flags />
+					<ComponentNames />
+				</Item>
+				<Item type="CLoadOutWeapon">
+					<WeaponName>WEAPON_GLASSMASTER</WeaponName>
+					<Ammo value="10" />
+					<Flags />
+					<ComponentNames />
+				</Item>
+			</Items>
+		</Item>
+	</LoadOuts>
+</CPedInventoryLoadOutManager>

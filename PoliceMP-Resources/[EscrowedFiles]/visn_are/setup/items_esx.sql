@@ -1,0 +1,21 @@
+INSERT INTO `items` (`name`, `label`, `weight`, `rare`, `can_remove`)
+VALUES
+    ('field_dressing', 'Field dressing', '1', '0', '1'),
+    ('packing_bandage', 'Packing bandage', '1', '0', '1'),
+    ('elastic_bandage', 'Elastic bandage', '1', '0', '1'),
+    ('quickclot', 'Quickclot', '1', '0', '1'),
+    ('blood_100', 'Blood (100ml)', '1', '0', '1'),
+    ('blood_250', 'Blood (250ml)', '1', '0', '1'),
+    ('blood_500', 'Blood (500ml)', '1', '0', '1'),
+    ('blood_750', 'Blood (750ml)', '1', '0', '1'),
+    ('blood_1000', 'Blood (1000ml)', '1', '0', '1'),
+    ('morphine', 'Morphine injector', '1', '0', '1'),
+    ('epinephrine', 'Epinephrine injector', '1', '0', '1'),
+    ('emergency_revive_kit', 'Emergency revive kit', '1', '0', '1'),
+    ('defibrillator', 'Defibrillator', '1', '0', '1'),
+    ('surgical_kit', 'Surgical kit', '1', '0', '1'),
+    ('tourniquet', 'Tourniquet', '1', '0', '1'),
+    ('ecg_monitor', 'ECG Monitor', '1', '0', '1'),
+    ('fentanyl', 'Fentanyl', '1', '0', '1'),
+    ('propofol_100', 'Propofol 100ml', '1', '0', '1'),
+    ('propofol_250', 'Propofol 250ml', '1', '0', '1');

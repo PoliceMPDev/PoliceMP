@@ -1,0 +1,539 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>ldoc</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/script.client.html">script.client</a></li>
+  <li><a href="../modules/script.helpers.c_functions.html">script.helpers.c_functions</a></li>
+  <li><a href="../modules/script.helpers.g_functions.html">script.helpers.g_functions</a></li>
+  <li><strong>script.helpers.s_functions</strong></li>
+  <li><a href="../modules/script.server.html">script.server</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>script.helpers.s_functions</code></h1>
+<p>Server extension module for Advanced Roleplay Environment.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#HasItem">HasItem (source, item, amount)</a></td>
+	<td class="summary">Returns true if the player has the item with the specified amount</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#AddItem">AddItem (source, item, amount)</a></td>
+	<td class="summary">Adds an item to the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#RemoveItem">RemoveItem (source, item, amount)</a></td>
+	<td class="summary">Removes an item from the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetItems">GetItems (source)</a></td>
+	<td class="summary">Gets all items from the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsAllowedToPerformAction">IsAllowedToPerformAction (source, category, action)</a></td>
+	<td class="summary">Returns true if the player is allowed to perform a action</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsAllowedToOpenMenu">IsAllowedToOpenMenu (source)</a></td>
+	<td class="summary">Returns true if the player is allowed to open the menu</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SavePlayer">SavePlayer (source)</a></td>
+	<td class="summary">Saves the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LoadPlayer">LoadPlayer (source)</a></td>
+	<td class="summary">Loads the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetPlayerMenuTitleName">GetPlayerMenuTitleName (source)</a></td>
+	<td class="summary">Gets the menu title name from the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetPlayerJob">GetPlayerJob (source)</a></td>
+	<td class="summary">Gets the player job</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetPlayerCustomIdentifier">GetPlayerCustomIdentifier (source)</a></td>
+	<td class="summary">Gets the player identifier (framework related)</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ShouldIgnoreItems">ShouldIgnoreItems (source)</a></td>
+	<td class="summary">Returns true if the player should return item amounts</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetMedicsOnDutyCount">GetMedicsOnDutyCount ()</a></td>
+	<td class="summary">Gets the medics on duty</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsAllowedToUseTriageSystem">IsAllowedToUseTriageSystem (source)</a></td>
+	<td class="summary">Returns true if the player is allowed to use the triage system</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetAvailableItems">GetAvailableItems ()</a></td>
+	<td class="summary">Gets all available items configured in the actions.lua</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SendDiscordLog">SendDiscordLog (message, description)</a></td>
+	<td class="summary">Sends a discord log to the discord api</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "HasItem"></a>
+    <strong>HasItem (source, item, amount)</strong>
+    </dt>
+    <dd>
+    Returns true if the player has the item with the specified amount
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+        <li><span class="parameter">item</span>
+         any
+        </li>
+        <li><span class="parameter">amount</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "AddItem"></a>
+    <strong>AddItem (source, item, amount)</strong>
+    </dt>
+    <dd>
+    Adds an item to the player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+        <li><span class="parameter">item</span>
+         any
+        </li>
+        <li><span class="parameter">amount</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "RemoveItem"></a>
+    <strong>RemoveItem (source, item, amount)</strong>
+    </dt>
+    <dd>
+    Removes an item from the player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+        <li><span class="parameter">item</span>
+         any
+        </li>
+        <li><span class="parameter">amount</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetItems"></a>
+    <strong>GetItems (source)</strong>
+    </dt>
+    <dd>
+    Gets all items from the player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsAllowedToPerformAction"></a>
+    <strong>IsAllowedToPerformAction (source, category, action)</strong>
+    </dt>
+    <dd>
+    Returns true if the player is allowed to perform a action
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+        <li><span class="parameter">category</span>
+         any
+        </li>
+        <li><span class="parameter">action</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsAllowedToOpenMenu"></a>
+    <strong>IsAllowedToOpenMenu (source)</strong>
+    </dt>
+    <dd>
+    Returns true if the player is allowed to open the menu
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SavePlayer"></a>
+    <strong>SavePlayer (source)</strong>
+    </dt>
+    <dd>
+    Saves the player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LoadPlayer"></a>
+    <strong>LoadPlayer (source)</strong>
+    </dt>
+    <dd>
+    Loads the player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetPlayerMenuTitleName"></a>
+    <strong>GetPlayerMenuTitleName (source)</strong>
+    </dt>
+    <dd>
+    Gets the menu title name from the player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        unknown
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetPlayerJob"></a>
+    <strong>GetPlayerJob (source)</strong>
+    </dt>
+    <dd>
+    Gets the player job
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        unknown
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetPlayerCustomIdentifier"></a>
+    <strong>GetPlayerCustomIdentifier (source)</strong>
+    </dt>
+    <dd>
+    Gets the player identifier (framework related)
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        any
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ShouldIgnoreItems"></a>
+    <strong>ShouldIgnoreItems (source)</strong>
+    </dt>
+    <dd>
+    Returns true if the player should return item amounts
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetMedicsOnDutyCount"></a>
+    <strong>GetMedicsOnDutyCount ()</strong>
+    </dt>
+    <dd>
+    Gets the medics on duty
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        integer
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsAllowedToUseTriageSystem"></a>
+    <strong>IsAllowedToUseTriageSystem (source)</strong>
+    </dt>
+    <dd>
+    Returns true if the player is allowed to use the triage system
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetAvailableItems"></a>
+    <strong>GetAvailableItems ()</strong>
+    </dt>
+    <dd>
+    Gets all available items configured in the actions.lua
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SendDiscordLog"></a>
+    <strong>SendDiscordLog (message, description)</strong>
+    </dt>
+    <dd>
+    Sends a discord log to the discord api
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">message</span>
+         any
+        </li>
+        <li><span class="parameter">description</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2022-10-08 14:07:37 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

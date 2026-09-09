@@ -1,0 +1,1 @@
+ALTER TABLE `players` ADD `health_state` VARCHAR(8192) NOT NULL DEFAULT '{}';

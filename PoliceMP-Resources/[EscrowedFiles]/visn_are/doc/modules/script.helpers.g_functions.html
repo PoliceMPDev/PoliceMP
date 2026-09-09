@@ -1,0 +1,428 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>ldoc</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/script.client.html">script.client</a></li>
+  <li><a href="../modules/script.helpers.c_functions.html">script.helpers.c_functions</a></li>
+  <li><strong>script.helpers.g_functions</strong></li>
+  <li><a href="../modules/script.helpers.s_functions.html">script.helpers.s_functions</a></li>
+  <li><a href="../modules/script.server.html">script.server</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>script.helpers.g_functions</code></h1>
+<p>Shared extension module for Advanced Roleplay Environment.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#LogInformation">LogInformation (...)</a></td>
+	<td class="summary">Logs a information</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LogWarning">LogWarning (...)</a></td>
+	<td class="summary">Logs a warning</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LogError">LogError (...)</a></td>
+	<td class="summary">Logs a error</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LogDebug">LogDebug (condition, ...)</a></td>
+	<td class="summary">Logs a debug message</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetValidColorCode">GetValidColorCode (testCondition)</a></td>
+	<td class="summary">Returns green color code when testCondition is true otherwise red</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DumpTableToJson">DumpTableToJson (table, customName)</a></td>
+	<td class="summary">Dumps table to console</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ValidateBodyPart">ValidateBodyPart (bodyPart)</a></td>
+	<td class="summary">Returns true if the bodypart is valid</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#RoundValue">RoundValue (num, numDecimalPlaces)</a></td>
+	<td class="summary">Rounds a value</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LinearConversion">LinearConversion (oldMin, oldMax, oldValue, newMin, newMax)</a></td>
+	<td class="summary">Calculates linear conversion</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#TableContains">TableContains (table, element)</a></td>
+	<td class="summary">Returns true if the specified table contains the element</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#PairsByKeys">PairsByKeys (t, f)</a></td>
+	<td class="summary">Sorts by keys</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#string.starts">string.starts (string, start)</a></td>
+	<td class="summary">Returns true if the string starts by start</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "LogInformation"></a>
+    <strong>LogInformation (...)</strong>
+    </dt>
+    <dd>
+    Logs a information
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">...</span>
+         unknown
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LogWarning"></a>
+    <strong>LogWarning (...)</strong>
+    </dt>
+    <dd>
+    Logs a warning
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">...</span>
+         unknown
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LogError"></a>
+    <strong>LogError (...)</strong>
+    </dt>
+    <dd>
+    Logs a error
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">...</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LogDebug"></a>
+    <strong>LogDebug (condition, ...)</strong>
+    </dt>
+    <dd>
+    Logs a debug message
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">condition</span>
+
+        </li>
+        <li><span class="parameter">...</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetValidColorCode"></a>
+    <strong>GetValidColorCode (testCondition)</strong>
+    </dt>
+    <dd>
+    Returns green color code when testCondition is true otherwise red
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">testCondition</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DumpTableToJson"></a>
+    <strong>DumpTableToJson (table, customName)</strong>
+    </dt>
+    <dd>
+    Dumps table to console
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">table</span>
+         any
+        </li>
+        <li><span class="parameter">customName</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ValidateBodyPart"></a>
+    <strong>ValidateBodyPart (bodyPart)</strong>
+    </dt>
+    <dd>
+    Returns true if the bodypart is valid
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">bodyPart</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "RoundValue"></a>
+    <strong>RoundValue (num, numDecimalPlaces)</strong>
+    </dt>
+    <dd>
+    Rounds a value
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">num</span>
+         any
+        </li>
+        <li><span class="parameter">numDecimalPlaces</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LinearConversion"></a>
+    <strong>LinearConversion (oldMin, oldMax, oldValue, newMin, newMax)</strong>
+    </dt>
+    <dd>
+    Calculates linear conversion
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">oldMin</span>
+         any
+        </li>
+        <li><span class="parameter">oldMax</span>
+         any
+        </li>
+        <li><span class="parameter">oldValue</span>
+         any
+        </li>
+        <li><span class="parameter">newMin</span>
+         any
+        </li>
+        <li><span class="parameter">newMax</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "TableContains"></a>
+    <strong>TableContains (table, element)</strong>
+    </dt>
+    <dd>
+    Returns true if the specified table contains the element
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">table</span>
+         any
+        </li>
+        <li><span class="parameter">element</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "PairsByKeys"></a>
+    <strong>PairsByKeys (t, f)</strong>
+    </dt>
+    <dd>
+    Sorts by keys
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">t</span>
+         any
+        </li>
+        <li><span class="parameter">f</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        function
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "string.starts"></a>
+    <strong>string.starts (string, start)</strong>
+    </dt>
+    <dd>
+    Returns true if the string starts by start
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">string</span>
+         any
+        </li>
+        <li><span class="parameter">start</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2022-10-08 14:07:37 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

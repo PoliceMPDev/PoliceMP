@@ -1,0 +1,442 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>ldoc</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+<li><a href="#Tables">Tables</a></li>
+<li><a href="#Fields">Fields</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/script.client.html">script.client</a></li>
+  <li><a href="../modules/script.helpers.c_functions.html">script.helpers.c_functions</a></li>
+  <li><a href="../modules/script.helpers.g_functions.html">script.helpers.g_functions</a></li>
+  <li><a href="../modules/script.helpers.s_functions.html">script.helpers.s_functions</a></li>
+  <li><strong>script.server</strong></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>script.server</code></h1>
+<p>Server module for Advanced Roleplay Environment.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#StartUp">StartUp ()</a></td>
+	<td class="summary">Called on start up</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ScanFramework">ScanFramework ()</a></td>
+	<td class="summary">Scans the framework and sets the FRAMEWORK variable</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ValidateSource">ValidateSource (source)</a></td>
+	<td class="summary">Validates the source of a player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ValidateDistanceCheck">ValidateDistanceCheck (source, target)</a></td>
+	<td class="summary">Returns true if the player is near of the other</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ValidateAuthToken">ValidateAuthToken (source, providedAuthToken)</a></td>
+	<td class="summary">Validates a auth token</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Play3DSound">Play3DSound (source, coords, distance, sound)</a></td>
+	<td class="summary">Plays a 3d sound to every player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Stop3DSound">Stop3DSound (source)</a></td>
+	<td class="summary">Stops a 3d sound to every player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SavePlayers">SavePlayers ()</a></td>
+	<td class="summary">Saves all players</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetRealIdentifier">GetRealIdentifier (source)</a></td>
+	<td class="summary">Gets real identifier from a player</td>
+	</tr>
+</table>
+<h2><a href="#Tables">Tables</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#FRAMEWORK_DATA">FRAMEWORK_DATA</a></td>
+	<td class="summary">table: Contains the framework object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SOUND_DATA">SOUND_DATA</a></td>
+	<td class="summary">table: Contains the sound data</td>
+	</tr>
+</table>
+<h2><a href="#Fields">Fields</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#PRODUCT_NAME">PRODUCT_NAME</a></td>
+	<td class="summary">string: Contains the product name of the script</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CURRENT_VERSION">CURRENT_VERSION</a></td>
+	<td class="summary">string: Contains the current version of the script</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#RELEASE_CANDIDATE">RELEASE_CANDIDATE</a></td>
+	<td class="summary">bool: Contains whether the script is a release candidate or not</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#FRAMEWORK">FRAMEWORK</a></td>
+	<td class="summary">string: Contains the framework string</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "StartUp"></a>
+    <strong>StartUp ()</strong>
+    </dt>
+    <dd>
+    Called on start up
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ScanFramework"></a>
+    <strong>ScanFramework ()</strong>
+    </dt>
+    <dd>
+    Scans the framework and sets the FRAMEWORK variable
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ValidateSource"></a>
+    <strong>ValidateSource (source)</strong>
+    </dt>
+    <dd>
+    Validates the source of a player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ValidateDistanceCheck"></a>
+    <strong>ValidateDistanceCheck (source, target)</strong>
+    </dt>
+    <dd>
+    Returns true if the player is near of the other
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+
+        </li>
+        <li><span class="parameter">target</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ValidateAuthToken"></a>
+    <strong>ValidateAuthToken (source, providedAuthToken)</strong>
+    </dt>
+    <dd>
+    Validates a auth token
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+        <li><span class="parameter">providedAuthToken</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Play3DSound"></a>
+    <strong>Play3DSound (source, coords, distance, sound)</strong>
+    </dt>
+    <dd>
+    Plays a 3d sound to every player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+        <li><span class="parameter">coords</span>
+         any
+        </li>
+        <li><span class="parameter">distance</span>
+         any
+        </li>
+        <li><span class="parameter">sound</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Stop3DSound"></a>
+    <strong>Stop3DSound (source)</strong>
+    </dt>
+    <dd>
+    Stops a 3d sound to every player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SavePlayers"></a>
+    <strong>SavePlayers ()</strong>
+    </dt>
+    <dd>
+    Saves all players
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetRealIdentifier"></a>
+    <strong>GetRealIdentifier (source)</strong>
+    </dt>
+    <dd>
+    Gets real identifier from a player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        unknown
+    </ol>
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Tables"></a>Tables</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "FRAMEWORK_DATA"></a>
+    <strong>FRAMEWORK_DATA</strong>
+    </dt>
+    <dd>
+    table: Contains the framework object
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SOUND_DATA"></a>
+    <strong>SOUND_DATA</strong>
+    </dt>
+    <dd>
+    table: Contains the sound data
+
+
+
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Fields"></a>Fields</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "PRODUCT_NAME"></a>
+    <strong>PRODUCT_NAME</strong>
+    </dt>
+    <dd>
+    string: Contains the product name of the script
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CURRENT_VERSION"></a>
+    <strong>CURRENT_VERSION</strong>
+    </dt>
+    <dd>
+    string: Contains the current version of the script
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "RELEASE_CANDIDATE"></a>
+    <strong>RELEASE_CANDIDATE</strong>
+    </dt>
+    <dd>
+    bool: Contains whether the script is a release candidate or not
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "FRAMEWORK"></a>
+    <strong>FRAMEWORK</strong>
+    </dt>
+    <dd>
+    string: Contains the framework string
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2022-10-08 14:07:37 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

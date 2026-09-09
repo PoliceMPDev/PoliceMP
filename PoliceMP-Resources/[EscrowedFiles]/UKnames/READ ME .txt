@@ -1,0 +1,10 @@
+Credits 
+
+Base: GTA
+To Fivem: Buckley
+Heavily Modified and some things fixed: Kaiw210
+
+Enjoy the script 
+Please do not claim as your own 
+
+Place the British-Street-Names in your resources folder like any other resource and then ensure it in your server.cfg

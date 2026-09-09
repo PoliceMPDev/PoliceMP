@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" type="text/javascript"></script>
+        <script>
+            const sounds = new Array();
+            var basicSound = null;
+
+            window.addEventListener('message', function(event) {
+                if (event.data.command == 'play'){
+                    if (sounds[event.data.ped + event.data.file] == null){
+                        sounds[event.data.ped + event.data.file] = new Howl({
+                            src: ["./" + event.data.file],
+                            volume: 1.0,
+                            loop: false,
+                            onend: function() {
+                            }
+                        });
+
+                        sounds[event.data.ped + event.data.file].play();
+                        sounds[event.data.ped + event.data.file].fade(0, 1, event.data.fadein);
+                    }
+                }else if(event.data.command == "fadeout"){
+                    if (sounds[event.data.ped + event.data.file]){
+                        sounds[event.data.ped + event.data.file].fade(1, 0, 50);
+                        sounds[event.data.ped + event.data.file] = null;
+                    }
+                }else if(event.data.command == 'basicplay'){
+                    basicSound = new Howl({
+                        src: ["./" + event.data.file],
+                        volume: 1.0,
+                        loop: false,
+                        onend: function() {
+                        }
+                    });
+
+                    basicSound.play();
+                }
+            });
+        </script>
+    </head>
+</html>

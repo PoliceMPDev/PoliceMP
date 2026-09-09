@@ -1,0 +1,2305 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>ldoc</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+<li><a href="#Tables">Tables</a></li>
+<li><a href="#Fields">Fields</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><strong>script.client</strong></li>
+  <li><a href="../modules/script.helpers.c_functions.html">script.helpers.c_functions</a></li>
+  <li><a href="../modules/script.helpers.g_functions.html">script.helpers.g_functions</a></li>
+  <li><a href="../modules/script.helpers.s_functions.html">script.helpers.s_functions</a></li>
+  <li><a href="../modules/script.server.html">script.server</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>script.client</code></h1>
+<p>Client module for Advanced Roleplay Environment.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#RegisterKey">RegisterKey (key_info, command, description, func)</a></td>
+	<td class="summary">Registers a key</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#OnPlayerRespawn">OnPlayerRespawn ()</a></td>
+	<td class="summary">Called on player respawn</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ShowPlayerMenu">ShowPlayerMenu (player)</a></td>
+	<td class="summary">Opens player menu for player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#_UpdateMenu">_UpdateMenu (information, tourniquets, bleedings, infusions, logs, pain, bloodVolume, triageSelection, unconscious)</a></td>
+	<td class="summary">Updates the menu with specified data</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#_LoadMenu">_LoadMenu (information, tourniquets, bleedings, infusions, logs, pain, title, bloodVolume, triageSelection, unconscious)</a></td>
+	<td class="summary">Loads the menu with specified arguments</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ClosePlayerMenu">ClosePlayerMenu (fromNui)</a></td>
+	<td class="summary">Closes the player menu</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetHealthBuffer">GetHealthBuffer (targetSource, cb)</a></td>
+	<td class="summary">Gets the health buffer from a player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HasItem">HasItem (itemName, count, cb)</a></td>
+	<td class="summary">Returns value if the local player has enough of a item</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetItems">GetItems (cb)</a></td>
+	<td class="summary">Returns the items of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HandleDamageType">HandleDamageType (damageType, damagedBone)</a></td>
+	<td class="summary">Handles the damage type</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CalculateLastDamage">CalculateLastDamage ()</a></td>
+	<td class="summary">Calculates the last damage</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetLastDamageAmount">GetLastDamageAmount ()</a></td>
+	<td class="summary">Returns the last damage amount</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#AdjustPainLevel">AdjustPainLevel (wantedPainLevel)</a></td>
+	<td class="summary">Adjustes the pain level of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#UpdatePainLevel">UpdatePainLevel (painSupressAdjustment)</a></td>
+	<td class="summary">Updates the pain level of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetPainPerceived">GetPainPerceived (healthBuffer)</a></td>
+	<td class="summary">Returns the perceived pain level of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetBloodLoss">GetBloodLoss (injuries, cardiacOutput)</a></td>
+	<td class="summary">Returns the blood loss of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#UpdateBloodLoss">UpdateBloodLoss (injuries, cardiacOutput)</a></td>
+	<td class="summary">Updates the blood volume according to the blood loss of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetBleedings">GetBleedings (healthBuffer)</a></td>
+	<td class="summary">Returns the active bleedings of a specified health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetBloodPressure">GetBloodPressure (healthBuffer, bodyPart)</a></td>
+	<td class="summary">Returns the blood pressure of a healthbuffer at a specified bodyPart</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetHeartRate">GetHeartRate (healthBuffer, bodyPart)</a></td>
+	<td class="summary">Returns the heart rate of a healthbuffer at a specified bodyPart</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetCardiacOutput">GetCardiacOutput ()</a></td>
+	<td class="summary">Returns the cardiac output of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#UpdatePeripheralResistance">UpdatePeripheralResistance (resistanceAdjustment)</a></td>
+	<td class="summary">Updates the peripheral resistance of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#UpdateBloodPressure">UpdateBloodPressure ()</a></td>
+	<td class="summary">Updates the blood pressure of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#UpdateHeartRate">UpdateHeartRate (hrTargetAdjustment)</a></td>
+	<td class="summary">Updates the heart rate of the local player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GenerateHealthAndBlood">GenerateHealthAndBlood ()</a></td>
+	<td class="summary">Generates health and blood when vitals are stable</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CheckForCriticalVitals">CheckForCriticalVitals (bloodVolume)</a></td>
+	<td class="summary">Returns if the local player has critical vitals</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetActiveMedicationsInSystemLocal">GetActiveMedicationsInSystemLocal (medicationName)</a></td>
+	<td class="summary">Returns the activate medications in local system</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#AddMedicationLocal">AddMedicationLocal (bodyPart, medicationName)</a></td>
+	<td class="summary">Adds a medication to the local system at a specified body part</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SetUnconsciousState">SetUnconsciousState (state)</a></td>
+	<td class="summary">Sets the local player unconscious or conscious</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetRemainingUnconsciousSeconds">GetRemainingUnconsciousSeconds (healthBuffer)</a></td>
+	<td class="summary">Returns the remaning time in seconds until the specified health buffer dies</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#FindMostEffectiveWound">FindMostEffectiveWound (healthBuffer, bandageType, bodyPart)</a></td>
+	<td class="summary">Returns the most effective wound for a specified bandageType at a specified bodyPart on a specified healthBuffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HandleInjuryTimeout">HandleInjuryTimeout ()</a></td>
+	<td class="summary">Handles the injury timeout</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DoesPlayerHaveAimShakeInjury">DoesPlayerHaveAimShakeInjury (healthBuffer)</a></td>
+	<td class="summary">Returns if the player has a aim shake injury</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DoesPlayerHaveLimpingInjury">DoesPlayerHaveLimpingInjury (healthBuffer)</a></td>
+	<td class="summary">Returns if the player has a limping injury</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#AddInjury">AddInjury (injury)</a></td>
+	<td class="summary">Adds a injury to the local player and returns the id of the created injury</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SetInjuryLevel">SetInjuryLevel (bodyPart, injuryName, level)</a></td>
+	<td class="summary">Sets a injury level of a specified injury on a specified body part</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#FindInjuryInHealthBuffer">FindInjuryInHealthBuffer (healthBuffer, bodyPart, id)</a></td>
+	<td class="summary">Finds injury in health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetInjuryLevelAsNumber">GetInjuryLevelAsNumber (level)</a></td>
+	<td class="summary">Returns injury level as number</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetInjuryLevelFromNumber">GetInjuryLevelFromNumber (number)</a></td>
+	<td class="summary">Returns injury level from number</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetNextInjuryDamageLevel">GetNextInjuryDamageLevel (damageLevel)</a></td>
+	<td class="summary">Returns next injury damage level</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetInjuries">GetInjuries (healthBuffer)</a></td>
+	<td class="summary">Gets all injuries in health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetInjuriesInfoFor">GetInjuriesInfoFor (origDamageType, damageType, damageAmount, bodyPart)</a></td>
+	<td class="summary">Gets injuries for specified arguments</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetTourniquets">GetTourniquets (healthBuffer)</a></td>
+	<td class="summary">Gets the active tourniquets in a health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetInfusions">GetInfusions (healthBuffer)</a></td>
+	<td class="summary">Gets the active infusions in a health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HandlePainEffect">HandlePainEffect ()</a></td>
+	<td class="summary">Handles the pain effect</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HandleBleedingEffect">HandleBleedingEffect ()</a></td>
+	<td class="summary">Handles the bleeding effect</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetHeartbeatSoundName">GetHeartbeatSoundName (heartRate)</a></td>
+	<td class="summary">Gets the heartbeat sound name from the given heart rate</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsSewNeeded">IsSewNeeded (healthBuffer, bodyPart)</a></td>
+	<td class="summary">Returns true if the bodypart needs sewing</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#FindBodyPart">FindBodyPart (boneIndex)</a></td>
+	<td class="summary">Finds a body part from the bone index</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsBodyPart">IsBodyPart (boneIndex, bodyPart)</a></td>
+	<td class="summary">Check if bodyPart is a valid bodyPart</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ResetHealthBuffer">ResetHealthBuffer ()</a></td>
+	<td class="summary">Resets the local health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#RunMenuAction">RunMenuAction (name, bodyPart)</a></td>
+	<td class="summary">Runs a menu action on a bodypart</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ReportHealthBufferUpdate">ReportHealthBufferUpdate ()</a></td>
+	<td class="summary">Syncs the local health buffer with every other player (updates state bag)</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#BroadcastStop3DSound">BroadcastStop3DSound ()</a></td>
+	<td class="summary">Stops the current 3d sound bound to the local player for all players</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Play3DSoundLocal">Play3DSoundLocal (soundId, coords, distance, sound)</a></td>
+	<td class="summary">Plays a 3d sound locally on the client</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#Stop3DSoundLocal">Stop3DSoundLocal (soundId)</a></td>
+	<td class="summary">Stops a 3d sound locally on the client</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CreateDebugSection">CreateDebugSection (sectionName)</a></td>
+	<td class="summary">Creates a debug section in the debug window</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#UpdateDebugValue">UpdateDebugValue (debugId, debugValue)</a></td>
+	<td class="summary">Updates a debug value in the debug window</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DeleteDebugValue">DeleteDebugValue (debugId)</a></td>
+	<td class="summary">Deletes a debug value in the debug window</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DeleteDebugSection">DeleteDebugSection (sectionName)</a></td>
+	<td class="summary">Deletes a debug section in the debug window</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DisableDamageType">DisableDamageType (damageType)</a></td>
+	<td class="summary">Disables a specific damage type</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#EnableInjury">EnableInjury (injury)</a></td>
+	<td class="summary">Enables a specific injury</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DisableInjury">DisableInjury (injury)</a></td>
+	<td class="summary">Disables a specific injury</td>
+	</tr>
+</table>
+<h2><a href="#Tables">Tables</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#EventHandlers">EventHandlers</a></td>
+	<td class="summary">table: Storing the current event handlers</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SpawnedGameObjects">SpawnedGameObjects</a></td>
+	<td class="summary">table: Storing the spawned game objects</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DisabledDamageTypes">DisabledDamageTypes</a></td>
+	<td class="summary">table: Storing the disabled damage types</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DisabledInjuries">DisabledInjuries</a></td>
+	<td class="summary">table: Storing the disabled injuries</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ClientHealthBuffer">ClientHealthBuffer</a></td>
+	<td class="summary">table: The client health buffer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ClientData">ClientData</a></td>
+	<td class="summary">table: Contains all the important client data fields</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#TargetData">TargetData</a></td>
+	<td class="summary">table: Contains all the important target data fields</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HOOKED_DEBUG_VALUES">HOOKED_DEBUG_VALUES</a></td>
+	<td class="summary">table: Hooked debug values</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DEBUG_VALUE_HEARTBEATS">DEBUG_VALUE_HEARTBEATS</a></td>
+	<td class="summary">table: Heartbeats from the debug values</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DEBUG_SECTION_HEARTBEATS">DEBUG_SECTION_HEARTBEATS</a></td>
+	<td class="summary">table: Heartbeats from the debug sections</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#HOOKED_SECTIONS">HOOKED_SECTIONS</a></td>
+	<td class="summary">table: Hooked debug sections</td>
+	</tr>
+</table>
+<h2><a href="#Fields">Fields</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#TempAuthToken">TempAuthToken</a></td>
+	<td class="summary">string: Variable storing the temp auth token</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#MenuOpened">MenuOpened</a></td>
+	<td class="summary">bool: Returns true or false whether the menu is open</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ScriptReady">ScriptReady</a></td>
+	<td class="summary">bool: Returns if the script is ready or not.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LastDispatch">LastDispatch</a></td>
+	<td class="summary">number: Storing the last dispatch timer</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LastDispatchHidden">LastDispatchHidden</a></td>
+	<td class="summary">bool: Storing if the last dispatch button is hidden</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CarryAnimationData">CarryAnimationData</a></td>
+	<td class="summary">table: Storing the active carry animation data</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#AllowManualRespawn">AllowManualRespawn</a></td>
+	<td class="summary">bool: Storing if the player is allowed to manually respawn</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#PlayerDamageDisabled">PlayerDamageDisabled</a></td>
+	<td class="summary">bool: Storing if the player damage is disabled</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsOldGameBuild">IsOldGameBuild</a></td>
+	<td class="summary">bool: Storing if the game build is old or new.</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#NuiLoaded">NuiLoaded</a></td>
+	<td class="summary">bool: Storing if the nui is loaded</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LastGameTime">LastGameTime</a></td>
+	<td class="summary">number: Last game time</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "RegisterKey"></a>
+    <strong>RegisterKey (key_info, command, description, func)</strong>
+    </dt>
+    <dd>
+    Registers a key
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">key_info</span>
+         any
+        </li>
+        <li><span class="parameter">command</span>
+         any
+        </li>
+        <li><span class="parameter">description</span>
+         any
+        </li>
+        <li><span class="parameter">func</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "OnPlayerRespawn"></a>
+    <strong>OnPlayerRespawn ()</strong>
+    </dt>
+    <dd>
+    Called on player respawn
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ShowPlayerMenu"></a>
+    <strong>ShowPlayerMenu (player)</strong>
+    </dt>
+    <dd>
+    Opens player menu for player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">player</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "_UpdateMenu"></a>
+    <strong>_UpdateMenu (information, tourniquets, bleedings, infusions, logs, pain, bloodVolume, triageSelection, unconscious)</strong>
+    </dt>
+    <dd>
+    Updates the menu with specified data
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">information</span>
+         any
+        </li>
+        <li><span class="parameter">tourniquets</span>
+         any
+        </li>
+        <li><span class="parameter">bleedings</span>
+         any
+        </li>
+        <li><span class="parameter">infusions</span>
+         any
+         <li><span class="parameter">oxygen</span>
+        any
+        </li>
+        <li><span class="parameter">logs</span>
+         any
+        </li>
+        <li><span class="parameter">pain</span>
+         any
+        </li>
+        <li><span class="parameter">bloodVolume</span>
+         any
+        </li>
+        <li><span class="parameter">triageSelection</span>
+         any
+        </li>
+        <li><span class="parameter">unconscious</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "_LoadMenu"></a>
+    <strong>_LoadMenu (information, tourniquets, bleedings, infusions, logs, pain, title, bloodVolume, triageSelection, unconscious)</strong>
+    </dt>
+    <dd>
+    Loads the menu with specified arguments
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">information</span>
+         any
+        </li>
+        <li><span class="parameter">tourniquets</span>
+         any
+        </li>
+        <li><span class="parameter">bleedings</span>
+         any
+        </li>
+        <li><span class="parameter">infusions</span>
+         any
+         <li><span class="parameter">oxygen</span>
+            any
+        </li>
+        <li><span class="parameter">logs</span>
+         any
+        </li>
+        <li><span class="parameter">pain</span>
+         any
+        </li>
+        <li><span class="parameter">title</span>
+         any
+        </li>
+        <li><span class="parameter">bloodVolume</span>
+         any
+        </li>
+        <li><span class="parameter">triageSelection</span>
+         any
+        </li>
+        <li><span class="parameter">unconscious</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ClosePlayerMenu"></a>
+    <strong>ClosePlayerMenu (fromNui)</strong>
+    </dt>
+    <dd>
+    Closes the player menu
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">fromNui</span>
+         boolean optional if the menu was closed from the NUI
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetHealthBuffer"></a>
+    <strong>GetHealthBuffer (targetSource, cb)</strong>
+    </dt>
+    <dd>
+    Gets the health buffer from a player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">targetSource</span>
+         number the player source to get the health buffer from
+        </li>
+        <li><span class="parameter">cb</span>
+         function the callback function to call with the health buffer
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HasItem"></a>
+    <strong>HasItem (itemName, count, cb)</strong>
+    </dt>
+    <dd>
+    Returns value if the local player has enough of a item
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">itemName</span>
+         string the item name
+        </li>
+        <li><span class="parameter">count</span>
+         number the amount of the item
+        </li>
+        <li><span class="parameter">cb</span>
+         function the callback function to call with the result
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetItems"></a>
+    <strong>GetItems (cb)</strong>
+    </dt>
+    <dd>
+    Returns the items of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">cb</span>
+         function the callback function to call with the result
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HandleDamageType"></a>
+    <strong>HandleDamageType (damageType, damagedBone)</strong>
+    </dt>
+    <dd>
+    Handles the damage type
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">damageType</span>
+         any
+        </li>
+        <li><span class="parameter">damagedBone</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CalculateLastDamage"></a>
+    <strong>CalculateLastDamage ()</strong>
+    </dt>
+    <dd>
+    Calculates the last damage
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetLastDamageAmount"></a>
+    <strong>GetLastDamageAmount ()</strong>
+    </dt>
+    <dd>
+    Returns the last damage amount
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "AdjustPainLevel"></a>
+    <strong>AdjustPainLevel (wantedPainLevel)</strong>
+    </dt>
+    <dd>
+    Adjustes the pain level of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">wantedPainLevel</span>
+         number the wanted pain level
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "UpdatePainLevel"></a>
+    <strong>UpdatePainLevel (painSupressAdjustment)</strong>
+    </dt>
+    <dd>
+    Updates the pain level of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">painSupressAdjustment</span>
+         number the pain supress adjustment
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetPainPerceived"></a>
+    <strong>GetPainPerceived (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Returns the perceived pain level of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetBloodLoss"></a>
+    <strong>GetBloodLoss (injuries, cardiacOutput)</strong>
+    </dt>
+    <dd>
+    Returns the blood loss of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">injuries</span>
+         table the injuries to get the blood loss from
+        </li>
+        <li><span class="parameter">cardiacOutput</span>
+         number the cardiac output of the local player
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "UpdateBloodLoss"></a>
+    <strong>UpdateBloodLoss (injuries, cardiacOutput)</strong>
+    </dt>
+    <dd>
+    Updates the blood volume according to the blood loss of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">injuries</span>
+         table the injuries to get the blood loss from
+        </li>
+        <li><span class="parameter">cardiacOutput</span>
+         number the cardiac output of the local player
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetBleedings"></a>
+    <strong>GetBleedings (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Returns the active bleedings of a specified health buffer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         table the health buffer to get the active bleedings from
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetBloodPressure"></a>
+    <strong>GetBloodPressure (healthBuffer, bodyPart)</strong>
+    </dt>
+    <dd>
+    Returns the blood pressure of a healthbuffer at a specified bodyPart
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         table the health buffer to get the blood pressure from
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         string the body part to get the blood pressure from
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetHeartRate"></a>
+    <strong>GetHeartRate (healthBuffer, bodyPart)</strong>
+    </dt>
+    <dd>
+    Returns the heart rate of a healthbuffer at a specified bodyPart
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         table the health buffer to get the heart rate from
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         string the body part to get the heart rate from
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number the heart rate of the health buffer at the specified bodyPart
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetCardiacOutput"></a>
+    <strong>GetCardiacOutput ()</strong>
+    </dt>
+    <dd>
+    Returns the cardiac output of the local player
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "UpdatePeripheralResistance"></a>
+    <strong>UpdatePeripheralResistance (resistanceAdjustment)</strong>
+    </dt>
+    <dd>
+    Updates the peripheral resistance of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">resistanceAdjustment</span>
+         number the resistance adjustment
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "UpdateBloodPressure"></a>
+    <strong>UpdateBloodPressure ()</strong>
+    </dt>
+    <dd>
+    Updates the blood pressure of the local player
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "UpdateHeartRate"></a>
+    <strong>UpdateHeartRate (hrTargetAdjustment)</strong>
+    </dt>
+    <dd>
+    Updates the heart rate of the local player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">hrTargetAdjustment</span>
+         number the heart rate target adjustment
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GenerateHealthAndBlood"></a>
+    <strong>GenerateHealthAndBlood ()</strong>
+    </dt>
+    <dd>
+    Generates health and blood when vitals are stable
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CheckForCriticalVitals"></a>
+    <strong>CheckForCriticalVitals (bloodVolume)</strong>
+    </dt>
+    <dd>
+    Returns if the local player has critical vitals
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">bloodVolume</span>
+         number The blood volume of the local player
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetActiveMedicationsInSystemLocal"></a>
+    <strong>GetActiveMedicationsInSystemLocal (medicationName)</strong>
+    </dt>
+    <dd>
+    Returns the activate medications in local system
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">medicationName</span>
+         string the name of the medication
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "AddMedicationLocal"></a>
+    <strong>AddMedicationLocal (bodyPart, medicationName)</strong>
+    </dt>
+    <dd>
+    Adds a medication to the local system at a specified body part
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">bodyPart</span>
+         string the body part to add the medication to
+        </li>
+        <li><span class="parameter">medicationName</span>
+         string the name of the medication
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SetUnconsciousState"></a>
+    <strong>SetUnconsciousState (state)</strong>
+    </dt>
+    <dd>
+    Sets the local player unconscious or conscious
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">state</span>
+         boolean the state to set the local player to (true = unconscious, false = conscious)
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetRemainingUnconsciousSeconds"></a>
+    <strong>GetRemainingUnconsciousSeconds (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Returns the remaning time in seconds until the specified health buffer dies
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         table the health buffer to check
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "FindMostEffectiveWound"></a>
+    <strong>FindMostEffectiveWound (healthBuffer, bandageType, bodyPart)</strong>
+    </dt>
+    <dd>
+    Returns the most effective wound for a specified bandageType at a specified bodyPart on a specified healthBuffer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         table the health buffer to check
+        </li>
+        <li><span class="parameter">bandageType</span>
+         string the type of bandage to check
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         string the body part to check
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table, number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HandleInjuryTimeout"></a>
+    <strong>HandleInjuryTimeout ()</strong>
+    </dt>
+    <dd>
+    Handles the injury timeout
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DoesPlayerHaveAimShakeInjury"></a>
+    <strong>DoesPlayerHaveAimShakeInjury (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Returns if the player has a aim shake injury
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DoesPlayerHaveLimpingInjury"></a>
+    <strong>DoesPlayerHaveLimpingInjury (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Returns if the player has a limping injury
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "AddInjury"></a>
+    <strong>AddInjury (injury)</strong>
+    </dt>
+    <dd>
+    Adds a injury to the local player and returns the id of the created injury
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">injury</span>
+         table the injury to add
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        number
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SetInjuryLevel"></a>
+    <strong>SetInjuryLevel (bodyPart, injuryName, level)</strong>
+    </dt>
+    <dd>
+    Sets a injury level of a specified injury on a specified body part
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">bodyPart</span>
+         string the body part to check for the injury
+        </li>
+        <li><span class="parameter">injuryName</span>
+         string the injury name to override
+        </li>
+        <li><span class="parameter">level</span>
+         string the level to set the injury to
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "FindInjuryInHealthBuffer"></a>
+    <strong>FindInjuryInHealthBuffer (healthBuffer, bodyPart, id)</strong>
+    </dt>
+    <dd>
+    Finds injury in health buffer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         any
+        </li>
+        <li><span class="parameter">id</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+        <li>
+        unknown</li>
+        <li>
+        unknown</li>
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetInjuryLevelAsNumber"></a>
+    <strong>GetInjuryLevelAsNumber (level)</strong>
+    </dt>
+    <dd>
+    Returns injury level as number
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">level</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        integer
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetInjuryLevelFromNumber"></a>
+    <strong>GetInjuryLevelFromNumber (number)</strong>
+    </dt>
+    <dd>
+    Returns injury level from number
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">number</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        string
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetNextInjuryDamageLevel"></a>
+    <strong>GetNextInjuryDamageLevel (damageLevel)</strong>
+    </dt>
+    <dd>
+    Returns next injury damage level
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">damageLevel</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        string
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetInjuries"></a>
+    <strong>GetInjuries (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Gets all injuries in health buffer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetInjuriesInfoFor"></a>
+    <strong>GetInjuriesInfoFor (origDamageType, damageType, damageAmount, bodyPart)</strong>
+    </dt>
+    <dd>
+    Gets injuries for specified arguments
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">origDamageType</span>
+         any
+        </li>
+        <li><span class="parameter">damageType</span>
+         any
+        </li>
+        <li><span class="parameter">damageAmount</span>
+         any
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetTourniquets"></a>
+    <strong>GetTourniquets (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Gets the active tourniquets in a health buffer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetInfusions"></a>
+    <strong>GetInfusions (healthBuffer)</strong>
+    </dt>
+    <dd>
+    Gets the active infusions in a health buffer
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        unknown
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HandlePainEffect"></a>
+    <strong>HandlePainEffect ()</strong>
+    </dt>
+    <dd>
+    Handles the pain effect
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HandleBleedingEffect"></a>
+    <strong>HandleBleedingEffect ()</strong>
+    </dt>
+    <dd>
+    Handles the bleeding effect
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetHeartbeatSoundName"></a>
+    <strong>GetHeartbeatSoundName (heartRate)</strong>
+    </dt>
+    <dd>
+    Gets the heartbeat sound name from the given heart rate
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">heartRate</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        string
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsSewNeeded"></a>
+    <strong>IsSewNeeded (healthBuffer, bodyPart)</strong>
+    </dt>
+    <dd>
+    Returns true if the bodypart needs sewing
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">healthBuffer</span>
+         any
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "FindBodyPart"></a>
+    <strong>FindBodyPart (boneIndex)</strong>
+    </dt>
+    <dd>
+    Finds a body part from the bone index
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">boneIndex</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        table
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsBodyPart"></a>
+    <strong>IsBodyPart (boneIndex, bodyPart)</strong>
+    </dt>
+    <dd>
+    Check if bodyPart is a valid bodyPart
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">boneIndex</span>
+         number
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         string
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ResetHealthBuffer"></a>
+    <strong>ResetHealthBuffer ()</strong>
+    </dt>
+    <dd>
+    Resets the local health buffer
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "RunMenuAction"></a>
+    <strong>RunMenuAction (name, bodyPart)</strong>
+    </dt>
+    <dd>
+    Runs a menu action on a bodypart
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+         any
+        </li>
+        <li><span class="parameter">bodyPart</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ReportHealthBufferUpdate"></a>
+    <strong>ReportHealthBufferUpdate ()</strong>
+    </dt>
+    <dd>
+    Syncs the local health buffer with every other player (updates state bag)
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "BroadcastStop3DSound"></a>
+    <strong>BroadcastStop3DSound ()</strong>
+    </dt>
+    <dd>
+    Stops the current 3d sound bound to the local player for all players
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Play3DSoundLocal"></a>
+    <strong>Play3DSoundLocal (soundId, coords, distance, sound)</strong>
+    </dt>
+    <dd>
+    Plays a 3d sound locally on the client
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">soundId</span>
+         number
+        </li>
+        <li><span class="parameter">coords</span>
+         vector3
+        </li>
+        <li><span class="parameter">distance</span>
+         number
+        </li>
+        <li><span class="parameter">sound</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "Stop3DSoundLocal"></a>
+    <strong>Stop3DSoundLocal (soundId)</strong>
+    </dt>
+    <dd>
+    Stops a 3d sound locally on the client
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">soundId</span>
+         number
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CreateDebugSection"></a>
+    <strong>CreateDebugSection (sectionName)</strong>
+    </dt>
+    <dd>
+    Creates a debug section in the debug window
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">sectionName</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "UpdateDebugValue"></a>
+    <strong>UpdateDebugValue (debugId, debugValue)</strong>
+    </dt>
+    <dd>
+    Updates a debug value in the debug window
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">debugId</span>
+         string
+        </li>
+        <li><span class="parameter">debugValue</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DeleteDebugValue"></a>
+    <strong>DeleteDebugValue (debugId)</strong>
+    </dt>
+    <dd>
+    Deletes a debug value in the debug window
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">debugId</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DeleteDebugSection"></a>
+    <strong>DeleteDebugSection (sectionName)</strong>
+    </dt>
+    <dd>
+    Deletes a debug section in the debug window
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">sectionName</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DisableDamageType"></a>
+    <strong>DisableDamageType (damageType)</strong>
+    </dt>
+    <dd>
+    Disables a specific damage type
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">damageType</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "EnableInjury"></a>
+    <strong>EnableInjury (injury)</strong>
+    </dt>
+    <dd>
+    Enables a specific injury
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">injury</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DisableInjury"></a>
+    <strong>DisableInjury (injury)</strong>
+    </dt>
+    <dd>
+    Disables a specific injury
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">injury</span>
+         string
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Tables"></a>Tables</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "EventHandlers"></a>
+    <strong>EventHandlers</strong>
+    </dt>
+    <dd>
+    table: Storing the current event handlers
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SpawnedGameObjects"></a>
+    <strong>SpawnedGameObjects</strong>
+    </dt>
+    <dd>
+    table: Storing the spawned game objects
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DisabledDamageTypes"></a>
+    <strong>DisabledDamageTypes</strong>
+    </dt>
+    <dd>
+    table: Storing the disabled damage types
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DisabledInjuries"></a>
+    <strong>DisabledInjuries</strong>
+    </dt>
+    <dd>
+    table: Storing the disabled injuries
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ClientHealthBuffer"></a>
+    <strong>ClientHealthBuffer</strong>
+    </dt>
+    <dd>
+    table: The client health buffer
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">unconscious</span>
+            <span class="types"><span class="type">number</span></span>
+        Returns true or false whether the player is unconscious or not.
+        </li>
+        <li><span class="parameter">unconsciousTimeUntilDeath</span>
+            <span class="types"><span class="type">number</span></span>
+        Returns the time until the player respawns.
+        </li>
+        <li><span class="parameter">heartRate</span>
+            <span class="types"><span class="type">number</span></span>
+         Pulse from the client
+        </li>
+        <li><span class="parameter">lastHeartRateChange</span>
+            <span class="types"><span class="type">number</span></span>
+         Last heart rate change game timer
+        </li>
+        <li><span class="parameter">bloodPressureH</span>
+            <span class="types"><span class="type">number</span></span>
+         Blood pressure high from the client
+        </li>
+        <li><span class="parameter">bloodPressureL</span>
+            <span class="types"><span class="type">number</span></span>
+         Blood pressure low from the client
+        </li>
+        <li><span class="parameter">bloodVolume</span>
+            <span class="types"><span class="type">number</span></span>
+         Blood volume from the client
+        </li>
+        <li><span class="parameter">painLevel</span>
+            <span class="types"><span class="type">number</span></span>
+         Pain level from the client
+        </li>
+        <li><span class="parameter">painSupress</span>
+            <span class="types"><span class="type">number</span></span>
+         Pain suppress from the client
+        </li>
+        <li><span class="parameter">lastReceivedPain</span>
+            <span class="types"><span class="type">number</span></span>
+
+        </li>
+        <li><span class="parameter">peripheralResistance</span>
+            <span class="types"><span class="type">number</span></span>
+         flow of blood? 100 max
+        </li>
+        <li><span class="parameter">_lastHealth</span>
+            <span class="types"><span class="type">number</span></span>
+         Internal usage
+        </li>
+        <li><span class="parameter">lastDamageTimestamp</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Timestamp of the last taken damage
+        </li>
+        <li><span class="parameter">lastDamage</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Amount of the last taken damage
+        </li>
+        <li><span class="parameter">lastHandledDamageTimestamp</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Timestamp of the last handled damage
+        </li>
+        <li><span class="parameter">medications</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.4">string</a></span>
+         Storing all the active medications
+        </li>
+        <li><span class="parameter">infusions</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Table of the active infusions
+        </li>
+        <li><span class="parameter">logs</span>
+         Table of the logs
+        </li>
+        <li><span class="parameter">triageSelection</span>
+         The current triage selection
+        </li>
+        <li><span class="parameter">bodyParts</span>
+         Table of the body parts
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ClientData"></a>
+    <strong>ClientData</strong>
+    </dt>
+    <dd>
+    table: Contains all the important client data fields
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">ped</span>
+            <span class="types"><span class="type">integer</span></span>
+         Player ped handle from the client
+        </li>
+        <li><span class="parameter">coords</span>
+            <span class="types"><span class="type">vector3</span></span>
+         Player coords of the client ped
+        </li>
+        <li><span class="parameter">id</span>
+            <span class="types"><span class="type">number</span></span>
+         Player id of the client
+        </li>
+        <li><span class="parameter">deathRegistered</span>
+            <span class="types"><span class="type">bool</span></span>
+         Returns if the player is dead or not
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "TargetData"></a>
+    <strong>TargetData</strong>
+    </dt>
+    <dd>
+    table: Contains all the important target data fields
+
+
+    <h3>Fields:</h3>
+    <ul>
+        <li><span class="parameter">source</span>
+            <span class="types"><span class="type">number</span></span>
+         Player source from target
+        </li>
+        <li><span class="parameter">ped</span>
+            <span class="types"><span class="type">number</span></span>
+         Player ped handle from target
+        </li>
+        <li><span class="parameter">coords</span>
+            <span class="types"><span class="type">vector3</span></span>
+         Player coords of the target ped
+        </li>
+        <li><span class="parameter">healthBuffer</span>
+            <span class="types"><a class="type" href="https://www.lua.org/manual/5.1/manual.html#5.5">table</a></span>
+         Player health buffer of the target
+        </li>
+        <li><span class="parameter">distance</span>
+            <span class="types"><span class="type">number</span></span>
+         Player distance to the target
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HOOKED_DEBUG_VALUES"></a>
+    <strong>HOOKED_DEBUG_VALUES</strong>
+    </dt>
+    <dd>
+    table: Hooked debug values
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DEBUG_VALUE_HEARTBEATS"></a>
+    <strong>DEBUG_VALUE_HEARTBEATS</strong>
+    </dt>
+    <dd>
+    table: Heartbeats from the debug values
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DEBUG_SECTION_HEARTBEATS"></a>
+    <strong>DEBUG_SECTION_HEARTBEATS</strong>
+    </dt>
+    <dd>
+    table: Heartbeats from the debug sections
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "HOOKED_SECTIONS"></a>
+    <strong>HOOKED_SECTIONS</strong>
+    </dt>
+    <dd>
+    table: Hooked debug sections
+
+
+
+
+
+
+
+</dd>
+</dl>
+    <h2 class="section-header "><a name="Fields"></a>Fields</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "TempAuthToken"></a>
+    <strong>TempAuthToken</strong>
+    </dt>
+    <dd>
+    string: Variable storing the temp auth token
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "MenuOpened"></a>
+    <strong>MenuOpened</strong>
+    </dt>
+    <dd>
+    bool: Returns true or false whether the menu is open
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ScriptReady"></a>
+    <strong>ScriptReady</strong>
+    </dt>
+    <dd>
+    bool: Returns if the script is ready or not.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LastDispatch"></a>
+    <strong>LastDispatch</strong>
+    </dt>
+    <dd>
+    number: Storing the last dispatch timer
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LastDispatchHidden"></a>
+    <strong>LastDispatchHidden</strong>
+    </dt>
+    <dd>
+    bool: Storing if the last dispatch button is hidden
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CarryAnimationData"></a>
+    <strong>CarryAnimationData</strong>
+    </dt>
+    <dd>
+    table: Storing the active carry animation data
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "AllowManualRespawn"></a>
+    <strong>AllowManualRespawn</strong>
+    </dt>
+    <dd>
+    bool: Storing if the player is allowed to manually respawn
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "PlayerDamageDisabled"></a>
+    <strong>PlayerDamageDisabled</strong>
+    </dt>
+    <dd>
+    bool: Storing if the player damage is disabled
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsOldGameBuild"></a>
+    <strong>IsOldGameBuild</strong>
+    </dt>
+    <dd>
+    bool: Storing if the game build is old or new.
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "NuiLoaded"></a>
+    <strong>NuiLoaded</strong>
+    </dt>
+    <dd>
+    bool: Storing if the nui is loaded
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LastGameTime"></a>
+    <strong>LastGameTime</strong>
+    </dt>
+    <dd>
+    number: Last game time
+
+
+
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2022-10-08 14:07:37 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

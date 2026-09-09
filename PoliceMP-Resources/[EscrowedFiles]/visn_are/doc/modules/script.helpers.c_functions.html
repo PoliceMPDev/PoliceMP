@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<head>
+    <title>Reference</title>
+    <link rel="stylesheet" href="../ldoc.css" type="text/css" />
+</head>
+<body>
+
+<div id="container">
+
+<div id="product">
+	<div id="product_logo"></div>
+	<div id="product_name"><big><b></b></big></div>
+	<div id="product_description"></div>
+</div> <!-- id="product" -->
+
+
+<div id="main">
+
+
+<!-- Menu -->
+
+<div id="navigation">
+<br/>
+<h1>ldoc</h1>
+
+
+<ul>
+  <li><a href="../index.html">Index</a></li>
+</ul>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#Functions">Functions</a></li>
+</ul>
+
+
+<h2>Modules</h2>
+<ul class="nowrap">
+  <li><a href="../modules/script.client.html">script.client</a></li>
+  <li><strong>script.helpers.c_functions</strong></li>
+  <li><a href="../modules/script.helpers.g_functions.html">script.helpers.g_functions</a></li>
+  <li><a href="../modules/script.helpers.s_functions.html">script.helpers.s_functions</a></li>
+  <li><a href="../modules/script.server.html">script.server</a></li>
+</ul>
+
+</div>
+
+<div id="content">
+
+<h1>Module <code>script.helpers.c_functions</code></h1>
+<p>Client extension module for Advanced Roleplay Environment.</p>
+<p></p>
+
+
+<h2><a href="#Functions">Functions</a></h2>
+<table class="function_list">
+	<tr>
+	<td class="name" nowrap><a href="#ShowNotification">ShowNotification (text)</a></td>
+	<td class="summary">Shows a notification</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#GetClosestPlayer">GetClosestPlayer ()</a></td>
+	<td class="summary">Gets the closest player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#RunAnimation">RunAnimation (animation, duration, blockActions)</a></td>
+	<td class="summary">Runs an animation</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CreateProgressBar">CreateProgressBar (text, duration, xFactorParam)</a></td>
+	<td class="summary">Creates a progress bar</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#DestroyProgressBar">DestroyProgressBar (data)</a></td>
+	<td class="summary">Destroys a progress bar</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsProgressBarActive">IsProgressBarActive ()</a></td>
+	<td class="summary">Returns true if a progress bar is active</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CarryPlayer">CarryPlayer (targetData, targetHealthBuffer)</a></td>
+	<td class="summary">Carrys a player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#StopCarry">StopCarry ()</a></td>
+	<td class="summary">Stop active carry</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#PlayLocalAnimationLoop">PlayLocalAnimationLoop ()</a></td>
+	<td class="summary">Plays the local animation loop</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#EmergencyDispatch">EmergencyDispatch (playerPed, coords)</a></td>
+	<td class="summary">Emergency dispatch to configured receiver</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#LoadPlayer">LoadPlayer ()</a></td>
+	<td class="summary">Loads the player</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#SpawnGameObject">SpawnGameObject (name, x, y, z)</a></td>
+	<td class="summary">Spawns a game object</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CleanUpGameObjects">CleanUpGameObjects ()</a></td>
+	<td class="summary">Cleans up spawned game objects</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#OpenSelfMenu">OpenSelfMenu ()</a></td>
+	<td class="summary">Function for the self menu command</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#OpenInteractionMenu">OpenInteractionMenu ()</a></td>
+	<td class="summary">Function for the interaction menu command</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#ManualRespawn">ManualRespawn ()</a></td>
+	<td class="summary">Function for the manual respawn command</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#CancelInteraction">CancelInteraction ()</a></td>
+	<td class="summary">Function for the cancel interaction command</td>
+	</tr>
+	<tr>
+	<td class="name" nowrap><a href="#IsPlayerDamageDisabled">IsPlayerDamageDisabled ()</a></td>
+	<td class="summary">Returns if the player damage is disabled</td>
+	</tr>
+</table>
+
+<br/>
+<br/>
+
+
+    <h2 class="section-header "><a name="Functions"></a>Functions</h2>
+
+    <dl class="function">
+    <dt>
+    <a name = "ShowNotification"></a>
+    <strong>ShowNotification (text)</strong>
+    </dt>
+    <dd>
+    Shows a notification
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">text</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "GetClosestPlayer"></a>
+    <strong>GetClosestPlayer ()</strong>
+    </dt>
+    <dd>
+    Gets the closest player
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+        <li>
+        integer</li>
+        <li>
+        number</li>
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "RunAnimation"></a>
+    <strong>RunAnimation (animation, duration, blockActions)</strong>
+    </dt>
+    <dd>
+    Runs an animation
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">animation</span>
+         any
+        </li>
+        <li><span class="parameter">duration</span>
+         any
+        </li>
+        <li><span class="parameter">blockActions</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CreateProgressBar"></a>
+    <strong>CreateProgressBar (text, duration, xFactorParam)</strong>
+    </dt>
+    <dd>
+    Creates a progress bar
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">text</span>
+         any
+        </li>
+        <li><span class="parameter">duration</span>
+         any
+        </li>
+        <li><span class="parameter">xFactorParam</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "DestroyProgressBar"></a>
+    <strong>DestroyProgressBar (data)</strong>
+    </dt>
+    <dd>
+    Destroys a progress bar
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">data</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsProgressBarActive"></a>
+    <strong>IsProgressBarActive ()</strong>
+    </dt>
+    <dd>
+    Returns true if a progress bar is active
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CarryPlayer"></a>
+    <strong>CarryPlayer (targetData, targetHealthBuffer)</strong>
+    </dt>
+    <dd>
+    Carrys a player
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">targetData</span>
+         any
+        </li>
+        <li><span class="parameter">targetHealthBuffer</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "StopCarry"></a>
+    <strong>StopCarry ()</strong>
+    </dt>
+    <dd>
+    Stop active carry
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "PlayLocalAnimationLoop"></a>
+    <strong>PlayLocalAnimationLoop ()</strong>
+    </dt>
+    <dd>
+    Plays the local animation loop
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "EmergencyDispatch"></a>
+    <strong>EmergencyDispatch (playerPed, coords)</strong>
+    </dt>
+    <dd>
+    Emergency dispatch to configured receiver
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">playerPed</span>
+         any
+        </li>
+        <li><span class="parameter">coords</span>
+         any
+        </li>
+    </ul>
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "LoadPlayer"></a>
+    <strong>LoadPlayer ()</strong>
+    </dt>
+    <dd>
+    Loads the player
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "SpawnGameObject"></a>
+    <strong>SpawnGameObject (name, x, y, z)</strong>
+    </dt>
+    <dd>
+    Spawns a game object
+
+
+    <h3>Parameters:</h3>
+    <ul>
+        <li><span class="parameter">name</span>
+         any
+        </li>
+        <li><span class="parameter">x</span>
+         any
+        </li>
+        <li><span class="parameter">y</span>
+         any
+        </li>
+        <li><span class="parameter">z</span>
+         any
+        </li>
+    </ul>
+
+    <h3>Returns:</h3>
+    <ol>
+
+        any
+    </ol>
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CleanUpGameObjects"></a>
+    <strong>CleanUpGameObjects ()</strong>
+    </dt>
+    <dd>
+    Cleans up spawned game objects
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "OpenSelfMenu"></a>
+    <strong>OpenSelfMenu ()</strong>
+    </dt>
+    <dd>
+    Function for the self menu command
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "OpenInteractionMenu"></a>
+    <strong>OpenInteractionMenu ()</strong>
+    </dt>
+    <dd>
+    Function for the interaction menu command
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "ManualRespawn"></a>
+    <strong>ManualRespawn ()</strong>
+    </dt>
+    <dd>
+    Function for the manual respawn command
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "CancelInteraction"></a>
+    <strong>CancelInteraction ()</strong>
+    </dt>
+    <dd>
+    Function for the cancel interaction command
+
+
+
+
+
+
+
+</dd>
+    <dt>
+    <a name = "IsPlayerDamageDisabled"></a>
+    <strong>IsPlayerDamageDisabled ()</strong>
+    </dt>
+    <dd>
+    Returns if the player damage is disabled
+
+
+
+    <h3>Returns:</h3>
+    <ol>
+
+        boolean
+    </ol>
+
+
+
+
+</dd>
+</dl>
+
+
+</div> <!-- id="content" -->
+</div> <!-- id="main" -->
+<div id="about">
+<i>generated by <a href="http://github.com/stevedonovan/LDoc">LDoc 1.4.6</a></i>
+<i style="float:right;">Last updated 2022-10-08 14:07:37 </i>
+</div> <!-- id="about" -->
+</div> <!-- id="container" -->
+</body>
+</html>

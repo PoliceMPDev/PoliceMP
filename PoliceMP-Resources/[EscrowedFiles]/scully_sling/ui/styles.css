@@ -1,0 +1,11 @@
+button:hover, input:hover, select:hover {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+button:focus, input:focus, select:focus {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
