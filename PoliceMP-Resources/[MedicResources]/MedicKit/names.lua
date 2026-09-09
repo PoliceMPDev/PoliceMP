@@ -1,0 +1,5 @@
+Citizen.CreateThread(function()
+	AddTextEntry('WT_ALS', 'ALS Bag')
+	AddTextEntry('WT_ECG', 'Portable ECG')
+	AddTextEntry('WT_POLMED', 'Police Medical Bag')
+end)

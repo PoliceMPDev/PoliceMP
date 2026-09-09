@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="2714" />
+  <proxies>
+  <!-- ./input/Sinner -->
+	<Item>hei_dt1_19_interior_0_heist_police_dlc_milo_</Item>
+  <!-- ./input/Paleto -->
+  <Item>paleto_mlo</Item>
+  <!-- ./input/A&E -->
+  <Item>lg_hospmlo_milo</Item>
+  <!-- ./input/JRU -->
+  <Item>int_taxi_milo_</Item>
+  <!-- ./input/TrafficBase -->
+  <Item>lg_traffic_base</Item>
+  <Item>noose_lewie_gee_ytyp</Item>
+	</proxies>
+</SInteriorOrderData>

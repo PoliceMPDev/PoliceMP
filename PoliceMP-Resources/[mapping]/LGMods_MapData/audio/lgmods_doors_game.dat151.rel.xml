@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dat151>
+  <Version value="9458585" />
+  <Items>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_firedoor</Name>
+      <SoundSet>hash_7f11a20c</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_holdingdoor</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_secdoor</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_celldoor</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_sliding_door_l</Name>
+      <SoundSet>hash_c9e95a9a</SoundSet>
+      <Params>hash_25b9f39f</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_sliding_door_r</Name>
+      <SoundSet>hash_c9e95a9a</SoundSet>
+      <Params>hash_25b9f39f</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lg_hosp_door</Name>
+      <SoundSet>hash_7f11a20c</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lg_hosp_fire_escp</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_hospital_sliding_door_l</Name>
+      <SoundSet>hash_c9e95a9a</SoundSet>
+      <Params>hash_25b9f39f</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_hospital_sliding_door_r</Name>
+      <SoundSet>hash_c9e95a9a</SoundSet>
+      <Params>hash_25b9f39f</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_paleto_celldoor</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_paleto_secdoor</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_paleto_sliding_door_l</Name>
+      <SoundSet>hash_c9e95a9a</SoundSet>
+      <Params>hash_25b9f39f</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_paleto_sliding_door_r</Name>
+      <SoundSet>hash_c9e95a9a</SoundSet>
+      <Params>hash_25b9f39f</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_tangst_secdoor</Name>
+      <SoundSet>hash_0d2cd7d4</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_tangst_door</Name>
+      <SoundSet>hash_7f11a20c</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="Door" ntOffset="0">
+      <Name>d_lgmods_sinner_custodydoor01</Name>
+      <SoundSet>hash_f1e8d9fe</SoundSet>
+      <Params>hash_0246d335</Params>
+      <Unk1 value="0.7" />
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_427ad89f</Name>
+      <Door>d_lgmods_sinner_firedoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_b8844a62</Name>
+      <Door>d_lgmods_sinner_holdingdoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_df339688</Name>
+      <Door>d_lgmods_sinner_secdoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_a504f344</Name>
+      <Door>d_lgmods_sinner_celldoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_7380ad32</Name>
+      <Door>d_lgmods_sinner_sliding_door_l</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_fecb43d5</Name>
+      <Door>d_lgmods_sinner_sliding_door_r</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_2950c8bd</Name>
+      <Door>d_lg_hosp_door</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_b25fe46a</Name>
+      <Door>d_lg_hosp_fire_escp</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_96e1633a</Name>
+      <Door>d_lgmods_hospital_sliding_door_l</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_607ef666</Name>
+      <Door>d_lgmods_hospital_sliding_door_r</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_ce4fb64c</Name>
+      <Door>d_lgmods_paleto_celldoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_3a831211</Name>
+      <Door>d_lgmods_paleto_secdoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_dcce4b7b</Name>
+      <Door>d_lgmods_paleto_sliding_door_l</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_2e7deed9</Name>
+      <Door>d_lgmods_paleto_sliding_door_r</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_d122d03a</Name>
+      <Door>d_lgmods_tangst_secdoor</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_1b55a608</Name>
+      <Door>d_lgmods_tangst_door</Door>
+    </Item>
+    <Item type="DoorModel" ntOffset="0">
+      <Name>dasl_91016787</Name>
+      <Door>d_lgmods_sinner_custodydoor01</Door>
+    </Item>
+  </Items>
+</Dat151>

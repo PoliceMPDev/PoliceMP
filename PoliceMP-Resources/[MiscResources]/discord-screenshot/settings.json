@@ -1,0 +1,11 @@
+{
+    "webhookUrl": "https://discord.com/api/webhooks/1331841149945774181/xYJnypm2eYNbc11in6Q6GXkcyHcAOHI43VQKhg5kwlhM-ZLxwdxn0WYDka5xFpcRx3yA",
+    "framework": "none",
+    "commandName": "modss",
+    "commandPermission": "Police.modAuth",
+    "hiddenIdentifiers": [],
+    "screenshotOptions": {
+        "encoding": "jpg",
+        "quality": 0.92
+    }
+}

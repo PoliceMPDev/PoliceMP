@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		
+		<!-- Weapon Variant - Assault Rifle Mk2 -->
+		<Item>
+			<modelName>w_am_als</modelName>
+			<txdName>w_am_als</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_am_ecg</modelName>
+			<txdName>w_am_ecg</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_am_polmed</modelName>
+			<txdName>w_am_polmed</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>
