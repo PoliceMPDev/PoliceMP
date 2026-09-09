@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+
+<train_tracks version = "1">
+	<train_track
+		filename="resources:/amb-roxwood-trains/traintracks/trains13.dat"
+		trainConfigName="rox_freight_trz_group"
+		isPingPongTrack="false"
+		stopsAtStations="true"
+		MPstopsAtStations="true"
+		speed="15"
+		brakingDist="20"/>
+	<train_track
+		filename="resources:/amb-roxwood-trains/traintracks/trains14.dat"
+		trainConfigName="rox_passenger_trz_group"
+		isPingPongTrack="false"
+		stopsAtStations="true"
+		MPstopsAtStations="true"
+		speed="9"
+		brakingDist="10"/>
+</train_tracks>
+

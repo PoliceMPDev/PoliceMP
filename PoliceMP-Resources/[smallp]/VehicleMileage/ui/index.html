@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  <title>Vehicle Mileage</title>
+  <style>
+
+    @font-face {
+      font-family: 'HongKongSixty';
+      src: url('./HongKongSixty.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    #mileage-container {
+        position: fixed;
+        bottom: 17.0%;
+        left: 0.55%;
+        background: rgba(255, 255, 255, 0);
+        border-radius: 5px;
+        padding: 0.5vw 1vw;
+        color: rgb(214, 214, 214);
+        font-size: clamp(0.8rem, 1.5vw, 2rem); /* Scales with screen size */
+        font-weight: bold;
+        font-family: 'CologneSixty', sans-serif;
+        text-align: center;
+        z-index: 9999;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 2px 2px 0 #000;
+        letter-spacing: -0.05em;
+        transform: scaleY(1.5);
+    }
+
+    @media (max-width: 1280px) {
+        #mileage-container {
+            font-size: 0.5rem; /* Smaller screens */
+        }
+    }
+
+    @media (min-width: 1920px) {
+        #mileage-container {
+            font-size: 1rem; /* 4K or higher resolution */
+        }
+    }
+
+  </style>
+</head>
+<body>
+  <div id="mileage-container" style="display: none;">
+  Mileage:  <span id="mileage">0.00</span>
+  </div>
+
+  <script>
+    window.addEventListener('message', function(event) {
+        const data = event.data;
+
+        if (data.action === "updateMileage") {
+            document.getElementById("mileage-container").style.display = data.show ? "block" : "none";
+            if (data.mileage !== undefined) {
+                const mileageInMeters = parseFloat(data.mileage);
+                const mileageInMiles = Math.floor(mileageInMeters * 0.000621371);
+                const formattedMileage = String(mileageInMiles).padStart(0, '0');
+                document.getElementById("mileage").textContent = formattedMileage;
+            } else {
+                console.error("Mileage data missing or invalid:", data);
+            }
+        }
+    });
+  </script>
+</body>
+</html>

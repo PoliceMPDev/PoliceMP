@@ -1,0 +1,123 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #2c3e5000, #34495e00);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    position: absolute;
+    right: 0%;  
+    top: 50%;  
+    transform: translateY(-50%);  
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 30px;
+    border-radius: 12px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+.button-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
+
+.injury-preset {
+    padding: 4px 10px; /* Reduce padding */
+    font-size: 8px; /* Smaller font */
+    min-width: 50px; /* Smaller width */
+    min-height: 30px; /* Smaller height */
+}
+
+.dropdown select {
+    background-color: #5c5c5c; 
+    color: white;  
+    border: 1px solid #353535;  
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dropdown select:focus {
+    background-color: #646464;  
+    border-color: #222222;
+    outline: none;
+}
+
+
+.check-item {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 18px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.check-item:hover {
+    background-color: #555;
+}
+
+.check-item.active {
+    background-color: #8b8b8b;
+    border-color: #696969;
+    color: white;
+}
+
+.button {
+    background-color: #585858;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background-color: #313131;
+    transform: scale(1.05);
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+input[type="text"], select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background-color: #575757;
+    color: white;
+    border: 1px solid #383838;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus, select:focus {
+    border-color: #363636;
+    outline: none;
+}

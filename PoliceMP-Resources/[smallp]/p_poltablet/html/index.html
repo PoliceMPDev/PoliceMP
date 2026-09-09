@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigation Chat</title>
+    <style>
+body {
+    font-family: 'Poppins', sans-serif;
+    background: transparent;
+    display: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+#frame {
+    position: fixed;
+    top: 50%;
+    right: -10%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: 600px;
+    background: url('frame.png') no-repeat center center;
+    background-size: contain;
+    cursor: grab;
+    
+}
+
+/* Tablet-like glass UI */
+#chat-container {
+    position: absolute;
+    top: 9%;
+    left: 9.8%;
+    width: 102%;
+    height: 102%;
+    transform: scale(0.8);
+    background: rgba(25, 25, 25, 0.85);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    transform-origin: top left;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.1);
+}
+
+#chatbox {
+    flex-grow: 1;
+    padding: 2vw;
+    overflow-y: auto;
+    font-size: clamp(16px, 2vw, 25px);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 80vh;
+}
+
+#input-container {
+    display: flex;
+    padding: 0vw;
+    background: rgba(50, 50, 50, 0.9);
+    border-radius: 0 0 15px 15px;
+    width: 100%;
+    max-width: 100%;
+}
+
+#input {
+    flex-grow: 1;
+    padding: 1vw;
+    font-size: clamp(14px, 1.5vw, 18px);
+    text-align: center;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    background: rgba(255, 255, 255, 0.15);
+    color: white;
+    max-width: 100%;
+}
+
+#close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    background: #ff4c4c;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+#close-btn:hover {
+    background: #d43f3f;
+}
+
+#reset-btn {
+    position: absolute;
+    top: 10px;
+    right: 65px;
+    background: #ffbb33;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+#reset-btn:hover {
+    background: #e6a800;
+}
+
+    </style>
+</head>
+<body>
+    <div id="frame">
+        <div id="chat-container">
+            <button id="reset-btn">Reset</button>
+            <button id="close-btn">X</button>
+            <div id="chatbox"></div>
+            <div id="input-container">
+                <input id="input" type="text" placeholder="Put the scenario in here or ask nicely....">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Dragging functionality
+let frame = document.getElementById("frame");
+let isDragging = false, startX, startY, initialX, initialY;
+
+frame.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    startX = e.clientX;
+    startY = e.clientY;
+    initialX = frame.offsetLeft;
+    initialY = frame.offsetTop;
+    frame.style.cursor = "grabbing";
+});
+
+document.addEventListener("mousemove", (e) => {
+    if (isDragging) {
+        let newX = initialX + (e.clientX - startX);
+        let newY = initialY + (e.clientY - startY);
+        frame.style.left = newX + "px";
+        frame.style.top = newY + "px";
+    }
+});
+
+document.addEventListener("mouseup", () => {
+    isDragging = false;
+    frame.style.cursor = "grab";
+});
+
+        // UI handling
+        window.addEventListener("message", function(event) {
+            if (event.data.action === "openUI") {
+                document.body.style.display = "block";
+                document.getElementById("chatbox").innerHTML = "<p><b>CodeX:</b> " + event.data.question + "</p>";
+            } else if (event.data.action === "receiveResponse") {
+                document.getElementById("chatbox").innerHTML += "<p><b>Offences:</b> " + event.data.response + "</p>";
+            }
+        });
+
+        document.getElementById("input").addEventListener("keydown", function(e) {
+            if (e.key === "Enter") {
+                let text = this.value;
+                this.value = "";
+                fetch(`https://${GetParentResourceName()}/submitQuestion`, {
+                    method: "POST",
+                    body: JSON.stringify({ text: text })
+                });
+            }
+        });
+
+        document.getElementById("close-btn").addEventListener("click", function() {
+            document.body.style.display = "none";
+            fetch(`https://${GetParentResourceName()}/closeUI`, {
+                method: "POST",
+                body: JSON.stringify({})
+            });
+        });
+
+        document.getElementById("reset-btn").addEventListener("click", function() {
+            fetch(`https://${GetParentResourceName()}/resetInvestigation`, {
+                method: "POST",
+                body: JSON.stringify({})
+            });
+        });
+    </script>
+</body>
+</html>

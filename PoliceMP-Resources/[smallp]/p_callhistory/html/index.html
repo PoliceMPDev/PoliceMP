@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Combined UI</title>
+  <style>
+    body {
+      margin: 0;
+      background: none;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    #main-container {
+    display: none;
+    position: absolute;
+    top: 20px;
+    left: calc(100vw - 620px);
+    gap: 30px;
+    background: rgba(0, 0, 0, 0.521);
+    padding: 20px;
+    border-radius: 8px;
+    cursor: move;
+    user-select: none;
+    }
+
+
+    #main-container.show {
+      display: flex;
+    }
+
+    .panel {
+      display: flex;
+      flex-direction: column;
+      width: 270px;
+      align-self: stretch;
+    }
+
+    .tabs {
+      display: flex;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    .tab {
+      padding: 6px 12px;
+      background: #333;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 13px;
+    }
+
+    .tab.active {
+      background: #666;
+    }
+
+    .title {
+      align-self: flex-start;
+      padding: 6px 12px;
+      background: #333;
+      border-radius: 4px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .message {
+      font-size: 14px;
+      overflow-y: auto;
+      white-space: pre-wrap;
+      margin-bottom: 10px;
+      flex: 1;
+    }
+
+    .controls {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 5px;
+      margin-top: 10px;
+    }
+
+    button {
+      flex: 1;
+      padding: 5px 0;
+      background: #444;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 13px;
+      line-height: 1;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #666;
+    }
+
+    .close-button {
+      width: 24px;
+      height: 24px;
+      padding: 0;
+      font-size: 14px;
+      background: #444;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      line-height: 1;
+      flex: 0 0 auto;
+    }
+
+    .close-button:hover {
+      background: #666;
+    }
+  </style>
+</head>
+<body>
+  <div id="main-container">
+    <div class="panel" id="leftPanel">
+      <div class="tabs">
+        <div class="tab" id="tabCCTV" onclick="switchLeftTab('CCTV')">CCTV</div>
+        <div class="tab" id="tabANPR" onclick="switchLeftTab('ANPR')">ANPR</div>
+      </div>
+      <div class="message" id="leftMessage">Waiting for logs...</div>
+      <div class="controls">
+        <button onclick="navigateLeft('prev')">⬅️</button>
+        <button onclick="navigateLeft('next')">➡️</button>
+      </div>
+    </div>
+
+    <div class="panel" id="rightPanel">
+      <div class="title">CALLS</div>
+      <div class="message" id="rightMessage">Waiting for calls...</div>
+      <div class="controls">
+        <button onclick="navigateRight('prev')">⬅️</button>
+        <button onclick="navigateRight('next')">➡️</button>
+        <button class="close-button" onclick="closeUI()">✖</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    const container = document.getElementById('main-container');
+    let isDragging = false;
+    let offsetX = 0;
+    let offsetY = 0;
+
+    container.addEventListener('mousedown', function (e) {
+      isDragging = true;
+      offsetX = e.clientX - container.getBoundingClientRect().left;
+      offsetY = e.clientY - container.getBoundingClientRect().top;
+      container.style.transition = 'none';
+    });
+
+    document.addEventListener('mousemove', function (e) {
+      if (isDragging) {
+        container.style.left = `${e.clientX - offsetX}px`;
+        container.style.top = `${e.clientY - offsetY}px`;
+      }
+    });
+
+    document.addEventListener('mouseup', function () {
+      isDragging = false;
+    });
+  </script>
+</body>
+</html>

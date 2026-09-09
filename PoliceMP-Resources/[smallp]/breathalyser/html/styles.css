@@ -1,0 +1,107 @@
+body {
+  background: none !important;
+}
+
+:root{
+  --color-red: #ca2f2f;
+}
+
+@font-face {
+  font-family: digital;
+  src: url(digital-7.ttf);
+}
+
+#container {
+  position: fixed;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  width: 350px;
+  background-size: cover;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  position: absolute;
+  top: 57%;  
+  right: 50%;   
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+button {
+  width: 75px; /* Same width and height for a circular button */
+  height: 75px;
+  padding: 0; /* Adjust padding to zero for symmetry */
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 50%; /* Makes the button round */
+  transition: 0.2s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer; /* Pointer cursor for better UX */
+  border: none; /* Removes the border */
+  background: transparent; /* Transparent background */
+  color: transparent; /* Transparent text as a fallback */
+  -webkit-background-clip: text; /* Clips background to the text */
+  background-clip: text;
+  -webkit-text-fill-color: transparent; /* Ensures text fill is transparent */
+}
+
+.green{
+  background: #54bf5400;
+}
+
+.green:hover{
+  background: #469e4600;
+}
+
+.green:active{
+  background: #367a3600;
+}
+
+.red{
+  background: #ca2f2f00;
+}
+
+.red:hover{
+  background: #bb2b2b00;
+}
+
+.red:active{
+  background: #a7262600;
+}
+
+.screen{
+  position: absolute;
+  top: 110px;
+  left: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+.middle{
+  font-family: digital;
+  font-size: 65px;
+  font-weight: 100;
+  height: 50px;
+  margin: 0px;
+}
+
+.image{
+  background-image: url('./breathalyzer.png');
+  margin-left: 40px;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -100;
+}

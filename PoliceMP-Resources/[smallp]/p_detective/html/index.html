@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investigation Chat</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: transparent;
+            display: none;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+        #chat-container {
+            position: fixed;
+            top: 10%;
+            right: 20px;
+            width: 350px;
+            height: 500px;
+            background: rgba(0, 0, 0, 0.8);
+            color: #fff;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        }
+        #chatbox {
+            flex-grow: 1;
+            padding: 10px;
+            overflow-y: auto;
+        }
+        #input-container {
+            display: flex;
+            padding: 10px;
+            background: rgba(50, 50, 50, 0.9);
+            border-radius: 0 0 10px 10px;
+        }
+        #input {
+            flex-grow: 1;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            outline: none;
+        }
+        #close-btn {
+            position: absolute;
+            top: 5px;
+            right: 10px;
+            background: red;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <button id="close-btn">X</button>
+        <div id="chatbox"></div>
+        <div id="input-container">
+            <input id="input" type="text" placeholder="Ask a question...">
+        </div>
+    </div>
+
+    <script>
+        window.addEventListener("message", function(event) {
+            if (event.data.action === "openUI") {
+                document.body.style.display = "block";
+                document.getElementById("chatbox").innerHTML = "<p><b>999:</b> " + event.data.question + "</p>";
+            } else if (event.data.action === "receiveResponse") {
+                document.getElementById("chatbox").innerHTML += "<p><b>Scene:</b> " + event.data.response + "</p>";
+            }
+        });
+
+        document.getElementById("input").addEventListener("keydown", function(e) {
+            if (e.key === "Enter") {
+                let text = this.value;
+                this.value = "";
+                fetch(`https://${GetParentResourceName()}/submitQuestion`, {
+                    method: "POST",
+                    body: JSON.stringify({ text: text })
+                });
+            }
+        });
+
+        document.getElementById("close-btn").addEventListener("click", function() {
+            document.body.style.display = "none";
+            fetch(`https://${GetParentResourceName()}/closeUI`, {
+                method: "POST",
+                body: JSON.stringify({})
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,112 @@
+:root {
+    --background-colour: rgba(25, 25, 25, 0.8);
+    --accent-colour: rgba(200, 200, 200, 0.8);
+}
+
+@font-face {
+    font-family: manifold;
+    src: url('../fonts/ManifoldCF-Regular.otf');
+}
+
+#explosives {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    font-family: manifold;
+}
+
+#explosives_int {
+    background: var(--background-colour);
+    width: 20%; /* Much smaller width */
+    min-height: 250px; /* Reduced height */
+    margin: 10% auto; /* Centered with top margin */
+    padding: 5px; /* Reduced padding */
+    border-radius: 8px; /* Smaller border radius */
+    box-sizing: border-box;
+    position: absolute;
+    right: 10px; /* Positioned to the right */
+}
+
+#explosives_int section {
+    position: relative;
+    width: 100%;
+    min-height: 250px; /* Reduced height for sections */
+}
+
+#explosives_cables {
+    background: url("../images/wires.png");
+    background-size: 100%; /* Adjusted for smaller container */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#explosives_code {
+    border-left: 1px dashed grey;
+    text-align: center;
+    padding: 3px; /* Smaller padding */
+}
+
+#display {
+    margin: 10px auto;
+    width: 70%; /* Smaller width for display box */
+    background: green;
+    border-radius: 8px; /* Rounded corners */
+    border: 2px solid grey;
+    padding: 3%; /* Reduced padding */
+    color: white;
+    font-size: 100%; /* Reduced font size */
+}
+
+#explosives_code button {
+    padding: 5px;
+    margin: 2px;
+    min-width: 15%; /* Smaller buttons */
+    background: lightgrey;
+    border: 2px solid grey;
+    font-weight: 700;
+}
+
+#explosives_code button:hover {
+    filter: brightness(75%);
+    cursor: pointer;
+}
+
+.wire {
+    width: 100%;
+}
+
+.wire:hover {
+    filter: drop-shadow(2px 2px 0 red) drop-shadow(-2px -2px 0 red);
+    cursor: url('../images/cursor.cur'), auto;
+}
+
+#closeButton {
+    position: absolute;
+    top: 20px; /* Positioned near the top inside the container */
+    right: 20px; /* Positioned near the right edge inside the container */
+    font-size: 20px; /* Adjust the size of the 'X' */
+    color: var(--accent-colour); /* Match the UI theme */
+    cursor: pointer; /* Indicate it's clickable */
+    z-index: 10; /* Ensure it stays above other elements */
+    font-weight: bold; /* Make the text bold */
+    user-select: none; /* Prevent text selection */
+}
+
+#closeButton:hover {
+    color: red; /* Change color on hover */
+}
+
+
+
+@media (max-width: 768px) {
+    #explosives_int {
+        width: 30%; /* Adjusted for smaller screens */
+    }
+
+    #display {
+        width: 80%; /* Adjusted for smaller screens */
+    }
+}

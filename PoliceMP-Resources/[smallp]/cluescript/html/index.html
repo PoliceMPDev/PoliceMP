@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clue Input</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> <!-- Google Font -->
+</head>
+<body>
+    <div id="container" style="display: none;"> 
+        <div id="input-box">
+            <h2>Leave your clues</h2>
+            <textarea id="message" rows="4" placeholder="Type your clues here..."></textarea>
+            <button id="submit">Submit</button>
+            <button id="close-container">Close</button>
+        </div>
+    </div>
+
+    <div id="message-box" style="display: none;"> 
+        <h4>What did you find??</h4>
+        <div id="message-display"></div>
+        <button id="delete" style="display: none;">Delete</button>
+        <button id="close">Close</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Injury Selector</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container" style="display: none;" id="injuryUI">
+        <h2>Injury Selector</h2>
+
+        <h4>Quick Injury Presets:</h4>
+        <div class="button-group">
+            <button class="button injury-preset" data-preset="rtcsevere">RTC #1</button>
+            <button class="button injury-preset" data-preset="rtcminor">RTC #2</button>
+            <button class="button injury-preset" data-preset="gswsevere">GSW #1</button>
+            <button class="button injury-preset" data-preset="gswminor">GSW #2</button>
+            <button class="button injury-preset" data-preset="firesevere">Fire #1</button>
+            <button class="button injury-preset" data-preset="fireminor">Fire #2</button>
+            <button class="button injury-preset" data-preset="fallsevere">Falls #1</button>
+            <button class="button injury-preset" data-preset="fallminor">Falls #2</button>
+            <button class="button injury-preset" data-preset="iwf">Incompatible With Life</button>
+        </div>
+        
+
+        <div class="dropdown">
+            <label for="injuryType">Select Injury:</label>
+            <select id="injuryType">
+                <!-- Clinical Category -->
+                <optgroup label="Clinical">
+                    <option value="abrasion">Abrasion</option>
+                    <option value="avulsion">Avulsion</option>
+                    <option value="contusion">Contusion</option>
+                    <option value="crush">Crush</option>
+                    <option value="cut">Cut</option>
+                    <option value="laceration">Laceration</option>
+                    <option value="velocity_wound">Velocity Wound</option>
+                    <option value="burn_injury">Burn Injury</option>
+                    <option value="puncture_wound">Puncture Wound</option>
+                    <option value="drowned">Drowned</option>
+                    <option value="impalement">Impalement</option>
+                    <option value="partial_blockage">Partial Blockage</option>
+                    <option value="broken_arm">Broken Arm</option>
+                    <option value="broken_leg">Broken Leg</option>
+                    <option value="broken_finger">Broken Finger</option>
+                    <option value="broken_toe">Broken Toe</option>
+                    <option value="broken_neck">Broken Neck</option>
+                    <option value="broken_pelvis">Broken Pelvis</option>
+                    <option value="broken_ribs">Broken Ribs</option>
+                    <option value="hypothermia">Hypothermia</option>
+                    <option value="asthma_attack">Asthma Attack</option>
+                    <option value="anaphylaxis">Anaphylaxis</option>
+                    <option value="overdose">Overdose</option>
+                    <option value="heart_attack">Heart Attack</option>
+                    <option value="hypoglycemia">Hypoglycemia</option>
+                    <option value="seizure">Seizure</option>
+                    <option value="barbs">Barbs</option>
+                    <option value="chest_infection">Chest Infection</option>
+                    <option value="choking">Choking</option>
+                    <option value="headache">Headache</option>
+                    <option value="smoke_inhalation">Smoke Inhalation</option>
+                    <option value="heat_stroke">Heat Stroke</option>
+                </optgroup>
+        
+                <!-- HART Category -->
+                <optgroup label="HART">
+                    <option value="poisoned">Poisoned</option>
+                    <option value="sucking_chest_wound">Sucking Chest Wound</option>
+                </optgroup>
+        
+                <!-- HEMS Category -->
+                <optgroup label="HEMS">
+                    <option value="tbi">Traumatic Brain Injury (TBI)</option>
+                    <option value="compartmentsyndrome">Compartment Syndrome</option>
+                    <option value="blocked_airways">Blocked Airways</option>
+                    <option value="open_fracture">Open Fracture</option>
+                    <option value="broken_pelvis">Broken Pelvis</option>
+                    <option value="loss_of_circulation">Loss of Circulation</option>
+                    <option value="puncturedlung">Punctured Lung</option>
+                    <option value="electrocution">Electrocution</option>
+                    <option value="cardio_disturbance">Cardio Disturbance</option>
+                    <option value="internal_bleeding">Internal Bleeding</option>
+                    <option value="mid_femur_fracture">Mid-Femur Fracture</option>
+                    <option value="dislocation">Dislocation</option>
+                    <option value="degloved_wound">Degloved Wound</option>
+                    <option value="diabetic_ketoacidosis">Diabetic Ketoacidosis</option>
+                    <option value="hemothorax">Hemothorax</option>
+                    <option value="tension_pneumothorax">Tension Pneumothorax</option>
+                    <option value="blunt_chest_trauma">Blunt Chest Trauma</option>
+                    <option value="cardiac_tamponade">Cardiac Tamponade</option>
+                </optgroup>
+            </select>
+        </div>
+        
+
+        <div class="check-group" id="bodyPartGroup">
+            <h3>Select Body Part:</h3>
+            <div class="check-item" data-value="HEAD">Head</div>
+            <div class="check-item" data-value="TORSO">Torso</div>
+            <div class="check-item" data-value="LEFT_ARM">Left Arm</div>
+            <div class="check-item" data-value="RIGHT_ARM">Right Arm</div>
+            <div class="check-item" data-value="LEFT_LEG">Left Leg</div>
+            <div class="check-item" data-value="RIGHT_LEG">Right Leg</div>
+        </div>
+
+        <div class="check-group" id="severityGroup">
+            <h3>Select Severity:</h3>
+            <div class="check-item" data-value="minor">Minor</div>
+            <div class="check-item" data-value="medium">Medium</div>
+            <div class="check-item" data-value="large">Large</div>
+        </div>
+
+        <button class="button" id="submitButton">Submit</button>
+
+        <button class="button" id="exitButton">Exit</button>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            document.getElementById('injuryUI').style.display = 'none';
+
+            window.addEventListener('message', (event) => {
+                if (event.data.action === 'open') {
+                    document.getElementById('injuryUI').style.display = 'block'; // Show UI
+                } else if (event.data.action === 'close') {
+                    document.getElementById('injuryUI').style.display = 'none'; // Hide UI
+                }
+            });
+
+            const checkGroups = document.querySelectorAll('.check-group');
+            checkGroups.forEach(group => {
+                group.addEventListener('click', (event) => {
+                    const target = event.target;
+                    if (target.classList.contains('check-item')) {
+                        group.querySelectorAll('.check-item').forEach(item => item.classList.remove('active'));
+                        target.classList.add('active');
+                    }
+                });
+            });
+
+            document.querySelectorAll('.injury-preset').forEach(button => {
+    button.addEventListener("click", (event) => {
+        const preset = event.target.dataset.preset;
+        fetch(`https://injurymenu/${preset}`, {
+            method: "POST",
+            body: JSON.stringify({})
+        }).then(() => {
+            document.getElementById("injuryUI").style.display = "none"; // Close UI
+            fetch("https://injurymenu/exitNUI", { method: "POST", body: JSON.stringify({}) }); // Ensure UI closes
+        });
+    });
+});
+
+
+            
+            document.getElementById('submitButton').addEventListener('click', () => {
+                const injuryType = document.getElementById('injuryType').value;
+                const bodyPart = document.querySelector('#bodyPartGroup .check-item.active')?.dataset.value;
+                const severity = document.querySelector('#severityGroup .check-item.active')?.dataset.value;
+
+                if (bodyPart && severity) {
+                    fetch('https://injurymenu/submitInjury', {
+                        method: 'POST',
+                        body: JSON.stringify({ injuryType, bodyPart, severity }),
+                    }).then(() => {
+                        
+                        //document.getElementById('injuryUI').style.display = 'none';
+                    });
+                } else {
+                    alert('Please select all options!');
+                }
+            });
+
+            
+            document.getElementById('exitButton').addEventListener('click', () => {
+                fetch('https://injurymenu/exitNUI', {
+                    method: 'POST',
+                    body: JSON.stringify({}),
+                }).then(() => {
+                    
+                    document.getElementById('injuryUI').style.display = 'none';
+                });
+            });
+        });
+    </script>
+</body>
+</html>

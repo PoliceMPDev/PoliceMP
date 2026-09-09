@@ -1,0 +1,11 @@
+Config = {}
+Config.fixedWhileBuckled = false
+Config.showUnbuckledIndicator = true
+Config.ejectVelocity = (20 / 2.236936)
+Config.unknownEjectVelocity = (20 / 2.236936)
+Config.unknownModifier = 17.0 --  Default 17.0
+Config.minDamage = 2000 -- 0-2000
+Config.playSound = true
+Config.volume = 0.15
+Config.passengerVolume = 0.15
+Config.playSoundForPassengers = true

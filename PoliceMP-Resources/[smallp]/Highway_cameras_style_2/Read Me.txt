@@ -1,0 +1,3 @@
+This is a simple ymap to add cameras to all the highways. This style is for a newer camera model.
+
+Map made by WolfoTheWolf for Phantom Productions.

@@ -1,0 +1,89 @@
+* {
+	color: rgb(0, 0, 0);
+    font-family: 'Varela Round', sans-serif; /* Set Varela Round as the font */
+}
+
+#container {
+	position: absolute;
+	padding-top: 30px;
+	padding-left: 96px;
+	height: 570px;
+	width: 330px;
+  word-wrap: break-word;
+  top: 65%;
+  left: 85%;
+  transform: translate(-50%,-50%);
+  font-size: 15px;
+	text-align: left;
+	overflow: overlay;
+	background-image: url(https://static.wixstatic.com/media/772067_eb5e7f1c66cf4893bb78cce510629373~mv2.png?background=e6d69c&noise=5c5c5c&density=2&opacity=75);
+}
+
+/* General button styling */
+button {
+    padding: 2px 2px; /* Reduced padding for smaller buttons */
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+    font-size: 10px; /* Smaller font size */
+    margin: 5px;
+}
+
+#datetime {
+  margin-top: 10px; /* Adjust this value as needed for spacing */
+  font-size: 12px; /* Adjust the font size */
+  color: rgb(0, 0, 0); /* Set the text color */
+  font-family: 'Varela Round', sans-serif; /* Use the Google Font */
+  font-weight: bold; /* Make the text bold */
+  /* Add transition for smooth updates */
+  transition: opacity 0.5s ease;
+}
+
+
+
+/* Styling for the submit button */
+#submit {
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: 1px solid #28a745;
+}
+
+/* Styling for the clear button */
+#clear {
+    background-color: #dc3545; /* Red background */
+    color: white;
+    border: 1px solid #dc3545;
+}
+
+/* Hover effect for all buttons */
+button:hover {
+    opacity: 0.9;
+}
+
+/* Active state for all buttons */
+button:active {
+    transform: scale(0.97);
+    opacity: 0.8;
+}
+
+li {
+	list-style-type: circle;
+}
+
+::-webkit-scrollbar {
+	width: 5px;
+}
+  
+::-webkit-scrollbar-track {
+	background: none; 
+}
+  
+::-webkit-scrollbar-thumb {
+	border-radius: 7px;
+	background: #ac9c64; 
+}
+  
+::-webkit-scrollbar-thumb:hover {
+	border-radius: 10px;
+	background: #75693b; 
+}

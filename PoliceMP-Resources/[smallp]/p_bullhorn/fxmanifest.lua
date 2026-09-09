@@ -1,0 +1,13 @@
+fx_version 'cerulean'
+game 'gta5'
+
+author 'PoliceMP - smallp13'
+description 'Bullhorn using xsound with proximity audio'
+version '1.0.0'
+
+client_script 'client.lua'
+server_script 'server.lua'
+
+files {
+    'html/bullhorn.ogg'
+}

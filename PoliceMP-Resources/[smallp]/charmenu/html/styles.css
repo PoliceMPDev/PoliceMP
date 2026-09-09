@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 5px;
+  border: 1px solid #cccccc47;
+  background-color: #0C0C0C99;
+}
+
+.menu-title {
+  font-family: 'Varela Round';
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.refresh-button {
+  margin: 5px 0; /* Adds some space around the button */
+  text-align: center; /* Centers the button within the div */
+}
+
+.refresh-button button {
+  font-family: 'Varela Round';
+  background-color: #7c7c7c99;
+  color: #000000; 
+  border: 1px solid #000000;
+  padding: 10px 20px; 
+  font-size: 16px;
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s; 
+}
+
+.refresh-button button:hover {
+  background-color: #ffdf27c4;
+}
+
+input[type="text"] {
+  background-color: #7c7c7c99;
+  color: white;
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #cccccc47;
+}
+
+.menu {
+  font-family: 'Varela Round';
+   color: #f2f2f2;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 150px;
+  height: 760px;
+  width: 1150px;
+  /* background-color: rgba(150, 150, 150, 0.9); */
+  background-color: #a3a3a3;
+  border-radius: 10px;
+}
+
+.list-box {
+  margin-top: 25px;
+  overflow-y: auto;
+  height: 520px;
+  overflow-x: hidden;
+  display: flex;
+  justify-content: center;
+}
+
+.ped-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ped {
+  background-color: #7c7c7c99;
+  padding: 20px;
+  border-radius: 5px;
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #000000;
+}
+
+.ped img {
+  height: 160px;
+}
+
+.big-img {
+  max-height: 75px;
+}

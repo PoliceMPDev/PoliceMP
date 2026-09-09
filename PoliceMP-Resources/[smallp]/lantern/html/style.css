@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0); /* Default background color */
+}
+
+#nui {
+    display: none; /* Hide the UI by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end; /* Align to the right */
+    align-items: center;
+    padding-right: 20px;
+}
+
+#background-image {
+    position: relative; /* Allows positioning of child elements like the form */
+    width: 300px; /* Adjust to the size you want */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Add spacing from the screen's right side */
+}
+
+#background-image img {
+    width: 100%; /* Scale image to fit its container */
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+
+#nui-content {
+    position: absolute; /* Position it inside the image */
+    top: 45%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Adjust for proper centering */
+    width: 50%; /* Smaller width for the input form */
+    background-color: rgba(255, 255, 255, 0); /* Semi-transparent background */
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0); /* Subtle shadow for better visibility */
+}
+
+input, button {
+    margin: 5px 0;
+    padding: 8px;
+    width: 90%;
+    font-size: 14px;
+    border: 1px solid #ffffff00;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
