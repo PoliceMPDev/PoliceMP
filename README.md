@@ -7,7 +7,7 @@ This repository contains the **leaked PoliceMP codebase and resources** for deve
 The repository is split into two main folders:
 
 * **`PoliceMP/`** — Contains the main PoliceMP C# codebase, including the `.sln` solution file.
-* **`policemp-resources/`** — Contains the resources used alongside the PoliceMP codebase.
+* **`Policemp-Resources/`** — Contains the EUP / Vehicles / mappings / scripts used alongside the codebase. If its escrowed, then touch luck! Else, free to rip :)
 
 ## Requirements
 
